@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Trinitas [Bnf 15985 Transcription]</title>
+        <author ref="#ThomasOfIreland">Thomas Hybernicus</author>
+        <editor>Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev"> 
+          <title>Trinitas [Bnf 15986 Transcription]</title>
+          <date when="2018-04-01">April 01, 2018</date> 
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority> <ref>SCTA</ref> </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref> </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Pb" n="bnf15985">Bnf 15985</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2018-04-01" status="draft" n="0.0.0"> 
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#Pb" n="195-r"/><cb ed="#Pb" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="timf-trin">
+        <head xml:id="timf-trin-Hd1e100">Trinitas</head>
+        <div xml:id="timf-trin-Dd1e103">
+          <head xml:id="timf-trin-Hd1e105">A</head>
+          <p xml:id="timf-trin-d1e108">
+            <lb ed="#Pb"/><quote xml:id="timf-trin-Qd1e111" ana="#Augustine_DeTrinitate_I_a Augustine_DeTrinitate_I_b">ubi quaeritur unitas trinitatis patris scilicet 
+              <lb ed="#Pb"/>et filii et spiritus sancti nec periculosius alicubi 
+              <lb ed="#Pb"/>erratur nec laboriosius aliquid quaeritur 
+              <lb ed="#Pb"/>nec fructuosius aliquid invenitur non pigebit 
+              <lb ed="#Pb"/>me sicubi haesito quaerere nec pudebit 
+              <lb ed="#Pb"/>sicubi erro discere quisquis ergo hoc audit 
+              <lb ed="#Pb"/>vel legit ubi pariter certus est pergat 
+              <lb ed="#Pb"/>mecum ubi pariter haesitat quaerat mecum 
+              <lb ed="#Pb"/>ubi errorem suum cognoscit redeat ad me 
+              <pb ed="#Pb" n="195-v"/> 
+              <cb ed="#Pb" n="a"/>
+              <lb ed="#Pb"/>ubi meum revocet me ingredia<lb ed="#Pb"/>mur 
+              simul caritas viam tendentes ad 
+              ubi meum revocet me ingredia<lb ed="#Pb"/>mureum 
+              de quo scriptum est quaerite faciem eius 
+              ubi meum revocet me ingredia<lb ed="#Pb"/>mur semper</quote>
+            <ref xml:id="timf-trin-Rd1e144" corresp="#timf-trin-Qd1e111"><name>augustinus</name> liber 1 <title>de trinitate</title></ref>
+            <!-- aquinas http://scta.info/resource/ta-l1d2q1-d1e511/critical -->
+            <!--http://scta.info/resource/pll1d2c1-d1e3511/critical-->
+          </p>
+        </div>
+        <div xml:id="timf-trin-Dd1e157">
+          <head xml:id="timf-trin-Hd1e159">B</head>
+          <p xml:id="timf-trin-d1e162">
+            <lb ed="#Pb"/><pc type="#pilcrow"/><quote xml:id="timf-trin-Qd1e166">Qui hoc id est trinitatis misterium vel ex parte 
+              <lb ed="#Pb"/>vel per speculum in aenigmate videt 
+              <lb ed="#Pb"/>guadeat cognoscens deum et gratias a<lb ed="#Pb"/>gat 
+              qui vero non videt tendat per pie<lb ed="#Pb"/>tatem 
+              ad videndum non per caecitatem ad 
+              <lb ed="#Pb"/>calumpniandum quoniam unus est deus sed 
+              <lb ed="#Pb"/>tamen trinitas</quote> <ref xml:id="timf-trin-Rd1e182"><name>augustinus</name> libro vi <title>de trinitate</title></ref>
+          </p>
+          <!--http://scta.info/resource/pll1d31c2-d1e3539/critical-->
+        </div>
+        <div xml:id="timf-trin-Dd1e193">
+          <head xml:id="timf-trin-Hd1e195">C</head>
+          <p xml:id="timf-trin-d1e198">
+            <lb ed="#Pb"/><lb ed="#Pb"/><quote xml:id="timf-trin-Qd1e202">In summa trinitate tantum est una quantum 
+              <lb ed="#Pb"/>tres simul sunt et nec plus aliquis sunt duae 
+              <lb ed="#Pb"/>quam una res et in se infinita sunt Ita et 
+              <lb ed="#Pb"/>singula sunt in singulis et omnia in sin<lb ed="#Pb"/>gulis 
+              singula in omnibus et omnia in omni<lb ed="#Pb"/>bus 
+              et unum omnia</quote> <ref xml:id="timf-trin-Rd1e215"><name>augustinus</name> ibidem</ref>
+            <!--http://scta.info/resource/pll1d19c12-d1e3511/critical-->
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>
