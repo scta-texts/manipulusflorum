@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Abusio</title>
+        <author ref="#ThomasOfIreland">Thomas Hybernicus</author>
+        <respStmt>
+          <name>Chris Nighman</name>
+          <resp>Editor</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Abusio</title>
+          <date when="2018-05-22">May 22, 2018</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref>SCTA</ref> and <ref target="http://www.manipulusflorum.com/">Manipulus floreum Project</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Pb" n="bnf15985">Bnf 15985</witness>
+          <witness xml:id="Pc" n="bnf15985">Bnf 15986</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2018-05-22" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="timf-abus">
+        <head xml:id="timf-abus-Hd1e117">Abusio</head>
+        <div xml:id="timf-abus-Dd1e120">
+          <head xml:id="timf-abus-Hd1e122">a</head>
+          <p xml:id="timf-abus-d1e125">
+            <cit>
+              <quote xml:id="timf-abus-Qd1e129">Magna abusio: parcitas putatur auaricia, sobrietas austeritas creditur, silencium
+        tristicia reputatur. Econtra: remissio discrecio creditur, loquacitas affabilitas,
+        cachinnacio iocunditas, mollicies uestimentorum et equorum fastus honestas, lectorum
+        superfluus cultus mundicia.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-abus-Qd1e129" xml:id="timf-abus-Rd1e135">Bernardus in apologetico.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-abus-Dd1e140">
+          <head xml:id="timf-abus-Hd1e142">b</head>
+          <p xml:id="timf-abus-d1e145">
+            <cit>
+              <quote xml:id="timf-abus-Qd1e149">Magna abusio est ut corpus regulariter induatur et contra regulam suis uestibus
+        anima nuda deseratur.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-abus-Qd1e149" xml:id="timf-abus-Rd1e155">Bernardus ibidem (in apologetico).</ref>
+          </p>
+        </div>
+        <div xml:id="timf-abus-Dd1e160">
+          <head xml:id="timf-abus-Hd1e162">c</head>
+          <p xml:id="timf-abus-d1e165">
+            <cit>
+              <quote xml:id="timf-abus-Qd1e169">Mira abusio: domus ardet, ignis instat a tergo, et fugienti prohibetur egredi, et
+        hoc ab hiis qui in incendio positi sunt!</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-abus-Qd1e169" xml:id="timf-abus-Rd1e175">Bernardus in epistolis.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-abus-Dd1e180">
+          <head xml:id="timf-abus-Hd1e182">d</head>
+          <p xml:id="timf-abus-d1e185">
+            <cit>
+              <quote xml:id="timf-abus-Qd1e189">Duodecim sunt abusiones claustri quibus tota religionis summa corrumpitur, scilicet
+        prelatus negligens, discipulus inobediens, iuuenis ociosus, senex obstinatus, monachus
+        curialis, religiosus causidicus, habitus preciosus, cibus exquisitus, rumor in claustro,
+        lis in capitulo, dissolucio in choro, irreuerencia iuxta altare.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-abus-Qd1e189" xml:id="timf-abus-Rd1e195">Hugo libro II. de claustro anime.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-abus-Dd1e201">
+          <head xml:id="timf-abus-Hd1e203">e</head>
+          <p xml:id="timf-abus-d1e206">
+            <cit>
+              <quote xml:id="timf-abus-Qd1e210">Duodecim sunt abusiones seculi, scilicet sapiens sine operibus, senex sine
+        religione, adolescens sine obediencia, diues sine elemosyna, femina sine pudicicia,
+        dominus sine uirtute, Christianus contenciosus, pauper superbus, rex iniquus, episcopus
+        negligens, plebs sine disciplina, populus sine lege.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-abus-Qd1e210" xml:id="timf-abus-Rd1e216">Cyprianus de duodecim abusiuis.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-abus-Dd1e221">
+          <head xml:id="timf-abus-Hd1e223">f</head>
+          <p xml:id="timf-abus-d1e226">
+            <cit>
+              <quote xml:id="timf-abus-Qd1e230">Ridiculosa res aut magis periculosa: speculator cecus, doctor inscius, precursor
+        claudus, prelatus negligens, preco mutus.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-abus-Qd1e230" xml:id="timf-abus-Rd1e236">Gillibertus.</ref>
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

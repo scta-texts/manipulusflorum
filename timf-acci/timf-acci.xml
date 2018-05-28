@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Accidia</title>
+        <author ref="#ThomasOfIreland">Thomas Hybernicus</author>
+        <respStmt>
+          <name>Chris Nighman</name>
+          <resp>Editor</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Accidia</title>
+          <date when="2018-05-22">May 22, 2018</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref>SCTA</ref> and <ref target="http://www.manipulusflorum.com/">Manipulus floreum Project</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Pb" n="bnf15985">Bnf 15985</witness>
+          <witness xml:id="Pc" n="bnf15985">Bnf 15986</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2018-05-22" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="timf-acci">
+        <head xml:id="timf-acci-Hd1e117">Accidia</head>
+        <div xml:id="timf-acci-Dd1e120">
+          <head xml:id="timf-acci-Hd1e122">a (1)</head>
+          <p xml:id="timf-acci-d1e125">
+            <cit>
+              <quote xml:id="timf-acci-Qd1e129">Torpor et ignauia dicunt: si lectioni continuato studio semper insistis, oculorum
+        caliginem incurris; si indesinenter lacrimas fundis, ipsos eciam oculos amittis; si
+        procellatis uigiliis psalmorum censum persoluis, insaniam capitis acquiris; si cotidiano
+        labore te conficis, ad opus spirituale quando consurgis?</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-acci-Qd1e129" xml:id="timf-acci-Rd1e135">Augustinus in libro de conflictu uiciorum et uirtutum.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-acci-Dd1e140">
+          <head xml:id="timf-acci-Hd1e142">a (2)</head>
+          <p xml:id="timf-acci-d1e145">
+            <cit>
+              <quote xml:id="timf-acci-Qd1e149">Accidia est de uirtutum laudabili exercicio utriusque hominis languida
+        deiectio.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-acci-Qd1e149" xml:id="timf-acci-Rd1e155">Gregorius in omelia.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-acci-Dd1e160">
+          <head xml:id="timf-acci-Hd1e162">b</head>
+          <p xml:id="timf-acci-d1e165">
+            <cit>
+              <quote xml:id="timf-acci-Qd1e169">Accidia est animi quidam langor cum legere non libet, orare non delectat,
+        meditaciones sollicite non sentiuntur.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-acci-Qd1e169" xml:id="timf-acci-Rd1e175">Bernardus in epistolis.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-acci-Dd1e180">
+          <head xml:id="timf-acci-Hd1e182">c</head>
+          <p xml:id="timf-acci-d1e185">
+            <cit>
+              <quote xml:id="timf-acci-Qd1e189">Cum te accidia uel tedio affici sentis, noli propterea diffidere atque desistere a
+        studio spirituali, sed iuuantis require manum trahi post te eum obsecrans.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-acci-Qd1e189" xml:id="timf-acci-Rd1e195">Bernardus ibidem (in epistolis).</ref>
+          </p>
+        </div>
+        <div xml:id="timf-acci-Dd1e201">
+          <head xml:id="timf-acci-Hd1e203">d</head>
+          <p xml:id="timf-acci-d1e206">
+            <cit>
+              <quote xml:id="timf-acci-Qd1e210">Accidia est quidam animi torpor quo quis negligit aliqua bona inchoare aut fastidit
+        perficere.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-acci-Qd1e210" xml:id="timf-acci-Rd1e216">Bernardus in sermone.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-acci-Dd1e221">
+          <head xml:id="timf-acci-Hd1e223">e</head>
+          <p xml:id="timf-acci-d1e226">
+            <cit>
+              <quote xml:id="timf-acci-Qd1e230">O homo impudens et imprudens! Milia milium ministrant ei et decies centena
+        assistunt ei et tu sedere presumis?</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-acci-Qd1e230" xml:id="timf-acci-Rd1e236">Bernardus ibidem (in sermone).</ref>
+          </p>
+        </div>
+        <div xml:id="timf-acci-Dd1e241">
+          <head xml:id="timf-acci-Hd1e243">f</head>
+          <p xml:id="timf-acci-d1e246">
+            <cit>
+              <quote xml:id="timf-acci-Qd1e250">Vult et non uult piger; recte pigri uocabulo denotatur qui uult regnare cum Deo, et
+        non laborare pro Deo. Delectant premia cum pollicentur; deterrent certamina cum
+        iubentur.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-acci-Qd1e250" xml:id="timf-acci-Rd1e256">Beda super Prouerbia libro II.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-acci-Dd1e261">
+          <head xml:id="timf-acci-Hd1e263">g</head>
+          <p xml:id="timf-acci-d1e266">
+            <cit>
+              <quote xml:id="timf-acci-Qd1e270">Non dormientibus prouenit regnum celorum, nec ocio et desidia torpentibus beatitudo
+        eternitatis repromittitur.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-acci-Qd1e270" xml:id="timf-acci-Rd1e276">Leo papa in sermone de apparicione.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-acci-Dd1e281">
+          <head xml:id="timf-acci-Hd1e283">h</head>
+          <p xml:id="timf-acci-d1e286">
+            <cit>
+              <quote xml:id="timf-acci-Qd1e290">Accidia circa horam sextam maxime monachum inquietat ut quedam febris ingruens
+        tempore prestituto ardentissimos estus accessionum suarum solitis ac statutis horis
+        anime inferens egrotanti.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-acci-Qd1e290" xml:id="timf-acci-Rd1e296">Iohannes Cassianus libro X. de institutis monachorum.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-acci-Dd1e301">
+          <head xml:id="timf-acci-Hd1e303">i</head>
+          <p xml:id="timf-acci-d1e306">
+            <cit>
+              <quote xml:id="timf-acci-Qd1e310">Experimento probatum est accidie impugnacionem non declinando fugiendam sed
+        resistendo superandam.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-acci-Qd1e310" xml:id="timf-acci-Rd1e316">Idem in eodem libro (Iohannes Cassianus libro X. de institutis monachorum).</ref>
+          </p>
+        </div>
+        <div xml:id="timf-acci-Dd1e322">
+          <head xml:id="timf-acci-Hd1e324">k</head>
+          <p xml:id="timf-acci-d1e327">
+            <cit>
+              <quote xml:id="timf-acci-Qd1e331">Accidia est solitariis magis experta et in heremo commorantibus infestior hostis ac
+        frequens.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-acci-Qd1e331" xml:id="timf-acci-Rd1e337">Idem in eodem libro (Iohannes Cassianus libro X. de institutis monachorum).</ref>
+          </p>
+        </div>
+        <div xml:id="timf-acci-Dd1e342">
+          <head xml:id="timf-acci-Hd1e344">m</head>
+          <p xml:id="timf-acci-d1e347">
+            <cit>
+              <quote xml:id="timf-acci-Qd1e351">Pigricia est animi inhercia uel fatigacio qua quis bonum inchoatum consummare
+        fastidit.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-acci-Qd1e351" xml:id="timf-acci-Rd1e357">Tullius de Tusculanis questionibus.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-acci-Dd1e362">
+          <head xml:id="timf-acci-Hd1e364">n</head>
+          <p xml:id="timf-acci-d1e367">
+            <cit>
+              <quote xml:id="timf-acci-Qd1e371">Luxurioso frugalitas pena est; pigro supplicii loco labor est; desidioso studere
+        torqueri est.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-acci-Qd1e371" xml:id="timf-acci-Rd1e377">Seneca epistola LXXII.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-acci-Dd1e382">
+          <head xml:id="timf-acci-Hd1e384">o</head>
+          <p xml:id="timf-acci-d1e387">
+            <cit>
+              <quote xml:id="timf-acci-Qd1e391">Non putant desidiosi posse fieri quicquam quod facere non possunt; ex infirmitate
+        sua de uirtute ferunt sentenciam. Nam hec ad que imbecilli sumus dura atque intolleranda
+        credimus, tormenta reputantes, uino carere aut prima luce excitari. Non ista difficilia
+        sunt sed nos fluidi et enerues sumus.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-acci-Qd1e391" xml:id="timf-acci-Rd1e397">Seneca LXXII. epistola.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-acci-Dd1e402">
+          <head xml:id="timf-acci-Hd1e404">p</head>
+          <p xml:id="timf-acci-d1e407">
+            <cit>
+              <quote xml:id="timf-acci-Qd1e411">Male michi esse malo quam molliter. Si mollis es, paulatim effeminatur animus atque
+        in similitudinem ocii sui et pigricie in quam iacet soluitur. Dormio minimum et
+        breuissimo sompno utor; satis est michi uigilare desiisse. Aliquando me dormisse scio,
+        aliquando suspicor.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-acci-Qd1e411" xml:id="timf-acci-Rd1e417">Seneca XXXIII. epistola.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-acci-Dd1e422">
+          <head xml:id="timf-acci-Hd1e424">q</head>
+          <p xml:id="timf-acci-d1e427">
+            <cit>
+              <quote xml:id="timf-acci-Qd1e431">Nichil agere semper infelicis est optimum.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-acci-Qd1e431" xml:id="timf-acci-Rd1e437">Seneca in prouerbiis.</ref>
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

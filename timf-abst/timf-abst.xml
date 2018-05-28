@@ -1,0 +1,484 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Abstinencia</title>
+        <author ref="#ThomasOfIreland">Thomas Hybernicus</author>
+        <respStmt>
+          <name>Chris Nighman</name>
+          <resp>Editor</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Abstinencia</title>
+          <date when="2018-05-22">May 22, 2018</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref>SCTA</ref> and <ref target="http://www.manipulusflorum.com/">Manipulus floreum Project</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Pb" n="bnf15985">Bnf 15985</witness>
+          <witness xml:id="Pc" n="bnf15985">Bnf 15986</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2018-05-22" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="timf-abst">
+        <head xml:id="timf-abst-Hd1e117">Abstinencia</head>
+        <div xml:id="timf-abst-Dd1e120">
+          <head xml:id="timf-abst-Hd1e122">a</head>
+          <p xml:id="timf-abst-d1e125">
+            <cit>
+              <quote xml:id="timf-abst-Qd1e129">Bonum est in cibo cum graciarum actione percipere quicquid Deus edendum precepit.
+        Abstinere autem ab aliquibus, non quasi malis, sed quasi non necessariis, non est
+        malum.</quote>
+              <bibl>Gennadius (?), <title>De ecclesiasticis dogmatibus</title>, 33 (PL 42, col.1219).</bibl>
+            </cit>
+            <ref corresp="#timf-abst-Qd1e129" xml:id="timf-abst-Rd1e135">Augustinus de diffinicione recte fidei.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-abst-Dd1e140">
+          <head xml:id="timf-abst-Hd1e142">b</head>
+          <p xml:id="timf-abst-d1e145">
+            <cit>
+              <quote xml:id="timf-abst-Qd1e149">Non interest omnino, scilicet ad ueritatem; quid alimentorum uel quantum quis
+        accipiat dummodo id faciat pro congruencia hominum cum quibus uiuit et persone sue et
+        pro ualitudinis sue necessitate; sed quanta facilitate et serenitate animi hiis ualeat
+        cum oportet uel necesse est carere.</quote>
+              <bibl>Augustinus Hipponensis, <title>Quaestiones euangeliorum</title>, 2, 11 (CCSL 44B, A. Mutzenbercher ed., p.54, ll.25-28).</bibl>
+            </cit>
+            <ref corresp="#timf-abst-Qd1e149" xml:id="timf-abst-Rd1e155">Augustinus in libro de questionibus ewangelii.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-abst-Dd1e160">
+          <head xml:id="timf-abst-Hd1e162">c</head>
+          <p xml:id="timf-abst-d1e165">
+            <cit>
+              <quote xml:id="timf-abst-Qd1e169" source="http://scta.info/resource/aconf-l13">Quam suaue michi subito factum est a suauitatibus nugarum abstinere et quas
+        amittere metus fuerat, iam dimittere gaudium est. Eiciebas enim eas a me, tu uero summa
+        suauitas intrabas pro eis omni uoluptate dulcior, sed non carni et sanguini, omni luce
+        clarior, omni secreto interior, omni honore sublimior, sed non sublimibus in se.</quote>
+              <bibl>Augustinus Hipponensis, <title>Confessionum libri XIII</title>., 9, 1 (CCSL 27, L. Verheijen ed., p.133, ll.14-19). (cf. Deus b)</bibl>
+            </cit>
+            <ref corresp="#timf-abst-Qd1e169" xml:id="timf-abst-Rd1e175">Augustinus IX. confessionum.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-abst-Dd1e180">
+          <head xml:id="timf-abst-Hd1e182">d</head>
+          <p xml:id="timf-abst-d1e185">
+            <cit>
+              <quote xml:id="timf-abst-Qd1e189">Vtantur diuites consuetudine infirmitatis sue, sed doleant se aliter non posse.
+        Melius enim possent si aliter possent. Si ergo non extollitur pauper de mendicitate, tu
+        quare extolleris de infirmitate? Vtere cibis electis preciosis quia sic consueuisti quia
+        aliter non potes, quia si consuetudinem mutas egrotas; conceditur tibi utere superfluis,
+        da pauperibus superflua; utere preciosis, da pauperibus uilia.</quote>
+              <bibl>Augustinus Hipponensis, <title>Sermones</title>, 61, 11 (PL 38, col.414).</bibl>
+            </cit>
+            <ref corresp="#timf-abst-Qd1e189" xml:id="timf-abst-Rd1e195">Augustinus de uerbis Domini, capitulo I. tractans illud: Vermis diuiciarum
+       superbia.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-abst-Dd1e201">
+          <head xml:id="timf-abst-Hd1e203">e</head>
+          <p xml:id="timf-abst-d1e206">
+            <cit>
+              <quote xml:id="timf-abst-Qd1e210">Qui sic se a carnibus temperant ut alias escas difficilioris preparacionis et
+        precii maioris inquirant, multum errant. Non enim est hoc suscipere abstinenciam, sed
+        inuitare luxuriam.</quote>
+              <bibl>Augustinus Hipponensis, <title>Sermones</title>, 209, 3 (PL 38, col.1047).</bibl>
+            </cit>
+            <ref corresp="#timf-abst-Qd1e210" xml:id="timf-abst-Rd1e216">Augustinus in sermone de dominica IIII. in aduentu.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-abst-Dd1e221">
+          <head xml:id="timf-abst-Hd1e223">f</head>
+          <p xml:id="timf-abst-d1e226">
+            <cit>
+              <quote xml:id="timf-abst-Qd1e230">Abstinencia tua atque ieiunium tuum eo magis Deo grata sunt, quo cum moribus
+        sanctis offeruntur, ut que in aliis sunt umbracula uiciorum, in te sint ornamenta
+        uirtutum.</quote>
+              <bibl>Pelagius, <title>Epistola ad Demetriadem</title>, 18 (PL 33, col.1112).</bibl>
+            </cit>
+            <ref corresp="#timf-abst-Qd1e230" xml:id="timf-abst-Rd1e236">Ieronymus in epistola ad Demetriadem uirginem.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-abst-Dd1e241">
+          <head xml:id="timf-abst-Hd1e243">g</head>
+          <p xml:id="timf-abst-d1e246">
+            <cit>
+              <quote xml:id="timf-abst-Qd1e250">Non nulli uitam pudicam appetencium in medio itinere corruerunt, dum solam
+        abstinenciam carnium putant et leguminibus onerant stomachum, que moderate parceque
+        innoxia sunt, et ut, quod sencio, loquar nichil sic inflammat corpora et titillat membra
+        genitalia, sicut indigestus cibus uictusque conuulsus.</quote>
+              <bibl>Hieronymus Stridonensis, <title>Epistulae</title>, 54, 10, 4 (CSEL 54, I. Hilberg ed., p.477, ll.7-12).</bibl>
+            </cit>
+            <ref corresp="#timf-abst-Qd1e250" xml:id="timf-abst-Rd1e256">Ieronymus in epistola ad Furiam.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-abst-Dd1e261">
+          <head xml:id="timf-abst-Hd1e263">h</head>
+          <p xml:id="timf-abst-d1e266">
+            <cit>
+              <quote xml:id="timf-abst-Qd1e270">Mater sanitatis est abstinencia, mater egritudinis uoluptas; sine cerere enim et
+        uino cito friget Venus et a patre Libero ad inconcessam uenerem est proximus gradus
+        intemperancie.</quote>
+              <bibl>Non invenitur</bibl>
+            </cit>
+            <ref corresp="#timf-abst-Qd1e270" xml:id="timf-abst-Rd1e276">Ieronymus in quadam epistola.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-abst-Dd1e281">
+          <head xml:id="timf-abst-Hd1e283">i</head>
+          <p xml:id="timf-abst-d1e286">
+            <cit>
+              <quote xml:id="timf-abst-Qd1e290">Modicus ac temperatus cibus et carni et anime utilis est.</quote>
+              <bibl>Hieronymus Stridonensis, <title>Epistulae</title>, 125, 7, 1 (CSEL 56, I. Hilberg ed., p.124, l.18).</bibl>
+            </cit>
+            <ref corresp="#timf-abst-Qd1e290" xml:id="timf-abst-Rd1e296">Ieronymus ad Rusticum monachum.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-abst-Dd1e301">
+          <head xml:id="timf-abst-Hd1e303">k</head>
+          <p xml:id="timf-abst-d1e306">
+            <cit>
+              <quote xml:id="timf-abst-Qd1e310">Ante annos robuste etatis periculosa est teneris abstinencia grauis.</quote>
+              <bibl>Hieronymus Stridonensis, <title>Epistulae</title>, 107, 8, 2 (CSEL 55, I. Hilberg ed., p.299, l.7).</bibl>
+            </cit>
+            <ref corresp="#timf-abst-Qd1e310" xml:id="timf-abst-Rd1e316">Ieronymus ad Letam.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-abst-Dd1e322">
+          <head xml:id="timf-abst-Hd1e324">l</head>
+          <p xml:id="timf-abst-d1e327">
+            <cit>
+              <quote xml:id="timf-abst-Qd1e331">Quid prodest tenuari corpus abstinencia, si animus intumescit superbia? Quid
+        uirtutis habet uinum non bibere, et ira et odio inebriari?</quote>
+              <bibl>Hieronymus Stridonensis, <title>Epistulae</title>, 148, 22, 1 (CSEL 56, I. Hilberg ed., p.348, ll.3-6).</bibl>
+            </cit>
+            <ref corresp="#timf-abst-Qd1e331" xml:id="timf-abst-Rd1e337">Ieronymus ad Celanciam.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-abst-Dd1e342">
+          <head xml:id="timf-abst-Hd1e344">m</head>
+          <p xml:id="timf-abst-d1e347">
+            <cit>
+              <quote xml:id="timf-abst-Qd1e351">Abstinencie uirtus nulla est, si tantum quisque corpus non edomat quantum ualet,
+        aut ualde inordinata est, si atterit plusquam ualet.</quote>
+              <bibl>Gregorius Magnus, <title>Moralia in Iob</title>, 20, 41 (CCSL 143A, M. Adriaen ed., p.1061, ll.14-16).</bibl>
+            </cit>
+            <ref corresp="#timf-abst-Qd1e351" xml:id="timf-abst-Rd1e357">Gregorius XX. libro moralium.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-abst-Dd1e362">
+          <head xml:id="timf-abst-Hd1e364">n</head>
+          <p xml:id="timf-abst-d1e367">
+            <cit>
+              <quote xml:id="timf-abst-Qd1e371">Per abstinenciam carnis uicia extinguenda sunt, non caro. Sic necesse est ut artem
+        continencie quisque teneat, quatenus non carnem sed uicia occidat. Sepe enim dum in illa
+        hostem insequimur, eciam ciuem quem diligimus trucidamus, et sepe dum quasi conciui
+        parcimus ad prelium hostem nutrimus.</quote>
+              <bibl>Gregorius Magnus, <title>Moralia in Iob</title>, 20, 41 (CCSL 143A, M. Adriaen ed., p.1061, ll.16-17).</bibl>
+            </cit>
+            <ref corresp="#timf-abst-Qd1e371" xml:id="timf-abst-Rd1e377">Gregorius XXX. libro moralium.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-abst-Dd1e382">
+          <head xml:id="timf-abst-Hd1e384">o</head>
+          <p xml:id="timf-abst-d1e387">
+            <cit>
+              <quote xml:id="timf-abst-Qd1e391">Eisdem alimentis uicia superbiunt quibus nutrite uirtutes uiuunt; et cum uirtus
+        alitur, plerumque uires uiciis augentur; cum uero immensa abstinencia uiciorum uires
+        extenuat, eciam uirtus deficiens hanelat.</quote>
+              <bibl>Gregorius Magnus, <title>Moralia in Iob</title>, 30, 18 (CCSL 143B, M. Adriaen ed., p.1533, ll.145-149).</bibl>
+            </cit>
+            <ref corresp="#timf-abst-Qd1e391" xml:id="timf-abst-Rd1e397">Gregorius ibidem [XXX. libro moralium].</ref>
+          </p>
+        </div>
+        <div xml:id="timf-abst-Dd1e402">
+          <head xml:id="timf-abst-Hd1e404">p</head>
+          <p xml:id="timf-abst-d1e407">
+            <cit>
+              <quote xml:id="timf-abst-Qd1e411">Incassum per abstinenciam corpus atteritur si inordinatis motibus dimissa mens
+        uiciis dissipatur.</quote>
+              <bibl>Gregorius Magnus, <title>Regula pastoralis</title>, 3, 19 (SC 382, F. Rommel ed., p.378, ll.76-78).</bibl>
+            </cit>
+            <ref corresp="#timf-abst-Qd1e411" xml:id="timf-abst-Rd1e417">Gregorius in pastorali.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-abst-Dd1e422">
+          <head xml:id="timf-abst-Hd1e424">q</head>
+          <p xml:id="timf-abst-d1e427">
+            <cit>
+              <quote xml:id="timf-abst-Qd1e431">Qui a paradisi gaudiis per cibum cecidimus, ad hec in quantum possumus per
+        abstinenciam resurgamus.</quote>
+              <bibl>Gregorius Magnus, <title>Homiliae in euangelia</title>, 1, 16, 5 (CCSL 141, R. Étaix ed., p.114, ll.115-116).</bibl>
+            </cit>
+            <ref corresp="#timf-abst-Qd1e431" xml:id="timf-abst-Rd1e437">Gregorius in omelia.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-abst-Dd1e443">
+          <head xml:id="timf-abst-Hd1e445">r</head>
+          <p xml:id="timf-abst-d1e448">
+            <cit>
+              <quote xml:id="timf-abst-Qd1e452">Plerumque dum plus iusto caro restringitur, eciam ab exercitacione boni operis
+        eneruatur ut ad oracionem uel predicacionem non sufficiat, dum incentiua uiciorum in se
+        funditus suffocare festinat.</quote>
+              <bibl>Gregorius Magnus, <title>Moralia in Iob</title>, 30, 18 (CCSL 143B, M. Adriaen ed., p.1533, ll.136-140).</bibl>
+            </cit>
+            <ref corresp="#timf-abst-Qd1e452" xml:id="timf-abst-Rd1e458">Gregorius in omelia et XXX. libro moralium.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-abst-Dd1e463">
+          <head xml:id="timf-abst-Hd1e465">s</head>
+          <p xml:id="timf-abst-d1e468">
+            <cit>
+              <quote xml:id="timf-abst-Qd1e472">Per Symonem qui signantur, nisi abstinentes? Qui foris carnem afficiunt, interius
+        tamen fructum abstinencie non acquirunt. Crucem igitur Domini Symon in angaria portat,
+        quia cum ad bonum opus sine bona uoluntate ducitur, rem bonam sine fructu operatur.
+        Symon ergo crucem portat sed in cruce non moritur, quia abstinentes exterius per
+        abstinenciam corpus afficiunt, sed interius per desiderium mundo uiuunt.</quote>
+              <bibl>Gregorius Magnus, <title>Homiliae in euangelia</title>, 2, 32, 3 (CCSL 141, R. Étaix ed., pp.280-281, ll.115-116).</bibl>
+            </cit>
+            <ref corresp="#timf-abst-Qd1e472" xml:id="timf-abst-Rd1e478">Gregorius super ewangelia parte V.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-abst-Dd1e483">
+          <head xml:id="timf-abst-Hd1e485">t</head>
+          <p xml:id="timf-abst-d1e488">
+            <cit>
+              <quote xml:id="timf-abst-Qd1e492">Solus in illicitis non cadit, qui se aliquando et a licitis caute
+        restringit.</quote>
+              <bibl>Gregorius Magnus, <title>Moralia in Iob</title>, 5, 11 (CCSL 143, M. Adriaen ed., p.230, ll.33-35).</bibl>
+            </cit>
+            <ref corresp="#timf-abst-Qd1e492" xml:id="timf-abst-Rd1e498">Gregorius V. libro moralium.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-abst-Dd1e503">
+          <head xml:id="timf-abst-Hd1e505">u</head>
+          <p xml:id="timf-abst-d1e508">
+            <cit>
+              <quote xml:id="timf-abst-Qd1e512">Abstinencia est quando quis pro amore Dei et salute propria, non ab illicitis
+        tantum, immo interdum et a licitis atque concessis se cohibet.</quote>
+              <bibl>Non invenitur</bibl>
+            </cit>
+            <ref corresp="#timf-abst-Qd1e512" xml:id="timf-abst-Rd1e518">Gregorius in omelia.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-abst-Dd1e523">
+          <head xml:id="timf-abst-Hd1e525">x</head>
+          <p xml:id="timf-abst-d1e528">
+            <cit>
+              <quote xml:id="timf-abst-Qd1e532">Abstinencia est que non edendi horam preuenit, ut fecit Ionathas in fauo mellis,
+        non lautiora querit edere ut Israhelite in deserto, non accuracius parare ut filii Hely
+        in Sylo, non ad superfluitatem ut Sodomite, non uile quodlibet ut Esau edulium in nimie
+        concupiuit.</quote>
+              <bibl>Non invenitur</bibl>
+            </cit>
+            <ref corresp="#timf-abst-Qd1e532" xml:id="timf-abst-Rd1e538">Gregorius in omelia.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-abst-Dd1e543">
+          <head xml:id="timf-abst-Hd1e545">y</head>
+          <p xml:id="timf-abst-d1e548">
+            <cit>
+              <quote xml:id="timf-abst-Qd1e552">Corda in cythara si minus tenditur non sonat, si amplius raucum sonat quia nimirum
+        tanto quisque sibimet debet moderamine preesse, ut ad culpam caro non superbiat et tamen
+        ad effectum rectitudinis in operacione subsistat.</quote>
+              <bibl>Gregorius Magnus, <title>Moralia in Iob</title>, 20, 41 (CCSL 143A, M. Adriaen ed., p.1061, ll.12-14, 17-20).</bibl>
+            </cit>
+            <ref corresp="#timf-abst-Qd1e552" xml:id="timf-abst-Rd1e558">Gregorius XX. moralium super illud: Versa est in luctum cythara mea.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-abst-Dd1e564">
+          <head xml:id="timf-abst-Hd1e566">ab</head>
+          <p xml:id="timf-abst-d1e569">
+            <cit>
+              <quote xml:id="timf-abst-Qd1e573">Magnus discrecionis labor est exactori et aliquid impendere et aliquid denegare, et
+        non dando gulam restringere, et dando naturam nutrire.</quote>
+              <bibl>Gregorius Magnus, <title>Moralia in Iob</title>, 30, 18 (CCSL 143B, M. Adriaen ed., p.1532, ll.102-105).</bibl>
+            </cit>
+            <ref corresp="#timf-abst-Qd1e573" xml:id="timf-abst-Rd1e579">Gregorius XXX. libro moralium.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-abst-Dd1e584">
+          <head xml:id="timf-abst-Hd1e586">ac</head>
+          <p xml:id="timf-abst-d1e589">
+            <cit>
+              <quote xml:id="timf-abst-Qd1e593">Cogitandum summo opere est ut qui se illicita meminit commisisse a quibusdam eciam
+        licitis studeat abstinere, quatenus per hoc conditori suo satisfaciat ut qui commisit
+        prohibita sibimet ipsi abscindere debet eciam concessa et se reprehendat in minimis quem
+        meminit in maximis deliquisse.</quote>
+              <bibl>Gregorius Magnus, <title>Homiliae in euangelia</title>, 2, 34, 16 (CCSL 141, R. Étaix ed., p.315, ll.427-431).</bibl>
+            </cit>
+            <ref corresp="#timf-abst-Qd1e593" xml:id="timf-abst-Rd1e599">Gregorius omelia XXXV. super ewangelia.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-abst-Dd1e604">
+          <head xml:id="timf-abst-Hd1e606">ad</head>
+          <p xml:id="timf-abst-d1e609">
+            <cit>
+              <quote xml:id="timf-abst-Qd1e613">Sic abstinere uel ieiunare debemus, ut non nos necessitati ieiunandi subdamus, ne
+        iam non deuoti sed inuiti rem uoluntariam faciamus.</quote>
+              <bibl>Iulianus Pomerius, <title>De uita contemplatiua</title>, 2, 24, 1 (PL 59, col.470B).</bibl>
+            </cit>
+            <ref corresp="#timf-abst-Qd1e613" xml:id="timf-abst-Rd1e619">Prosper libro II. de uita contemplatiua.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-abst-Dd1e624">
+          <head xml:id="timf-abst-Hd1e626">ae</head>
+          <p xml:id="timf-abst-d1e629">
+            <cit>
+              <quote xml:id="timf-abst-Qd1e633">Qui cibis abstinent et mala agunt, demones imitantur, quibus culpa adest et cibus
+        deest.</quote>
+              <bibl>Isidorus Hispalensis, <title>Sententiae</title>, 2, 44, 8 (CCSL 111, P. Cazier ed., p.191, ll.44-45).</bibl>
+            </cit>
+            <ref corresp="#timf-abst-Qd1e633" xml:id="timf-abst-Rd1e639">Ysidorus super Amos prophetam.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-abst-Dd1e644">
+          <head xml:id="timf-abst-Hd1e646">af</head>
+          <p xml:id="timf-abst-d1e649">
+            <cit>
+              <quote xml:id="timf-abst-Qd1e653">Ciborum saturitas carnis luxuriam suscitat, edacitatis uicio crescit carnis
+        temptatio. Saturitati semper libido adiuncta est. Ac contra, ieiunio libido
+        restringitur, ieiunio luxuria superatur.</quote>
+              <bibl>Isidorus Hispalensis, <title>Synonymorum libri</title>, 2, 14 (PL 83, col.848C).</bibl>
+            </cit>
+            <ref corresp="#timf-abst-Qd1e653" xml:id="timf-abst-Rd1e659">Ysidorus II. libro solioquiorum.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-abst-Dd1e664">
+          <head xml:id="timf-abst-Hd1e666">ag</head>
+          <p xml:id="timf-abst-d1e669">
+            <cit>
+              <quote xml:id="timf-abst-Qd1e673">Nichil sic iocundum est ut cibus bene digestus ac decoctus, nichil sic ad salutem,
+        nichil sic sensuum acumen operatur, nichil sic egritudinem fugat, ut moderata refectio.
+        Sufficiencia quippe cum nutrimento et sospitate simul eciam procreat uoluptatem,
+        exundancia uero morbum facit et molestias ingerit et egritudines generat. Quod enim
+        facit fames, hoc eciam facit plenitudo ciborum magis autem peiora. Fames quippe in
+        paucis diebus aufert hominem et liberat ex hac uita penali, excessus uero ciborum
+        consumit et computrescere facit corpus humanum et macerat egritudine diuturna et tunc
+        eum morte crudeli consumit.</quote>
+              <bibl>Non invenitur</bibl> 
+              <note>Perhaps derived from Gratianus, <title>Decretum</title>, 3, d.5, c.28 (Corpus iuris canonici 1, A. Friedberg ed., p.1419), which ascribes this excerpt to Iohannes Os aureum, [hom. XXIX. ad c. 12. ep. ad Hebr.]</note>
+            </cit>
+            <ref corresp="#timf-abst-Qd1e673" xml:id="timf-abst-Rd1e679">Chrysostomus super Hebreo sermone XXIX.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-abst-Dd1e685">
+          <head xml:id="timf-abst-Hd1e687">ah</head>
+          <p xml:id="timf-abst-d1e690">
+            <cit>
+              <quote xml:id="timf-abst-Qd1e694">Moderancia est nimium ciborum appetitum racionis imperio reuocare.</quote>
+              <bibl>Pseudo-Guillemus de Conchis, <title>Moralium dogma philosophorum</title>, I, D, 5 (J. Holmberg ed., p.51, ll.17-18).</bibl>
+            </cit>
+            <ref corresp="#timf-abst-Qd1e694" xml:id="timf-abst-Rd1e700">Hugo de sancto Victore.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-abst-Dd1e705">
+          <head xml:id="timf-abst-Hd1e707">ai</head>
+          <p xml:id="timf-abst-d1e710">
+            <cit>
+              <quote xml:id="timf-abst-Qd1e714">Semper uirtuti cibus ieiunium fuit; de abstinencia quoque prodeunt caste
+        cogitaciones, racionabiles uoluntates, salubria consilia; et per uoluntarias
+        afflictiones caro concupiscenciis moritur et uirtutibus spiritus innouatur.</quote>
+              <bibl>Leo Magnus, <title>Tractatus</title>, 13 (CCSL 138, A. Chavasse ed., p.55, ll.7-11).</bibl>
+            </cit>
+            <ref corresp="#timf-abst-Qd1e714" xml:id="timf-abst-Rd1e720">Leo papa in sermone de ieiunio X. mensis.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-abst-Dd1e725">
+          <head xml:id="timf-abst-Hd1e727">ak</head>
+          <p xml:id="timf-abst-d1e730">
+            <cit>
+              <quote xml:id="timf-abst-Qd1e734">Melior est racionabilis cotidiana cum moderacione refectio quam per interualla
+        arduum longumque ieiunium. Nouit immoderata inedia non solum mentis labefactare
+        constanciam, sed eciam oracionum efficaciam reddere lassitudine corporis
+        eneruatam.</quote>
+              <bibl>Iohannes Cassianus, <title>De institutis coenobiorum</title>, 5, 9 (CSEL 17.1, M. Petschenig ed., p.88, ll.8-12).</bibl>
+            </cit>
+            <ref corresp="#timf-abst-Qd1e734" xml:id="timf-abst-Rd1e740">Iohannes Cassianus de institutis monachorum libro V.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-abst-Dd1e745">
+          <head xml:id="timf-abst-Hd1e747">al</head>
+          <p xml:id="timf-abst-d1e750">
+            <cit>
+              <quote xml:id="timf-abst-Qd1e754">Ipsis enim grauior est consuetudo subtracti cibi qui se escis aliis nesciunt
+        consolari.</quote>
+              <bibl>Aurelius Cassiodorus, <title>Expositio Psalmorum</title>, 130, 2 (CCSL 98, M. Adrien ed., p.1193, ll.107-108).</bibl>
+            </cit>
+            <ref corresp="#timf-abst-Qd1e754" xml:id="timf-abst-Rd1e760">Cassiodorus super Psalmo CXXX.: Sicut ablactatus est.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-abst-Dd1e765">
+          <head xml:id="timf-abst-Hd1e767">am</head>
+          <p xml:id="timf-abst-d1e770">
+            <cit>
+              <quote xml:id="timf-abst-Qd1e774">Diruptum ganea stomachum nulla sarcire res melius quam parsimonia solet.</quote>
+              <bibl>Sidonius Apollinaris, <title>Epistolae</title>, 2, 9 (PL 58, col.486A).</bibl>
+            </cit>
+            <ref corresp="#timf-abst-Qd1e774" xml:id="timf-abst-Rd1e780">Cassiodorus in quadam epistola.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-abst-Dd1e785">
+          <head xml:id="timf-abst-Hd1e787">an</head>
+          <p xml:id="timf-abst-d1e790">
+            <cit>
+              <quote xml:id="timf-abst-Qd1e794">Multis tormentum est uino carere et prima luce excitari. Non est summa felicitatis
+        nostre in carne ponenda.</quote>
+              <bibl>Lucius Annaeus Seneca, <title>Ad Lucilium epistulae morales</title>, 71, 23 (L. Reynolds ed., vol.1, pp.214-215, ll.25, 1); 
+                Lucius Annaeus Seneca, <title>Ad Lucilium epistulae morales</title>, 74, 16 (L. Reynolds ed., vol.1, p.228, ll.4-5).</bibl>
+            </cit>
+            <ref corresp="#timf-abst-Qd1e794" xml:id="timf-abst-Rd1e800">Seneca LXXV. epistola.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-abst-Dd1e806">
+          <head xml:id="timf-abst-Hd1e808">ao</head>
+          <p xml:id="timf-abst-d1e811">
+            <cit>
+              <quote xml:id="timf-abst-Qd1e815">Molestum est, inquis, carere assuetis uoluptatibus, abstinere cibo, sitire,
+        esurire; hec primo abstinencie grauia sunt, deinde cupiditas relanguescit ipsis per se
+        cupiditatibus fatigatis ac deficientibus; inde morosus est stomachus, inde quibus fuit
+        auiditas, cibus odium est, desideria ipsa moriuntur.</quote>
+              <bibl>Lucius Annaeus Seneca, <title>Ad Lucilium epistulae morales</title>, 78, 11 (L. Reynolds ed., vol.1, pp.251-252, ll.26, 1-5).</bibl>
+            </cit>
+            <ref corresp="#timf-abst-Qd1e815" xml:id="timf-abst-Rd1e821">Seneca LXXIX. epistola.</ref>
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

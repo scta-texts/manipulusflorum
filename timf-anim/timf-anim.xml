@@ -1,0 +1,443 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Anima</title>
+        <author ref="#ThomasOfIreland">Thomas Hybernicus</author>
+        <respStmt>
+          <name>Chris Nighman</name>
+          <resp>Editor</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Anima</title>
+          <date when="2018-05-22">May 22, 2018</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref>SCTA</ref> and <ref target="http://www.manipulusflorum.com/">Manipulus floreum Project</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Pb" n="bnf15985">Bnf 15985</witness>
+          <witness xml:id="Pc" n="bnf15985">Bnf 15986</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2018-05-22" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="timf-anim">
+        <head xml:id="timf-anim-Hd1e117">Anima</head>
+        <div xml:id="timf-anim-Dd1e120">
+          <head xml:id="timf-anim-Hd1e122">a</head>
+          <p xml:id="timf-anim-d1e125">
+            <cit>
+              <quote xml:id="timf-anim-Qd1e129">O anima Christiana! Euigila et si qua in te sit uirtus caritatis que omnia
+        sustinet, Domini tui imitare uestigia. Considera quot milia martyrum tritam tibi
+        fecerunt uiam; transierunt uirgines, transierunt martyres, transierunt pueri et puelle;
+        et adhuc times? Quia ducet te ille qui est uia, ueritas et uita: uia non errans, ueritas
+        non fallens, uita non deficiens; uia in exemplo, ueritas in promisso et uita in
+        premio.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-anim-Qd1e129" xml:id="timf-anim-Rd1e135">Augustinus de doctrina Christiana.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-anim-Dd1e140">
+          <head xml:id="timf-anim-Hd1e142">b</head>
+          <p xml:id="timf-anim-d1e145">
+            <cit>
+              <quote xml:id="timf-anim-Qd1e149" source="http://scta.info/resource/aconf-l6">Ve anime audaci que sperauit si a te recessisset se aliquid melius habituram! Versa
+        et reuersa in tergum et in latera et in uentrem, et dura sunt omnia et tu solus requies;
+        et ecce ades.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-anim-Qd1e149" xml:id="timf-anim-Rd1e155">Augustinus libro VI. confessionum.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-anim-Dd1e160">
+          <head xml:id="timf-anim-Hd1e162">c</head>
+          <p xml:id="timf-anim-d1e165">
+            <cit>
+              <quote xml:id="timf-anim-Qd1e169">Quid est quod uelis habere malum? Dices michi, nichil omnino: non uxorem, non
+        filium, non filiam, non seruum, non ancillam, non tunicam, postremo non caligam; et tu
+        uis habere malam uitam. Rogo te prepone animam tuam calige tue.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-anim-Qd1e169" xml:id="timf-anim-Rd1e175">Augustinus in quodam sermone.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-anim-Dd1e180">
+          <head xml:id="timf-anim-Hd1e182">d</head>
+          <p xml:id="timf-anim-d1e185">
+            <cit>
+              <quote xml:id="timf-anim-Qd1e189">Anima est substancia creata inuisibilis, incorporea, inmortalis, Deo similima,
+        ymaginem habens creatoris sui.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-anim-Qd1e189" xml:id="timf-anim-Rd1e195">Augustinus in libro de diffinicione anime.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-anim-Dd1e201">
+          <head xml:id="timf-anim-Hd1e203">e</head>
+          <p xml:id="timf-anim-d1e206">
+            <cit>
+              <quote xml:id="timf-anim-Qd1e210">Anima est quedam substancia racionis particeps regendo corpori accommodata.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-anim-Qd1e210" xml:id="timf-anim-Rd1e216">Augustinus de quantitate anime.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-anim-Dd1e221">
+          <head xml:id="timf-anim-Hd1e223">f</head>
+          <p xml:id="timf-anim-d1e226">
+            <cit>
+              <quote xml:id="timf-anim-Qd1e230">Sicut Deus omnem creaturam, sic anima omnem creaturam corporalem nature dignitate
+        precellit. Omnis autem anima aut Christi sponsa aut dyaboli adultera est.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-anim-Qd1e230" xml:id="timf-anim-Rd1e236">Augustinus super Genesim ad litteram.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-anim-Dd1e241">
+          <head xml:id="timf-anim-Hd1e243">g</head>
+          <p xml:id="timf-anim-d1e246">
+            <cit>
+              <quote xml:id="timf-anim-Qd1e250">Felix anima quam Dei pietas respicit, humilitas subicit, penitencia reducit,
+        obediencia conducit, perseuerancia perducit, deuocio introducit, caritas unit.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-anim-Qd1e250" xml:id="timf-anim-Rd1e256">Augustinus de spiritu et anima.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-anim-Dd1e261">
+          <head xml:id="timf-anim-Hd1e263">h</head>
+          <p xml:id="timf-anim-d1e266">
+            <cit>
+              <quote xml:id="timf-anim-Qd1e270">Hec est anime nostre uitalis substancia qua alitur et pascitur et gubernatur, nec
+        quicquam est aliud quod uiuere faciat racionabilem animam quam alloquium Dei.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-anim-Qd1e270" xml:id="timf-anim-Rd1e276">Ambrosius super illud Psalmi: Eloquium tuum uiuificauit me.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-anim-Dd1e281">
+          <head xml:id="timf-anim-Hd1e283">i</head>
+          <p xml:id="timf-anim-d1e286">
+            <cit>
+              <quote xml:id="timf-anim-Qd1e290">Si magne mercedis est a morte eripere carnem quamque morituram, quanti est meriti a
+        morte animam liberare in celesti patria sine fine uicturam?</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-anim-Qd1e290" xml:id="timf-anim-Rd1e296">Gregorius in omelia.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-anim-Dd1e301">
+          <head xml:id="timf-anim-Hd1e303">k</head>
+          <p xml:id="timf-anim-d1e306">
+            <cit>
+              <quote xml:id="timf-anim-Qd1e310">Quoquo se uerterit anima, si uigilanter intendit, in eisdem ipsis Deum inuenit per
+        que reliquit; eiusque potenciam ex eorum consideracione cognoscit quorum amore deseruit;
+        et per que peruerse cecidit, per hec conuersa reuocatur.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-anim-Qd1e310" xml:id="timf-anim-Rd1e316">Gregorius XXVI. moralium.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-anim-Dd1e322">
+          <head xml:id="timf-anim-Hd1e324">l</head>
+          <p xml:id="timf-anim-d1e327">
+            <cit>
+              <quote xml:id="timf-anim-Qd1e331">Tres uitales spiritus creauit omnipotens Deus: unum qui carne non tegitur, alium
+        qui carne tegitur sed non cum carne moritur, tercium qui carne tegitur et cum carne
+        moritur; primus angelorum, secundus hominum, tercius brutorum animalium.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-anim-Qd1e331" xml:id="timf-anim-Rd1e337">Gregorius libro IIII. dyalogorum.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-anim-Dd1e342">
+          <head xml:id="timf-anim-Hd1e344">m</head>
+          <p xml:id="timf-anim-d1e347">
+            <cit>
+              <quote xml:id="timf-anim-Qd1e351">Ad ymaginem quippe Dei facta anima racionalis ceteris omnibus occupari potest,
+        repleri omnino non potest. Capacem enim Dei quicquid Deo minus est non implebit.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-anim-Qd1e351" xml:id="timf-anim-Rd1e357">Bernardus in sermone dedicacionis.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-anim-Dd1e362">
+          <head xml:id="timf-anim-Hd1e364">n</head>
+          <p xml:id="timf-anim-d1e367">
+            <cit>
+              <quote xml:id="timf-anim-Qd1e371">Est celum sancta anima habens solem intellectum, lunam fidem, astra uirtutes; uel
+        certe sol iusticie, zelus aut feruens caritas, et luna continencia.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-anim-Qd1e371" xml:id="timf-anim-Rd1e377">Bernardus super Cantica.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-anim-Dd1e382">
+          <head xml:id="timf-anim-Hd1e384">o</head>
+          <p xml:id="timf-anim-d1e387">
+            <cit>
+              <quote xml:id="timf-anim-Qd1e391">Anime desideranti Dominus festinus occurrit celesti rore circumfusus. Vnguentis
+        optimis delibutus animam recreat fatigatam, esurientem reficit, aridam inpinguat
+        terrenorum oblitam sui ipsius immemorem.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-anim-Qd1e391" xml:id="timf-anim-Rd1e397">Bernardus super Cantica.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-anim-Dd1e402">
+          <head xml:id="timf-anim-Hd1e404">p</head>
+          <p xml:id="timf-anim-d1e407">
+            <cit>
+              <quote xml:id="timf-anim-Qd1e411">Paupertate, mansuetudine, fletu renouatur in anima similitudo quedam et ymago
+        eternitatis omnia tempora complectens, dum paupertate futura meretur, mansuetudine sibi
+        presencia uendicat, luctu penitencie preterita quoque recuperat.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-anim-Qd1e411" xml:id="timf-anim-Rd1e417">Bernardus super Cantica.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-anim-Dd1e422">
+          <head xml:id="timf-anim-Hd1e424">q</head>
+          <p xml:id="timf-anim-d1e427">
+            <cit>
+              <quote xml:id="timf-anim-Qd1e431">Sit ergo beate anime culcitra, consciencie puritas, capitale transquillitas,
+        opertorium securitas ut in hoc interim strato dormiat delectabiliter et feliciter
+        requiescat. Hec est anime suauissima et saluberima requies, consciencia munda, quies
+        secura.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-anim-Qd1e431" xml:id="timf-anim-Rd1e437">Bernardus sermone CVI.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-anim-Dd1e443">
+          <head xml:id="timf-anim-Hd1e445">r</head>
+          <p xml:id="timf-anim-d1e448">
+            <cit>
+              <quote xml:id="timf-anim-Qd1e452">Auertistis tres esse sanctarum status animarum: primum uidelicet in corpore
+        corruptibili, secundum sine corpore, tercium in corpore iam glorificato; primum in
+        milicia, secundum in requie, tercium in beatitudine consummata.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-anim-Qd1e452" xml:id="timf-anim-Rd1e458">Bernardus sermone CVII.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-anim-Dd1e463">
+          <head xml:id="timf-anim-Hd1e465">s</head>
+          <p xml:id="timf-anim-d1e468">
+            <cit>
+              <quote xml:id="timf-anim-Qd1e472">Quid indecencius quam curuum recto corpore gerere animum?</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-anim-Qd1e472" xml:id="timf-anim-Rd1e478">Bernardus super Cantica sermone XXIIII.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-anim-Dd1e483">
+          <head xml:id="timf-anim-Hd1e485">t</head>
+          <p xml:id="timf-anim-d1e488">
+            <cit>
+              <quote xml:id="timf-anim-Qd1e492">Tria ista anima curiosa Dei non cessat inquirere, scilicet iusticiam et iudicium et
+        locum habitacionis glorie sponsi, tanquam uiam in qua ambulet, cautelam qua ambulet, et
+        mansionem ad quam ambulet, ut de forma iusticie sit formosa, de iudiciorum noticia
+        cauta, de desiderio presencie seu glorie sponsi casta. Talem prorsus decet sponsam
+        pulcram, eruditam et castam. Perfectus est in cuius anima hec tria congruent, atque
+        opportune concurrere uidebuntur ut gemere pro se et exultare in Deo nouerit simul
+        proximorum utilitatibus potens sit subuenire: placens Deo, cautus sibi, utilis
+        suis.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-anim-Qd1e492" xml:id="timf-anim-Rd1e498">Bernardus super Cantica.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-anim-Dd1e503">
+          <head xml:id="timf-anim-Hd1e505">u</head>
+          <p xml:id="timf-anim-d1e508">
+            <cit>
+              <quote xml:id="timf-anim-Qd1e512">Cadit asinus et inuenit qui se subleuat; cadit anima et non est qui manum
+        apponat.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-anim-Qd1e512" xml:id="timf-anim-Rd1e518">Bernardus ibidem (super Cantica).</ref>
+          </p>
+        </div>
+        <div xml:id="timf-anim-Dd1e523">
+          <head xml:id="timf-anim-Hd1e525">x</head>
+          <p xml:id="timf-anim-d1e528">
+            <cit>
+              <quote xml:id="timf-anim-Qd1e532">O anima insignita Dei ymagine, decorata similitudine, desponsata in fide, dotata in
+        spiritu, redempta sanguine, deputata cum angelis, capax beatitudinis, heres bonitatis,
+        racionis particeps, quid tibi cum carne nunquam uilius sterquilinium inuenisti?</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-anim-Qd1e532" xml:id="timf-anim-Rd1e538">Bernardus in meditacionibus et Hugo in libro de anima.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-anim-Dd1e543">
+          <head xml:id="timf-anim-Hd1e545">y</head>
+          <p xml:id="timf-anim-d1e548">
+            <cit>
+              <quote xml:id="timf-anim-Qd1e552">Si animam negligamus, nec corpus saluare poterimus. Non enim anima pro corpore, sed
+        corpus pro anima factum est. Qui ergo quod primum est negligit et quod inferius est
+        excolit, utrumque corrumpit. Qui uero ordinem seruat et quod primum est colit, eciam si
+        negligat quod secundum est, per primi salutem saluabitur et secundum.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-anim-Qd1e552" xml:id="timf-anim-Rd1e558">Crisostomus in libro de reparacione lapsi.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-anim-Dd1e564">
+          <head xml:id="timf-anim-Hd1e566">z</head>
+          <p xml:id="timf-anim-d1e569">
+            <cit>
+              <quote xml:id="timf-anim-Qd1e573">[abest in manuscriptis]</quote>
+              <bibl/>
+            </cit>
+          </p>
+        </div>
+        <div xml:id="timf-anim-Dd1e581">
+          <head xml:id="timf-anim-Hd1e583">ab</head>
+          <p xml:id="timf-anim-d1e586">
+            <cit>
+              <quote xml:id="timf-anim-Qd1e590">Anima dum uiuificat corpus, anima est; dum uult, animus est; dum scit, mens est;
+        dum recolit, memoria est; dum rectum iudicat, racio est; dum spirat, spiritus est; dum
+        aliquid sentit, sensus est.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-anim-Qd1e590" xml:id="timf-anim-Rd1e596">Ysidorus XI. ethimologiarum.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-anim-Dd1e601">
+          <head xml:id="timf-anim-Hd1e603">ac</head>
+          <p xml:id="timf-anim-d1e606">
+            <cit>
+              <quote xml:id="timf-anim-Qd1e610">O homo, quid miraris syderum altitudinem et profunditatem maris, animi tui abyssum
+        intra et mirare si potes?</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-anim-Qd1e610" xml:id="timf-anim-Rd1e616">Ysidorus libro I. de summo bono.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-anim-Dd1e621">
+          <head xml:id="timf-anim-Hd1e623">ad</head>
+          <p xml:id="timf-anim-d1e626">
+            <cit>
+              <quote xml:id="timf-anim-Qd1e630">O anima mea, egredere quid dubitas? Egredere quid timeas? LXXV annis Christo
+        seruisti et adhuc mortem times?</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-anim-Qd1e630" xml:id="timf-anim-Rd1e636">Quidam sanctus.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-anim-Dd1e641">
+          <head xml:id="timf-anim-Hd1e643">ae</head>
+          <p xml:id="timf-anim-d1e646">
+            <cit>
+              <quote xml:id="timf-anim-Qd1e650">Memoria est ad mentis intuitum ymaginaria quedam representacio
+        preteritorum.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-anim-Qd1e650" xml:id="timf-anim-Rd1e656">Tullius.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-anim-Dd1e661">
+          <head xml:id="timf-anim-Hd1e663">af</head>
+          <p xml:id="timf-anim-d1e666">
+            <cit>
+              <quote xml:id="timf-anim-Qd1e670">Tutum iter et iocundum est ad quod natura te instruxit. Dedit tibi illa que si non
+        deserueris, par Deo consurges. Parem autem Deo te pecunia non faciet; Deus nichil habet.
+        Pretexta non faciet; Deus nudus est. Fama non faciet nec ostentacio tui; nemo nouit
+        Deum, licet multi male de illo existiment et impune. Non turba seruorum lecticam tuam
+        portancium; Deus ille maximus potentissimusque ipse uehit omnia, nec forma quidem et
+        uires beatum te facere possunt. Nichil horum non patitur uetustatem. Quid ergo animus?
+        Sed hic rectus, bonus, magnus. Quid aliud uoces hunc quam Deum in corpore humano
+        hospitantem? Hic animus tam in equitem Romanum quam in libertinum, quam in seruum potest
+        cadere.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-anim-Qd1e670" xml:id="timf-anim-Rd1e676">Seneca XXXI. epistola.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-anim-Dd1e682">
+          <head xml:id="timf-anim-Hd1e684">ag</head>
+          <p xml:id="timf-anim-d1e687">
+            <cit>
+              <quote xml:id="timf-anim-Qd1e691">Sursum animum uocant inicia sua; erit autem illic eciam antequam hac custodia
+        exsoluatur. Si uicia sua desierit, purusque ac leuis in cogitaciones diuinas
+        emicuit.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-anim-Qd1e691" xml:id="timf-anim-Rd1e697">Seneca LXXX. epistola.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-anim-Dd1e702">
+          <head xml:id="timf-anim-Hd1e704">ah</head>
+          <p xml:id="timf-anim-d1e707">
+            <cit>
+              <quote xml:id="timf-anim-Qd1e711">Insuperabili loco stat animus qui externa deseruit; inexpugnabilis est quem multis
+        machinis lacessitum fortuna non transit. Nunquam maior est quam ubi aliena disposuit et
+        fecit sibi pacem nil timendo, diuicias nil concupiscendo.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-anim-Qd1e711" xml:id="timf-anim-Rd1e717">Seneca LXXXIII. epistola.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-anim-Dd1e722">
+          <head xml:id="timf-anim-Hd1e724">ai</head>
+          <p xml:id="timf-anim-d1e727">
+            <cit>
+              <quote xml:id="timf-anim-Qd1e731">Nichil magnum est in rebus humanis nisi animus magna despiciens.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-anim-Qd1e731" xml:id="timf-anim-Rd1e737">Seneca in prouerbiis.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-anim-Dd1e742">
+          <head xml:id="timf-anim-Hd1e744">ak</head>
+          <p xml:id="timf-anim-d1e747">
+            <cit>
+              <quote xml:id="timf-anim-Qd1e751">Quemadmodum in corporibus magne sunt dissimilitudines, sic in animis maiores sunt
+        morum uarietates. Nam plerique diuersitatem corporum, diuersitas sequitur
+        animorum.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-anim-Qd1e751" xml:id="timf-anim-Rd1e757">Tullius de naturalibus questionibus.</ref>
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

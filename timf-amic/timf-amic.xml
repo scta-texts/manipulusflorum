@@ -1,0 +1,1239 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Amicicia</title>
+        <author ref="#ThomasOfIreland">Thomas Hybernicus</author>
+        <respStmt>
+          <name>Chris Nighman</name>
+          <resp>Editor</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Amicicia</title>
+          <date when="2018-05-22">May 22, 2018</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref>SCTA</ref> and <ref target="http://www.manipulusflorum.com/">Manipulus floreum Project</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Pb" n="bnf15985">Bnf 15985</witness>
+          <witness xml:id="Pc" n="bnf15985">Bnf 15986</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2018-05-22" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="timf-amic">
+        <head xml:id="timf-amic-Hd1e117">Amicicia</head>
+        <div xml:id="timf-amic-Dd1e120">
+          <head xml:id="timf-amic-Hd1e122">a</head>
+          <p xml:id="timf-amic-d1e125">
+            <cit>
+              <quote xml:id="timf-amic-Qd1e129">Nescio utrum Christiane amicicie putande sint in quibus magis ualet uulgare
+        prouerbium: obsequium amicos ueritas odium parit, quam ecclesiasticum: meliora sunt
+        uulnera diligentis quam fraudulenta oscula odientis.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-amic-Qd1e129" xml:id="timf-amic-Rd1e135">Augustinus in epistola ad Ieronymum.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-amic-Dd1e140">
+          <head xml:id="timf-amic-Hd1e142">b</head>
+          <p xml:id="timf-amic-d1e145">
+            <cit>
+              <quote xml:id="timf-amic-Qd1e149">Si uoluntatem Dei quisque nosse desiderat, fiat amicus Deo, quia si uoluntatem
+        hominis nosse quisque uellet cuius amicus non esset, omnes eius impudenciam deriderent.
+        Non autem quisque efficitur amicus Dei nisi purgatissimis moribus.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-amic-Qd1e149" xml:id="timf-amic-Rd1e155">Augustinus de Genesi contra Machineos libro I.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-amic-Dd1e160">
+          <head xml:id="timf-amic-Hd1e162">c</head>
+          <p xml:id="timf-amic-d1e165">
+            <cit>
+              <quote xml:id="timf-amic-Qd1e169">Esto similis medico: medicus non amat egrotantem, si non odit egritudinem; ut
+        liberet egrotum, febrem persequitur. Nolite amare uicia amicorum uestrorum, si amatis
+        amicos uestros.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-amic-Qd1e169" xml:id="timf-amic-Rd1e175">Augustinus in quodam sermone.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-amic-Dd1e180">
+          <head xml:id="timf-amic-Hd1e182">d</head>
+          <p xml:id="timf-amic-d1e185">
+            <cit>
+              <quote xml:id="timf-amic-Qd1e189">Hec est perfecta amicicia qua pocius pociora et minus minora diligimus. Sapientem
+        animam et perfectam talem diligat, qualem uidet, illam stultam non talem, sed quia esse
+        perfecta et sapiens potest, quia nec se ipsum debet quis stultum diligere. Nam qui se
+        diligit stultum, non proficiet ad sapienciam, nec fiet quisque qualis cupit esse, nisi
+        se oderit qualis est.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-amic-Qd1e189" xml:id="timf-amic-Rd1e195">Augustinus de uera religione.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-amic-Dd1e201">
+          <head xml:id="timf-amic-Hd1e203">e</head>
+          <p xml:id="timf-amic-d1e206">
+            <cit>
+              <quote xml:id="timf-amic-Qd1e210">Nullius repudienda est amicicia sese ingerentis ad amiciciam copulandam, non ut
+        statim recipiatur, sed ut recipiendus optetur atque ita tractetur ut recipi possit.
+        Illum enim in amiciciam recipere debemus cui omnia nostra consilia refundere
+        audeamus.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-amic-Qd1e210" xml:id="timf-amic-Rd1e216">Augustinus libro LXXXIII. questionum.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-amic-Dd1e221">
+          <head xml:id="timf-amic-Hd1e223">f</head>
+          <p xml:id="timf-amic-d1e226">
+            <cit>
+              <quote xml:id="timf-amic-Qd1e230">Nichil sic probat amicum quemadmodum oneris amici supportacio. Nemo nisi per
+        amiciciam cognoscitur, et ideo amicorum mala firmiter sustinemus quia bona eorum nos
+        delectant et tenent.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-amic-Qd1e230" xml:id="timf-amic-Rd1e236">Augustinus ibidem (libro LXXXIII. questionum).</ref>
+          </p>
+        </div>
+        <div xml:id="timf-amic-Dd1e241">
+          <head xml:id="timf-amic-Hd1e243">g</head>
+          <p xml:id="timf-amic-d1e246">
+            <cit>
+              <quote xml:id="timf-amic-Qd1e250" source="http://scta.info/resource/aconf-l9">Sicut amici adulantes peruertunt, sic inimici litigantes plerumque
+        corrigunt.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-amic-Qd1e250" xml:id="timf-amic-Rd1e256">Augustinus IX. confessionum.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-amic-Dd1e261">
+          <head xml:id="timf-amic-Hd1e263">h</head>
+          <p xml:id="timf-amic-d1e266">
+            <cit>
+              <quote xml:id="timf-amic-Qd1e270" source="http://scta.info/resource/aconf-l9">Non omnis qui parcit amicus est, nec omnis qui uerberat inimicus. Melius est cum
+        seueritate diligere quam cum lenitate decipere.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-amic-Qd1e270" xml:id="timf-amic-Rd1e276">Augustinus ibidem (IX. confessionum).</ref>
+          </p>
+        </div>
+        <div xml:id="timf-amic-Dd1e281">
+          <head xml:id="timf-amic-Hd1e283">i</head>
+          <p xml:id="timf-amic-d1e286">
+            <cit>
+              <quote xml:id="timf-amic-Qd1e290">Sunt quidam amici amicicia mala que nec amicicia dicenda est quia mala consciencia
+        facit. Sunt enim homines qui pariter mala committunt et ideo uidentur sibi iuncti quia
+        consciencia mala ligati sunt. Excepta ista nepharia amicicia, est quedam amicicia
+        carnalis per similitudinem habitandi, colloquendi, simul conuersandi ut tristetur unus
+        cum deseritur ab amico cum quo solet colloqui et habere coniunctionem. Conueniunt duo,
+        ambulant secum triduo, et iam nolunt a se recedere. Et ista quidem amicicia est honesta,
+        sed est consuetudinis non racionis. Habent enim illam et pecora. Duo equi manducant
+        simul; desiderant se ad aliam diem; procedit unus, festinat alter, desiderans quasi
+        amicum suum; uix regitur a possessore, et tamdiu se impetu suo prouocat, quousque ad
+        alium perueniat. Et est alia amicicia superior non consuetudinis sed racionis qua
+        diligimus hominem propter fidem et mutuam beneuolenciam in ista uita mortali. Ac
+        superius quicquid inueniemus diuinum esse, incipiat homo amare et non amabit in homine
+        nisi Deum.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-amic-Qd1e290" xml:id="timf-amic-Rd1e296">Augustinus in quodam sermone.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-amic-Dd1e301">
+          <head xml:id="timf-amic-Hd1e303">k</head>
+          <p xml:id="timf-amic-d1e306">
+            <cit>
+              <quote xml:id="timf-amic-Qd1e310">Non enim propterea debes amare amicum ut aliquid tibi prestet, ut pecuniam uel
+        aliquid commodi temporalis; non illum amas sed id quod tibi prestat. Amicus gratis
+        amandus propter se non propter aliquid. Si autem te cohortatur amicicie regula ut gratis
+        diligas, quam gratis amandus est Deus qui iubet ut hominem diligas? Nichil delectabilius
+        Deo.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-amic-Qd1e310" xml:id="timf-amic-Rd1e316">Augustinus ibidem (in quodam sermone).</ref>
+          </p>
+        </div>
+        <div xml:id="timf-amic-Dd1e322">
+          <head xml:id="timf-amic-Hd1e324">l</head>
+          <p xml:id="timf-amic-d1e327">
+            <cit>
+              <quote xml:id="timf-amic-Qd1e331">Solacium uite huius est ut habeas cui pectus tuum aperias, cui archana communices,
+        cui secreta tui pectoris committas; ut colloces tibi fidelem uirum qui in prosperis
+        gratuletur tibi, in tristibus compaciatur, in persecutionibus adhortetur. Facilis uox et
+        communis, tuus sum totus, sed paucorum est effectus.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-amic-Qd1e331" xml:id="timf-amic-Rd1e337">Ambrosius de officiis libro III.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-amic-Dd1e342">
+          <head xml:id="timf-amic-Hd1e344">m</head>
+          <p xml:id="timf-amic-d1e347">
+            <cit>
+              <quote xml:id="timf-amic-Qd1e351">Virtus est amicicia non questus quia non pecunia paritur sed gracia, nec a
+        citacione preciorum sed concertacione beniuolencie. Meliores amicicie sunt inopum
+        plerumque quam diuitum et frequenter diuites sine amicis sunt quibus habundant pauperes.
+        Non est uera amicicia ubi est fallax adulacio.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-amic-Qd1e351" xml:id="timf-amic-Rd1e357">Ambrosius ibidem (libro III.) de officiis.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-amic-Dd1e362">
+          <head xml:id="timf-amic-Hd1e364">n</head>
+          <p xml:id="timf-amic-d1e367">
+            <cit>
+              <quote xml:id="timf-amic-Qd1e371">Obiurget amicus amicum non iactancie studio sed affectu caritatis; neque monicio
+        aspera sit nec obiurgacio contumeliosa.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-amic-Qd1e371" xml:id="timf-amic-Rd1e377">Ibidem (Ambrosius libro III. de officiis).</ref>
+          </p>
+        </div>
+        <div xml:id="timf-amic-Dd1e382">
+          <head xml:id="timf-amic-Hd1e384">o</head>
+          <p xml:id="timf-amic-d1e387">
+            <cit>
+              <quote xml:id="timf-amic-Qd1e391">Si quid uicii in amico cognoueris, corripe occulte; si non audierit, corripe palam.
+        Errantem amicum corrige, incorrigentem animo deseras.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-amic-Qd1e391" xml:id="timf-amic-Rd1e397">Ambrosius ibidem (libro III.) de officiis.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-amic-Dd1e402">
+          <head xml:id="timf-amic-Hd1e404">p</head>
+          <p xml:id="timf-amic-d1e407">
+            <cit>
+              <quote xml:id="timf-amic-Qd1e411">Defer amico ut equali nec te pudeat, si preuenias amicum in officio. Amicicia enim
+        superbiam nescit. Nam sicut amoris est deferre, ita qui odit questiones mouet et qui
+        amat reuerencia defert.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-amic-Qd1e411" xml:id="timf-amic-Rd1e417">Ambrosius ibidem (libro III.) de officiis.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-amic-Dd1e422">
+          <head xml:id="timf-amic-Hd1e424">q</head>
+          <p xml:id="timf-amic-d1e427">
+            <cit>
+              <quote xml:id="timf-amic-Qd1e431">Vera illa amicicia est et Christi glutino copulata quam non utilitas rei
+        familiaris, non presencia corporum tantum, non subdola et palpans adulacio, sed Dei
+        timor et diuinarum scripturarum studia conciliant.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-amic-Qd1e431" xml:id="timf-amic-Rd1e437">Ieronymus in epistola ad Paulinum.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-amic-Dd1e443">
+          <head xml:id="timf-amic-Hd1e445">r</head>
+          <p xml:id="timf-amic-d1e448">
+            <cit>
+              <quote xml:id="timf-amic-Qd1e452">Amicicia par est aut accipit aut facit. Vbi inequalitas et alterius eminencia,
+        alterius subiectio, ibi non tam amicicia quam adulacio est. Vnde et alibi legimus: fit
+        amicus eadem anima; et lyricus pro amico peccans: serues, inquit, anime dimidium
+        mee.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-amic-Qd1e452" xml:id="timf-amic-Rd1e458">Ieronymus super Micheam prophetam.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-amic-Dd1e463">
+          <head xml:id="timf-amic-Hd1e465">s</head>
+          <p xml:id="timf-amic-d1e468">
+            <cit>
+              <quote xml:id="timf-amic-Qd1e472">Delicata est amicicia que amicorum felicitatem et diuicias sequitur.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-amic-Qd1e472" xml:id="timf-amic-Rd1e478">Ieronymus ibidem (super Micheam prophetam).</ref>
+          </p>
+        </div>
+        <div xml:id="timf-amic-Dd1e483">
+          <head xml:id="timf-amic-Hd1e485">t</head>
+          <p xml:id="timf-amic-d1e488">
+            <cit>
+              <quote xml:id="timf-amic-Qd1e492">Obsecro te ne amicum qui diu queritur, uix inuenitur, difficile seruatur, pariter
+        cum oculis mente amittas.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-amic-Qd1e492" xml:id="timf-amic-Rd1e498">Ieronymus in epistola ad Rufinum.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-amic-Dd1e503">
+          <head xml:id="timf-amic-Hd1e505">u</head>
+          <p xml:id="timf-amic-d1e508">
+            <cit>
+              <quote xml:id="timf-amic-Qd1e512">In amicis non res queritur sed uoluntas quia et alterum ab amicis sepe prebetur,
+        alterum sola caritas tribuit. Eadem uelle et eadem nolle firma amicicia est.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-amic-Qd1e512" xml:id="timf-amic-Rd1e518">Ieronymus ad Demetriadem uirginem.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-amic-Dd1e523">
+          <head xml:id="timf-amic-Hd1e525">x</head>
+          <p xml:id="timf-amic-d1e528">
+            <cit>
+              <quote xml:id="timf-amic-Qd1e532">De amicicia omnis tollenda est suspicio et sic cum amico quasi cum altero sese
+        loquendum.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-amic-Qd1e532" xml:id="timf-amic-Rd1e538">Ieronymus in epistola quadam.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-amic-Dd1e543">
+          <head xml:id="timf-amic-Hd1e545">y</head>
+          <p xml:id="timf-amic-d1e548">
+            <cit>
+              <quote xml:id="timf-amic-Qd1e552">Cum incaute malorum amiciciis iungimur, eorum culpis ligamur. Ab illo qui summe
+        rectus est, eo ipso iam discrepat quo malorum amiciciis uita nostra concordat.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-amic-Qd1e552" xml:id="timf-amic-Rd1e558">Gregorius in pastorali.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-amic-Dd1e564">
+          <head xml:id="timf-amic-Hd1e566">z</head>
+          <p xml:id="timf-amic-d1e569">
+            <cit>
+              <quote xml:id="timf-amic-Qd1e573">[abest in manuscriptis]</quote>
+              <bibl/>
+            </cit>
+          </p>
+        </div>
+        <div xml:id="timf-amic-Dd1e581">
+          <head xml:id="timf-amic-Hd1e583">ab</head>
+          <p xml:id="timf-amic-d1e586">
+            <cit>
+              <quote xml:id="timf-amic-Qd1e590">Philosophus sic inter hostes uiuendum censuit tanquam inter amicos, ac inter amicos
+        ac si in mediis hostibus uiueretur.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-amic-Qd1e590" xml:id="timf-amic-Rd1e596">Crisostomus in policraticio libro III.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-amic-Dd1e601">
+          <head xml:id="timf-amic-Hd1e603">ac</head>
+          <p xml:id="timf-amic-d1e606">
+            <cit>
+              <quote xml:id="timf-amic-Qd1e610">Vbi amicicia permanet, nil facile creditur, nil facile recipitur quod dissidium
+        possit operari. Si uero semel inimicicie occupauerint animos, omnia que sunt, que
+        dicuntur, que audiuntur, ita recipiuntur ut ad maiores proficiant inimicicias.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-amic-Qd1e610" xml:id="timf-amic-Rd1e616">Crisostomus super Mattheum.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-amic-Dd1e621">
+          <head xml:id="timf-amic-Hd1e623">ad</head>
+          <p xml:id="timf-amic-d1e626">
+            <cit>
+              <quote xml:id="timf-amic-Qd1e630">Non sunt fideles in amicicia quos munus non gracia copulat. Nam cito deserunt nisi
+        semper acceperint. Dilectio enim que munere glutinatur, eodem suspenso
+        dissoluitur.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-amic-Qd1e630" xml:id="timf-amic-Rd1e636">Ysidorus libro III. de summo bono.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-amic-Dd1e641">
+          <head xml:id="timf-amic-Hd1e643">ae</head>
+          <p xml:id="timf-amic-d1e646">
+            <cit>
+              <quote xml:id="timf-amic-Qd1e650">Non nunquam accidit ut inter amicos aliqua redargucionis enutrita discordia maiorem
+        postea caritatem parturiat, ut pote cum corriguntur ea que displicere in amico
+        uidentur.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-amic-Qd1e650" xml:id="timf-amic-Rd1e656">Ysidorus libro III. de summo bono.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-amic-Dd1e661">
+          <head xml:id="timf-amic-Hd1e663">af</head>
+          <p xml:id="timf-amic-d1e666">
+            <cit>
+              <quote xml:id="timf-amic-Qd1e670">Amicicia et prosperas res dulciores facit, et aduersas communione temperat, et
+        leuiores reddit quia dum in tribulacione amici consolacio adiungitur, nec animus
+        frangitur et minus eadem patitur.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-amic-Qd1e670" xml:id="timf-amic-Rd1e676">Ysidorus III. libro de summo bono.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-amic-Dd1e682">
+          <head xml:id="timf-amic-Hd1e684">ag</head>
+          <p xml:id="timf-amic-d1e687">
+            <cit>
+              <quote xml:id="timf-amic-Qd1e691">In prosperitate incerta est amicicia. Nescitur enim utrum persona an felicitas
+        diligatur. Sepe enim per simulacionem amicicia colitur ut qui non potuit aperte
+        decipere, fraudulenter decipiat.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-amic-Qd1e691" xml:id="timf-amic-Rd1e697">Ysidorus ibidem (III. libro de summo bono).</ref>
+          </p>
+        </div>
+        <div xml:id="timf-amic-Dd1e702">
+          <head xml:id="timf-amic-Hd1e704">ah</head>
+          <p xml:id="timf-amic-d1e707">
+            <cit>
+              <quote xml:id="timf-amic-Qd1e711">Sepe per honorem quorundam mutantur et mores, et quos ante conglutinatos caritate
+        habuerunt, postquam ad culmen honoris ueniunt, amicos habere despiciunt.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-amic-Qd1e711" xml:id="timf-amic-Rd1e717">Ysidorus ibidem (III. libro de summo bono).</ref>
+          </p>
+        </div>
+        <div xml:id="timf-amic-Dd1e722">
+          <head xml:id="timf-amic-Hd1e724">ai</head>
+          <p xml:id="timf-amic-d1e727">
+            <cit>
+              <quote xml:id="timf-amic-Qd1e731">Necessitas amicum probat, et intime caritatis ardorem splendor exhibite
+        subuencionis elucidat.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-amic-Qd1e731" xml:id="timf-amic-Rd1e737">Cassiodorus in quadam epistola.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-amic-Dd1e742">
+          <head xml:id="timf-amic-Hd1e744">ak</head>
+          <p xml:id="timf-amic-d1e747">
+            <cit>
+              <quote xml:id="timf-amic-Qd1e751">Noue dignitates ueteres solent amicicias immutare. Creat enim cor nouum et nouos
+        affectus noue dignitatis consciencia. Diuites facti paupertatis amicos cum paupertate
+        fastidiunt ne quid penes eos de ueteri uideatur inopia residisse. Semper enim apud
+        indignos mores crescit cum potestate supercilium.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-amic-Qd1e751" xml:id="timf-amic-Rd1e757">Cassiodorus in epistola quadam.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-amic-Dd1e762">
+          <head xml:id="timf-amic-Hd1e764">al</head>
+          <p xml:id="timf-amic-d1e767">
+            <cit>
+              <quote xml:id="timf-amic-Qd1e771">Qui uere amicus est omni tempore diligit. Nam tormentum non separat, labor non
+        lassat, thesaurus non superat, alienus amor non occupat.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-amic-Qd1e771" xml:id="timf-amic-Rd1e777">Cassiodorus in quadam epistola.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-amic-Dd1e782">
+          <head xml:id="timf-amic-Hd1e784">am</head>
+          <p xml:id="timf-amic-d1e787">
+            <cit>
+              <quote xml:id="timf-amic-Qd1e791">Amicicia tanto certior quanto uetustior, quia facile mutari non potest quod per
+        longa secula custoditur.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-amic-Qd1e791" xml:id="timf-amic-Rd1e797">Cassiodorus in epistola.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-amic-Dd1e803">
+          <head xml:id="timf-amic-Hd1e805">an</head>
+          <p xml:id="timf-amic-d1e808">
+            <cit>
+              <quote xml:id="timf-amic-Qd1e812">Iustum est enim ut qui amicus erat in prosperis, amicicias profiteatur in
+        aduersis.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-amic-Qd1e812" xml:id="timf-amic-Rd1e818">Cassiodorus in epistola quadam.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-amic-Dd1e823">
+          <head xml:id="timf-amic-Hd1e825">ao</head>
+          <p xml:id="timf-amic-d1e828">
+            <cit>
+              <quote xml:id="timf-amic-Qd1e832">Sine amicis omnis cogitacio esset tedium, omnis operacio labor, omnis terra
+        peregrinacio, omnis uita tormentum, sine quorum solacio uiuere esset mori.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-amic-Qd1e832" xml:id="timf-amic-Rd1e838">Ibidem (Cassiodorus in epistola quadam).</ref>
+          </p>
+        </div>
+        <div xml:id="timf-amic-Dd1e843">
+          <head xml:id="timf-amic-Hd1e845">ap</head>
+          <p xml:id="timf-amic-d1e848">
+            <cit>
+              <quote xml:id="timf-amic-Qd1e852">Amicus est qui nobis usu uite similis pio ac fideli amore coniungitur.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-amic-Qd1e852" xml:id="timf-amic-Rd1e858">Cassiodorus super Psalmos.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-amic-Dd1e863">
+          <head xml:id="timf-amic-Hd1e865">aq</head>
+          <p xml:id="timf-amic-d1e868">
+            <cit>
+              <quote xml:id="timf-amic-Qd1e872">Cara est uxor, dulces liberi, iocundi amici, accepti affines, sed postea cognitis
+        nulla beniuolencia accedere debet que priorem exhauriat.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-amic-Qd1e872" xml:id="timf-amic-Rd1e878">Valerius libro V.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-amic-Dd1e883">
+          <head xml:id="timf-amic-Hd1e885">ar</head>
+          <p xml:id="timf-amic-d1e888">
+            <cit>
+              <quote xml:id="timf-amic-Qd1e892">Byas ita aiebat homines in usu amicicie uersari ut meminissent eam ad grauissimas
+        inimicitias posse conuerti. Quod quidem dictum prima specie nimis fortasse callidum
+        uidetur inimicumque simplicitati qua precipue familiaritas gaudet, sed si altioribus
+        animis cogitacio demissa fuerit, perquam utile reperietur.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-amic-Qd1e892" xml:id="timf-amic-Rd1e898">Valerius Maximus libro VII.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-amic-Dd1e903">
+          <head xml:id="timf-amic-Hd1e905">as (1)</head>
+          <p xml:id="timf-amic-d1e908">
+            <cit>
+              <quote xml:id="timf-amic-Qd1e912">Amicicia est diuinarum humanarumque rerum summa cum beniuolencia consensio.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-amic-Qd1e912" xml:id="timf-amic-Rd1e918">Tullius de amicicia.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-amic-Dd1e924">
+          <head xml:id="timf-amic-Hd1e926">as (2)</head>
+          <p xml:id="timf-amic-d1e929">
+            <cit>
+              <quote xml:id="timf-amic-Qd1e933">Itaque ciues pociores quam peregrini, propinqui quam alieni. Cum hiis enim
+        amiciciam natura ipsa peperit sed ea non satis habet firmitatis. Nam in hoc prestat
+        amicicia propinquitati quod ex propinquitate beniuolencia tolli potest, ex amicicia non
+        potest. Sublata enim beniuolencia amicicie nomen tollitur sed propinquitas
+        manet.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-amic-Qd1e933" xml:id="timf-amic-Rd1e939">Tullius de amicicia.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-amic-Dd1e944">
+          <head xml:id="timf-amic-Hd1e946">at</head>
+          <p xml:id="timf-amic-d1e949">
+            <cit>
+              <quote xml:id="timf-amic-Qd1e953">Excepta sapiencia nichil melius datum est homini a diis inmortalibus amicicia. Quid
+        enim dulcius quam habere cum quo omnia audeas sic loqui ut tecum? Quis esset tantus
+        fructus in prosperis rebus nisi haberes amicum qui illis eque ac tu ipse gauderet?
+        Aduersas eciam ferre difficile esset sine eo qui illas grauius eciam quam tu
+        ferret.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-amic-Qd1e953" xml:id="timf-amic-Rd1e959">Tullius ibidem (de amicicia).</ref>
+          </p>
+        </div>
+        <div xml:id="timf-amic-Dd1e964">
+          <head xml:id="timf-amic-Hd1e966">au</head>
+          <p xml:id="timf-amic-d1e969">
+            <cit>
+              <quote xml:id="timf-amic-Qd1e973">Amicicia res plurimas continet; quocumque te uerteris, presto est; nullo loco
+        excluditur; nunquam intempestiua, nunquam molesta est. Itaque non aqua, non igne, locis
+        pluribus indigemus quam amicicia. Nam et secundas res spendidiores facit et aduersas
+        parciens communicansque leuiores.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-amic-Qd1e973" xml:id="timf-amic-Rd1e979">Tullius ibidem (de amicicia).</ref>
+          </p>
+        </div>
+        <div xml:id="timf-amic-Dd1e984">
+          <head xml:id="timf-amic-Hd1e986">ax</head>
+          <p xml:id="timf-amic-d1e989">
+            <cit>
+              <quote xml:id="timf-amic-Qd1e993">Amicicia absentes adsunt, egentes habundant, imbecilli ualent et, quod difficilius
+        dictu est, mortui uiuunt.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-amic-Qd1e993" xml:id="timf-amic-Rd1e999">Tullius ibidem (de amicicia).</ref>
+          </p>
+        </div>
+        <div xml:id="timf-amic-Dd1e1004">
+          <head xml:id="timf-amic-Hd1e1006">ay</head>
+          <p xml:id="timf-amic-d1e1009">
+            <cit>
+              <quote xml:id="timf-amic-Qd1e1013">Si ex rerum natura amicicie coniunctionem demeris, nec domus ulla, nec urbs stare
+        poterit, nec agricultura permanebit. Quanta eciam uis eius sit ex dissencionibus atque
+        discordiis percipi potest. Que enim domus tam stabilis, que tam firma est ciuitas, que
+        non discidiis funditus possit euerti?</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-amic-Qd1e1013" xml:id="timf-amic-Rd1e1019">Tullius ibidem (de amicicia).</ref>
+          </p>
+        </div>
+        <div xml:id="timf-amic-Dd1e1024">
+          <head xml:id="timf-amic-Hd1e1026">az</head>
+          <p xml:id="timf-amic-d1e1029">
+            <cit>
+              <quote xml:id="timf-amic-Qd1e1033">[abest in manuscriptis]</quote>
+              <bibl/>
+            </cit>
+          </p>
+        </div>
+        <div xml:id="timf-amic-Dd1e1042">
+          <head xml:id="timf-amic-Hd1e1044">ba</head>
+          <p xml:id="timf-amic-d1e1047">
+            <cit>
+              <quote xml:id="timf-amic-Qd1e1051">Si utilitas amicicias conglutinaret, eadem commutata dissolueret; sed quia natura
+        mutari non potest, idcirco uere amicicie sempiterne sunt.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-amic-Qd1e1051" xml:id="timf-amic-Rd1e1057">Tullius de amicicia.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-amic-Dd1e1062">
+          <head xml:id="timf-amic-Hd1e1064">bc</head>
+          <p xml:id="timf-amic-d1e1067">
+            <cit>
+              <quote xml:id="timf-amic-Qd1e1071">Nulla est excusacio peccati si amici causa peccaueris. Nam cum consiliatrix
+        amicicie uirtutis opinio fuerit, difficile est amiciciam manere si a uirtute
+        defeceris.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-amic-Qd1e1071" xml:id="timf-amic-Rd1e1077">Tullius ibidem (de amicicia).</ref>
+          </p>
+        </div>
+        <div xml:id="timf-amic-Dd1e1082">
+          <head xml:id="timf-amic-Hd1e1084">bd</head>
+          <p xml:id="timf-amic-d1e1087">
+            <cit>
+              <quote xml:id="timf-amic-Qd1e1091">Hec enim lex in amicicia sanctiatur ut neque rogemus res turpes, neque rogati
+        faciamus. Turpis enim excusacio hec est et minime accipienda tum in ceteris rebus, tum
+        siquis contra rem publicam se amici causa fecisse fateatur.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-amic-Qd1e1091" xml:id="timf-amic-Rd1e1097">Tullius ibidem (de amicicia).</ref>
+          </p>
+        </div>
+        <div xml:id="timf-amic-Dd1e1102">
+          <head xml:id="timf-amic-Hd1e1104">be</head>
+          <p xml:id="timf-amic-d1e1107">
+            <cit>
+              <quote xml:id="timf-amic-Qd1e1111">Precipiendum est igitur bonis ut si in huiuscemodi amicicias ignari casu aliquo
+        inciderint, ne existiment se ita alligatos ut ab amicis in rem publicam peccantibus non
+        discedant.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-amic-Qd1e1111" xml:id="timf-amic-Rd1e1117">Ibidem (Tullius de amicicia).</ref>
+          </p>
+        </div>
+        <div xml:id="timf-amic-Dd1e1122">
+          <head xml:id="timf-amic-Hd1e1124">bf</head>
+          <p xml:id="timf-amic-d1e1127">
+            <cit>
+              <quote xml:id="timf-amic-Qd1e1131">Quis est qui uelit omnibus opibus circumfluere atque in omnium rerum habundancia
+        uiuere ut neque diligat quemquam, neque ab ullo diligatur? Hec enim erit tyrannorum uita
+        nimirum in qua nulla fides, nulla caritas, nulla stabilis beniuolencie potest esse
+        fiducia. Solem igitur a mundo tollere uidentur qui amiciciam a uita tollunt.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-amic-Qd1e1131" xml:id="timf-amic-Rd1e1137">Ibidem (Tullius de amicicia).</ref>
+          </p>
+        </div>
+        <div xml:id="timf-amic-Dd1e1142">
+          <head xml:id="timf-amic-Hd1e1144">bg</head>
+          <p xml:id="timf-amic-d1e1147">
+            <cit>
+              <quote xml:id="timf-amic-Qd1e1151">Sunt igitur firmi et stabiles et constantes eligendi cuius generis est magna
+        penuria, et iudicare difficile est nisi sit expertum. Ideo uerum est illud quod dicitur:
+        modios multos salis simul edendos esse ut amicicie munus expletum sit.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-amic-Qd1e1151" xml:id="timf-amic-Rd1e1157">Tullius ibidem de amicicia.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-amic-Dd1e1163">
+          <head xml:id="timf-amic-Hd1e1165">bh</head>
+          <p xml:id="timf-amic-d1e1168">
+            <cit>
+              <quote xml:id="timf-amic-Qd1e1172">Verus amicus nunquam reperietur. Est enim is qui est tanquam alter idem. Sed
+        plerique peruerse, nec dicam impudenter, habere talem amicum uolunt quales ipsi esse non
+        possunt; et que ipsi non tribuunt amicis, hec ab eis desiderant.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-amic-Qd1e1172" xml:id="timf-amic-Rd1e1178">Ibidem (Tullius de amicicia).</ref>
+          </p>
+        </div>
+        <div xml:id="timf-amic-Dd1e1183">
+          <head xml:id="timf-amic-Hd1e1185">bi</head>
+          <p xml:id="timf-amic-d1e1188">
+            <cit>
+              <quote xml:id="timf-amic-Qd1e1192">Multi diuicias despiciunt quos paruo contentos tenuis uictus cultusque delectat.
+        Honores uero quorum cupiditate quidam inflammantur quam multi ita contempnunt ut nichil
+        inanius, nichil esse leuius existiment. Itaque cetera que quibusdam admirabilia uidentur
+        permulti sunt qui pro nichilo putent. De amicicia omnes ad unum idem senciunt, et hii
+        qui se ad rem publicam contulerunt, et hii qui rerum cognicione doctrinaque delectantur,
+        et hii qui suum negocium gerunt ociosi, postremo hii qui se totos tradiderunt
+        uoluptatibus sine amicicia uitam esse nullam senciunt.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-amic-Qd1e1192" xml:id="timf-amic-Rd1e1198">Tullius ibidem de amicicia.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-amic-Dd1e1203">
+          <head xml:id="timf-amic-Hd1e1205">bk</head>
+          <p xml:id="timf-amic-d1e1208">
+            <cit>
+              <quote xml:id="timf-amic-Qd1e1212">Cuius aures ueritati clause sunt ut ab amico uerum audire nequeat huius salus
+        desperanda est. Scitum est enim illud prouerbium Catonis: multo melius de quibusdam
+        acerbos inimicos mereri quam eos inimicos qui dulces uidentur; illos sepe uerum dicere,
+        hos uero nunquam.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-amic-Qd1e1212" xml:id="timf-amic-Rd1e1218">Tullius ibidem (de amicicia).</ref>
+          </p>
+        </div>
+        <div xml:id="timf-amic-Dd1e1223">
+          <head xml:id="timf-amic-Hd1e1225">bl</head>
+          <p xml:id="timf-amic-d1e1228">
+            <cit>
+              <quote xml:id="timf-amic-Qd1e1232">Nulla est hec amicicia cum alter uerum audire non uult, alter ad menciendum paratus
+        est.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-amic-Qd1e1232" xml:id="timf-amic-Rd1e1238">Tullius ibidem (de amicicia).</ref>
+          </p>
+        </div>
+        <div xml:id="timf-amic-Dd1e1243">
+          <head xml:id="timf-amic-Hd1e1245">bm</head>
+          <p xml:id="timf-amic-d1e1248">
+            <cit>
+              <quote xml:id="timf-amic-Qd1e1252">Qui fortunis alicuius inducti amiciciam eius secuti sunt, hii simul ac fortuna, si
+        delapsa est, deuolant omnes. Cum enim recessit ea res que fuit consuetudinis causa,
+        nichil superest quare possit in amicicia teneri.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-amic-Qd1e1252" xml:id="timf-amic-Rd1e1258">Tullius II. rethorica.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-amic-Dd1e1263">
+          <head xml:id="timf-amic-Hd1e1265">bn</head>
+          <p xml:id="timf-amic-d1e1268">
+            <cit>
+              <quote xml:id="timf-amic-Qd1e1272">Nam quem in amicicia perfidiosum cognoueris esse, eum nunquam potes inter
+        inimicicias confidum posse habere.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-amic-Qd1e1272" xml:id="timf-amic-Rd1e1278">Tullius II. rethorica.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-amic-Dd1e1284">
+          <head xml:id="timf-amic-Hd1e1286">bo</head>
+          <p xml:id="timf-amic-d1e1289">
+            <cit>
+              <quote xml:id="timf-amic-Qd1e1293">Preclare scriptum est a Platone: non solum nobis nati sumus ortusque nostri partem
+        patria uendicat, partem amici; atque, ut placet Stoicis, que in terris gignuntur ad usum
+        hominum omnia creari, homines autem hominum causa esse generatos ut ipsi inter se alii
+        aliis prodesse possent.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-amic-Qd1e1293" xml:id="timf-amic-Rd1e1299">Tullius I. de officiis.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-amic-Dd1e1304">
+          <head xml:id="timf-amic-Hd1e1306">bp</head>
+          <p xml:id="timf-amic-d1e1309">
+            <cit>
+              <quote xml:id="timf-amic-Qd1e1313">Sunt qui effusius merent quia uerentur ne dubium sit an amauerint. Sera indicia sui
+        affectus querunt. Si habemus alios amicos, male de hiis et meremur et existimamus quia
+        parum ualent in unius elati solacium; si non habemus, maiorem iniuriam ipsi nobis
+        fecimus quam a fortuna accepimus. Illum unum abstulit nos quemque non fecimus. Deinde ne
+        unum quidem nimis amauit qui plusquam unum amare non potuit.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-amic-Qd1e1313" xml:id="timf-amic-Rd1e1319">Seneca LXIII. epistola ad Lucillum.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-amic-Dd1e1324">
+          <head xml:id="timf-amic-Hd1e1326">bq</head>
+          <p xml:id="timf-amic-d1e1329">
+            <cit>
+              <quote xml:id="timf-amic-Qd1e1333">Post amiciciam credendum est, ante iudicandum. Illi uero prepostere officia
+        permiscent qui cum amauerint iudicant, et non amant cum iudicauerint. Diu cogita an tibi
+        in amiciciam aliquis recipiendus sit. Cum placuerit fieri, toto illum pectore admitte;
+        tam audacter cum illo loquere quam tecum. Cum amico omnes curas, omnes cogitaciones tuas
+        misce; fidelem si putaueris facies.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-amic-Qd1e1333" xml:id="timf-amic-Rd1e1339">Seneca III. epistola.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-amic-Dd1e1344">
+          <head xml:id="timf-amic-Hd1e1346">br</head>
+          <p xml:id="timf-amic-d1e1349">
+            <cit>
+              <quote xml:id="timf-amic-Qd1e1353">Vera amicicia est quam non spes, non timor, non utilitatis sue cura auellit. Multos
+        tibi dabo qui non amicis sed amicicia caruerunt; hoc non potest accidere cum animos in
+        societatem honesta cupiendi par uoluntas trahit. Sciunt enim ipsos omnia habere communia
+        et quidem magis aduersa.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-amic-Qd1e1353" xml:id="timf-amic-Rd1e1359">Seneca ibidem (III. epistola).</ref>
+          </p>
+        </div>
+        <div xml:id="timf-amic-Dd1e1364">
+          <head xml:id="timf-amic-Hd1e1366">bs</head>
+          <p xml:id="timf-amic-d1e1369">
+            <cit>
+              <quote xml:id="timf-amic-Qd1e1373">Monstrabo tibi amatorium sine medicamento, sine herba, sine ullius uenifice
+        carmine; si uis amari, ama. Iocundius est amicum facere quam habere; quomodo artifici
+        iocundius est pingere quam pinxisse.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-amic-Qd1e1373" xml:id="timf-amic-Rd1e1379">Seneca epistola VI.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-amic-Dd1e1384">
+          <head xml:id="timf-amic-Hd1e1386">bt</head>
+          <p xml:id="timf-amic-d1e1389">
+            <cit>
+              <quote xml:id="timf-amic-Qd1e1393">Qui amicus est amat; qui amat non utique amicus est. Amicicia semper prodest; amor
+        aliquando nocet. Non est quod amicum tantum uel in foro uel in curia queras; si
+        diligenter attenderis, et domi inuenies. Errat enim qui amicum in atrio querit et in
+        conuiuio probat; in pectore enim amicus non in atrio inuenitur.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-amic-Qd1e1393" xml:id="timf-amic-Rd1e1399">Seneca XXIX. epistola.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-amic-Dd1e1405">
+          <head xml:id="timf-amic-Hd1e1407">bu</head>
+          <p xml:id="timf-amic-d1e1410">
+            <cit>
+              <quote xml:id="timf-amic-Qd1e1414">Non sum amicus nisi quicquid agitur ad te pertinens meum sit. Consorcium omnium
+        rerum inter nos facit amicicia; nec secundi quicquam singulis, nec aduersi in commune
+        uiuitur. Conuersari cum amicis absentibus licet, et quidem quociens uelis, quamdiu
+        uelis. Amicus animo possidendus est.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-amic-Qd1e1414" xml:id="timf-amic-Rd1e1420">Seneca XLVIII. epistola.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-amic-Dd1e1425">
+          <head xml:id="timf-amic-Hd1e1427">bx</head>
+          <p xml:id="timf-amic-d1e1430">
+            <cit>
+              <quote xml:id="timf-amic-Qd1e1434">Non potest quisquam bene degere qui se tantum intuetur. Alteri uiuas oportet si uis
+        tibi uiuere. Hec societas diligenter et sancte obseruata que nos homines hominibus
+        miscet et iudicat aliquod esse commune ius generis humani.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-amic-Qd1e1434" xml:id="timf-amic-Rd1e1440">Seneca ibidem XLVIII. epistola.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-amic-Dd1e1445">
+          <head xml:id="timf-amic-Hd1e1447">by</head>
+          <p xml:id="timf-amic-d1e1450">
+            <cit>
+              <quote xml:id="timf-amic-Qd1e1454">Nil eque egrum reficit sicut amicorum affectus; non iudico me mori cum illos
+        superstites reliquero. Puto, inquam, me uicturum non cum illis, sed per illos.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-amic-Qd1e1454" xml:id="timf-amic-Rd1e1460">Seneca LXXIX. epistola.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-amic-Dd1e1465">
+          <head xml:id="timf-amic-Hd1e1467">bz</head>
+          <p xml:id="timf-amic-d1e1470">
+            <cit>
+              <quote xml:id="timf-amic-Qd1e1474">[abest in manuscriptis]</quote>
+              <bibl/>
+            </cit>
+          </p>
+        </div>
+        <div xml:id="timf-amic-Dd1e1482">
+          <head xml:id="timf-amic-Hd1e1484">ca</head>
+          <p xml:id="timf-amic-d1e1487">
+            <cit>
+              <quote xml:id="timf-amic-Qd1e1491">Dissimilitudo morum, distancia uite et ingenia contraria soluunt amiciciam.
+        Amicicias probatas enixe expete, constanter retine, perhenniter serua. Inimicitias
+        indictas exerce honeste, tarde crede, celeriter depone.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-amic-Qd1e1491" xml:id="timf-amic-Rd1e1497">Seneca in extrema parte epistolarum.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-amic-Dd1e1502">
+          <head xml:id="timf-amic-Hd1e1504">cb</head>
+          <p xml:id="timf-amic-d1e1507">
+            <cit>
+              <quote xml:id="timf-amic-Qd1e1511">Omnes amicos habere operosum est; satis est inimicos non habere.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-amic-Qd1e1511" xml:id="timf-amic-Rd1e1517">Seneca ibidem (in extrema parte epistolarum).</ref>
+          </p>
+        </div>
+        <div xml:id="timf-amic-Dd1e1523">
+          <head xml:id="timf-amic-Hd1e1525">cd</head>
+          <p xml:id="timf-amic-d1e1528">
+            <cit>
+              <quote xml:id="timf-amic-Qd1e1532">Nunquid amici noui anteponendi sunt ueteribus ut equis uetulis teneros anteponere
+        solemus? Hec indigna homini dubitacio est; uetustissima quoque debent esse suauissima in
+        amicicia.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-amic-Qd1e1532" xml:id="timf-amic-Rd1e1538">Seneca ibidem (in extrema parte epistolarum) et Tullius.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-amic-Dd1e1543">
+          <head xml:id="timf-amic-Hd1e1545">ce</head>
+          <p xml:id="timf-amic-d1e1548">
+            <cit>
+              <quote xml:id="timf-amic-Qd1e1552">Nullum habet maius malum occupatus homo et bonis suis obsessus quam quod amicos
+        sibi putat quibus non est, et quod beneficia sua efficacia iudicat ad faciendum amicos
+        cum quidam quo plus debent magis oderunt.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-amic-Qd1e1552" xml:id="timf-amic-Rd1e1558">Seneca ibidem (in extrema parte epistolarum).</ref>
+          </p>
+        </div>
+        <div xml:id="timf-amic-Dd1e1563">
+          <head xml:id="timf-amic-Hd1e1565">cf</head>
+          <p xml:id="timf-amic-d1e1568">
+            <cit>
+              <quote xml:id="timf-amic-Qd1e1572">Qui se spectat et propter hoc ad amiciciam uenit, male cogitat. Quemadmodum cepit,
+        sic desinet. Necesse est ut inicia inter se et exitus congruant. Qui enim utilitatis
+        causa assumptus est, tamdiu placebit, quamdiu utilis fuerit. Hac re florentes amicorum
+        turba circumsedit, circa euersos solitudo est, et inde amici fugiunt ubi
+        probantur.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-amic-Qd1e1572" xml:id="timf-amic-Rd1e1578">Seneca IX. epistola ad Lucillum.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-amic-Dd1e1583">
+          <head xml:id="timf-amic-Hd1e1585">cg</head>
+          <p xml:id="timf-amic-d1e1588">
+            <cit>
+              <quote xml:id="timf-amic-Qd1e1592">Negociatio est non amicicia que ad commodum accedit. Detrahit enim amicicie qui
+        illam parat ad bonos casus.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-amic-Qd1e1592" xml:id="timf-amic-Rd1e1598">Seneca ibidem (IX. epistola ad Lucillum).</ref>
+          </p>
+        </div>
+        <div xml:id="timf-amic-Dd1e1603">
+          <head xml:id="timf-amic-Hd1e1605">ch</head>
+          <p xml:id="timf-amic-d1e1608">
+            <cit>
+              <quote xml:id="timf-amic-Qd1e1612">Si aliquem amicum existimes cui non tantum credis quantum tibi, uehementer erras et
+        non satis nosti uim uere amicicie.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-amic-Qd1e1612" xml:id="timf-amic-Rd1e1618">Seneca epistola III.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-amic-Dd1e1623">
+          <head xml:id="timf-amic-Hd1e1625">ci</head>
+          <p xml:id="timf-amic-d1e1628">
+            <cit>
+              <quote xml:id="timf-amic-Qd1e1632">Falsi amici pro consilio adulacionem afferunt et una est eorum contentio quis
+        blandissime fallat.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-amic-Qd1e1632" xml:id="timf-amic-Rd1e1638">Seneca in extrema parte epistolarum.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-amic-Dd1e1644">
+          <head xml:id="timf-amic-Hd1e1646">ck</head>
+          <p xml:id="timf-amic-d1e1649">
+            <cit>
+              <quote xml:id="timf-amic-Qd1e1653">Cum amicis breues raciones, longas amicicias oportet habere. Principium amicicie
+        bene loqui, grande exordium inimicitiarum maledicere. Amicum prosperitas inuenit sed
+        aduersitas probat.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-amic-Qd1e1653" xml:id="timf-amic-Rd1e1659">Seneca ibidem (in extrema parte epistolarum).</ref>
+          </p>
+        </div>
+        <div xml:id="timf-amic-Dd1e1664">
+          <head xml:id="timf-amic-Hd1e1666">cl</head>
+          <p xml:id="timf-amic-d1e1669">
+            <cit>
+              <quote xml:id="timf-amic-Qd1e1673">Amicos in secreto mone, palam autem lauda. Vires tuas amici magis sentiant
+        beneficiis quam iniuriis.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-amic-Qd1e1673" xml:id="timf-amic-Rd1e1679">Seneca de moribus.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-amic-Dd1e1684">
+          <head xml:id="timf-amic-Hd1e1686">cm</head>
+          <p xml:id="timf-amic-d1e1689">
+            <cit>
+              <quote xml:id="timf-amic-Qd1e1693">Amici uicia si feras, facis tua. Ita amicum habeas ut inimicum putes. Ita crede
+        amico ne sit inimico locus.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-amic-Qd1e1693" xml:id="timf-amic-Rd1e1699">Seneca in prouerbiis.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-amic-Dd1e1704">
+          <head xml:id="timf-amic-Hd1e1706">cn</head>
+          <p xml:id="timf-amic-d1e1709">
+            <cit>
+              <quote xml:id="timf-amic-Qd1e1713">Nulla pusilla domus que multos recipit amicos. Talem diligenciam exhibe in amicis
+        comparandis ne incipias amare quem deinceps possis odire.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-amic-Qd1e1713" xml:id="timf-amic-Rd1e1719">Seneca ibidem (in prouerbiis).</ref>
+          </p>
+        </div>
+        <div xml:id="timf-amic-Dd1e1724">
+          <head xml:id="timf-amic-Hd1e1726">co</head>
+          <p xml:id="timf-amic-d1e1729">
+            <cit>
+              <quote xml:id="timf-amic-Qd1e1733">Quanti tales amicos habere uoluerunt et ipsi tales esse non possunt. Tu primum
+        exhibe te bonum et sic quere alterum similem tui.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-amic-Qd1e1733" xml:id="timf-amic-Rd1e1739">Seneca ibidem (in prouerbiis).</ref>
+          </p>
+        </div>
+        <div xml:id="timf-amic-Dd1e1744">
+          <head xml:id="timf-amic-Hd1e1746">cp</head>
+          <p xml:id="timf-amic-d1e1749">
+            <cit>
+              <quote xml:id="timf-amic-Qd1e1753">Amico mutuam roganti me pecuniam si dedero, et amicum et pecuniam perdo.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-amic-Qd1e1753" xml:id="timf-amic-Rd1e1759">In prouerbiis philosophorum.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-amic-Dd1e1765">
+          <head xml:id="timf-amic-Hd1e1767">cq</head>
+          <p xml:id="timf-amic-d1e1770">
+            <cit>
+              <quote xml:id="timf-amic-Qd1e1774">Coagulum amicicie est cum bonis conuiuium.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-amic-Qd1e1774" xml:id="timf-amic-Rd1e1780">Solon ibidem (in prouerbiis philosophorum).</ref>
+          </p>
+        </div>
+        <div xml:id="timf-amic-Dd1e1785">
+          <head xml:id="timf-amic-Hd1e1787">cr</head>
+          <p xml:id="timf-amic-d1e1790">
+            <cit>
+              <quote xml:id="timf-amic-Qd1e1794">Expedit iam probatos amicos amare, non amatos probare.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-amic-Qd1e1794" xml:id="timf-amic-Rd1e1800">Theofrastus ibidem (in prouerbiis philosophorum).</ref>
+          </p>
+        </div>
+        <div xml:id="timf-amic-Dd1e1805">
+          <head xml:id="timf-amic-Hd1e1807">cs</head>
+          <p xml:id="timf-amic-d1e1810">
+            <cit>
+              <quote xml:id="timf-amic-Qd1e1814">Non opto ut eos qui diuites sunt amicos habeam. Amicus raro acquiritur, cito
+        amittitur.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-amic-Qd1e1814" xml:id="timf-amic-Rd1e1820">Ibidem (Theofrastus in prouerbiis philosophorum).</ref>
+          </p>
+        </div>
+        <div xml:id="timf-amic-Dd1e1825">
+          <head xml:id="timf-amic-Hd1e1827">ct</head>
+          <p xml:id="timf-amic-d1e1830">
+            <cit>
+              <quote xml:id="timf-amic-Qd1e1834">Ad emendationem sui unusquisque nostrum debet habere aut ualde amicum aut ualde
+        inimicum.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-amic-Qd1e1834" xml:id="timf-amic-Rd1e1840">Dyogenes ibidem (in prouerbiis philosophorum).</ref>
+          </p>
+        </div>
+        <div xml:id="timf-amic-Dd1e1845">
+          <head xml:id="timf-amic-Hd1e1847">cu</head>
+          <p xml:id="timf-amic-d1e1850">
+            <cit>
+              <quote xml:id="timf-amic-Qd1e1854">Diu deliberatos amicos elige, electi infideles esse poterunt. Iudica eosque uno
+        affectu non uno habeas merito. Amicos sequere quos non pudeat elegisse. Amici uitam tuam
+        imputa gloriam.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-amic-Qd1e1854" xml:id="timf-amic-Rd1e1860">Ibidem (Dyogenes in prouerbiis philosophorum).</ref>
+          </p>
+        </div>
+        <div xml:id="timf-amic-Dd1e1865">
+          <head xml:id="timf-amic-Hd1e1867">cx</head>
+          <p xml:id="timf-amic-d1e1870">
+            <cit>
+              <quote xml:id="timf-amic-Qd1e1874">Theofrasto cum quidam diceret ille illius amicus est, cur ergo, inquit, illo diuite
+        pauper est? Amicus non est qui fortune particeps non est.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-amic-Qd1e1874" xml:id="timf-amic-Rd1e1880">Ibidem (Dyogenes in prouerbiis philosophorum).</ref>
+          </p>
+        </div>
+        <div xml:id="timf-amic-Dd1e1886">
+          <head xml:id="timf-amic-Hd1e1888">cy</head>
+          <p xml:id="timf-amic-d1e1891">
+            <cit>
+              <quote xml:id="timf-amic-Qd1e1895">Amicum blandum caue cui amarum est semper quod fuerit dulce. Fortunato amico
+        uocatus, infortunato inuocatus presto sis. Bonus amicus lesus grauiter
+        irascitur.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-amic-Qd1e1895" xml:id="timf-amic-Rd1e1901">Theofrastus.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-amic-Dd1e1906">
+          <head xml:id="timf-amic-Hd1e1908">cz</head>
+          <p xml:id="timf-amic-d1e1911">
+            <cit>
+              <quote xml:id="timf-amic-Qd1e1915">[abest in manuscriptis]</quote>
+              <bibl/>
+            </cit>
+          </p>
+        </div>
+        <div xml:id="timf-amic-Dd1e1923">
+          <head xml:id="timf-amic-Hd1e1925">da</head>
+          <p xml:id="timf-amic-d1e1928">
+            <cit>
+              <quote xml:id="timf-amic-Qd1e1932">Optima medicina homini est homo qui eius remediatur aduersis, qui eius condescendat
+        incommodis, qui grauia leuigat, qui amici onera quasi iuncto humero simul portat. Nec
+        enim uerus amicus inpaciencius propriam iniuriam sustinet quam amici.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-amic-Qd1e1932" xml:id="timf-amic-Rd1e1938">Petrus Blesensis in libello de amicicia.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-amic-Dd1e1943">
+          <head xml:id="timf-amic-Hd1e1945">db</head>
+          <p xml:id="timf-amic-d1e1948">
+            <cit>
+              <quote xml:id="timf-amic-Qd1e1952">Amicicia est diuitibus pro gloria, pauperibus pro censu, exulibus pro patria,
+        imbecillibus pro uirtute, pro medicina egrotis, pro uita mortuis. Est enim eius
+        suauissimus fomes, sinceritas affectionum, mutua obsequia, rerum honestarum crebra
+        collacio, parilitas uoluntatum, iugis et inuiolabilis fides. Vera enim amicicia inter
+        bonos tantum oriri solet, inter meliores proficere, inter optimos consummari.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-amic-Qd1e1952" xml:id="timf-amic-Rd1e1958">Ibidem (Petrus Blesensis in libello de amicicia).</ref>
+          </p>
+        </div>
+        <div xml:id="timf-amic-Dd1e1963">
+          <head xml:id="timf-amic-Hd1e1965">dc</head>
+          <p xml:id="timf-amic-d1e1968">
+            <cit>
+              <quote xml:id="timf-amic-Qd1e1972">Quatuor sunt uicia quibus preclarus honor amicicie sepius obfuscatur, scilicet
+        iracundia, instabilitas, supicio atque garrulitas.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-amic-Qd1e1972" xml:id="timf-amic-Rd1e1978">Ibidem (Petrus Blesensis in libello de amicicia).</ref>
+          </p>
+        </div>
+        <div xml:id="timf-amic-Dd1e1983">
+          <head xml:id="timf-amic-Hd1e1985">de</head>
+          <p xml:id="timf-amic-d1e1988">
+            <cit>
+              <quote xml:id="timf-amic-Qd1e1992">Si fidem amici experiri uolueris, non ei prius tui cordis archana committas, sed
+        aliqua exteriora et modica de quibus non magnum emergat dispendium, si fuerint reuelata,
+        et ea nichilominus sub ea cautione et adiuracione terribili credas, ac si obessent
+        prodita et prodessent celata.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-amic-Qd1e1992" xml:id="timf-amic-Rd1e1998">Petrus Blesensis in eodem (libello de amicicia).</ref>
+          </p>
+        </div>
+        <div xml:id="timf-amic-Dd1e2004">
+          <head xml:id="timf-amic-Hd1e2006">df</head>
+          <p xml:id="timf-amic-d1e2009">
+            <cit>
+              <quote xml:id="timf-amic-Qd1e2013">Vera amicicia eodem oculo respicit amicum diuitem et mendicum, fortem ac debilem,
+        sanum et egrum, humilem ac sublimem.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-amic-Qd1e2013" xml:id="timf-amic-Rd1e2019">Ibidem (Petrus Blesensis in libello de amicicia).</ref>
+          </p>
+        </div>
+        <div xml:id="timf-amic-Dd1e2024">
+          <head xml:id="timf-amic-Hd1e2026">dg</head>
+          <p xml:id="timf-amic-d1e2029">
+            <cit>
+              <quote xml:id="timf-amic-Qd1e2033">Si uideris hominem anxie appetentem quod per te prestare possis, si in huius rei
+        obtentu ei aliquis preferatur, facile qua tibi adheserit intencione patebit. Nam in
+        huius casu, nunc ex deiectione oculorum, nunc ex uultus auersione, nunc ex uerbo
+        subtristi, nunc ex risu ficto, nunc ex reuerencia et obsequio negligentiore ambitiose
+        mentis egritudo poterit deprehendi.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-amic-Qd1e2033" xml:id="timf-amic-Rd1e2039">Ibidem (Petrus Blesensis in libello de amicicia).</ref>
+          </p>
+        </div>
+        <div xml:id="timf-amic-Dd1e2044">
+          <head xml:id="timf-amic-Hd1e2046">dh</head>
+          <p xml:id="timf-amic-d1e2049">
+            <cit>
+              <quote xml:id="timf-amic-Qd1e2053">Amicus non subito est publice obiurgandus donec ex turbacione recenti adhuc est
+        inquietior eger animus, tanta dissimulacione opus est, donec mentis nubilo serenato,
+        auris pacatior uerba blande monentis admittat.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-amic-Qd1e2053" xml:id="timf-amic-Rd1e2059">Ibidem (Petrus Blesensis in libello de amicicia).</ref>
+          </p>
+        </div>
+        <div xml:id="timf-amic-Dd1e2064">
+          <head xml:id="timf-amic-Hd1e2066">di</head>
+          <p xml:id="timf-amic-d1e2069">
+            <cit>
+              <quote xml:id="timf-amic-Qd1e2073">Veteris amicicie uestigiis aliqua reuerencia semper inpendenda est, nisi eam
+        enormitas reatus eliminet. Nullum quippe uicium ita contra naturam est ut nature possit
+        extrema delere uestigia.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-amic-Qd1e2073" xml:id="timf-amic-Rd1e2079">Ibidem (Petrus Blesensis in libello de amicicia).</ref>
+          </p>
+        </div>
+        <div xml:id="timf-amic-Dd1e2084">
+          <head xml:id="timf-amic-Hd1e2086">dk</head>
+          <p xml:id="timf-amic-d1e2089">
+            <cit>
+              <quote xml:id="timf-amic-Qd1e2093">Licet uera amicicia solum requirat affectum, liberale tamen obsequium non excludit
+        sed eo pocius illustratur. Vnde quidam dixit: tantum diligo inimicum qui michi nichil
+        facit mali sicut amicum qui nichil facit boni.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-amic-Qd1e2093" xml:id="timf-amic-Rd1e2099">Ibidem (Petrus Blesensis in libello de amicicia).</ref>
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

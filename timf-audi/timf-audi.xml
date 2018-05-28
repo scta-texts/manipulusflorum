@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Auditor</title>
+        <author ref="#ThomasOfIreland">Thomas Hybernicus</author>
+        <respStmt>
+          <name>Chris Nighman</name>
+          <resp>Editor</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Auditor</title>
+          <date when="2018-05-22">May 22, 2018</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref>SCTA</ref> and <ref target="http://www.manipulusflorum.com/">Manipulus floreum Project</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Pb" n="bnf15985">Bnf 15985</witness>
+          <witness xml:id="Pc" n="bnf15985">Bnf 15986</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2018-05-22" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="timf-audi">
+        <head xml:id="timf-audi-Hd1e117">Auditor</head>
+        <div xml:id="timf-audi-Dd1e120">
+          <head xml:id="timf-audi-Hd1e122">a</head>
+          <p xml:id="timf-audi-d1e125">
+            <cit>
+              <quote xml:id="timf-audi-Qd1e129">Tucius auditur ueritas quam predicatur, quoniam cum doctrina recipitur, humilitas
+        custoditur. Cum autem disputacio uel predicacio placet, uix est ut disserentem non
+        pulset quantalacumque iactancia.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-audi-Qd1e129" xml:id="timf-audi-Rd1e135">Augustinus de doctrina Christiana et super Iohannem omelia LVII.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-audi-Dd1e140">
+          <head xml:id="timf-audi-Hd1e142">b</head>
+          <p xml:id="timf-audi-d1e145">
+            <cit>
+              <quote xml:id="timf-audi-Qd1e149">Vidit apostolus in audiendo facillime seruari humilitatem que difficilis est in
+        docendo, quoniam necesse est ut doctor habeat superiorem locum, ubi laboriosum est
+        optinere ne subrepat elacio.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-audi-Qd1e149" xml:id="timf-audi-Rd1e155">Augustinus super illud Iacobi I.: Sit omnis homo uelox ad audiendum.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-audi-Dd1e160">
+          <head xml:id="timf-audi-Hd1e162">c</head>
+          <p xml:id="timf-audi-d1e165">
+            <cit>
+              <quote xml:id="timf-audi-Qd1e169">Cum uerbum boni auditores esuriunt, pro reficiendis eis maiora doctoribus
+        intelligencie dona tribuuntur. Sepe enim doctori uerbum Dominus pro gracia tribuit
+        auditoris, non numquam uero propter auditoris culpam subtrahitur sermo doctori.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-audi-Qd1e169" xml:id="timf-audi-Rd1e175">Gregorius in pastorali et in moralibus.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-audi-Dd1e180">
+          <head xml:id="timf-audi-Hd1e182">d</head>
+          <p xml:id="timf-audi-d1e185">
+            <cit>
+              <quote xml:id="timf-audi-Qd1e189">Nisi spiritus sanctus auditorum corda repleat, ad aures corporum uox docencium
+        incassum sonat. Formare enim uocem magistri exterius possunt, sed hanc interius
+        imprimere non ualent.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-audi-Qd1e189" xml:id="timf-audi-Rd1e195">Gregorius XXVII. moralium.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-audi-Dd1e201">
+          <head xml:id="timf-audi-Hd1e203">e</head>
+          <p xml:id="timf-audi-d1e206">
+            <cit>
+              <quote xml:id="timf-audi-Qd1e210">Via Domini ad cor dirigitur cum ueritatis sermo humiliter auditur.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-audi-Qd1e210" xml:id="timf-audi-Rd1e216">Gregorius in omelia.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-audi-Dd1e221">
+          <head xml:id="timf-audi-Hd1e223">f</head>
+          <p xml:id="timf-audi-d1e226">
+            <cit>
+              <quote xml:id="timf-audi-Qd1e230">Multi legunt et ab ipsa lectione ieiuni sunt. Multi uocem predicacionis audiunt sed
+        post uocem uacui recedunt, quorum etsi uenter comedit uiscera non replentur, quia etsi
+        mente intellectum sacri uerbi percipiunt, obliuiscendo et non seruando que audierunt,
+        hec in cordis uisceribus non reponunt.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-audi-Qd1e230" xml:id="timf-audi-Rd1e236">Gregorius omelia X. super illud Ezechielis: Venter tuus comedet.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-audi-Dd1e241">
+          <head xml:id="timf-audi-Hd1e243">g</head>
+          <p xml:id="timf-audi-d1e246">
+            <cit>
+              <quote xml:id="timf-audi-Qd1e250">Verba Dei que aure percipitis mente retinete. Cibus enim mentis est sermo Dei, et
+        quasi acceptus cibus stomacho languente reicitur, quando auditus sermo in uentre memorie
+        non tenetur. Sed quisquis alimenta non retinet, huius profecto uita desperatur. Eterne
+        ergo mortis periculum formidate, si cibum quidem sancte exhortacionis accipitis sed
+        uerba uite, id est alimenta iusticie, in memoria non tenetis.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-audi-Qd1e250" xml:id="timf-audi-Rd1e256">Gregorius omelia XV. super ewangelia super illud: Exiit qui seminat.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-audi-Dd1e261">
+          <head xml:id="timf-audi-Hd1e263">h</head>
+          <p xml:id="timf-audi-d1e266">
+            <cit>
+              <quote xml:id="timf-audi-Qd1e270">Auris bona est que libenter audit utilia, prudenter discernit audita, obedienter
+        operatur intellecta.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-audi-Qd1e270" xml:id="timf-audi-Rd1e276">Bernardus in quadam epistola.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-audi-Dd1e281">
+          <head xml:id="timf-audi-Hd1e283">i</head>
+          <p xml:id="timf-audi-d1e286">
+            <cit>
+              <quote xml:id="timf-audi-Qd1e290">Dele, inquit, litteras magis sculpturas quas dyabolus in tua impressit anima et fer
+        michi cor a uite huius tumultibus liberum.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-audi-Qd1e290" xml:id="timf-audi-Rd1e296">Chrysostomus super Mattheum omelia XI.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-audi-Dd1e301">
+          <head xml:id="timf-audi-Hd1e303">k</head>
+          <p xml:id="timf-audi-d1e306">
+            <cit>
+              <quote xml:id="timf-audi-Qd1e310">Frequenter ipsa eadem audire et scientibus prodest; quod enim nouimus si sepius
+        audiamus, amplius compungimur?</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-audi-Qd1e310" xml:id="timf-audi-Rd1e316">Chrysostomus sermone VII. super epistolam ad Hebreos.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-audi-Dd1e322">
+          <head xml:id="timf-audi-Hd1e324">l</head>
+          <p xml:id="timf-audi-d1e327">
+            <cit>
+              <quote xml:id="timf-audi-Qd1e331">Prudens auditor omnes libenter audit, omnia legit, non scripturam, non personam,
+        non doctrinam spernit; ab omnibus indifferenter quod sibi deest et quod deesse uidet,
+        querit; non quantum sciat, sed quantum ignorat, considerat.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-audi-Qd1e331" xml:id="timf-audi-Rd1e337">Hugo de sancto Victore in suo didascalicon.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-audi-Dd1e342">
+          <head xml:id="timf-audi-Hd1e344">m</head>
+          <p xml:id="timf-audi-d1e347">
+            <cit>
+              <quote xml:id="timf-audi-Qd1e351">Quidam ueniunt ut audiant non ut discant, sicut in theatrum uoluptatis causa ad
+        delectandas aures oracione uel uoce uel fabulis ducimur. Magnam hanc partem auditorum
+        uidebis, cui philosophi scola diuersorium ocii sit. Non id agunt ut aliqua illo uicia
+        deponant, ut aliquam legem uite accipiant qua mores suos erigant, sed ut oblectamento
+        aurium perfruantur. Aliqui eciam cum pugillaribus ueniunt, non ut res accipiant, sed ut
+        uerba que tam sine profectu alieno discant quam sine suo audiunt.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-audi-Qd1e351" xml:id="timf-audi-Rd1e357">Seneca epistola CX.</ref>
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

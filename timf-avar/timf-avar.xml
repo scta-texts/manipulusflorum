@@ -1,0 +1,811 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Auaricia</title>
+        <author ref="#ThomasOfIreland">Thomas Hybernicus</author>
+        <respStmt>
+          <name>Chris Nighman</name>
+          <resp>Editor</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Auaricia</title>
+          <date when="2018-05-22">May 22, 2018</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref>SCTA</ref> and <ref target="http://www.manipulusflorum.com/">Manipulus floreum Project</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Pb" n="bnf15985">Bnf 15985</witness>
+          <witness xml:id="Pc" n="bnf15985">Bnf 15986</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2018-05-22" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="timf-avar">
+        <head xml:id="timf-avar-Hd1e117">Auaricia</head>
+        <div xml:id="timf-avar-Dd1e120">
+          <head xml:id="timf-avar-Hd1e122">a</head>
+          <p xml:id="timf-avar-d1e125">
+            <cit>
+              <quote xml:id="timf-avar-Qd1e129">Non solum auarus est qui rapit aliena, sed ille auarus est qui cupide seruat
+        sua.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-avar-Qd1e129" xml:id="timf-avar-Rd1e135">Augustinus in quodam sermone.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-avar-Dd1e140">
+          <head xml:id="timf-avar-Hd1e142">b</head>
+          <p xml:id="timf-avar-d1e145">
+            <cit>
+              <quote xml:id="timf-avar-Qd1e149">Auarus antequam lucretur, seipsum perdidit, et antequam aliquid capiat
+        capitur.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-avar-Qd1e149" xml:id="timf-avar-Rd1e155">Augustinus ibidem. [in quodam sermone]</ref>
+          </p>
+        </div>
+        <div xml:id="timf-avar-Dd1e160">
+          <head xml:id="timf-avar-Hd1e162">c</head>
+          <p xml:id="timf-avar-d1e165">
+            <cit>
+              <quote xml:id="timf-avar-Qd1e169">Auarus uir inferno est similis. Infernus enim quantoscumque deuorauerit, numquam
+        dicit: satis est. Sic et si omnes thesauri confluxerint in auarum.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-avar-Qd1e169" xml:id="timf-avar-Rd1e175">Augustinus in epistola ad comitem.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-avar-Dd1e180">
+          <head xml:id="timf-avar-Hd1e182">d</head>
+          <p xml:id="timf-avar-d1e185">
+            <cit>
+              <quote xml:id="timf-avar-Qd1e189">Que est ista auiditas concupiscencie, cum et ipse belue habeant modum? Tunc enim
+        rapiunt quando esuriunt, parcent uero prede cum senserint satietatem. Insatiabilis est
+        sola auaricia diuitum. Semper rapit et nunquam satiatur; nec Deum timet, nec hominem
+        reueretur, nec patri parcit , nec matrem cognoscit, nec fratri obtemperat, nec amico
+        fidem seruat. Viduam opprimit, pupillum inuadit, liberos in seruicium reuocat,
+        testimonium falsum profert. Res mortui occupantur; quasi et qui faciunt non moriantur.
+        Que est illa animarum insania: amittere uitam, appetere mortem, acquirere aurum et
+        perdere celum?</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-avar-Qd1e189" xml:id="timf-avar-Rd1e195">Augustinus de uerbis Domini.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-avar-Dd1e201">
+          <head xml:id="timf-avar-Hd1e203">e</head>
+          <p xml:id="timf-avar-d1e206">
+            <cit>
+              <quote xml:id="timf-avar-Qd1e210">Auarus est cecus; credendo enim diues est non uidendo. Amas pecuniam, O cece, quam
+        nunquam uidebis; cecus possides, cecus moriturus es; quod possides hic, relicturus
+        es.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-avar-Qd1e210" xml:id="timf-avar-Rd1e216">Augustinus in libro de disciplina Christiana.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-avar-Dd1e221">
+          <head xml:id="timf-avar-Hd1e223">f</head>
+          <p xml:id="timf-avar-d1e226">
+            <cit>
+              <quote xml:id="timf-avar-Qd1e230">Auaricia que Grece philargia dicitur non in solo argento, unde nomen duxisse
+        resonat, sed in omnibus rebus que immoderate cupiuntur intelligenda est, ubicumque
+        omnino plus uult quisque quam satis; hec autem auaricia cupiditas est, cupiditas uero
+        improba uoluntas est. Ergo improba uoluntas omnium malorum causa est.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-avar-Qd1e230" xml:id="timf-avar-Rd1e236">Augustinus libro III. de libero arbitrio.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-avar-Dd1e241">
+          <head xml:id="timf-avar-Hd1e243">g</head>
+          <p xml:id="timf-avar-d1e246">
+            <cit>
+              <quote xml:id="timf-avar-Qd1e250">Auarus uelut infernus omnia deuorans uellet nullum hominem esse ut omnia solus
+        possideret.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-avar-Qd1e250" xml:id="timf-avar-Rd1e256">Augustinus in quodam sermone.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-avar-Dd1e261">
+          <head xml:id="timf-avar-Hd1e263">h</head>
+          <p xml:id="timf-avar-d1e266">
+            <cit>
+              <quote xml:id="timf-avar-Qd1e270">Cum auaricia alicui dominatur, subiectus malis omnibus demonstratur quia de
+        auaricia mala omnia oriuntur et peccatorum omnium spine producuntur.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-avar-Qd1e270" xml:id="timf-avar-Rd1e276">Augustinus de libero arbitrio.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-avar-Dd1e281">
+          <head xml:id="timf-avar-Hd1e283">i</head>
+          <p xml:id="timf-avar-d1e286">
+            <cit>
+              <quote xml:id="timf-avar-Qd1e290">Auaricia non uicium auri, sed anime peruerse amantis aurum derelicta iusticia que
+        debuit anteponi auro.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-avar-Qd1e290" xml:id="timf-avar-Rd1e296">Augustinus XII. de ciuitate Dei.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-avar-Dd1e301">
+          <head xml:id="timf-avar-Hd1e303">k</head>
+          <p xml:id="timf-avar-d1e306">
+            <cit>
+              <quote xml:id="timf-avar-Qd1e310">Non minoris est criminis habenti tollere quam cum possis et habes indigentibus
+        denegare. Esuriencium panis est quem tu detines, nudorum indumentum quod tu includis,
+        miserorum redemcio et absolucio pecunia quam tu in terra fodis; tantorum scias te
+        inuadere bona; quantis possis prestare et nolis. Non sunt bona hominis que secum ferre
+        non potest. Sola misericordia comes est defunctorum.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-avar-Qd1e310" xml:id="timf-avar-Rd1e316">Ambrosius in quodam sermone.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-avar-Dd1e322">
+          <head xml:id="timf-avar-Hd1e324">l</head>
+          <p xml:id="timf-avar-d1e327">
+            <cit>
+              <quote xml:id="timf-avar-Qd1e331">Modum non habet auaricia, nec capiendo expletur sed incitatur hoc egentior quod
+        plura quesiuit.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-avar-Qd1e331" xml:id="timf-avar-Rd1e337">Ambrosius de interpellacione Iob.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-avar-Dd1e342">
+          <head xml:id="timf-avar-Hd1e344">m</head>
+          <p xml:id="timf-avar-d1e347">
+            <cit>
+              <quote xml:id="timf-avar-Qd1e351">Venit auaricia et dicit: argentum et aurum quod habes seruitutis tue precium est.
+        Possessio quam tenes, iuris tui emptio est.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-avar-Qd1e351" xml:id="timf-avar-Rd1e357">Ambrosius super beati immaculati.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-avar-Dd1e362">
+          <head xml:id="timf-avar-Hd1e364">n</head>
+          <p xml:id="timf-avar-d1e367">
+            <cit>
+              <quote xml:id="timf-avar-Qd1e371">Inflammatur lucro auaricia non restringitur. Quasi gradus quosdam cupiditas habet
+        et quo plures ascenderit, eo altiora festinat unde fit grauis ruina lapsuro.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-avar-Qd1e371" xml:id="timf-avar-Rd1e377">Ambrosius in libro de nabuthe.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-avar-Dd1e382">
+          <head xml:id="timf-avar-Hd1e384">o</head>
+          <p xml:id="timf-avar-d1e387">
+            <cit>
+              <quote xml:id="timf-avar-Qd1e391">Pauperiorem se iudicat omnis habundans, quia sibi deesse arbitratur quicquid ab
+        aliis possidetur; toto mundo eget, cuius non capit mundus cupiditates, ei autem qui
+        fidelis est totus mundus diuiciarum est; toto mundo fugit qui considerans conscienciam
+        suam timet deprehendi.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-avar-Qd1e391" xml:id="timf-avar-Rd1e397">Ambrosius ibidem. [in libro de nabuthe]</ref>
+          </p>
+        </div>
+        <div xml:id="timf-avar-Dd1e402">
+          <head xml:id="timf-avar-Hd1e404">p</head>
+          <p xml:id="timf-avar-d1e407">
+            <cit>
+              <quote xml:id="timf-avar-Qd1e411">Auaro tam deest quod habet, quam quod non habet. Credenti totus mundus diuiciarum
+        est, infidelis autem obolo indiget.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-avar-Qd1e411" xml:id="timf-avar-Rd1e417">Ieronymus ad Paulinum.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-avar-Dd1e422">
+          <head xml:id="timf-avar-Hd1e424">q</head>
+          <p xml:id="timf-avar-d1e427">
+            <cit>
+              <quote xml:id="timf-avar-Qd1e431">Nos ardemus auaricia et contra pecunias disputantes auro sinum expandimus et illud
+        quod de megarensibus dicitur, nobis miseris coaptari potest. Edificant quasi semper
+        uicturi; uiuunt quasi altera die morituri.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-avar-Qd1e431" xml:id="timf-avar-Rd1e437">Ieronymus ad Rusticum monachum.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-avar-Dd1e443">
+          <head xml:id="timf-avar-Hd1e445">r</head>
+          <p xml:id="timf-avar-d1e448">
+            <cit>
+              <quote xml:id="timf-avar-Qd1e452">Cum cetera uicia senescente homine senescant, sola auaricia iuuenescit.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-avar-Qd1e452" xml:id="timf-avar-Rd1e458">Ieronymus in quodam sermone.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-avar-Dd1e463">
+          <head xml:id="timf-avar-Hd1e465">s</head>
+          <p xml:id="timf-avar-d1e468">
+            <cit>
+              <quote xml:id="timf-avar-Qd1e472">Auaro tam deest quod habet, quam quod non habet, quia aut non habita concupiscit ut
+        habeat, aut habita metuit ne amittat, et dum in aduersis sperat prospera, in prosperis
+        formidat aduersa.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-avar-Qd1e472" xml:id="timf-avar-Rd1e478">Ieronymus ibidem. [in quodam sermone]</ref>
+          </p>
+        </div>
+        <div xml:id="timf-avar-Dd1e483">
+          <head xml:id="timf-avar-Hd1e485">t</head>
+          <p xml:id="timf-avar-d1e488">
+            <cit>
+              <quote xml:id="timf-avar-Qd1e492">Nichil aliud est auarus quam bursa principum, cellarium latronum, rixa parentum,
+        sibilus hominum.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-avar-Qd1e492" xml:id="timf-avar-Rd1e498">Ieronymus ibidem. [in quodam sermone]</ref>
+          </p>
+        </div>
+        <div xml:id="timf-avar-Dd1e503">
+          <head xml:id="timf-avar-Hd1e505">u</head>
+          <p xml:id="timf-avar-d1e508">
+            <cit>
+              <quote xml:id="timf-avar-Qd1e512">Auaricia latenter oritur in mente, sed punctiones peccatorum omnium patenter
+        producit in operacione.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-avar-Qd1e512" xml:id="timf-avar-Rd1e518">Gregorius XX. libro moralium.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-avar-Dd1e523">
+          <head xml:id="timf-avar-Hd1e525">x</head>
+          <p xml:id="timf-avar-d1e528">
+            <cit>
+              <quote xml:id="timf-avar-Qd1e532">Peccatum auaricie mentem quam infecerit ita grauem reddit ut ad appetenda sublimia
+        attolli non possit.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-avar-Qd1e532" xml:id="timf-avar-Rd1e538">Gregorius XIV. moralium.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-avar-Dd1e543">
+          <head xml:id="timf-avar-Hd1e545">y</head>
+          <p xml:id="timf-avar-d1e548">
+            <cit>
+              <quote xml:id="timf-avar-Qd1e552">Auaricia desideratis rebus non extinguitur, non augetur; nam more ignis cum ligna
+        que consumit acceperit, excrescit; et unde uidetur ad momentum flamma comprimi, inde
+        paulo post cernitur dilatari.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-avar-Qd1e552" xml:id="timf-avar-Rd1e558">Gregorius XV. libro moralium.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-avar-Dd1e564">
+          <head xml:id="timf-avar-Hd1e566">ab</head>
+          <p xml:id="timf-avar-d1e569">
+            <cit>
+              <quote xml:id="timf-avar-Qd1e573">Auarus prius hanelat concupita congregare et cum quasi in quodam uentre auaricie
+        multa congesserit satiatus arctatur, quia dum anxiatur qualiter acquisita custodiat,
+        ipsa eum sua satietas angustat. Mens auari que prius ex habundancia requiem quesierat,
+        postea ad custodiam grauius laborat.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-avar-Qd1e573" xml:id="timf-avar-Rd1e579">Gregorius XV. moralium.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-avar-Dd1e584">
+          <head xml:id="timf-avar-Hd1e586">ac</head>
+          <p xml:id="timf-avar-d1e589">
+            <cit>
+              <quote xml:id="timf-avar-Qd1e593">Omnis auarus ex potu sitim multiplicat quia cum ea que appetit adeptus fuerit, ad
+        appetenda alia amplius hanelat.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-avar-Qd1e593" xml:id="timf-avar-Rd1e599">Gregorius in omelia.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-avar-Dd1e604">
+          <head xml:id="timf-avar-Hd1e606">ad (1)</head>
+          <p xml:id="timf-avar-d1e609">
+            <cit>
+              <quote xml:id="timf-avar-Qd1e613">Demonum habitaculum fit quisque in hoc seculo qui propter diuicias et honores
+        laborat, quas postquam consecutus est tradit se luxurie, ut que auaricia congregauerit,
+        luxuria consumat.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-avar-Qd1e613" xml:id="timf-avar-Rd1e619">Gregorius ibidem. [in omelia]</ref>
+          </p>
+        </div>
+        <div xml:id="timf-avar-Dd1e624">
+          <head xml:id="timf-avar-Hd1e626">ad (2)</head>
+          <p xml:id="timf-avar-d1e629">
+            <cit>
+              <quote xml:id="timf-avar-Qd1e633">Prius namque mens auari dolorem habuit in ipsa sue concupiscencie fatigacione
+        qualiter concupita raperet, quomodo aliqua blandimentis aliqua terroribus auferret, ac
+        postquam acquisitis rebus peruenit ad desiderium, alius hunc dolor fatigat, ut cum
+        sollicito timore custodiat, quod cum graui labore meminit acquisitum. Hinc inde
+        insidiatores metuit atque hoc se perpeti quod ipse fecit ab aliis ferri
+        pertimescit.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-avar-Qd1e633" xml:id="timf-avar-Rd1e639">Gregorius XV. libro moralium.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-avar-Dd1e644">
+          <head xml:id="timf-avar-Hd1e646">ae</head>
+          <p xml:id="timf-avar-d1e649">
+            <cit>
+              <quote xml:id="timf-avar-Qd1e653">Auarus hic ardet estu concupiscencie ac multiplici cura custodie et post modum
+        ardebit igne gehenne. Si potentiorem uidet, timet raptorem; si inferiorem, suspicatur
+        furem. Infelix tanta patitur quanta pati timet.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-avar-Qd1e653" xml:id="timf-avar-Rd1e659">Gregorius in quadam omelia.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-avar-Dd1e664">
+          <head xml:id="timf-avar-Hd1e666">af</head>
+          <p xml:id="timf-avar-d1e669">
+            <cit>
+              <quote xml:id="timf-avar-Qd1e673">Magna est securitas cordis nil habere concupiscencie secularis. Nam si ad terrena
+        adipiscenda cor inhiat, securum transquillumque esse nullatenus potest quia aut non
+        habita concupiscit ut habeat, aut adepta metuit ne amittat; et dum in aduersis sperat
+        prospera, in prosperis formidat aduersa; huc illucque quasi quibusdam fluctibus uoluitur
+        ac per modos uarios rerum alternancium mutabilitate uersatur. Si uero semel in
+        appeticione superne patrie forti stabilitate animus figitur, minus temporalium rerum
+        perturbacione uexatur.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-avar-Qd1e673" xml:id="timf-avar-Rd1e679">Gregorius XXII. moralium super illud Iob: Si expaui ad multitudinem nimiam.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-avar-Dd1e685">
+          <head xml:id="timf-avar-Hd1e687">ag</head>
+          <p xml:id="timf-avar-d1e690">
+            <cit>
+              <quote xml:id="timf-avar-Qd1e694">Cursum suum quisque consideret et cognoscit sibi sufficere parua que habet, sed
+        fortasse metuit ne in huius uite itinere sumptus desit. Longa nostra desideria increpat
+        uita breuis. In cassum multa portantur cum iuxta est quo pergitur.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-avar-Qd1e694" xml:id="timf-avar-Rd1e700">Gregorius omelia XXXII. super ewangelio.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-avar-Dd1e705">
+          <head xml:id="timf-avar-Hd1e707">ah</head>
+          <p xml:id="timf-avar-d1e710">
+            <cit>
+              <quote xml:id="timf-avar-Qd1e714">Diuiciarum amor insatiabilis longe amplius torquet animam quam refrigeret usu suo,
+        quarum acquisicio quidem laboris, possessio timoris, amissio plena doloris
+        inuenitur.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-avar-Qd1e714" xml:id="timf-avar-Rd1e720">Bernardus in quodam sermone.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-avar-Dd1e725">
+          <head xml:id="timf-avar-Hd1e727">ai</head>
+          <p xml:id="timf-avar-d1e730">
+            <cit>
+              <quote xml:id="timf-avar-Qd1e734">Quod sine miserabili gemitu dicendum non est; Christi opprobria, sputa, flagella,
+        clauos, lanceam, crucem et mortem, hec omnia in fornace auaricie conflant et profligunt
+        in acquisicione turpis questus et precium uniuersitatis suis marsupiis includere
+        festinant; hoc solo sane a Iuda Scariothis differentes, quod ille horum omne emolumentum
+        denariorum numero compensauit, isti uoratiori ingluuie lucrorum infinitas exigunt
+        pecunias.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-avar-Qd1e734" xml:id="timf-avar-Rd1e740">Bernardus super Cantica.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-avar-Dd1e745">
+          <head xml:id="timf-avar-Hd1e747">ak</head>
+          <p xml:id="timf-avar-d1e750">
+            <cit>
+              <quote xml:id="timf-avar-Qd1e754">Auarus terrena esurit ut mendicus, fidelis contemnit ut dominus. Ille possidendo
+        mendicat, iste contemnendo seruat. Quere a quouis eorum quo insatiabili corde lucris
+        temporalibus inhiant, quidnam de hiis sentiant qui sua uendentes et pauperibus dantes,
+        regna celorum pro terrena mercantur substancia sapienter agant necne? Proculdubio
+        respondit: sapienter. Quere iterum, cur quod approbat ipse non facit? Non possum,
+        inquit. Quare? Profecto quia domina auaricia non permittit, quia liber non est, quia non
+        sua sunt que possidere uidetur, sed nec ipse sui iuris est; si uere tua sunt expende ad
+        lucra et pro terrenis celestia commutato; si non uales, scias te pecunie non dominum
+        esse sed seruum, custodem non possesorem.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-avar-Qd1e754" xml:id="timf-avar-Rd1e760">Bernardus super Cantica sermone XX.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-avar-Dd1e765">
+          <head xml:id="timf-avar-Hd1e767">al</head>
+          <p xml:id="timf-avar-d1e770">
+            <cit>
+              <quote xml:id="timf-avar-Qd1e774">Auaricia rotis uehitur quattuor uiciorum que sunt pusillanimitas, inhumanitas,
+        contemptus Dei, mortis obliuio. Porro iumenta trahencia, tenacitas et rapacitas et hiis
+        unus auriga ambobus presidet, habendi ardor. Sola quidem auaricia, quia conducere plures
+        non patitur, uno contenta est seruitore.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-avar-Qd1e774" xml:id="timf-avar-Rd1e780">Bernardus super Cantica sermone XXXIX.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-avar-Dd1e785">
+          <head xml:id="timf-avar-Hd1e787">am</head>
+          <p xml:id="timf-avar-d1e790">
+            <cit>
+              <quote xml:id="timf-avar-Qd1e794">Non mireris si pecunie milites superauerunt que apud discipulum tantam ostenderunt
+        uirtutem. Nichil enim clausum constat, quod auro argentoque non pateat, nichil occultum,
+        quod non pecunia indagante sit cognitum.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-avar-Qd1e794" xml:id="timf-avar-Rd1e800">Chrysostomus super illud Matthei ultimo: At illi accepta pecunia.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-avar-Dd1e806">
+          <head xml:id="timf-avar-Hd1e808">an</head>
+          <p xml:id="timf-avar-d1e811">
+            <cit>
+              <quote xml:id="timf-avar-Qd1e815">Qui pecunie seruit et presentibus compedibus constringitur et futuris
+        paratur.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-avar-Qd1e815" xml:id="timf-avar-Rd1e821">Chrysostomus in omelia IX. super Mattheum.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-avar-Dd1e826">
+          <head xml:id="timf-avar-Hd1e828">ao</head>
+          <p xml:id="timf-avar-d1e831">
+            <cit>
+              <quote xml:id="timf-avar-Qd1e835">Auidus dictus ab auendo. Auere enim cupere est; hinc et auarus dictus est, eo quod
+        fit auidus auri et nunquam opibus expletur.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-avar-Qd1e835" xml:id="timf-avar-Rd1e841">Ysidorus in libro ethimologiarum.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-avar-Dd1e846">
+          <head xml:id="timf-avar-Hd1e848">ap</head>
+          <p xml:id="timf-avar-d1e851">
+            <cit>
+              <quote xml:id="timf-avar-Qd1e855">Qui bona mundi diligit, uelit, nolit, timoris et doloris pene succumbit.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-avar-Qd1e855" xml:id="timf-avar-Rd1e861">Ysidorus III. de summo bono.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-avar-Dd1e866">
+          <head xml:id="timf-avar-Hd1e868">aq</head>
+          <p xml:id="timf-avar-d1e871">
+            <cit>
+              <quote xml:id="timf-avar-Qd1e875">O pestis maligna auaricie semper bonis animis detestanda, quid illesum? Quid
+        inconcussum dimittis? Tu genus hominum confudisti, tu discipulum comitem Christi ab
+        apostolatu precipitasti, tu milites custodientes sepulcrum captiuasti; nunquid bene
+        dictum est, pecunie obediunt omnia?</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-avar-Qd1e875" xml:id="timf-avar-Rd1e881">Ecclesiasticus X. Rabanus super Mattheum in fine.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-avar-Dd1e886">
+          <head xml:id="timf-avar-Hd1e888">ar</head>
+          <p xml:id="timf-avar-d1e891">
+            <cit>
+              <quote xml:id="timf-avar-Qd1e895">Amori pecunie uilis est omnis affectio, et anima lucri cupida, eciam pro exiguo
+        perire non metuit, nullumque est iusticie in illo corde uestigium in quo sibi auaricia
+        fecit habitaculum.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-avar-Qd1e895" xml:id="timf-avar-Rd1e901">Leo papa in quodam sermone.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-avar-Dd1e906">
+          <head xml:id="timf-avar-Hd1e908">as</head>
+          <p xml:id="timf-avar-d1e911">
+            <cit>
+              <quote xml:id="timf-avar-Qd1e915">Duo sunt que illicite solent acquirere, scilicet superbia et cupiditas, et duo que
+        male fruuntur acquisitis: gula et luxuria. Duo sunt qui male possidere uolunt, scilicet
+        prodigus et auarus. Unus ut congreget, alter ut dissipet, et duo que possessa defendunt,
+        id est intemperancia et prudencia mundi. Superbia dyabolo clausit celum, gula primo
+        parenti abstulit paradisum. Auaricia diuiti aperuit infernum, intemperancia uero adhuc
+        corrumpit mundum.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-avar-Qd1e915" xml:id="timf-avar-Rd1e921">Hugo libro II. de claustro anime.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-avar-Dd1e927">
+          <head xml:id="timf-avar-Hd1e929">at (2)</head>
+          <p xml:id="timf-avar-d1e932">
+            <cit>
+              <quote xml:id="timf-avar-Qd1e936">Auaricia est glorie seu quarumlibet rerum insatiabilis et inhonesta cupido.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-avar-Qd1e936" xml:id="timf-avar-Rd1e942">Ibidem (Hugo libro II. de claustro anime).</ref>
+          </p>
+        </div>
+        <div xml:id="timf-avar-Dd1e947">
+          <head xml:id="timf-avar-Hd1e949">at</head>
+          <p xml:id="timf-avar-d1e952">
+            <cit>
+              <quote xml:id="timf-avar-Qd1e956">Auaricia est sua illicite retinere et aliena concupiscere.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-avar-Qd1e956" xml:id="timf-avar-Rd1e962">Hugo ibidem. [libro II. de claustro anime]</ref>
+          </p>
+        </div>
+        <div xml:id="timf-avar-Dd1e967">
+          <head xml:id="timf-avar-Hd1e969">au</head>
+          <p xml:id="timf-avar-d1e972">
+            <cit>
+              <quote xml:id="timf-avar-Qd1e976">Auaricia est per quam in animis hominum deificatur pecunia, nummo diuine
+        ueneracionis exhibetur auctoritas, proh pudor; metallorum onera largiuntur honores ad
+        metalli pondera ponderatos. Iam non Cesar sed nummus est omnia qui ab indiuidualibus
+        usque ad generalissima honores singulos tanquam mediator excurrit. Iam nummus patriarcha
+        noster efficitur, qui quosdam in archiepiscopatus intronizat apicem, quosdam episcopalis
+        fastigii erigit in honorem, hos in archidiaconalibus adaptans officiis, alios aliarum
+        pedestrium dignitatum coequans negociis.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-avar-Qd1e976" xml:id="timf-avar-Rd1e982">Alanus libro de conquestione nature.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-avar-Dd1e987">
+          <head xml:id="timf-avar-Hd1e989">ax</head>
+          <p xml:id="timf-avar-d1e992">
+            <cit>
+              <quote xml:id="timf-avar-Qd1e996">Quid prodest cum Tulio oracionem rhetoricis colorum stellare syderibus, cum
+        Aristotele ancipiti dialetice gladio a ueris falsa distinguere, cum Zenone falsitatem
+        probabiliter defendere tunicare sophismata, cum Donato in accidencium congruencia
+        nectere dictiones, cum sapiencia nostris temporibus nullius fructus premietur stipendiis
+        nullius fame eam fauoris aura extollat, ipsa uero pecunia, honoris, titulos et laudis
+        emat preconia?</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-avar-Qd1e996" xml:id="timf-avar-Rd1e1002">Alanus ibidem. [libro de conquestione nature]</ref>
+          </p>
+        </div>
+        <div xml:id="timf-avar-Dd1e1007">
+          <head xml:id="timf-avar-Hd1e1009">ay</head>
+          <p xml:id="timf-avar-d1e1012">
+            <cit>
+              <quote xml:id="timf-avar-Qd1e1016">Multos facit auaricia inter diuicias indigere. Iudicium enim Dei est ut in eo quo
+        quis delinquit puniatur, ut semper indigeat qui semper indigenciam timet, sicut scriptum
+        est: Qui timet pruinam ueniet super eum nix; suos hospites male remunerant, serpens in
+        sinu, ignis in gremio, mus in pera.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-avar-Qd1e1016" xml:id="timf-avar-Rd1e1022">Petrus Rauennensis in quodam sermone.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-avar-Dd1e1027">
+          <head xml:id="timf-avar-Hd1e1029">ba</head>
+          <p xml:id="timf-avar-d1e1032">
+            <cit>
+              <quote xml:id="timf-avar-Qd1e1036">Quam multos seducit cupiditas, quam plures perdidit auaricia! Balaam asella
+        redarguit et pedem sedentis attriuit, quia captus cupidine promissorum disposuerat
+        maledicere Israeli. Achor populus lapidauit quia tulit argentum et aurum de anathemate
+        Ierico. Nabot interemptus est ut Achab uineam possideret. Gryesi lepra perfudit quia
+        peciit et recepit argentum et uestes sub nomine Elisei. Iudas laqueo se suspendit quia
+        uendidit et tradidit Christum. Ananiam et Zaphiram subitanea mors extinxit quia de
+        precio agri defraudauit apostolum. Edificauit Tyrus municionem suam et coaceruauit aurum
+        et argentum quasi lutum platearum, sed ecce Dominus possidet eam et percussit
+        fortitudinem eius.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-avar-Qd1e1036" xml:id="timf-avar-Rd1e1042">Innocencius de uilitate condicionis humane.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-avar-Dd1e1048">
+          <head xml:id="timf-avar-Hd1e1050">bc</head>
+          <p xml:id="timf-avar-d1e1053">
+            <cit>
+              <quote xml:id="timf-avar-Qd1e1057">Auarus nec compacientibus compatitur nec miseris subuenit uel miseretur, sed
+        offendit Deum, offendit proximum, offendit seipsum; nam Deo detinet debita, proximo
+        denegat necessaria, sibi subtrahit opportuna; Deo ingratus, proximo impius, sibi
+        crudelis. Viro cupido et tenacissimo sine racione est substancia et homini liuido adquid
+        aurum? Qui sibi nequam est cui alii bonus erit? Non enim proximum suum diligit sicut
+        seipsum quem inedia perimit, egestas consumit; nec Deum diligit super omnia qui Deo
+        prefert aurum, preponit argentum.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-avar-Qd1e1057" xml:id="timf-avar-Rd1e1063">Innocencius ibidem. [de uilitate condicionis humane]</ref>
+          </p>
+        </div>
+        <div xml:id="timf-avar-Dd1e1068">
+          <head xml:id="timf-avar-Hd1e1070">bd</head>
+          <p xml:id="timf-avar-d1e1073">
+            <cit>
+              <quote xml:id="timf-avar-Qd1e1077">Auaricia secundum apostolum est ydolorum seruitus quia sicut ydolatria seruit
+        simulacro, sic auarus seruit thesauro. Nam ille cultum ydolatrie diligenter ampliat et
+        iste cumulum pecunie libenter augmentat. Ille cum omni diligencia colit simulacrum et
+        iste cum omni cura custodit thesaurum. Ille spem ponit in idolatria et iste spem
+        constituit in pecunia. Ille timet mutilare simulacrum et iste timet minuere
+        thesaurum.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-avar-Qd1e1077" xml:id="timf-avar-Rd1e1083">Innocencius ibidem. [de uilitate condicionis humane]</ref>
+          </p>
+        </div>
+        <div xml:id="timf-avar-Dd1e1088">
+          <head xml:id="timf-avar-Hd1e1090">be</head>
+          <p xml:id="timf-avar-d1e1093">
+            <cit>
+              <quote xml:id="timf-avar-Qd1e1097">Auarus largus in alieno sed parcus in proprio; gulam euacuat ut archam adimpleat,
+        corpus extenuat ut lucrum extendat; manum habet ad dandum collectam, sed ad recipiendum
+        porrectam, ad dandum clausam, sed ad recipiendum apertam. Habet enim auarus damnacionem
+        uite que nunc est et future.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-avar-Qd1e1097" xml:id="timf-avar-Rd1e1103">Innocencius ibidem. [de uilitate condicionis humane]</ref>
+          </p>
+        </div>
+        <div xml:id="timf-avar-Dd1e1108">
+          <head xml:id="timf-avar-Hd1e1110">bf</head>
+          <p xml:id="timf-avar-d1e1113">
+            <cit>
+              <quote xml:id="timf-avar-Qd1e1117">Auaricia indagatrix lucrorum, manifeste prede auidissima uorago, neque habendi
+        fructu felix et cupiditate querendi miserrima.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-avar-Qd1e1117" xml:id="timf-avar-Rd1e1123">Valerius libro IX.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-avar-Dd1e1128">
+          <head xml:id="timf-avar-Hd1e1130">bg</head>
+          <p xml:id="timf-avar-d1e1133">
+            <cit>
+              <quote xml:id="timf-avar-Qd1e1137">Iam rusticitatis et miserie est uelle quantum satis est.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-avar-Qd1e1137" xml:id="timf-avar-Rd1e1143">Seneca in extrema parte epistolarum epistola II.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-avar-Dd1e1148">
+          <head xml:id="timf-avar-Hd1e1150">bh</head>
+          <p xml:id="timf-avar-d1e1153">
+            <cit>
+              <quote xml:id="timf-avar-Qd1e1157">Monstro similis est auaricia senilis. Quid enim sibi uult non intelligo. Nam quid
+        absurdius ut dici solet quam quo minus restat uie eo plus uiatici querere, et uia
+        deficiente uiaticum augere?</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-avar-Qd1e1157" xml:id="timf-avar-Rd1e1163">Seneca in libro de moribus.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-avar-Dd1e1169">
+          <head xml:id="timf-avar-Hd1e1171">bi</head>
+          <p xml:id="timf-avar-d1e1174">
+            <cit>
+              <quote xml:id="timf-avar-Qd1e1178">Pecunia non satiat auariciam sed irritat; homo semper indiget pecunia conuenire
+        scit. Michi crede non potest esse diues et felix.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-avar-Qd1e1178" xml:id="timf-avar-Rd1e1184">Seneca ibidem. [in libro de moribus]</ref>
+          </p>
+        </div>
+        <div xml:id="timf-avar-Dd1e1189">
+          <head xml:id="timf-avar-Hd1e1191">bk</head>
+          <p xml:id="timf-avar-d1e1194">
+            <cit>
+              <quote xml:id="timf-avar-Qd1e1198">Si pecuniam habueris, necesse est ut te ipsum aut pecuniam uilem habeas.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-avar-Qd1e1198" xml:id="timf-avar-Rd1e1204">Seneca in epistola.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-avar-Dd1e1209">
+          <head xml:id="timf-avar-Hd1e1211">bl (1)</head>
+          <p xml:id="timf-avar-d1e1214">
+            <cit>
+              <quote xml:id="timf-avar-Qd1e1218">Auarus ipse miserie causa est sue.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-avar-Qd1e1218" xml:id="timf-avar-Rd1e1224">Seneca in prouerbiis.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-avar-Dd1e1229">
+          <head xml:id="timf-avar-Hd1e1231">bl (2)</head>
+          <p xml:id="timf-avar-d1e1234">
+            <cit>
+              <quote xml:id="timf-avar-Qd1e1238">Aurum facile capies ubi non sis idem. Auarus nisi cum moritur nichil recte facit.
+        Auaro quid mali optes nisi ut diu uiuat. Auarus dampno pocius quam sapiens
+        dolet.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-avar-Qd1e1238" xml:id="timf-avar-Rd1e1244">Seneca in prouerbiis.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-avar-Dd1e1249">
+          <head xml:id="timf-avar-Hd1e1251">bm</head>
+          <p xml:id="timf-avar-d1e1254">
+            <cit>
+              <quote xml:id="timf-avar-Qd1e1258">Inopie pauca desunt, auaricie omnia, id est negandi causa auaro numquam
+        deficit.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-avar-Qd1e1258" xml:id="timf-avar-Rd1e1264">Ibidem. [Seneca in prouerbiis]</ref>
+          </p>
+        </div>
+        <div xml:id="timf-avar-Dd1e1269">
+          <head xml:id="timf-avar-Hd1e1271">bn</head>
+          <p xml:id="timf-avar-d1e1274">
+            <cit>
+              <quote xml:id="timf-avar-Qd1e1278">Pecunie oportet imperare non seruire. Pecunia si uti scias ancilla est, si nescias
+        domina.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-avar-Qd1e1278" xml:id="timf-avar-Rd1e1284">Seneca ibidem in prouerbiis.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-avar-Dd1e1290">
+          <head xml:id="timf-avar-Hd1e1292">bo</head>
+          <p xml:id="timf-avar-d1e1295">
+            <cit>
+              <quote xml:id="timf-avar-Qd1e1299">Pecunie querende et tuende modum haberi oportet.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-avar-Qd1e1299" xml:id="timf-avar-Rd1e1305">Socrates in prouerbiis philosophorum.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-avar-Dd1e1310">
+          <head xml:id="timf-avar-Hd1e1312">bp</head>
+          <p xml:id="timf-avar-d1e1315">
+            <cit>
+              <quote xml:id="timf-avar-Qd1e1319">Auaros homines pupillos breuis etatis esse; nichil enim de suo uti licere. Auaro
+        cuidam locupleti dixit: stulte, diuicie tue in te pereunt, paupertatique similes sunt,
+        cum in hiis esuris, sitis et alges.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-avar-Qd1e1319" xml:id="timf-avar-Rd1e1325">Pictagoras in prouerbiis philosophorum.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-avar-Dd1e1330">
+          <head xml:id="timf-avar-Hd1e1332">bq</head>
+          <p xml:id="timf-avar-d1e1335">
+            <cit>
+              <quote xml:id="timf-avar-Qd1e1339">Modus pecunie querendus est qui nec maior necessitate presenti possit esse nec
+        minor.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-avar-Qd1e1339" xml:id="timf-avar-Rd1e1345">Socrates in prouerbiis.</ref>
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

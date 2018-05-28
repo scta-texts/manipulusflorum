@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ambicio</title>
+        <author ref="#ThomasOfIreland">Thomas Hybernicus</author>
+        <respStmt>
+          <name>Chris Nighman</name>
+          <resp>Editor</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Ambicio</title>
+          <date when="2018-05-22">May 22, 2018</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref>SCTA</ref> and <ref target="http://www.manipulusflorum.com/">Manipulus floreum Project</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Pb" n="bnf15985">Bnf 15985</witness>
+          <witness xml:id="Pc" n="bnf15985">Bnf 15986</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2018-05-22" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="timf-ambi">
+        <head xml:id="timf-ambi-Hd1e117">Ambicio</head>
+        <div xml:id="timf-ambi-Dd1e120">
+          <head xml:id="timf-ambi-Hd1e122">a</head>
+          <p xml:id="timf-ambi-d1e125">
+            <cit>
+              <quote xml:id="timf-ambi-Qd1e129">Noluit Christus regnum terrenum cum superbia que cathedra pestilencie ideo recte
+        dicitur quia non fere quisquam est qui careat amore dominandi et humanam non appetat
+        gloriam.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-ambi-Qd1e129" xml:id="timf-ambi-Rd1e135">Augustinus super Psalmos.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-ambi-Dd1e140">
+          <head xml:id="timf-ambi-Hd1e142">b</head>
+          <p xml:id="timf-ambi-d1e145">
+            <cit>
+              <quote xml:id="timf-ambi-Qd1e149">Quociens hominibus preesse desidero, tociens Deo meo preire contendo.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-ambi-Qd1e149" xml:id="timf-ambi-Rd1e155">Augustinus ibidem (super Psalmos).</ref>
+          </p>
+        </div>
+        <div xml:id="timf-ambi-Dd1e160">
+          <head xml:id="timf-ambi-Hd1e162">c</head>
+          <p xml:id="timf-ambi-d1e165">
+            <cit>
+              <quote xml:id="timf-ambi-Qd1e169">Erugo mentis est appetencia dignitatum, si in hiis summa spes uite presentis
+        letetur. Resipiscat unusquisque a furore secularium cupiditatum que ita mentem animumque
+        perturbant ut compos sui esse non possit.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-ambi-Qd1e169" xml:id="timf-ambi-Rd1e175">Ambrosius super Lucam libro IIII.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-ambi-Dd1e180">
+          <head xml:id="timf-ambi-Hd1e182">d</head>
+          <p xml:id="timf-ambi-d1e185">
+            <cit>
+              <quote xml:id="timf-ambi-Qd1e189">Hoc ipso perniciosior est ambicio quod blanda est consiliatricula dignitatum et
+        sepe quos uicia nulla delectant quos nulla potuit mouere luxuria, nulla auaricia
+        subruere facit ambicio criminosos. Habet enim forensem graciam, domesticum periculum et
+        ut dominetur aliis prius seruit. Curuatur obsequio ut honore donetur, et dum uult esse
+        sublimior, fit remissior.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-ambi-Qd1e189" xml:id="timf-ambi-Rd1e195">Ambrosius ibidem (super Lucam libro IIII.).</ref>
+          </p>
+        </div>
+        <div xml:id="timf-ambi-Dd1e201">
+          <head xml:id="timf-ambi-Hd1e203">e</head>
+          <p xml:id="timf-ambi-d1e206">
+            <cit>
+              <quote xml:id="timf-ambi-Qd1e210">Prope omnium criminum fontes hec tria monstrantur esse genera uiciorum, scilicet
+        gula, iactancia et ambicio. Cause autem cupiditatis sunt carnis delectacio, species
+        gule, et auiditas potencie.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-ambi-Qd1e210" xml:id="timf-ambi-Rd1e216">Ambrosius ibidem (super Lucam libro IIII.).</ref>
+          </p>
+        </div>
+        <div xml:id="timf-ambi-Dd1e221">
+          <head xml:id="timf-ambi-Hd1e223">f</head>
+          <p xml:id="timf-ambi-d1e226">
+            <cit>
+              <quote xml:id="timf-ambi-Qd1e230">Sicut is qui inuitatus renuit, quesitus refugit, sacris est altaribus admouendus,
+        sic qui ultro ambit uel inportunum se ingerit est procul dubio repellendus. Nam qui sic
+        nititur ad altiora conscendere, quid agit nisi ut crescendo decrescat et ascendendo
+        exterius, interius in profunda descendat?</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-ambi-Qd1e230" xml:id="timf-ambi-Rd1e236">Gregorius in registro.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-ambi-Dd1e241">
+          <head xml:id="timf-ambi-Hd1e243">g</head>
+          <p xml:id="timf-ambi-d1e246">
+            <cit>
+              <quote xml:id="timf-ambi-Qd1e250">Ordinate ad ordines accedendum est. Nam casum appetit qui ad summa loci fastigia
+        postpositis gradibus per abrupta ascensum querit.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-ambi-Qd1e250" xml:id="timf-ambi-Rd1e256">Gregorius ibidem (in registro).</ref>
+          </p>
+        </div>
+        <div xml:id="timf-ambi-Dd1e261">
+          <head xml:id="timf-ambi-Hd1e263">h</head>
+          <p xml:id="timf-ambi-d1e266">
+            <cit>
+              <quote xml:id="timf-ambi-Qd1e270">Quisquis sacerdocium non ad elacionis culpam sed ad utilitatem adipisci desiderat,
+        prius uires suas cum eo quod est subiturus onere metiatur ut et impar abstineat et ad id
+        cum metu eciam cui se sufficere existimat accedat.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-ambi-Qd1e270" xml:id="timf-ambi-Rd1e276">Gregorius ibidem (in registro).</ref>
+          </p>
+        </div>
+        <div xml:id="timf-ambi-Dd1e281">
+          <head xml:id="timf-ambi-Hd1e283">i</head>
+          <p xml:id="timf-ambi-d1e286">
+            <cit>
+              <quote xml:id="timf-ambi-Qd1e290">Locus regiminis desiderantibus negandus est, fugientibus offerendus. Virtutibus
+        ergo pollens coactus ad regimen ueniat, uirtutibus uacuus nec coactus accedat.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-ambi-Qd1e290" xml:id="timf-ambi-Rd1e296">Gregorius in pastorali.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-ambi-Dd1e301">
+          <head xml:id="timf-ambi-Hd1e303">k</head>
+          <p xml:id="timf-ambi-d1e306">
+            <cit>
+              <quote xml:id="timf-ambi-Qd1e310">Sicut toto desiderio debemus occupacionem fugere, ita si desit qui presidet,
+        occupacionis onus libenti necesse est animo subire.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-ambi-Qd1e310" xml:id="timf-ambi-Rd1e316">Gregorius in registro.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-ambi-Dd1e322">
+          <head xml:id="timf-ambi-Hd1e324">l</head>
+          <p xml:id="timf-ambi-d1e327">
+            <cit>
+              <quote xml:id="timf-ambi-Qd1e331">Multi non tanta fiducia et alacritate currerent ad honores, si et se sentirent. Et
+        onere grauari metuerent, nec cum tanto labore et periculo quarumlibet affectarent
+        infulas dignitatum. Nunc uero quia sola attenditur gloria et non pena, purum esse
+        clericum erubescitur in ecclesia, sese uiles estimant et inglorios qui quocumque
+        eminentiori loco non fuerint sublimati.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-ambi-Qd1e331" xml:id="timf-ambi-Rd1e337">Bernardus in epistola ad Henricum Senonensem.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-ambi-Dd1e342">
+          <head xml:id="timf-ambi-Hd1e344">m</head>
+          <p xml:id="timf-ambi-d1e347">
+            <cit>
+              <quote xml:id="timf-ambi-Qd1e351">Annon limina apostolorum iam plus ambicio quam deuocio terit? Annon uocibus eius
+        uestrum tota die resultat palacium? Annon questibus eius tota legum canonumque
+        disciplina insudat? Annon spoliis eius tota Ytalia inhiat inexplebili auiditate? Non
+        quod ualde Romani curent quo fine res terminetur, sed quia diligunt munera, sequntur
+        retribuciones. Nude nuda loquar, non detego uerenda, sed inuerecunda confuto.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-ambi-Qd1e351" xml:id="timf-ambi-Rd1e357">Bernardus de consideracione ad Eugenium libro III.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-ambi-Dd1e362">
+          <head xml:id="timf-ambi-Hd1e364">n</head>
+          <p xml:id="timf-ambi-d1e367">
+            <cit>
+              <quote xml:id="timf-ambi-Qd1e371">O ambicio, ambiciencium crux, quomodo omnes torques, omnibus places? Nil acrius
+        cruciat, nil molestius inquietat, nil tamen apud miseros mortales celebrius negociis
+        eius.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-ambi-Qd1e371" xml:id="timf-ambi-Rd1e377">Bernardus de consideracione libro III.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-ambi-Dd1e382">
+          <head xml:id="timf-ambi-Hd1e384">o</head>
+          <p xml:id="timf-ambi-d1e387">
+            <cit>
+              <quote xml:id="timf-ambi-Qd1e391">Ambicio: subtile malum, secretum uirus, pestis occulta, doli artifex, mater
+        ypocrisis, liuoris parens, uiciorum origo, tinea sanctitatis, excecatrix cordium, ex
+        remediis morbos creans, ex medicina langorem generans.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-ambi-Qd1e391" xml:id="timf-ambi-Rd1e397">Bernardus in sermone quadragesime.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-ambi-Dd1e402">
+          <head xml:id="timf-ambi-Hd1e404">p</head>
+          <p xml:id="timf-ambi-d1e407">
+            <cit>
+              <quote xml:id="timf-ambi-Qd1e411">Potestatis ambicio angelum felicitate angelica priuauit; sciencie appetitus hominem
+        immortalitatis gloria spoliauit. Non Euam cibus deflexerat, non mandatorum destituerat
+        obliuio, sed promissio honoris ambicio illecebrosa decepit.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-ambi-Qd1e411" xml:id="timf-ambi-Rd1e417">Bernardus in quodam sermone.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-ambi-Dd1e422">
+          <head xml:id="timf-ambi-Hd1e424">q</head>
+          <p xml:id="timf-ambi-d1e427">
+            <cit>
+              <quote xml:id="timf-ambi-Qd1e431">Omnis adeundi honoris ecclesiastici abscideretur ambicio, si se iudicandos pocius
+        quam iudicaturos, hii qui preesse uolunt populis, cogitarent.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-ambi-Qd1e431" xml:id="timf-ambi-Rd1e437">Origines super epistolam ad Romanos.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-ambi-Dd1e443">
+          <head xml:id="timf-ambi-Hd1e445">r</head>
+          <p xml:id="timf-ambi-d1e448">
+            <cit>
+              <quote xml:id="timf-ambi-Qd1e452">Ambicio est quedam simia caritatis. Caritas enim paciens est pro eternis; ambicio
+        patitur omnia pro caducis. Caritas benigna est pauperibus, ambicio diuitibus. Caritas
+        omnia suffert pro ueritate, ambicio pro uanitate. Vtraque omnia credit, omnia sperat,
+        sed longe dissimili modo.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-ambi-Qd1e452" xml:id="timf-ambi-Rd1e458">Petrus Rauennas in quodam sermone.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-ambi-Dd1e463">
+          <head xml:id="timf-ambi-Hd1e465">s</head>
+          <p xml:id="timf-ambi-d1e468">
+            <cit>
+              <quote xml:id="timf-ambi-Qd1e472">Ambiciosus semper est pauidus, semper attentus ne dicat quod displiceat.
+        Humilitatem simulat, honestatem metitur, affabilitatem exhibet, benignitatem ostendit,
+        subsequitur et obsequitur, cunctos honorat, uniuersis inclinat, frequentat curias,
+        uisitat optimates, assurgit et amplexatur, applaudit et adulatur. Bene nouit illud
+        poeticum: Et si nullus erit puluis, excute nullum.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-ambi-Qd1e472" xml:id="timf-ambi-Rd1e478">Innocencius de uilitate condicionis humane.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-ambi-Dd1e483">
+          <head xml:id="timf-ambi-Hd1e485">t</head>
+          <p xml:id="timf-ambi-d1e488">
+            <cit>
+              <quote xml:id="timf-ambi-Qd1e492">Ambiciosus promptus et feruidus ubi placere cognouerit, remissus et tepidus ubi
+        putauerit displicere. Improbat mala, detestatur iniqua, sed alia cum aliis probat et
+        improbat ut iudicetur ydoneus, ut reputetur acceptus, ut laudetur ab omnibus, ut a
+        singulis approbetur. Sed ecce, grauem intra se sustinet pugnam difficilemque conflictum!
+        Dum iniquitas pulsat animum, ambicio continet manum et, quod illa suggerit, hec fieri
+        non permittit. Colludunt ad inuicem mater et filia, iniquitas et ambicio; hec uendicat
+        sibi publicum, illa secretum.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-ambi-Qd1e492" xml:id="timf-ambi-Rd1e498">Innocencius ibidem (de uilitate condicionis humane).</ref>
+          </p>
+        </div>
+        <div xml:id="timf-ambi-Dd1e503">
+          <head xml:id="timf-ambi-Hd1e505">u</head>
+          <p xml:id="timf-ambi-d1e508">
+            <cit>
+              <quote xml:id="timf-ambi-Qd1e512">Ambiciosus statim ut est ad honorem promotus, in superbiam extollitur, in
+        iactanciam effrenatur. Non curat prodesse sed gloriatur preesse; presumit se meliorem
+        quia cernit se superiorem. Priores dedignatur amicos, notos ignorat hesternos, comites
+        contempnit antiquos. Vultum auertit, ceruicem erigit, fastum ostendit, grandia loquitur,
+        sublimia meditatur, subesse non patitur, preesse molitur, subditis onerosus, omnibus
+        infestus, preceps, molestus, arrogans, grauis et importunus.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-ambi-Qd1e512" xml:id="timf-ambi-Rd1e518">Innocencius ibidem (de uilitate condicionis humane).</ref>
+          </p>
+        </div>
+        <div xml:id="timf-ambi-Dd1e523">
+          <head xml:id="timf-ambi-Hd1e525">x</head>
+          <p xml:id="timf-ambi-d1e528">
+            <cit>
+              <quote xml:id="timf-ambi-Qd1e532">Ambicio multos mortales falsos fieri coegit, aliud clausum in pectore, aliud in
+        lingua promptum habere, amicicias inimiciciasque non ex re sed ex commodo estimare,
+        magisque uultum quam ingenium bonum habere. Est autem in hoc genere hoc molestum quod in
+        magnanimis et munificis sepius incidit potencie cupiditas.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-ambi-Qd1e532" xml:id="timf-ambi-Rd1e538">Tullius in rethorica.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-ambi-Dd1e543">
+          <head xml:id="timf-ambi-Hd1e545">y</head>
+          <p xml:id="timf-ambi-d1e548">
+            <cit>
+              <quote xml:id="timf-ambi-Qd1e552">Dulcedinem glorie gloriosam Alexandri pectus insaciabile laudis accepit qui
+        Anaxachro comiti suo ex auctoritate Democriti preceptoris sui innumerabiles mundos esse
+        referenti. Heu me, inquit, miserum quod nec uno quidem adhuc sum potitus! Angusta homini
+        possessio glorie fuit que deorum omnium domicilio sufficit.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-ambi-Qd1e552" xml:id="timf-ambi-Rd1e558">Valerius Maximus libro VIII.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-ambi-Dd1e564">
+          <head xml:id="timf-ambi-Hd1e566">z</head>
+          <p xml:id="timf-ambi-d1e569">
+            <cit>
+              <quote xml:id="timf-ambi-Qd1e573">[abest in manuscriptis]</quote>
+              <bibl/>
+            </cit>
+          </p>
+        </div>
+        <div xml:id="timf-ambi-Dd1e581">
+          <head xml:id="timf-ambi-Hd1e583">ab</head>
+          <p xml:id="timf-ambi-d1e586">
+            <cit>
+              <quote xml:id="timf-ambi-Qd1e590">Grauissimum genus egestatis est in diuiciis inopia. Relinque ambicionem, timida res
+        est, uana, uentosa, nullum habet terminum, tam sollicita ne quem ante se uideat quam ne
+        se laborat inuidia. Vides autem quam miser sit is cui inuidetur et inuidet, et acrior
+        est cupiditas quo illam amplioris rei spes euocat.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-ambi-Qd1e590" xml:id="timf-ambi-Rd1e596">Seneca LXXXVI. epistola.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-ambi-Dd1e601">
+          <head xml:id="timf-ambi-Hd1e603">ac</head>
+          <p xml:id="timf-ambi-d1e606">
+            <cit>
+              <quote xml:id="timf-ambi-Qd1e610">Eque ambicio non patitur quemquam in ea mensura bonorum conquiescere qua quondam
+        fuit eius impudens uotum. Nemo agit de tribunatu gracias, sed conqueritur quod non est
+        ad preturam usque perductus. Nec grata est si desit consulatus, nec hoc quidem sufficit
+        si unus est ultra. Cupiditas enim non unde uenerit, respicit, sed quo tendit.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-ambi-Qd1e610" xml:id="timf-ambi-Rd1e616">Seneca in epistolis.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-ambi-Dd1e621">
+          <head xml:id="timf-ambi-Hd1e623">ad</head>
+          <p xml:id="timf-ambi-d1e626">
+            <cit>
+              <quote xml:id="timf-ambi-Qd1e630">Nunquam improbe spei quod datur satis est. Omnia meruisse se existimat, nec satis
+        precio estimatum putat. Maiora enim cupimus quo maiora uenerint multoque concitacio est
+        ambicio siue cupiditas in magnarum opum congestu collocata ut fame infinito uis acrior
+        est quo ex maiore incendio emicuit.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-ambi-Qd1e630" xml:id="timf-ambi-Rd1e636">Seneca libro de beneficiis.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-ambi-Dd1e641">
+          <head xml:id="timf-ambi-Hd1e643">ae</head>
+          <p xml:id="timf-ambi-d1e646">
+            <cit>
+              <quote xml:id="timf-ambi-Qd1e650">Sic est de ambicione quomodo de amica conqueruntur homines. Si uerum affectum
+        inspicias, non odiunt sed litigant. Videbis uoluntariam esse illis in eo moram quod egre
+        ferre ipsos et misere loquntur. Lecatores enim conqueruntur de molestiis amice, nec
+        tamen dimittunt et ambiciosi conqueruntur de laboribus et miseriis ambicionis, nec tamen
+        eam dimittunt.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-ambi-Qd1e650" xml:id="timf-ambi-Rd1e656">Seneca epistola XXIII.</ref>
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

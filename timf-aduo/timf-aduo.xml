@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Aduocati</title>
+        <author ref="#ThomasOfIreland">Thomas Hybernicus</author>
+        <respStmt>
+          <name>Chris Nighman</name>
+          <resp>Editor</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Aduocati</title>
+          <date when="2018-05-22">May 22, 2018</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref>SCTA</ref> and <ref target="http://www.manipulusflorum.com/">Manipulus floreum Project</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Pb" n="bnf15985">Bnf 15985</witness>
+          <witness xml:id="Pc" n="bnf15985">Bnf 15986</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2018-05-22" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="timf-aduo">
+        <head xml:id="timf-aduo-Hd1e117">Aduocati</head>
+        <div xml:id="timf-aduo-Dd1e120">
+          <head xml:id="timf-aduo-Hd1e122">a</head>
+          <p xml:id="timf-aduo-d1e125">
+            <cit>
+              <quote xml:id="timf-aduo-Qd1e129">Non ideo debet iudex uendere iustum iudicium aut testis uerum testimonium quia
+        uendit aduocatus iustum patrocinium aut peritus uerum consilium. Illi enim inter
+        utramque partem ad examen adhibentur, isti ex una consistunt.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-aduo-Qd1e129" xml:id="timf-aduo-Rd1e135">Augustinus in epistola ad Macedonium.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-aduo-Dd1e140">
+          <head xml:id="timf-aduo-Hd1e142">b</head>
+          <p xml:id="timf-aduo-d1e145">
+            <cit>
+              <quote xml:id="timf-aduo-Qd1e149">Nichil impudencius arrogancia aduocatorum qui garrulitatem auctoritatem putant et
+        parati ad lites in subiectos tumide intonant.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-aduo-Qd1e149" xml:id="timf-aduo-Rd1e155">Augustinus in quodam sermone.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-aduo-Dd1e160">
+          <head xml:id="timf-aduo-Hd1e162">c</head>
+          <p xml:id="timf-aduo-d1e165">
+            <cit>
+              <quote xml:id="timf-aduo-Qd1e169">Iuste aduocato dicitur: Redde quod accepisti quoniam contra ueritatem fecisti,
+        iniquitati affuisti, iudicem fefellisti, iustam causam oppressisti, de falsitate
+        uicisti.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-aduo-Qd1e169" xml:id="timf-aduo-Rd1e175">Ambrosius in sermone.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-aduo-Dd1e180">
+          <head xml:id="timf-aduo-Hd1e182">d</head>
+          <p xml:id="timf-aduo-d1e185">
+            <cit>
+              <quote xml:id="timf-aduo-Qd1e189">Iustus aduocatus nullo modo iniustas causas accipit, nec uerba dare pro iniusticia
+        consentit.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-aduo-Qd1e189" xml:id="timf-aduo-Rd1e195">Gregorius super Ezechielem.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-aduo-Dd1e201">
+          <head xml:id="timf-aduo-Hd1e203">e</head>
+          <p xml:id="timf-aduo-d1e206">
+            <cit>
+              <quote xml:id="timf-aduo-Qd1e210">Verbosulum aduocatum et studentem eloquencie cum sapiencie sit inanis, non aliud
+        quam iusticie hostem reputes.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-aduo-Qd1e210" xml:id="timf-aduo-Rd1e216">Bernardus libro de consideracione.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-aduo-Dd1e221">
+          <head xml:id="timf-aduo-Hd1e223">f</head>
+          <p xml:id="timf-aduo-d1e226">
+            <cit>
+              <quote xml:id="timf-aduo-Qd1e230">Hii sunt qui docuerunt linguas suas loqui grandia cum operantur exigua, largissimi
+        promissores, paucissimi exhibitores, diserti aduersus iusticiam, eruditi pro falsitate,
+        sapientes sunt ut faciant malum; bene autem facere nescierunt.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-aduo-Qd1e230" xml:id="timf-aduo-Rd1e236">Bernardus libro de consideracione.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-aduo-Dd1e241">
+          <head xml:id="timf-aduo-Hd1e243">g</head>
+          <p xml:id="timf-aduo-d1e246">
+            <cit>
+              <quote xml:id="timf-aduo-Qd1e250">Verbosulus aduocatus aut rumpetur aut loquetur. Plenus est sermonibus; coartus est
+        spiritus uteri sui. Esurit et sitit auditores quibus iactitet uanitates, et habita
+        oportunitate loquendi. Si de litteris agitur, noua profert et uetera. Volant sentencie;
+        resonant uerba impullosa. Interrogantem preuenit et querenti non respondet.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-aduo-Qd1e250" xml:id="timf-aduo-Rd1e256">Bernardus ibidem (libro de consideracione).</ref>
+          </p>
+        </div>
+        <div xml:id="timf-aduo-Dd1e261">
+          <head xml:id="timf-aduo-Hd1e263">h</head>
+          <p xml:id="timf-aduo-d1e266">
+            <cit>
+              <quote xml:id="timf-aduo-Qd1e270">Miror namque quomodo religiose aures tue audire sustinent huiusmodi disputationes
+        aduocatorum et pugnas uerborum que magis ad subuersionem quam ad inuentionem proficiunt
+        ueritatis. Nichil enim ita absque labore manifestam facit ueritatem sicut breuis et pura
+        narracio. Precide ergo linguas uaniloquas et labia dolosa claude. Hii sunt qui docuerunt
+        linguas suas loqui mendacium, disserti aduersus iusticiam, eruditi pro falsitate;
+        sapientes sunt ut faciant malum, eloquentes ut impugnent uerum.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-aduo-Qd1e270" xml:id="timf-aduo-Rd1e276">Bernardus ad Eugenium libro I. capitulo IX.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-aduo-Dd1e281">
+          <head xml:id="timf-aduo-Hd1e283">i</head>
+          <p xml:id="timf-aduo-d1e286">
+            <cit>
+              <quote xml:id="timf-aduo-Qd1e290">Rane significant clamosas aduocatorum allegaciones que inani et inflata modulacione
+        uelut ranarum sonis et cantibus mundo deceptionis fabulas intulerunt. Ad nichil enim
+        aliud utiles sunt nisi quod sonum uocis improbis et importunis clamoribus
+        reddunt.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-aduo-Qd1e290" xml:id="timf-aduo-Rd1e296">Origenes super illud Exodi VIII.: Percuciam omnes terminos tuos ranis in
+       originali.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-aduo-Dd1e301">
+          <head xml:id="timf-aduo-Hd1e303">k</head>
+          <p xml:id="timf-aduo-d1e306">
+            <cit>
+              <quote xml:id="timf-aduo-Qd1e310">Antiqui forensem eloquenciam caninam facundiam nuncupabant, eo quod causidici in
+        certaminibus causarum omissis que agunt ueluti canes alterutrum lacerant.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-aduo-Qd1e310" xml:id="timf-aduo-Rd1e316">Ysidorus III. de summo bono.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-aduo-Dd1e322">
+          <head xml:id="timf-aduo-Hd1e324">l (1)</head>
+          <p xml:id="timf-aduo-d1e327">
+            <cit>
+              <quote xml:id="timf-aduo-Qd1e331">Irritare a canibus tractum est quorum latratibus .r. littera plurimum
+        sonat.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-aduo-Qd1e331" xml:id="timf-aduo-Rd1e337">Cassiodorus super illud Psalmi LXXIII.: Irritat aduersus nomen tuum.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-aduo-Dd1e342">
+          <head xml:id="timf-aduo-Hd1e344">l (2)</head>
+          <p xml:id="timf-aduo-d1e347">
+            <cit>
+              <quote xml:id="timf-aduo-Qd1e351">Hii sunt qui causas protendunt adhibiti, impediunt pretermissi, fastidiunt
+        admoniti, obliuiscuntur locupletati. Hii sunt qui emunt lites, uendunt intercessiones,
+        deputant arbitros, iudicanda dictant, dictata conuellunt, attrahunt litigaturos,
+        protrahunt audiendos, retrahunt transigentes.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-aduo-Qd1e351" xml:id="timf-aduo-Rd1e357">Sydonius in quadam epistola.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-aduo-Dd1e362">
+          <head xml:id="timf-aduo-Hd1e364">m</head>
+          <p xml:id="timf-aduo-d1e367">
+            <cit>
+              <quote xml:id="timf-aduo-Qd1e371">Hii sunt qui negant ciuitatibus inducias, mercatoribus nundinas, emptoribus
+        mensuras, reuerenciam clericis, originem nobilibus, locum prioribus, cunctis iura,
+        distinctis priuilegia, quibus nullum genus hominum, ordinum, temporum cordi est.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-aduo-Qd1e371" xml:id="timf-aduo-Rd1e377">Cassiodorus ibidem (super illud Psalmi LXXIII.: Irritat aduersus nomen tuum).</ref>
+          </p>
+        </div>
+        <div xml:id="timf-aduo-Dd1e382">
+          <head xml:id="timf-aduo-Hd1e384">n</head>
+          <p xml:id="timf-aduo-d1e387">
+            <cit>
+              <quote xml:id="timf-aduo-Qd1e391">Hii sunt in conuiuiis scurre, in exactionibus arpie, in colloqucionibus bestie, in
+        questionibus statue, ad intelligendum saxei, ad iudicandum lignei, ad ignoscendum
+        ferrei, ad amicicias pardi, ad facecias ursi, ad fallendum uulpes, ad superbiendum
+        tauri, et ad consumendum minotauri.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-aduo-Qd1e391" xml:id="timf-aduo-Rd1e397">Ibidem (Cassiodorus super illud Psalmi LXXIII.: Irritat aduersus nomen tuum).</ref>
+          </p>
+        </div>
+        <div xml:id="timf-aduo-Dd1e402">
+          <head xml:id="timf-aduo-Hd1e404">o</head>
+          <p xml:id="timf-aduo-d1e407">
+            <cit>
+              <quote xml:id="timf-aduo-Qd1e411">Hii sunt quorum si nares afflauerit cuiusquam rubiginosi aura marsupii, confestim
+        uidebis illic et oculos Argi et manus Briarei et Spingarum ungues et periuria
+        Laomedontis et Vlixis argucias et Symonis fallacias et fidem Polimestoris et pietatem
+        Pigmaleonis adhiberi.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-aduo-Qd1e411" xml:id="timf-aduo-Rd1e417">Ibidem (Cassiodorus super illud Psalmi LXXIII.: Irritat aduersus nomen tuum).</ref>
+          </p>
+        </div>
+        <div xml:id="timf-aduo-Dd1e422">
+          <head xml:id="timf-aduo-Hd1e424">p</head>
+          <p xml:id="timf-aduo-d1e427">
+            <cit>
+              <quote xml:id="timf-aduo-Qd1e431">Quomodo inter argutos, armatos, tumultuosos, uirtute, numero, contubernio poterit
+        ex equo et bono solus, inermis, abiectus, peregrinus, pauper audiri? Vbi est gurges de
+        sutoribus fabularum, de concinnatoribus criminum, de duplicatoribus sinistrarum
+        opinionum qui cum non habeant opera pro pomis, spargunt uerba pro foliis, et cum non
+        adsit medulla sensuum, habundat spuma uerborum?</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-aduo-Qd1e431" xml:id="timf-aduo-Rd1e437">Ibidem (Cassiodorus super illud Psalmi LXXIII.: Irritat aduersus nomen tuum).</ref>
+          </p>
+        </div>
+        <div xml:id="timf-aduo-Dd1e443">
+          <head xml:id="timf-aduo-Hd1e445">q</head>
+          <p xml:id="timf-aduo-d1e448">
+            <cit>
+              <quote xml:id="timf-aduo-Qd1e452">Apud causidicos eciam ipsum silencium uenale est, ac lingua eorum dampnifica nisi
+        funibus argenteis ligetur.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-aduo-Qd1e452" xml:id="timf-aduo-Rd1e458">Ibidem (Cassiodorus super illud Psalmi LXXIII.: Irritat aduersus nomen tuum).</ref>
+          </p>
+        </div>
+        <div xml:id="timf-aduo-Dd1e463">
+          <head xml:id="timf-aduo-Hd1e465">r</head>
+          <p xml:id="timf-aduo-d1e468">
+            <cit>
+              <quote xml:id="timf-aduo-Qd1e472">Si quis armatur pecunia tanquam loricis argenteis torrentis impetum Tulliani,
+        fulgur incursus Hectorei, robur uirtutis Herculee, uersipelles Vlixis uilipendit
+        astucias. In tantum et enim habendi fames incanduit ut dyaletice muta sit subtilitas,
+        rethorice languescat ciuilitas, ubi nummorum perorat pluralitas.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-aduo-Qd1e472" xml:id="timf-aduo-Rd1e478">Alanus de conquestione nature.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-aduo-Dd1e483">
+          <head xml:id="timf-aduo-Hd1e485">s</head>
+          <p xml:id="timf-aduo-d1e488">
+            <cit>
+              <quote xml:id="timf-aduo-Qd1e492">Si in aurem iudicis uel aduocati sussurret pecunia, Orphei lira, carmen Amphionis,
+        musa Virgilii uoce pecunie suffocantur. Quid plura? Vbi nummus loquitur, Tulliani
+        eloquii tuba raucessit; ubi nummus militat, Hectoree milicie fulgura compescuntur; ubi
+        pugnat pecunia, uirtus expugnatur Herculea. Nummus uincit, nummus regnat, nummus imperat
+        uniuersis.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-aduo-Qd1e492" xml:id="timf-aduo-Rd1e498">Alanus libro de conquestione nature.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-aduo-Dd1e503">
+          <head xml:id="timf-aduo-Hd1e505">t</head>
+          <p xml:id="timf-aduo-d1e508">
+            <cit>
+              <quote xml:id="timf-aduo-Qd1e512">Nunquam deerit multiplex conuentus falsorum, si tantum presencia fuerit
+        nummorum.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-aduo-Qd1e512" xml:id="timf-aduo-Rd1e518">Idem (Alanus libro de conquestione nature).</ref>
+          </p>
+        </div>
+        <div xml:id="timf-aduo-Dd1e523">
+          <head xml:id="timf-aduo-Hd1e525">u</head>
+          <p xml:id="timf-aduo-d1e528">
+            <cit>
+              <quote xml:id="timf-aduo-Qd1e532">Postquam commoditas quedam praua uirtutis imitatrix sine racionabili officio
+        dicendi copiam consecuta est. Tunc ingenio ferta malicia peruertere urbes ac uitas
+        hominum labefactare consueuit.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-aduo-Qd1e532" xml:id="timf-aduo-Rd1e538">Tullius in prologo rethorice.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-aduo-Dd1e543">
+          <head xml:id="timf-aduo-Hd1e545">x</head>
+          <p xml:id="timf-aduo-d1e548">
+            <cit>
+              <quote xml:id="timf-aduo-Qd1e552">Sepe causas tantum differunt quod litigantibus plusquam totum auferunt quia maior
+        est expensarum sumptus quam sentencie fructus. Nec terminantur negocia pauperum cepta
+        quousque eorum marsupia sint euacuata, cum tamen scriptum sit: Gratis accepistis, gratis
+        date. Ipsi uero nec graciam gratis dant, nec iusticiam iuste reddunt. Lucrum in archa,
+        dampnum in consciencia. Sed quid prodest homini si totum mundum lucretur, anime uero sue
+        detrimentum paciatur?</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-aduo-Qd1e552" xml:id="timf-aduo-Rd1e558">Innocencius de uilitate condicionis humane.</ref>
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

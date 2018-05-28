@@ -1,0 +1,754 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Amor</title>
+        <author ref="#ThomasOfIreland">Thomas Hybernicus</author>
+        <respStmt>
+          <name>Chris Nighman</name>
+          <resp>Editor</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Amor</title>
+          <date when="2018-05-22">May 22, 2018</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref>SCTA</ref> and <ref target="http://www.manipulusflorum.com/">Manipulus floreum Project</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Pb" n="bnf15985">Bnf 15985</witness>
+          <witness xml:id="Pc" n="bnf15985">Bnf 15986</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2018-05-22" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="timf-amor">
+        <head xml:id="timf-amor-Hd1e117">Amor</head>
+        <div xml:id="timf-amor-Dd1e120">
+          <head xml:id="timf-amor-Hd1e122">a</head>
+          <p xml:id="timf-amor-d1e125">
+            <cit>
+              <quote xml:id="timf-amor-Qd1e129">Quid est amor nisi quedam uita duo aliqua copulans uel copulare appetens, amantem
+        scilicet et quod amatur?</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-amor-Qd1e129" xml:id="timf-amor-Rd1e135">Augustinus.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-amor-Dd1e140">
+          <head xml:id="timf-amor-Hd1e142">b</head>
+          <p xml:id="timf-amor-d1e145">
+            <cit>
+              <quote xml:id="timf-amor-Qd1e149">Sordes animi sunt amor quarumlibet rerum preter animum et Deum; a quibus sordibus
+        quanto quisque est purgatior, tanto uerum facilius intuetur.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-amor-Qd1e149" xml:id="timf-amor-Rd1e155">Augustinus de utilitate credendi.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-amor-Dd1e160">
+          <head xml:id="timf-amor-Hd1e162">c</head>
+          <p xml:id="timf-amor-d1e165">
+            <cit>
+              <quote xml:id="timf-amor-Qd1e169">Nichil tam durum atque ferreum quod non amoris igne uincatur.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-amor-Qd1e169" xml:id="timf-amor-Rd1e175">Augustinus de moribus ecclesie contra Manicheos libro I.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-amor-Dd1e180">
+          <head xml:id="timf-amor-Hd1e182">d</head>
+          <p xml:id="timf-amor-d1e185">
+            <cit>
+              <quote xml:id="timf-amor-Qd1e189">Omnis creatura cum bona sit et bene amari potest et male, bene scilicet ordine
+        constituto, male ordine perturbato.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-amor-Qd1e189" xml:id="timf-amor-Rd1e195">Augustinus de ciuitate Dei libro XV.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-amor-Dd1e201">
+          <head xml:id="timf-amor-Hd1e203">e</head>
+          <p xml:id="timf-amor-d1e206">
+            <cit>
+              <quote xml:id="timf-amor-Qd1e210">Duas ciuitates duo faciunt amores: Ierusalem facit amor Dei, Babiloniam facit amor
+        seculi. Interroget igitur se quisque quid amet et inueniet unde sit ciuis.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-amor-Qd1e210" xml:id="timf-amor-Rd1e216">Augustinus super Psalmum LXIIII.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-amor-Dd1e221">
+          <head xml:id="timf-amor-Hd1e223">f</head>
+          <p xml:id="timf-amor-d1e226">
+            <cit>
+              <quote xml:id="timf-amor-Qd1e230">Ad Deum qui ubique presens est, ubique totus est, non pedibus licet ire sed
+        moribus. Mores autem nostri non ex eo quod quisque nouit, sed ex eo quod diligit
+        diiudicari solent, nec faciunt bonos uel malos mores nisi boni uel mali amores.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-amor-Qd1e230" xml:id="timf-amor-Rd1e236">Augustinus in epistola ad Macedonium.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-amor-Dd1e241">
+          <head xml:id="timf-amor-Hd1e243">g</head>
+          <p xml:id="timf-amor-d1e246">
+            <cit>
+              <quote xml:id="timf-amor-Qd1e250">Beatus qui amat te et amicum in te et inimicum propter te. Solus ille nullum carum
+        amittit cui omnes in illo cari sunt qui non amittitur. Te nemo amittit nisi qui
+        dimittit, et quo it nisi a te placato ad te iratum.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-amor-Qd1e250" xml:id="timf-amor-Rd1e256">Augustinus libro confessionum.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-amor-Dd1e261">
+          <head xml:id="timf-amor-Hd1e263">h</head>
+          <p xml:id="timf-amor-d1e266">
+            <cit>
+              <quote xml:id="timf-amor-Qd1e270" source="http://scta.info/resource/aconf-l13">Ponderibus suis aguntur omnia et loca sua petunt. Pondus meum amor meus; illo feror
+        quocunque feror.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-amor-Qd1e270" xml:id="timf-amor-Rd1e276">Augustinus libro XIII. confessionum.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-amor-Dd1e281">
+          <head xml:id="timf-amor-Hd1e283">i</head>
+          <p xml:id="timf-amor-d1e286">
+            <cit>
+              <quote xml:id="timf-amor-Qd1e290" source="http://scta.info/resource/aconf-l13">Verus amor non sentit amaritudines sed dulcedinem quia soror amoris dulcedo sicut
+        soror odii est amaritudo.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-amor-Qd1e290" xml:id="timf-amor-Rd1e296">Augustinus ibidem (libro XIII. confessionum).</ref>
+          </p>
+        </div>
+        <div xml:id="timf-amor-Dd1e301">
+          <head xml:id="timf-amor-Hd1e303">k</head>
+          <p xml:id="timf-amor-d1e306">
+            <cit>
+              <quote xml:id="timf-amor-Qd1e310" source="http://scta.info/resource/aconf-l13">Qui amat non laborat. Omnis enim labor non amantibus grauis est. Solum amor est
+        quod nomen difficultatis erubescit.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-amor-Qd1e310" xml:id="timf-amor-Rd1e316">Augustinus ibidem (libro XIII. confessionum).</ref>
+          </p>
+        </div>
+        <div xml:id="timf-amor-Dd1e322">
+          <head xml:id="timf-amor-Hd1e324">l</head>
+          <p xml:id="timf-amor-d1e327">
+            <cit>
+              <quote xml:id="timf-amor-Qd1e331">Nulla maior est ad amorem inuitacio quam preuenire amantem; et nimis durus est
+        animus qui, si dilectionem nolebat impendere, nolit rependere.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-amor-Qd1e331" xml:id="timf-amor-Rd1e337">Augustinus de cathezizandis rudibus.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-amor-Dd1e342">
+          <head xml:id="timf-amor-Hd1e344">m</head>
+          <p xml:id="timf-amor-d1e347">
+            <cit>
+              <quote xml:id="timf-amor-Qd1e351">Nullo modo onerosi sunt labores amancium sed ipsi delectant sicut uenancium,
+        aucupancium, piscancium. In eo enim quod amatur aut non laboratur aut labor
+        amatur.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-amor-Qd1e351" xml:id="timf-amor-Rd1e357">Augustinus in libro de sancta uiduitate.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-amor-Dd1e362">
+          <head xml:id="timf-amor-Hd1e364">n</head>
+          <p xml:id="timf-amor-d1e367">
+            <cit>
+              <quote xml:id="timf-amor-Qd1e371">Ama amorem illius qui amore tui amoris descendit in uterum uirginis, et ibi amorem
+        suum amori tuo copulauit, humiliando se, sublimando te, coniungendo lumen sue
+        eternitatis limo tue mortalitatis.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-amor-Qd1e371" xml:id="timf-amor-Rd1e377">Augustinus de cathezizandis rudibus.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-amor-Dd1e382">
+          <head xml:id="timf-amor-Hd1e384">o</head>
+          <p xml:id="timf-amor-d1e387">
+            <cit>
+              <quote xml:id="timf-amor-Qd1e391">Constans et perfectus debet esse amor noster ut, si necesse fuerit, amore illius
+        moriamur qui amore nostri placide ac benigne mori dignatus est.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-amor-Qd1e391" xml:id="timf-amor-Rd1e397">Augustinus ibidem (de cathezizandis rudibus).</ref>
+          </p>
+        </div>
+        <div xml:id="timf-amor-Dd1e402">
+          <head xml:id="timf-amor-Hd1e404">p</head>
+          <p xml:id="timf-amor-d1e407">
+            <cit>
+              <quote xml:id="timf-amor-Qd1e411">Minus, Domine, te amat qui aliquid tecum amat quod propter te non amat.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-amor-Qd1e411" xml:id="timf-amor-Rd1e417">Augustinus in libro confessionum.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-amor-Dd1e422">
+          <head xml:id="timf-amor-Hd1e424">q</head>
+          <p xml:id="timf-amor-d1e427">
+            <cit>
+              <quote xml:id="timf-amor-Qd1e431">O si possemus excitare homines et cum ipsis pariter excitari ut tales essemus
+        amatores uite permanentis, quales sunt homines amatores uite fugientis!</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-amor-Qd1e431" xml:id="timf-amor-Rd1e437">Augustinus de doctrina Christiana.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-amor-Dd1e443">
+          <head xml:id="timf-amor-Hd1e445">r</head>
+          <p xml:id="timf-amor-d1e448">
+            <cit>
+              <quote xml:id="timf-amor-Qd1e452">Hoc habet impaciens amor ut quem desiderat semper inuenire se credat. Ignorat
+        siquidem iudicium, racione multociens caret, nescit modum, nec aliud cogitare potest
+        quam quod diligit. Amor non accipit de impossibilitate solacium, nec ex difficultate
+        remedium, nec consilio temperatur, nec pudore frenatur, nec racione subicitur.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-amor-Qd1e452" xml:id="timf-amor-Rd1e458">Ambrosius et Ieronymus in sermone de assumpcione.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-amor-Dd1e463">
+          <head xml:id="timf-amor-Hd1e465">s</head>
+          <p xml:id="timf-amor-d1e468">
+            <cit>
+              <quote xml:id="timf-amor-Qd1e472">Non minus uos diligo quos genui euangelio quam si suscepissem uos coniugio. Gracia
+        quippe uehemencior est ad diligendum quam natura. </quote>
+            </cit>
+            <ref corresp="#timf-amor-Qd1e472" xml:id="timf-amor-Rd1e476">Ambrosius libro de officiis.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-amor-Dd1e481">
+          <head xml:id="timf-amor-Hd1e483">t</head>
+          <p xml:id="timf-amor-d1e486">
+            <cit>
+              <quote xml:id="timf-amor-Qd1e490">Nichil amantibus durum, nullus labor difficilis; amemus et nos Christum et facile
+        uidebitur omne difficile.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-amor-Qd1e490" xml:id="timf-amor-Rd1e496">Ieronymus in quodam sermone.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-amor-Dd1e501">
+          <head xml:id="timf-amor-Hd1e503">u</head>
+          <p xml:id="timf-amor-d1e506">
+            <cit>
+              <quote xml:id="timf-amor-Qd1e510">Felix consciencia illa in cuius corde preter amorem Christi qui est sapiencia,
+        castitas, patiencia atque iusticia. Nullus alius uersatur amor nec ad recordacionem
+        hominis aliquando suspirat, nec uidere desiderat quem cum uiderit, nolit
+        dimittere.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-amor-Qd1e510" xml:id="timf-amor-Rd1e516">Ieronymus in epistola ad Demetriadem uirginem.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-amor-Dd1e521">
+          <head xml:id="timf-amor-Hd1e523">x</head>
+          <p xml:id="timf-amor-d1e526">
+            <cit>
+              <quote xml:id="timf-amor-Qd1e530">Crebra munuscula et subdariola et fasciolas et uestes ori applicatas et oblatas ac
+        degustatos cibos blandasque et dulces litteras sanctus amor non habet.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-amor-Qd1e530" xml:id="timf-amor-Rd1e536">Ieronymus in epistola ad Nepocianum.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-amor-Dd1e541">
+          <head xml:id="timf-amor-Hd1e543">y</head>
+          <p xml:id="timf-amor-d1e546">
+            <cit>
+              <quote xml:id="timf-amor-Qd1e550">Tunc plenius in Dei dilectione proficimus cum in eiusdem dilectionis gremio prius
+        proximi caritate lactamur.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-amor-Qd1e550" xml:id="timf-amor-Rd1e556">Gregorius V. libro moralium.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-amor-Dd1e562">
+          <head xml:id="timf-amor-Hd1e564">z</head>
+          <p xml:id="timf-amor-d1e567">
+            <cit>
+              <quote xml:id="timf-amor-Qd1e571">[abest in manuscriptis]</quote>
+              <bibl/>
+            </cit>
+          </p>
+        </div>
+        <div xml:id="timf-amor-Dd1e579">
+          <head xml:id="timf-amor-Hd1e581">ab</head>
+          <p xml:id="timf-amor-d1e584">
+            <cit>
+              <quote xml:id="timf-amor-Qd1e588">Solent nonnulli in prosperis Deum diligere, in aduersis autem flagellantem minus
+        amare.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-amor-Qd1e588" xml:id="timf-amor-Rd1e594">Gregorius II. libro moralium.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-amor-Dd1e599">
+          <head xml:id="timf-amor-Hd1e601">ac</head>
+          <p xml:id="timf-amor-d1e604">
+            <cit>
+              <quote xml:id="timf-amor-Qd1e608">Amanti Deum dilatio imponitur ut ex dilati amoris desiderio meritum retribucionis
+        augeatur.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-amor-Qd1e608" xml:id="timf-amor-Rd1e614">Gregorius XVI. moralium.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-amor-Dd1e619">
+          <head xml:id="timf-amor-Hd1e621">ad</head>
+          <p xml:id="timf-amor-d1e624">
+            <cit>
+              <quote xml:id="timf-amor-Qd1e628">Tanto quisque a superno amore disiungitur, quanto inferius delectatur. Nunquam est
+        amor Dei ociosus. Operatur enim magna si est, si autem operari renuit, amor non
+        est.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-amor-Qd1e628" xml:id="timf-amor-Rd1e634">Gregorius in omelia.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-amor-Dd1e639">
+          <head xml:id="timf-amor-Hd1e641">ae</head>
+          <p xml:id="timf-amor-d1e644">
+            <cit>
+              <quote xml:id="timf-amor-Qd1e648">Tantum quilibet portat proximum, quantum amat. Si enim amas, portas; si desisti
+        amare, desisti et tolerare.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-amor-Qd1e648" xml:id="timf-amor-Rd1e654">Gregorius super Ezechielem.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-amor-Dd1e659">
+          <head xml:id="timf-amor-Hd1e661">af</head>
+          <p xml:id="timf-amor-d1e664">
+            <cit>
+              <quote xml:id="timf-amor-Qd1e668">Ille in amore Dei maior est qui ad eius amorem plurimos trahit.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-amor-Qd1e668" xml:id="timf-amor-Rd1e674">Gregorius in omelia.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-amor-Dd1e680">
+          <head xml:id="timf-amor-Hd1e682">ag</head>
+          <p xml:id="timf-amor-d1e685">
+            <cit>
+              <quote xml:id="timf-amor-Qd1e689">Certe iam monumentum uacuum uiderat, iam sublatum Dominum nunciauerat. Quid est
+        quod se iterum inclinat, iterum uidere desiderat? Sed amanti semel aspicere non sufficit
+        quia uis amoris intencionem multiplicat inquisicionis.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-amor-Qd1e689" xml:id="timf-amor-Rd1e695">Gregorius in omelia: Maria stabat ad monumentum et cetera.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-amor-Dd1e700">
+          <head xml:id="timf-amor-Hd1e702">ah</head>
+          <p xml:id="timf-amor-d1e705">
+            <cit>
+              <quote xml:id="timf-amor-Qd1e709">Mulier, quid ploras? Quem queris? Interrogatur causa doloris ut augeatur desiderium
+        querentis, quatenus cum nominaret quem quereret, in amore eius ardencius
+        estuaret.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-amor-Qd1e709" xml:id="timf-amor-Rd1e715">Gregorius ibidem (in omelia: Maria stabat ad monumentum et cetera).</ref>
+          </p>
+        </div>
+        <div xml:id="timf-amor-Dd1e720">
+          <head xml:id="timf-amor-Hd1e722">ai</head>
+          <p xml:id="timf-amor-d1e725">
+            <cit>
+              <quote xml:id="timf-amor-Qd1e729">Vehementer claudit oculum cordis amor priuatus ex quo fit ut hoc quod agimus et
+        graue esse non estimamus, plerumque cum agatur a proximo et nimis detestabile esse
+        uideatur.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-amor-Qd1e729" xml:id="timf-amor-Rd1e735">Gregorius super Ezechielem omelia II.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-amor-Dd1e740">
+          <head xml:id="timf-amor-Hd1e742">ak</head>
+          <p xml:id="timf-amor-d1e745">
+            <cit>
+              <quote xml:id="timf-amor-Qd1e749">Vis amoris hoc agere solet in animo ut quem semper ipse cogitat, nullum alium
+        credat ignorare.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-amor-Qd1e749" xml:id="timf-amor-Rd1e755">Gregorius omelia XXV. super euangelium super illud: Domine si tu sustulisti eum et
+       cetera.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-amor-Dd1e760">
+          <head xml:id="timf-amor-Hd1e762">al</head>
+          <p xml:id="timf-amor-d1e765">
+            <cit>
+              <quote xml:id="timf-amor-Qd1e769">In quantum quisque amat, in tantum ad ingressum regni appropinquat. In quantum uero
+        amare negligit, in tantum ingredi recusat.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-amor-Qd1e769" xml:id="timf-amor-Rd1e775">Gregorius ibidem (omelia XXV. super euangelium super illud: Domine si tu sustulisti eum
+       et cetera) super Ezechielem.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-amor-Dd1e780">
+          <head xml:id="timf-amor-Hd1e782">am</head>
+          <p xml:id="timf-amor-d1e785">
+            <cit>
+              <quote xml:id="timf-amor-Qd1e789">Amorem nostrum erga proximum plus bona opera loquantur quam lingua ut in ipso bono
+        opere proximus amari se uideat, et cum tantum non possumus quantum uolumus operari,
+        omnipotenti Deo occulta cordis nostri sufficiunt.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-amor-Qd1e789" xml:id="timf-amor-Rd1e795">Gregorius super Ezechielem.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-amor-Dd1e801">
+          <head xml:id="timf-amor-Hd1e803">an</head>
+          <p xml:id="timf-amor-d1e806">
+            <cit>
+              <quote xml:id="timf-amor-Qd1e810">Per amorem Dei amor proximi gignitur, et per amorem proximi amor Dei nutritur. Nam
+        qui amare proximum negligit, profecto Deum diligere nescit, et tunc plenius in Dei
+        dilectione proficimus, si in eius dilectionis gremio prius proximi caritate lactamur.
+        Amor Dei amorem proximi generat, et amorem proximi calefacit amor Dei.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-amor-Qd1e810" xml:id="timf-amor-Rd1e816">Gregorius in quadam omelia super euangelium.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-amor-Dd1e821">
+          <head xml:id="timf-amor-Hd1e823">ao</head>
+          <p xml:id="timf-amor-d1e826">
+            <cit>
+              <quote xml:id="timf-amor-Qd1e830">Non enim presentior est spiritus noster ubi animat quam ubi amat, nisi forte magis
+        putetur esse ubi unitus ex necessitate tenetur quam quo sponte et alacri fertur
+        uoluntate.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-amor-Qd1e830" xml:id="timf-amor-Rd1e836">Bernardus de precepto et dispensacione.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-amor-Dd1e841">
+          <head xml:id="timf-amor-Hd1e843">ap</head>
+          <p xml:id="timf-amor-d1e846">
+            <cit>
+              <quote xml:id="timf-amor-Qd1e850">Ama perseueranter et longanimiter et habes longitudinem. Dilata amorem tuum usque
+        ad inimicos et latitudinem tenes. Esto in omni sollicitudine timoratus, sublime et
+        profundum apprehendisti.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-amor-Qd1e850" xml:id="timf-amor-Rd1e856">Bernardus V. de consideracione.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-amor-Dd1e861">
+          <head xml:id="timf-amor-Hd1e863">aq</head>
+          <p xml:id="timf-amor-d1e866">
+            <cit>
+              <quote xml:id="timf-amor-Qd1e870">Sapiencia est Deus et uult amari non solum dulciter sed et sapienter. Alioquin
+        facilime zelo tuo spiritus illudet erroris, si scienciam negligas. Non enim habet
+        callidus hostis machinamentum efficacius ad tollendam de corde dilectionem, quam si
+        efficere possit ut in ea incaute et non cum racione ambuletur.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-amor-Qd1e870" xml:id="timf-amor-Rd1e876">Bernardus super Cantica sermone XXX.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-amor-Dd1e881">
+          <head xml:id="timf-amor-Hd1e883">ar</head>
+          <p xml:id="timf-amor-d1e886">
+            <cit>
+              <quote xml:id="timf-amor-Qd1e890">Dilexit nos Deus dulciter, sapienter, fortiter. Dulciter, nempe dixerim, quod
+        carnem induit, sapienter quod culpam cauit, fortiter quod mortem sustinuit. Disce ergo,
+        Christiane, a Christo quemadmodum diligas Christum. Disce amare dulciter ne illecti,
+        prudenter ne decepti, fortiter ne compressi deficiamus.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-amor-Qd1e890" xml:id="timf-amor-Rd1e896">Bernardus super Cantica sermone XX.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-amor-Dd1e901">
+          <head xml:id="timf-amor-Hd1e903">as</head>
+          <p xml:id="timf-amor-d1e906">
+            <cit>
+              <quote xml:id="timf-amor-Qd1e910">Toto corde, tota anima, tota uirtute diligere est omne quod blanditur de carne
+        propria uel aliena, sacrosancte carnis Christi amori postponere.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-amor-Qd1e910" xml:id="timf-amor-Rd1e916">Bernardus ibidem (super Cantica sermone XX.).</ref>
+          </p>
+        </div>
+        <div xml:id="timf-amor-Dd1e922">
+          <head xml:id="timf-amor-Hd1e924">at (1)</head>
+          <p xml:id="timf-amor-d1e927">
+            <cit>
+              <quote xml:id="timf-amor-Qd1e931">Magna res amor si ad suum recurrat principium, si sue origini redditur, si refusus
+        suo fonti semper ex eo sumat unde iugiter fluat.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-amor-Qd1e931" xml:id="timf-amor-Rd1e937">Bernardus ibidem (sermone XX.) super Cantica.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-amor-Dd1e942">
+          <head xml:id="timf-amor-Hd1e944">at (2)</head>
+          <p xml:id="timf-amor-d1e947">
+            <cit>
+              <quote xml:id="timf-amor-Qd1e951">Non potest capere ignitum eloquium frigidum pectus. Quomodo enim Grece loquentem
+        intelliget qui Grecam non nouit, nec Latine loquentem qui Latinus non est, et ita de
+        ceteris. Sic lingua amoris ei qui non amat barbara erit; erit, inquam, sicut es sonans
+        et tintinabulum tiniens.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-amor-Qd1e951" xml:id="timf-amor-Rd1e957">Bernardus in quodam sermone.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-amor-Dd1e962">
+          <head xml:id="timf-amor-Hd1e964">au</head>
+          <p xml:id="timf-amor-d1e967">
+            <cit>
+              <quote xml:id="timf-amor-Qd1e971">O iugum sancti amoris, quam dulciter capis, gloriose laqueas, suauiter premis,
+        delectanter oneras, fortiter stringis, prudenter erudis! O felix amor ex quo oritur
+        strenuitas morum, puritas affectionum, subtilitas intellectuum, desideriorum sanctitas,
+        operum claritas, uirtutum fecunditas, meritorum dignitas, premiorum sublimitas!</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-amor-Qd1e971" xml:id="timf-amor-Rd1e977">Bernardus in libro de diligendo Deo.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-amor-Dd1e982">
+          <head xml:id="timf-amor-Hd1e984">ax</head>
+          <p xml:id="timf-amor-d1e987">
+            <cit>
+              <quote xml:id="timf-amor-Qd1e991">Prior Deus dilexit nos, tantus, tantum et gratis tantillos et tales.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-amor-Qd1e991" xml:id="timf-amor-Rd1e997">Bernardus ibidem (in libro de diligendo Deo).</ref>
+          </p>
+        </div>
+        <div xml:id="timf-amor-Dd1e1002">
+          <head xml:id="timf-amor-Hd1e1004">ay</head>
+          <p xml:id="timf-amor-d1e1007">
+            <cit>
+              <quote xml:id="timf-amor-Qd1e1011">Vultis a me audire quare et quomodo diligendus est Deus, et ego dico quod causa
+        diligendi Deum Deus est; modus, sine modo diligere. Ob duplicem causam dico Deum propter
+        se diligendum, uel quia nichil iustius, uel quia nil fructuosius diligi potest.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-amor-Qd1e1011" xml:id="timf-amor-Rd1e1017">Bernardus in libro de amore Dei.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-amor-Dd1e1022">
+          <head xml:id="timf-amor-Hd1e1024">az</head>
+          <p xml:id="timf-amor-d1e1027">
+            <cit>
+              <quote xml:id="timf-amor-Qd1e1031">[abest in manuscriptis]</quote>
+              <bibl/>
+            </cit>
+          </p>
+        </div>
+        <div xml:id="timf-amor-Dd1e1040">
+          <head xml:id="timf-amor-Hd1e1042">ba</head>
+          <p xml:id="timf-amor-d1e1045">
+            <cit>
+              <quote xml:id="timf-amor-Qd1e1049">Nemo amatorum carnalium eciam si sit supra modum insaniens, ita exardescere potest
+        in amorem dilecte sue, quemadmodum Deus effunditur in amore animarum nostrarum.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-amor-Qd1e1049" xml:id="timf-amor-Rd1e1055">Crisostomus super illud: Sic Deus dilexit mundum.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-amor-Dd1e1060">
+          <head xml:id="timf-amor-Hd1e1062">bc</head>
+          <p xml:id="timf-amor-d1e1065">
+            <cit>
+              <quote xml:id="timf-amor-Qd1e1069">Amor est dulcedo saporis intimi et quanto ardencius amat, tanto suauius gustat.
+        Cingulum quo cingitur amor est gaudium spei quia ubi est amor, ibi est spes, ibi
+        gaudium; ubi spiritualis amor, ibi spirituale gaudium.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-amor-Qd1e1069" xml:id="timf-amor-Rd1e1075">Richardus de sancto Victore.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-amor-Dd1e1080">
+          <head xml:id="timf-amor-Hd1e1082">bd</head>
+          <p xml:id="timf-amor-d1e1085">
+            <cit>
+              <quote xml:id="timf-amor-Qd1e1089">Verus amor ueritatem amat, in ueritate iudicat, pro ueritate certat, cum ueritate
+        opera consummat.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-amor-Qd1e1089" xml:id="timf-amor-Rd1e1095">Beda super Lucam.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-amor-Dd1e1100">
+          <head xml:id="timf-amor-Hd1e1102">be</head>
+          <p xml:id="timf-amor-d1e1105">
+            <cit>
+              <quote xml:id="timf-amor-Qd1e1109">Si uis perfecte purgari a uiciis, in quantum preuales accende in te ignem diuini
+        amoris. Si dulcedinem diuini amoris perfecte gustaueris, de temporali dulcedine non
+        curabis.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-amor-Qd1e1109" xml:id="timf-amor-Rd1e1115">Rabanus in quodam sermone.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-amor-Dd1e1120">
+          <head xml:id="timf-amor-Hd1e1122">bf</head>
+          <p xml:id="timf-amor-d1e1125">
+            <cit>
+              <quote xml:id="timf-amor-Qd1e1129">Multum quidem uexat hominem cum relinquitur amor mundi, multo amplius tamen cruciat
+        cum calcatur amor sui; uerum michi super omnia transfigit et penetrat cor hominis, et
+        excoquit desiderium estibus amor Dei. Unde est illa uox: Fulcite me floribus, stipate me
+        malis quia amore langueo.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-amor-Qd1e1129" xml:id="timf-amor-Rd1e1135">Beda super Cantica.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-amor-Dd1e1140">
+          <head xml:id="timf-amor-Hd1e1142">bg</head>
+          <p xml:id="timf-amor-d1e1145">
+            <cit>
+              <quote xml:id="timf-amor-Qd1e1149">Amor diuinus est ignis, lux, mel, uinum, sol. Ignis in meditacione, purificans
+        mentem a sordibus uiciorum. Lux est in oracione, mentem irradians claritate uirtutum.
+        Mel est in graciarum actione, mentem dulcorans dulcedine diuinorum beneficiorum. Vinum
+        est in contemplacione, mentem inebrians suaui et iocunda delectacione. Sol est in eterna
+        beatitudine, mentem clarificans serenissimo lumine et suauissimo calore, mentem
+        exhilarans ineffabili gaudio et perhenni iubilacione.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-amor-Qd1e1149" xml:id="timf-amor-Rd1e1155">Rabanus in quodam sermone.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-amor-Dd1e1161">
+          <head xml:id="timf-amor-Hd1e1163">bh</head>
+          <p xml:id="timf-amor-d1e1166">
+            <cit>
+              <quote xml:id="timf-amor-Qd1e1170">Qui uult ueram dilectionem pregustare, Christum discat suauiter amare quia Christus
+        amor est.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-amor-Qd1e1170" xml:id="timf-amor-Rd1e1176">Basilius in exameron.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-amor-Dd1e1181">
+          <head xml:id="timf-amor-Hd1e1183">bi</head>
+          <p xml:id="timf-amor-d1e1186">
+            <cit>
+              <quote xml:id="timf-amor-Qd1e1190">Thesaurus indeficiens est amor diuinus quem qui habet diues est, quo quicumque
+        caret pauper est.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-amor-Qd1e1190" xml:id="timf-amor-Rd1e1196">Basilius ibidem (in exameron).</ref>
+          </p>
+        </div>
+        <div xml:id="timf-amor-Dd1e1201">
+          <head xml:id="timf-amor-Hd1e1203">bk</head>
+          <p xml:id="timf-amor-d1e1206">
+            <cit>
+              <quote xml:id="timf-amor-Qd1e1210">Vnguentum suaue et optimum est amor summi boni quo pestes mentis sanantur et cordis
+        oculi illuminantur.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-amor-Qd1e1210" xml:id="timf-amor-Rd1e1216">Ibidem (Basilius in exameron).</ref>
+          </p>
+        </div>
+        <div xml:id="timf-amor-Dd1e1221">
+          <head xml:id="timf-amor-Hd1e1223">bl</head>
+          <p xml:id="timf-amor-d1e1226">
+            <cit>
+              <quote xml:id="timf-amor-Qd1e1230">Nil durum, nil amarum, nil graue, nil letale computat amor uerus. Quod ferrum, que
+        uulnera, que pena, que mortes amorem preualent separare perfectum? Amor impenetrabilis
+        est lorica. Respuit iacula, gladium excutit, periculis insultat, mortem irridet. Si amor
+        est, uincit omnia.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-amor-Qd1e1230" xml:id="timf-amor-Rd1e1236">Petrus Rauennas in sermone quodam.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-amor-Dd1e1241">
+          <head xml:id="timf-amor-Hd1e1243">bm</head>
+          <p xml:id="timf-amor-d1e1246">
+            <cit>
+              <quote xml:id="timf-amor-Qd1e1250">Ama ergo, O homo, Deum! Ama totus ut possis omnia sine labore uincere et delere
+        peccata. Tenere milicie delicati conflictus est amore solo de cunctis criminibus
+        reportare uictoriam.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-amor-Qd1e1250" xml:id="timf-amor-Rd1e1256">Petrus Rauennas super illud: Diliges Dominum Deum tuum et cetera.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-amor-Dd1e1261">
+          <head xml:id="timf-amor-Hd1e1263">bn</head>
+          <p xml:id="timf-amor-d1e1266">
+            <cit>
+              <quote xml:id="timf-amor-Qd1e1270">Amare sic incipe tanquam non liceat desinere.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-amor-Qd1e1270" xml:id="timf-amor-Rd1e1276">Seneca in libro de moribus.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-amor-Dd1e1282">
+          <head xml:id="timf-amor-Hd1e1284">bo</head>
+          <p xml:id="timf-amor-d1e1287">
+            <cit>
+              <quote xml:id="timf-amor-Qd1e1291">Ames parentem si equs est, sin aliter feras. Amans iratus multa mentitur
+        sibi.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-amor-Qd1e1291" xml:id="timf-amor-Rd1e1297">Seneca in prouerbiis.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-amor-Dd1e1302">
+          <head xml:id="timf-amor-Hd1e1304">bp</head>
+          <p xml:id="timf-amor-d1e1307">
+            <cit>
+              <quote xml:id="timf-amor-Qd1e1311">Amans quid cupiat scit; quid sapiat non uidet. Amans quod suspicatur uigilans
+        sompniat. Amor extorqueri non potest sed elabi potest. Ab amante lacrimis redimas
+        iracundiam. Amari iuueni fructus est, crimen seni. Amor est ociose causa
+        sollicitudinis.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-amor-Qd1e1311" xml:id="timf-amor-Rd1e1317">Seneca in prouerbiis.</ref>
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

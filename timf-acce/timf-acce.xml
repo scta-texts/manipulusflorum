@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Acceptio personarum</title>
+        <author ref="#ThomasOfIreland">Thomas Hybernicus</author>
+        <respStmt>
+          <name>Chris Nighman</name>
+          <resp>Editor</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Acceptio personarum</title>
+          <date when="2018-05-22">May 22, 2018</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref>SCTA</ref> and <ref target="http://www.manipulusflorum.com/">Manipulus floreum Project</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Pb" n="bnf15985">Bnf 15985</witness>
+          <witness xml:id="Pc" n="bnf15985">Bnf 15986</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2018-05-22" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="timf-acce">
+        <head xml:id="timf-acce-Hd1e117">Acceptio personarum</head>
+        <div xml:id="timf-acce-Dd1e120">
+          <head xml:id="timf-acce-Hd1e122">a</head>
+          <p xml:id="timf-acce-d1e125">
+            <cit>
+              <quote xml:id="timf-acce-Qd1e129">Si hanc distanciam sedendi et standi ad honores ecclesiasticos referamus, non est
+        putandum leue esse peccatum in personarum acceptione habere fidem Domini glorie. Quis
+        enim ferat eligi diuitem ad sedem honoris ecclesie contempto paupere instructiore et
+        sanctiore?</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-acce-Qd1e129" xml:id="timf-acce-Rd1e135">Augustinus et est in glossa Iacobi II. super illud: Fratres mei nolite in personarum
+       acceptione et cetera.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-acce-Dd1e140">
+          <head xml:id="timf-acce-Hd1e142">b</head>
+          <p xml:id="timf-acce-d1e145">
+            <cit>
+              <quote xml:id="timf-acce-Qd1e149">Absit, Domine, ut in tabernaculo tuo pre pauperibus accipiantur persone diuitum aut
+        pre ignobilibus nobiles quando pocius infirma mundi elegisti ut confunderis
+        forcia.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-acce-Qd1e149" xml:id="timf-acce-Rd1e155">Augustinus in quodam sermone.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-acce-Dd1e160">
+          <head xml:id="timf-acce-Hd1e162">c</head>
+          <p xml:id="timf-acce-d1e165">
+            <cit>
+              <quote xml:id="timf-acce-Qd1e169">Inter omnia peccata sacerdotum maximum est quod non causas sed personas considerant
+        et despecto iusto paupere iniustos diuites honorant.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-acce-Qd1e169" xml:id="timf-acce-Rd1e175">Ambrosius super Malachiam.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-acce-Dd1e180">
+          <head xml:id="timf-acce-Hd1e182">d</head>
+          <p xml:id="timf-acce-d1e185">
+            <cit>
+              <quote xml:id="timf-acce-Qd1e189">Non sanguinis necessitudo sed uirtutis cognacio proximos facit.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-acce-Qd1e189" xml:id="timf-acce-Rd1e195">Ambrosius ibidem (super Malachiam).</ref>
+          </p>
+        </div>
+        <div xml:id="timf-acce-Dd1e201">
+          <head xml:id="timf-acce-Hd1e203">e</head>
+          <p xml:id="timf-acce-d1e206">
+            <cit>
+              <quote xml:id="timf-acce-Qd1e210">Quicumque aut consanguinitate aut amicicia, uel econtrario hostili odio uel
+        inimiciciis, in iudicando ducitur, peruertit iudicium Christi qui est iusticia.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-acce-Qd1e210" xml:id="timf-acce-Rd1e216">Ieronymus in originali super Amos.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-acce-Dd1e221">
+          <head xml:id="timf-acce-Hd1e223">f</head>
+          <p xml:id="timf-acce-d1e226">
+            <cit>
+              <quote xml:id="timf-acce-Qd1e230">Multa nos facere cogit affectus et, dum propinquitatem respicimus corporum, et
+        corporis et anime offendimus creatorem.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-acce-Qd1e230" xml:id="timf-acce-Rd1e236">Ieronymus in epistolis in epistola ad Fabiolum.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-acce-Dd1e241">
+          <head xml:id="timf-acce-Hd1e243">g</head>
+          <p xml:id="timf-acce-d1e246">
+            <cit>
+              <quote xml:id="timf-acce-Qd1e250">Nec bonis aduersariorum, si honestum quid habuerint, detrahendum, nec amicorum
+        laudanda sunt uicia et unumquodque non personarum sed rerum pondere iudicandum
+        est.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-acce-Qd1e250" xml:id="timf-acce-Rd1e256">Ieronymus ad Pammachium.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-acce-Dd1e261">
+          <head xml:id="timf-acce-Hd1e263">h</head>
+          <p xml:id="timf-acce-d1e266">
+            <cit>
+              <quote xml:id="timf-acce-Qd1e270">Personam hominis accipere est hominem non quia homo sed propter aliquid quod circa
+        ipsum est honorare.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-acce-Qd1e270" xml:id="timf-acce-Rd1e276">Gregorius in omelia et in moralibus.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-acce-Dd1e281">
+          <head xml:id="timf-acce-Hd1e283">i</head>
+          <p xml:id="timf-acce-d1e286">
+            <cit>
+              <quote xml:id="timf-acce-Qd1e290">Iudicare digne de subditis nequeunt qui in subditorum causis non merita sed odium
+        uel graciam consequntur.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-acce-Qd1e290" xml:id="timf-acce-Rd1e296">Gregorius in omelia.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-acce-Dd1e301">
+          <head xml:id="timf-acce-Hd1e303">k</head>
+          <p xml:id="timf-acce-d1e306">
+            <cit>
+              <quote xml:id="timf-acce-Qd1e310">Iudices iniqui errant a ueritate sentencie dum intendunt qualitatem persone et
+        exulcerant sepe iustos, dum improbe defendunt iniquos.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-acce-Qd1e310" xml:id="timf-acce-Rd1e316">Ysidorus III. de summo bono.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-acce-Dd1e322">
+          <head xml:id="timf-acce-Hd1e324">l</head>
+          <p xml:id="timf-acce-d1e327">
+            <cit>
+              <quote xml:id="timf-acce-Qd1e331">Diues cito muneribus corrumpit iudicium. Pauper autem, dum non habet quod offerat,
+        non solum audiri contempnitur, sed etiam contra ueritatem opprimitur.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-acce-Qd1e331" xml:id="timf-acce-Rd1e337">Ysidorus ibidem (III. de summo bono).</ref>
+          </p>
+        </div>
+        <div xml:id="timf-acce-Dd1e342">
+          <head xml:id="timf-acce-Hd1e344">m</head>
+          <p xml:id="timf-acce-d1e347">
+            <cit>
+              <quote xml:id="timf-acce-Qd1e351">Acceptio persone est quedam fatua reuerencia exhibita alicui non causa debita, sed
+        propter timorem uel utilitatem.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-acce-Qd1e351" xml:id="timf-acce-Rd1e357">Hugo.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-acce-Dd1e362">
+          <head xml:id="timf-acce-Hd1e364">n</head>
+          <p xml:id="timf-acce-d1e367">
+            <cit>
+              <quote xml:id="timf-acce-Qd1e371">Vos non attenditis merita causarum sed personarum, non iura sed munera, non quod
+        racio dictet sed quod uoluntas affectet, non quod senciat sed quod mens cupiat, non quod
+        liceat sed quod libeat. Nunquam in uobis est ita simplex oculus ut totum corpus sit
+        lucidum, sed aliquid semper admiscetis fermenti quo totam massam corrumpitis.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-acce-Qd1e371" xml:id="timf-acce-Rd1e377">Innocencius libro II. de uilitate condicionis humane.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-acce-Dd1e382">
+          <head xml:id="timf-acce-Hd1e384">o</head>
+          <p xml:id="timf-acce-d1e387">
+            <cit>
+              <quote xml:id="timf-acce-Qd1e391">Pauperum causam cum mora negligitis, diuitum causam cum instancia promouetis. In
+        illis rigorem ostenditis, in istis ex mansuetudine dispensatis. Illos cum difficultate
+        respicitis, istos cum facinore tractatis; illos negligenter auditis, istos subtiliter
+        ascultatis.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-acce-Qd1e391" xml:id="timf-acce-Rd1e397">Ibidem (Innocencius libro II. de uilitate condicionis humane).</ref>
+          </p>
+        </div>
+        <div xml:id="timf-acce-Dd1e402">
+          <head xml:id="timf-acce-Hd1e404">p</head>
+          <p xml:id="timf-acce-d1e407">
+            <cit>
+              <quote xml:id="timf-acce-Qd1e411">Si forte pauperum causam suscipitis, illos remisse fouetis; cum autem diuitum
+        causam suscipitis, illos pertinaciter adiuuatis. Pauperes despicitis, diuites honoratis;
+        istis reuerenter assurgitis, illis despicabiliter communicatis.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-acce-Qd1e411" xml:id="timf-acce-Rd1e417">Ibidem (Innocencius libro II. de uilitate condicionis humane).</ref>
+          </p>
+        </div>
+        <div xml:id="timf-acce-Dd1e422">
+          <head xml:id="timf-acce-Hd1e424">q</head>
+          <p xml:id="timf-acce-d1e427">
+            <cit>
+              <quote xml:id="timf-acce-Qd1e431">Clamat pauper et nullus exaudit; loquitur diues et quilibet applaudit. Diues
+        locutus est et omnes tacuerunt et uerbum illius usque ad nubes perducunt. Pauper locutus
+        est et dicunt: Quis est hic? Et si offenderit, subuertent eum. Clamat uim paciens et
+        nullus exaudit; uociferatur et non est qui iudicet. Diuiti dicunt: Tu sede hic bene;
+        pauperi uero: Tu sta illic uel sede sub scabello pedum meorum.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-acce-Qd1e431" xml:id="timf-acce-Rd1e437">Innocencius ibidem (libro II. de uilitate condicionis humane).</ref>
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

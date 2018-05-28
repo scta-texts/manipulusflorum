@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ascensio</title>
+        <author ref="#ThomasOfIreland">Thomas Hybernicus</author>
+        <respStmt>
+          <name>Chris Nighman</name>
+          <resp>Editor</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Ascensio</title>
+          <date when="2018-05-22">May 22, 2018</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref>SCTA</ref> and <ref target="http://www.manipulusflorum.com/">Manipulus floreum Project</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Pb" n="bnf15985">Bnf 15985</witness>
+          <witness xml:id="Pc" n="bnf15985">Bnf 15986</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2018-05-22" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="timf-asce">
+        <head xml:id="timf-asce-Hd1e117">Ascensio</head>
+        <div xml:id="timf-asce-Dd1e120">
+          <head xml:id="timf-asce-Hd1e122">a</head>
+          <p xml:id="timf-asce-d1e125">
+            <cit>
+              <quote xml:id="timf-asce-Qd1e129">Vbi et quomodo sit in celo corpus dominicum curiosissimum et superuacuum est
+        querere; tantum modo in celo esse credendum est.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-asce-Qd1e129" xml:id="timf-asce-Rd1e135">Augustinus de fide et simbolo.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-asce-Dd1e140">
+          <head xml:id="timf-asce-Hd1e142">b</head>
+          <p xml:id="timf-asce-d1e145">
+            <cit>
+              <quote xml:id="timf-asce-Qd1e149">Corpus non ascendit sed leuatum est in celum, illo leuante qui ascendit. Si enim
+        quisque descendat uerbi gracia nudus de monte, cum autem ascenderit uestiat se et iterum
+        ascendat uestitus, recte utique dicimus: nemo ascendit nisi qui descendit.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-asce-Qd1e149" xml:id="timf-asce-Rd1e155">Augustinus de agone Christiano.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-asce-Dd1e160">
+          <head xml:id="timf-asce-Hd1e162">c</head>
+          <p xml:id="timf-asce-d1e165">
+            <cit>
+              <quote xml:id="timf-asce-Qd1e169">Quorum sepulcra in passione Domini sunt patefacta, horum corpora Christo resurgente
+        de puluere sunt suscitata. Decebat enim ut ille prius resurgeret, deinde illi, sicut
+        dicit apostolus Paulus: Christus resurrexit a mortuis primicie dormiencium. Et sicut cum
+        Domino surrexerunt, ita cum eo ascendente eciam ipsi ascendisse creduntur.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-asce-Qd1e169" xml:id="timf-asce-Rd1e175">Augustinus in sermone de resurrectione.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-asce-Dd1e180">
+          <head xml:id="timf-asce-Hd1e182">d</head>
+          <p xml:id="timf-asce-d1e185">
+            <cit>
+              <quote xml:id="timf-asce-Qd1e189">Raptus est Dei Filius ab humanitate ad diuinitatem in transfiguracione, a
+        passibilitate ad immortalitatem in resurrectione, a minoritate ad Patris equalitatem in
+        ascensione quia quantus fuit descensus a sinu Patris ad patibulum crucis, tantus fuit
+        ascensus a patibulo crucis usque ad dexteram Patris.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-asce-Qd1e189" xml:id="timf-asce-Rd1e195">Augustinus et est in glossa Apocalypsis XII. super illud: Raptus est Filius eius ad
+       tronum eius.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-asce-Dd1e201">
+          <head xml:id="timf-asce-Hd1e203">e</head>
+          <p xml:id="timf-asce-d1e206">
+            <cit>
+              <quote xml:id="timf-asce-Qd1e210">Cum audis eleuatum, agnosce milicie celestis obsequium non auxilium, seruicium non
+        subsidium, ministerium non adiutorium.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-asce-Qd1e210" xml:id="timf-asce-Rd1e216">Augustinus tractans illud: Eleuatus est in celum, Actuum I.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-asce-Dd1e221">
+          <head xml:id="timf-asce-Hd1e223">f</head>
+          <p xml:id="timf-asce-d1e226">
+            <cit>
+              <quote xml:id="timf-asce-Qd1e230">Dominus noster Ihesus Christus dum naturam humanam syderibus portauit, credentibus
+        celum patere posse monstrauit; dum uincentem in celestibus eleuauit, uictorem mortis quo
+        sequamur ostendit.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-asce-Qd1e230" xml:id="timf-asce-Rd1e236">Augustinus.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-asce-Dd1e241">
+          <head xml:id="timf-asce-Hd1e243">g</head>
+          <p xml:id="timf-asce-d1e246">
+            <cit>
+              <quote xml:id="timf-asce-Qd1e250">Ascensio Dei catholice fidei confimacio fuit ut securi in posterum crederemus et
+        miraculi illius donum cuius eciam in presenti perciperemus effectum.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-asce-Qd1e250" xml:id="timf-asce-Rd1e256">Augustinus in sermone de ascensione.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-asce-Dd1e261">
+          <head xml:id="timf-asce-Hd1e263">h</head>
+          <p xml:id="timf-asce-d1e266">
+            <cit>
+              <quote xml:id="timf-asce-Qd1e270">Nos Christi mors uiuificauit, nos resurrecio erexit, nos Christi ascensio
+        consecrauit.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-asce-Qd1e270" xml:id="timf-asce-Rd1e276">Augustinus ibidem (in sermone de ascensione).</ref>
+          </p>
+        </div>
+        <div xml:id="timf-asce-Dd1e281">
+          <head xml:id="timf-asce-Hd1e283">i</head>
+          <p xml:id="timf-asce-d1e286">
+            <cit>
+              <quote xml:id="timf-asce-Qd1e290">Resurrectio Domini spes nostra est, ascensio glorificacio nostra. Si ergo recte, si
+        fideliter, si deuote ascensionem Domini celebramus, ascendamus cum illo et sursum corda
+        habeamus.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-asce-Qd1e290" xml:id="timf-asce-Rd1e296">Augustinus ibidem (in sermone de ascensione).</ref>
+          </p>
+        </div>
+        <div xml:id="timf-asce-Dd1e301">
+          <head xml:id="timf-asce-Hd1e303">k</head>
+          <p xml:id="timf-asce-d1e306">
+            <cit>
+              <quote xml:id="timf-asce-Qd1e310">Virtutes ministre precedentes Christum in ascensione ad alias uirtutes celestes
+        clamant ut uiam Domino uenienti aperiant eique occurrunt; reserate, inquiunt, celestes
+        aditus uenienti Domino. Eternalis ingressus pateat. Aperiantur etheree ianue et
+        eternarum edium ualue. Et introibit rex glorie in celum ut ad dexteram Patris
+        interpellat pro nobis. Ipse enim uirtutes angelice nouo misterio carne induti stupefacte
+        querunt cum admiracione: Quis est iste rex glorie? quibus respondent alie: Dominus
+        uirtutum et cetera. Licet enim multi scirent ipsum esse hominem, non tamen sciebant
+        humanam naturam supra se exaltandam.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-asce-Qd1e310" xml:id="timf-asce-Rd1e316">Ieronymus super illud Psalmi: Attollite portas.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-asce-Dd1e322">
+          <head xml:id="timf-asce-Hd1e324">l</head>
+          <p xml:id="timf-asce-d1e327">
+            <cit>
+              <quote xml:id="timf-asce-Qd1e331">Vultis eius saltus cognoscere? De celo uenit in uterum, de utero uenit in
+        presepium, de presepio uenit in crucem, de cruce uenit in sepulcrum, et de sepulcro
+        rediit in celum.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-asce-Qd1e331" xml:id="timf-asce-Rd1e337">Gregorius omelia XXIX. super ewangelium tractans illud Canticum II.: Ecce uenit saliens
+       in montibus.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-asce-Dd1e342">
+          <head xml:id="timf-asce-Hd1e344">m</head>
+          <p xml:id="timf-asce-d1e347">
+            <cit>
+              <quote xml:id="timf-asce-Qd1e351">Saluator noster qui, cum in ea carne quam assumpsit, ascenderit in celum, peregre
+        profectus est quia locus carnis proprie terra est que quasi ad peregrina loca deducitur
+        cum in celo collocatur.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-asce-Qd1e351" xml:id="timf-asce-Rd1e357">Gregorius in omelia.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-asce-Dd1e362">
+          <head xml:id="timf-asce-Hd1e364">n</head>
+          <p xml:id="timf-asce-d1e367">
+            <cit>
+              <quote xml:id="timf-asce-Qd1e371">Illo reuertebatur Christus ubi erat et inde redibat ubi remanebat quia cum per
+        humanitatem ascenderet in celum, per diuinitatem suam et terram pariter continebat et
+        celum.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-asce-Qd1e371" xml:id="timf-asce-Rd1e377">Gregorius omelia XXIX.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-asce-Dd1e382">
+          <head xml:id="timf-asce-Hd1e384">o</head>
+          <p xml:id="timf-asce-d1e387">
+            <cit>
+              <quote xml:id="timf-asce-Qd1e391">Oportet, fratres karissimi, ut illuc sequamur corde ubi Christum credimus corpore
+        ascendisse. Et si adhuc hic tenemur infirmitate corporis, sequamur tamen eum passibus
+        amoris quia is qui placidus ascendit, terribilis redibit.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-asce-Qd1e391" xml:id="timf-asce-Rd1e397">Gregorius in omelia.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-asce-Dd1e402">
+          <head xml:id="timf-asce-Hd1e404">p</head>
+          <p xml:id="timf-asce-d1e407">
+            <cit>
+              <quote xml:id="timf-asce-Qd1e411">In hac sollempnitate deletum est cyrographum nostre dampnacionis, mutata est
+        sentencia nostre corruptionis. Illa enim natura cui dictum est: Terra es et in terram
+        ibis, hodie in celum iuit.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-asce-Qd1e411" xml:id="timf-asce-Rd1e417">Gregorius in omelia XXIX.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-asce-Dd1e422">
+          <head xml:id="timf-asce-Hd1e424">q</head>
+          <p xml:id="timf-asce-d1e427">
+            <cit>
+              <quote xml:id="timf-asce-Qd1e431">Ascendimus duobus modis, meditacione et oracione. Meditacio quidem quid desit
+        docet, oracio ne desit optinet.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-asce-Qd1e431" xml:id="timf-asce-Rd1e437">Bernardus in sermone.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-asce-Dd1e443">
+          <head xml:id="timf-asce-Hd1e445">r</head>
+          <p xml:id="timf-asce-d1e448">
+            <cit>
+              <quote xml:id="timf-asce-Qd1e452">Ascensionis quattuor dicimus esse gradus: prima ad cor, secunda in corde, tercia de
+        corde, quarta supra cor. In prima timetur Dominus, in secunda auditur consiliarius, in
+        tercia desideratur sponsus, in quarta uidetur Deus.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-asce-Qd1e452" xml:id="timf-asce-Rd1e458">Bernardus super Cantica.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-asce-Dd1e463">
+          <head xml:id="timf-asce-Hd1e465">s</head>
+          <p xml:id="timf-asce-d1e468">
+            <cit>
+              <quote xml:id="timf-asce-Qd1e472">Domino meo datum est singulariter sedere a dextris Patris in gloria coequali, in
+        essencia consubstanciali, pro generacione consimili, maiestate non dispari, eternitate
+        non posteriori.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-asce-Qd1e472" xml:id="timf-asce-Rd1e478">Bernardus tractans illud Psalmi: Dixit Dominus, Domino meo sede a dextris meis.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-asce-Dd1e483">
+          <head xml:id="timf-asce-Hd1e485">t</head>
+          <p xml:id="timf-asce-d1e488">
+            <cit>
+              <quote xml:id="timf-asce-Qd1e492">Natura cuius causa paradysus a cherubin custodiebatur hodie supra cherubin cum
+        summo honore suscepta est, et natura cui dictum est: Terra es et in terram ibis, hodie
+        in celum iit et sine termino super celos regnat.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-asce-Qd1e492" xml:id="timf-asce-Rd1e498">Crisostomus in omelia hodierna.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-asce-Dd1e503">
+          <head xml:id="timf-asce-Hd1e505">u</head>
+          <p xml:id="timf-asce-d1e508">
+            <cit>
+              <quote xml:id="timf-asce-Qd1e512">Fit caro uerbum, id est homo Deus; et qui homo est in celis est; et qui Deus est de
+        celis est. Ascendit descendens, sed descendit non descendens. Est qui erat et quod est
+        non erat.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-asce-Qd1e512" xml:id="timf-asce-Rd1e518">Hylarius X. de trinitate.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-asce-Dd1e523">
+          <head xml:id="timf-asce-Hd1e525">x</head>
+          <p xml:id="timf-asce-d1e528">
+            <cit>
+              <quote xml:id="timf-asce-Qd1e532">Non solum hodie paradisi possessores firmati sumus, sed superna celorum in Christo
+        penetrauimus, ampliora recepturi per suam ineffabilem gloriam quam per dyaboli
+        perdideramus inuidiam quia quos dyabolus de primi habitaculi felicitate eiecit, hos Dei
+        Filius sibi concorporatos ad Patris dexteram collocauit.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-asce-Qd1e532" xml:id="timf-asce-Rd1e538">Leo papa in sermone hodierno.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-asce-Dd1e543">
+          <head xml:id="timf-asce-Hd1e545">y</head>
+          <p xml:id="timf-asce-d1e548">
+            <cit>
+              <quote xml:id="timf-asce-Qd1e552">Non ociose inter resurrectionem et ascensionem quadraginta dies transiere
+        discursit, sed magna confirmata sunt sacramenta, magna reuelata misteria. In eis dire
+        mortis aufertur metus anime simul et carnis immortalitas declaratur. In hiis insufflacio
+        Spiritus Sancti infunditur, in hiis beato Petro super ceteros ouilis dominici cura
+        mandatur.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-asce-Qd1e552" xml:id="timf-asce-Rd1e558">Leo papa in sermone quodam.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-asce-Dd1e564">
+          <head xml:id="timf-asce-Hd1e566">z</head>
+          <p xml:id="timf-asce-d1e569">
+            <cit>
+              <quote xml:id="timf-asce-Qd1e573">[abest in manuscriptis]</quote>
+              <bibl/>
+            </cit>
+          </p>
+        </div>
+        <div xml:id="timf-asce-Dd1e581">
+          <head xml:id="timf-asce-Hd1e583">ab</head>
+          <p xml:id="timf-asce-d1e586">
+            <cit>
+              <quote xml:id="timf-asce-Qd1e590">Nemo ascendit in celum nisi qui descendit de celo. Quisquis ergo in celum ascendere
+        desiderat, ei qui de celo descendit et est in celo se uera fidei et dilectionis unitate
+        coniungat. Aperte intelligens quod nullo alio ordine nisi per eum qui de celo descendit
+        in celum ascendere possit.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-asce-Qd1e590" xml:id="timf-asce-Rd1e596">Beda tractans illud Iohannis III.: Erat homo ex Phariseis et cetera.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-asce-Dd1e601">
+          <head xml:id="timf-asce-Hd1e603">ac</head>
+          <p xml:id="timf-asce-d1e606">
+            <cit>
+              <quote xml:id="timf-asce-Qd1e610">Refrena iram, expue maliciam, expugna luxuriam et de peccatis uirtutibus fecisti
+        gradum qui ducit in celum.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-asce-Qd1e610" xml:id="timf-asce-Rd1e616">Crisostomus de symbolo tractans illud: Ascendit ad celos et cetera.</ref>
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

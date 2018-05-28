@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Aduentus Domini</title>
+        <author ref="#ThomasOfIreland">Thomas Hybernicus</author>
+        <respStmt>
+          <name>Chris Nighman</name>
+          <resp>Editor</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Aduentus Domini</title>
+          <date when="2018-05-22">May 22, 2018</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref>SCTA</ref> and <ref target="http://www.manipulusflorum.com/">Manipulus floreum Project</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Pb" n="bnf15985">Bnf 15985</witness>
+          <witness xml:id="Pc" n="bnf15985">Bnf 15986</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2018-05-22" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="timf-adue">
+        <head xml:id="timf-adue-Hd1e117">Aduentus Domini</head>
+        <div xml:id="timf-adue-Dd1e120">
+          <head xml:id="timf-adue-Hd1e122">a</head>
+          <p xml:id="timf-adue-d1e125">
+            <cit>
+              <quote xml:id="timf-adue-Qd1e129">Nulla causa ueniendi Christo Domino nisi peccatores saluos facere. Tolle morbos,
+        tolle uulnera et nulla est causa medicine. Venit ergo de celo magnus medicus quia per
+        totum ubique iacebat egrotus. Genus ergo humanum totum perierat ex quo peccauit unus in
+        quo totum erat. Ideo uenit unus sine peccato qui saluos faceret omnes sine peccato. Non
+        enim eum de celo ad terram merita nostra, sed peccata traxerunt.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-adue-Qd1e129" xml:id="timf-adue-Rd1e135">Augustinus super Iohannem et in glossa I. Timothei I.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-adue-Dd1e140">
+          <head xml:id="timf-adue-Hd1e142">b</head>
+          <p xml:id="timf-adue-d1e145">
+            <cit>
+              <quote xml:id="timf-adue-Qd1e149">Pater et Filius et Spiritus sanctus ueniunt ad nos dum uenimus ad eos; ueniunt
+        subueniendo, ueniunt illuminando; uenimus obediendo, uenimus metuendo; ueniunt implendo,
+        uenimus capiendo.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-adue-Qd1e149" xml:id="timf-adue-Rd1e155">Augustinus super Iohannem.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-adue-Dd1e160">
+          <head xml:id="timf-adue-Hd1e162">c</head>
+          <p xml:id="timf-adue-d1e165">
+            <cit>
+              <quote xml:id="timf-adue-Qd1e169">Hoc tempus non sine causa Domini aduentus uocatur. Ideo enim sancti patres
+        celebrare ceperunt aduentum ut se unusquisque preparet fidelis et emendat ut digne Dei
+        sui natiuitatem ualeat celebrare.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-adue-Qd1e169" xml:id="timf-adue-Rd1e175">Ambrosius super Lucam.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-adue-Dd1e180">
+          <head xml:id="timf-adue-Hd1e182">d</head>
+          <p xml:id="timf-adue-d1e185">
+            <cit>
+              <quote xml:id="timf-adue-Qd1e189">Ille iustus uenit ad nos peccatores ut ex peccatoribus faceret iustos, pius uenit
+        ad impios ut nos faceret pios, humilis uenit ad superbos ut ex superbis faceret
+        humiles.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-adue-Qd1e189" xml:id="timf-adue-Rd1e195">Ambrosius ibidem (super Lucam).</ref>
+          </p>
+        </div>
+        <div xml:id="timf-adue-Dd1e201">
+          <head xml:id="timf-adue-Hd1e203">e</head>
+          <p xml:id="timf-adue-d1e206">
+            <cit>
+              <quote xml:id="timf-adue-Qd1e210">Non prius ueniet Dominus quam regni Romani defectio fiat et appareat Antichristus
+        qui interficiet sanctos, reddita Romanis libertate, sub suo tamen nomine.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-adue-Qd1e210" xml:id="timf-adue-Rd1e216">Ambrosius super illud Thessalonios I.: Nisi dissessio uenerit et cetera.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-adue-Dd1e221">
+          <head xml:id="timf-adue-Hd1e223">f</head>
+          <p xml:id="timf-adue-d1e226">
+            <cit>
+              <quote xml:id="timf-adue-Qd1e230">Signum aduentus dominici est in toto orbe ewangelium predicari ut nullus sit
+        excusabilis quod aut iam completum est aut in breui credo complendum. Non enim puto
+        aliquam remansisse gentem que Christi nomen ignoret.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-adue-Qd1e230" xml:id="timf-adue-Rd1e236">Ieronymus super Mattheum.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-adue-Dd1e241">
+          <head xml:id="timf-adue-Hd1e243">g</head>
+          <p xml:id="timf-adue-d1e246">
+            <cit>
+              <quote xml:id="timf-adue-Qd1e250">Dignum est, fratres, ut tota deuocione Domini celebremus aduentum, delectata tanta
+        consolacione, stupefacti tanta dignacione, inflammati tanta dilectione. Nec solum
+        cogitemus aduentum quo uenit et quare quia saluum facere quod perierat, sed et illum
+        nichilominus quo ueniet et assumet nos ad se ipsum ut circa hos duos aduentus iugi
+        meditacione uersemur, ruminantes in cordibus nostris quantum in priore prestiterit,
+        quantum promiserit in secundo.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-adue-Qd1e250" xml:id="timf-adue-Rd1e256">Bernardus in sermone de aduentu.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-adue-Dd1e261">
+          <head xml:id="timf-adue-Hd1e263">h</head>
+          <p xml:id="timf-adue-d1e266">
+            <cit>
+              <quote xml:id="timf-adue-Qd1e270">Venio ut errantes corrigam et infirmantes adiuuem et dubitantes in fide confirmem
+        et bene agencium fructibus perfectis quasi suauissimis pascar et certantes ab hostium
+        defendam insidiis et uictores hostium perpetue uisionis mee corona remunerem.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-adue-Qd1e270" xml:id="timf-adue-Rd1e276">Beda super Cantica libro III. super illud: Veni in ortum meum.</ref>
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

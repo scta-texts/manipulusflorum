@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Adiutorium</title>
+        <author ref="#ThomasOfIreland">Thomas Hybernicus</author>
+        <respStmt>
+          <name>Chris Nighman</name>
+          <resp>Editor</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Adiutorium</title>
+          <date when="2018-05-22">May 22, 2018</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref>SCTA</ref> and <ref target="http://www.manipulusflorum.com/">Manipulus floreum Project</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Pb" n="bnf15985">Bnf 15985</witness>
+          <witness xml:id="Pc" n="bnf15985">Bnf 15986</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2018-05-22" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="timf-adiu">
+        <head xml:id="timf-adiu-Hd1e117">Adiutorium</head>
+        <div xml:id="timf-adiu-Dd1e120">
+          <head xml:id="timf-adiu-Hd1e122">a</head>
+          <p xml:id="timf-adiu-d1e125">
+            <cit>
+              <quote xml:id="timf-adiu-Qd1e129">Homines omnes eque diligendi sunt, sed si omnibus prodesse non possis, hiis
+        potissimum subueniendum est qui pro locorum et temporum uel quarumlibet rerum
+        opportunitatibus constrictius tibi quasi quadam sorte iunguntur.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-adiu-Qd1e129" xml:id="timf-adiu-Rd1e135">Augustinus de doctrina Christiana libro I.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-adiu-Dd1e140">
+          <head xml:id="timf-adiu-Hd1e142">b</head>
+          <p xml:id="timf-adiu-d1e145">
+            <cit>
+              <quote xml:id="timf-adiu-Qd1e149">Hec lex est diuine prouidencie ut nemo a superioribus adiuuetur ad cognoscendam
+        graciam Dei qui non ad eandem puro affectu inferiores adiuuerit.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-adiu-Qd1e149" xml:id="timf-adiu-Rd1e155">Augustinus de uera religione.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-adiu-Dd1e160">
+          <head xml:id="timf-adiu-Hd1e162">c</head>
+          <p xml:id="timf-adiu-d1e165">
+            <cit>
+              <quote xml:id="timf-adiu-Qd1e169">Iustum consilium est ut qui se a potentiori uult adiuuari, adiuuet et infirmiorem
+        in quo est ipse potentior.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-adiu-Qd1e169" xml:id="timf-adiu-Rd1e175">Augustinus de sermone Domini in monte libro I.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-adiu-Dd1e180">
+          <head xml:id="timf-adiu-Hd1e182">d</head>
+          <p xml:id="timf-adiu-d1e185">
+            <cit>
+              <quote xml:id="timf-adiu-Qd1e189">Nichil sic probat amicum sicut oneris amici portacio.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-adiu-Qd1e189" xml:id="timf-adiu-Rd1e195">Augustinus de uerbis apostoli capitulo XX.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-adiu-Dd1e201">
+          <head xml:id="timf-adiu-Hd1e203">e</head>
+          <p xml:id="timf-adiu-d1e206">
+            <cit>
+              <quote xml:id="timf-adiu-Qd1e210">Eleganter dictum est cum quis in puteum cecidisset et aqua eum suffocaret, accessit
+        alius eo uiso admirans ait: Quomodo huc cecidisti? Obsecro, inquit, cogita quomodo hinc
+        me liberes, non quomodo huc ceciderim, queras.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-adiu-Qd1e210" xml:id="timf-adiu-Rd1e216">Augustinus in epistola ad Ieronymum.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-adiu-Dd1e221">
+          <head xml:id="timf-adiu-Hd1e223">f</head>
+          <p xml:id="timf-adiu-d1e226">
+            <cit>
+              <quote xml:id="timf-adiu-Qd1e230">Non facile inueniuntur in aduersitate presidia que non fuerint in pace
+        quesita.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-adiu-Qd1e230" xml:id="timf-adiu-Rd1e236">Augustinus in sermone.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-adiu-Dd1e241">
+          <head xml:id="timf-adiu-Hd1e243">g</head>
+          <p xml:id="timf-adiu-d1e246">
+            <cit>
+              <quote xml:id="timf-adiu-Qd1e250">Necessitates aliorum quantum possumus iuuemus et plus interdum quam possumus.
+        Nichil tam secundum naturam est quam iuuare consortem nature.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-adiu-Qd1e250" xml:id="timf-adiu-Rd1e256">Ambrosius de officiis.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-adiu-Dd1e261">
+          <head xml:id="timf-adiu-Hd1e263">h</head>
+          <p xml:id="timf-adiu-d1e266">
+            <cit>
+              <quote xml:id="timf-adiu-Qd1e270">Si non potest alteri subueniri nisi alter ledatur, commodius est neutrum iuuari
+        quam grauari alterum.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-adiu-Qd1e270" xml:id="timf-adiu-Rd1e276">Ambrosius de officiis libro III.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-adiu-Dd1e281">
+          <head xml:id="timf-adiu-Hd1e283">i</head>
+          <p xml:id="timf-adiu-d1e286">
+            <cit>
+              <quote xml:id="timf-adiu-Qd1e290">Vult enim Deus unumquemque alterius angustias ut proprias sentire, et quomodo sibi
+        in tali tribulacione si esset subueniri cuperet, ita ipse alteri propter Deum subuenire
+        non postponat.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-adiu-Qd1e290" xml:id="timf-adiu-Rd1e296">Ieronymus in epistolis.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-adiu-Dd1e301">
+          <head xml:id="timf-adiu-Hd1e303">k</head>
+          <p xml:id="timf-adiu-d1e306">
+            <cit>
+              <quote xml:id="timf-adiu-Qd1e310">Impudens postulacio tempore necessitatis et angustie ab eo querere auxilium quem in
+        prosperitate contempseris.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-adiu-Qd1e310" xml:id="timf-adiu-Rd1e316">Ieronymus super Ieremiam libro I. super illud: In tempore afflictionis dicent surge et
+       cetera.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-adiu-Dd1e322">
+          <head xml:id="timf-adiu-Hd1e324">l</head>
+          <p xml:id="timf-adiu-d1e327">
+            <cit>
+              <quote xml:id="timf-adiu-Qd1e331">Habens loquendi locum apud diuitem, dampnacionem pro retento talento timeat, si non
+        apud eum sicut ualet pro pauperibus intercedat.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-adiu-Qd1e331" xml:id="timf-adiu-Rd1e337">Gregorius in omelia.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-adiu-Dd1e342">
+          <head xml:id="timf-adiu-Hd1e344">m</head>
+          <p xml:id="timf-adiu-d1e347">
+            <cit>
+              <quote xml:id="timf-adiu-Qd1e351">Habens intellectum, curet omnino ne taceat; habens rerum affluenciam, a
+        misericordia non torpescat; habens artem qua regitur, usum illius cum proximo parciatur;
+        habens loquendi locum apud diuitem, pro pauperibus intercedat. Talenti enim nomine
+        cuilibet reputabitur quod eciam minimum accepit.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-adiu-Qd1e351" xml:id="timf-adiu-Rd1e357">Gregorius in quadam omelia.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-adiu-Dd1e362">
+          <head xml:id="timf-adiu-Hd1e364">n</head>
+          <p xml:id="timf-adiu-d1e367">
+            <cit>
+              <quote xml:id="timf-adiu-Qd1e371">Qui potest emendare et negligit, participem se proculdubio constituit; qui alterius
+        bonum adiuuat, suum facit.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-adiu-Qd1e371" xml:id="timf-adiu-Rd1e377">Gregorius in registro.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-adiu-Dd1e382">
+          <head xml:id="timf-adiu-Hd1e384">o</head>
+          <p xml:id="timf-adiu-d1e387">
+            <cit>
+              <quote xml:id="timf-adiu-Qd1e391">Minus proximum amare conuincitur qui non cum eo in necessitate illius ea que sibi
+        sunt necessaria partitur.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-adiu-Qd1e391" xml:id="timf-adiu-Rd1e397">Gregorius in omelia.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-adiu-Dd1e402">
+          <head xml:id="timf-adiu-Hd1e404">p</head>
+          <p xml:id="timf-adiu-d1e407">
+            <cit>
+              <quote xml:id="timf-adiu-Qd1e411">Tunc amor tuus ad te ipsum temperans erit et iustus, si quod propriis subtrahitur
+        uoluptatibus fratris necessitatibus non negetur. Sic amor socialis efficitur cum in
+        commune protrahitur.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-adiu-Qd1e411" xml:id="timf-adiu-Rd1e417">Bernardus de diligendo Deo.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-adiu-Dd1e422">
+          <head xml:id="timf-adiu-Hd1e424">q</head>
+          <p xml:id="timf-adiu-d1e427">
+            <cit>
+              <quote xml:id="timf-adiu-Qd1e431">Oleum pietatis et miseracionis unguentum quanto copiosius in fraternas necessitates
+        effunditur, tanto donis potioribus augmentatur.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-adiu-Qd1e431" xml:id="timf-adiu-Rd1e437">Cassiodorus in quadam epistola.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-adiu-Dd1e443">
+          <head xml:id="timf-adiu-Hd1e445">r</head>
+          <p xml:id="timf-adiu-d1e448">
+            <cit>
+              <quote xml:id="timf-adiu-Qd1e452">Age sic aliud ut tuum non obliuiscaris negocium. Amicis enim ita prodesse debemus
+        ut nobis non noceamus.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-adiu-Qd1e452" xml:id="timf-adiu-Rd1e458">Cassiodorus in epistola.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-adiu-Dd1e463">
+          <head xml:id="timf-adiu-Hd1e465">s</head>
+          <p xml:id="timf-adiu-d1e468">
+            <cit>
+              <quote xml:id="timf-adiu-Qd1e472">Quid tibi, fidelissime, opus sunt arma qui habere talia probaris auxilia? Ipse enim
+        pro te pugnat cui nullus resistit; ipse insequitur quem nullus declinat.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-adiu-Qd1e472" xml:id="timf-adiu-Rd1e478">Cassiodorus super Psalmum LV.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-adiu-Dd1e483">
+          <head xml:id="timf-adiu-Hd1e485">t</head>
+          <p xml:id="timf-adiu-d1e488">
+            <cit>
+              <quote xml:id="timf-adiu-Qd1e492">Gratum debet esse subsidium cuius solucio magis soluenti crescit incommodum quam
+        suscipienti proficiat in augmentum, et quod dantem iuuat et accipientem pro temporis
+        necessitate letificat ut sic in una mercacione quod raro solet emergere, utrique
+        uideantur desiderata commoda percepisse.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-adiu-Qd1e492" xml:id="timf-adiu-Rd1e498">Cassiodorus in quadam epistola.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-adiu-Dd1e503">
+          <head xml:id="timf-adiu-Hd1e505">u</head>
+          <p xml:id="timf-adiu-d1e508">
+            <cit>
+              <quote xml:id="timf-adiu-Qd1e512">Satis ibi uacillat humanum studium ubi non requiritur Dei auxilium.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-adiu-Qd1e512" xml:id="timf-adiu-Rd1e518">Valerius in quodam sermone.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-adiu-Dd1e523">
+          <head xml:id="timf-adiu-Hd1e525">x</head>
+          <p xml:id="timf-adiu-d1e528">
+            <cit>
+              <quote xml:id="timf-adiu-Qd1e532">Homini iocundo et probo miserimum est, si eum amare oportet quem non iuuat.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-adiu-Qd1e532" xml:id="timf-adiu-Rd1e538">Seneca de beneficiis.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-adiu-Dd1e543">
+          <head xml:id="timf-adiu-Hd1e545">y</head>
+          <p xml:id="timf-adiu-d1e548">
+            <cit>
+              <quote xml:id="timf-adiu-Qd1e552">Habet in aduersis auxilia qui in prosperis commodat.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-adiu-Qd1e552" xml:id="timf-adiu-Rd1e558">Seneca in prouerbiis.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-adiu-Dd1e564">
+          <head xml:id="timf-adiu-Hd1e566">ab</head>
+          <p xml:id="timf-adiu-d1e569">
+            <cit>
+              <quote xml:id="timf-adiu-Qd1e573">Qui succurrere perituro potest, cum non succurrit, occidit.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-adiu-Qd1e573" xml:id="timf-adiu-Rd1e579">Seneca in prouerbiis.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-adiu-Dd1e584">
+          <head xml:id="timf-adiu-Hd1e586">ac</head>
+          <p xml:id="timf-adiu-d1e589">
+            <cit>
+              <quote xml:id="timf-adiu-Qd1e593">Nemo non cum alteri prodest sibi profuit. Virtutum omnium precium in ipsis est;
+        recte facti fecisse merces est.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-adiu-Qd1e593" xml:id="timf-adiu-Rd1e599">Seneca LXXXII. epistola.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-adiu-Dd1e604">
+          <head xml:id="timf-adiu-Hd1e606">ad</head>
+          <p xml:id="timf-adiu-d1e609">
+            <cit>
+              <quote xml:id="timf-adiu-Qd1e613">Succurre paupertati amicorum stude, immo pocius occurre.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-adiu-Qd1e613" xml:id="timf-adiu-Rd1e619">Seneca in libello de moribus.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-adiu-Dd1e624">
+          <head xml:id="timf-adiu-Hd1e626">ae</head>
+          <p xml:id="timf-adiu-d1e629">
+            <cit>
+              <quote xml:id="timf-adiu-Qd1e633">Penam a quo merueris, frustra petis auxilium. Ab alio expecta, alteri quod
+        feceris.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-adiu-Qd1e633" xml:id="timf-adiu-Rd1e639">Idem (Seneca).</ref>
+          </p>
+        </div>
+        <div xml:id="timf-adiu-Dd1e644">
+          <head xml:id="timf-adiu-Hd1e646">af</head>
+          <p xml:id="timf-adiu-d1e649">
+            <cit>
+              <quote xml:id="timf-adiu-Qd1e653">Fructus ingenii et uirtutis omnisque prestancie, tunc maximus capitur cum in
+        proximum quemque confertur.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-adiu-Qd1e653" xml:id="timf-adiu-Rd1e659">Tullius de amicicia.</ref>
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

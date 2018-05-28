@@ -1,0 +1,649 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+        <author ref="#ThomasOfIreland">Thomas Hybernicus</author>
+        <respStmt>
+          <name>Chris Nighman</name>
+          <resp>Editor</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title/>
+          <date when="2018-05-22">May 22, 2018</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref>SCTA</ref> and <ref target="http://www.manipulusflorum.com/">Manipulus floreum Project</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Pb" n="bnf15985">Bnf 15985</witness>
+          <witness xml:id="Pc" n="bnf15985">Bnf 15986</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2018-05-22" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="timf-adul">
+        <head>Adulacio</head>
+        <div xml:id="timf-adul-Dd1e115">
+          <head xml:id="timf-adul-Hd1e117">a</head>
+          <p xml:id="timf-adul-d1e120">
+            <cit>
+              <quote xml:id="timf-adul-Qd1e124">Adulacio est fallaci laude seductio.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-adul-Qd1e124" xml:id="timf-adul-Rd1e130">Augustinus super Psalmos.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-adul-Dd1e135">
+          <head xml:id="timf-adul-Hd1e137">b</head>
+          <p xml:id="timf-adul-d1e140">
+            <cit>
+              <quote xml:id="timf-adul-Qd1e144">Duo sunt genera persecutorum, scilicet uituperancium et adulancium, sed plus
+        persequitur lingua adulatoris quam manus persequentis.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-adul-Qd1e144" xml:id="timf-adul-Rd1e150">Augustinus super Psalmum LXIX.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-adul-Dd1e155">
+          <head xml:id="timf-adul-Hd1e157">c</head>
+          <p xml:id="timf-adul-d1e160">
+            <cit>
+              <quote xml:id="timf-adul-Qd1e164">Falsa laus adulatoris et simulata dilectio mentes a rigore ueritatis
+        emollit.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-adul-Qd1e164" xml:id="timf-adul-Rd1e170">Augustinus ibidem (super Psalmum LXIX.).</ref>
+          </p>
+        </div>
+        <div xml:id="timf-adul-Dd1e175">
+          <head xml:id="timf-adul-Hd1e177">d</head>
+          <p xml:id="timf-adul-d1e180">
+            <cit>
+              <quote xml:id="timf-adul-Qd1e184">Sicut sumenda sunt amara salubria, ita semper uitanda est perniciosa
+        dulcedo.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-adul-Qd1e184" xml:id="timf-adul-Rd1e190">Augustinus de doctrina Christiana.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-adul-Dd1e195">
+          <head xml:id="timf-adul-Hd1e197">e</head>
+          <p xml:id="timf-adul-d1e200">
+            <cit>
+              <quote xml:id="timf-adul-Qd1e204" source="http://scta.info/resource/aconf-l9">Sicut adulantes amici peruertunt, sic inimici litigantes plerumque
+        corrigunt.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-adul-Qd1e204" xml:id="timf-adul-Rd1e210">Augustinus IX. libro confessionum.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-adul-Dd1e216">
+          <head xml:id="timf-adul-Hd1e218">f</head>
+          <p xml:id="timf-adul-d1e221">
+            <cit>
+              <quote xml:id="timf-adul-Qd1e225">Adulancium lingue ligant homines in peccatis. Delectat enim ea facere in quibus non
+        solum non metuitur reprehensor, sed eciam laudatur operator.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-adul-Qd1e225" xml:id="timf-adul-Rd1e231">Augustinus super Psalmo IX.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-adul-Dd1e236">
+          <head xml:id="timf-adul-Hd1e238">g</head>
+          <p xml:id="timf-adul-d1e241">
+            <cit>
+              <quote xml:id="timf-adul-Qd1e245" source="http://scta.info/resource/aconf-l2">Magis optabo a quolibet reprehendi quam uel ab adulante laudari. Nullus enim
+        reprehensor formidandus est amatori ueritatis. Laudator uero errat et confirmat
+        errorem.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-adul-Qd1e245" xml:id="timf-adul-Rd1e251">Augustinus II. de trinitate.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-adul-Dd1e256">
+          <head xml:id="timf-adul-Hd1e258">h</head>
+          <p xml:id="timf-adul-d1e261">
+            <cit>
+              <quote xml:id="timf-adul-Qd1e265">Emolliri adulationibus non solum fortitudinis non esse, sed eciam ignauie
+        uidetur.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-adul-Qd1e265" xml:id="timf-adul-Rd1e271">Ambrosius libro I. de officiis.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-adul-Dd1e276">
+          <head xml:id="timf-adul-Hd1e278">i</head>
+          <p xml:id="timf-adul-d1e281">
+            <cit>
+              <quote xml:id="timf-adul-Qd1e285">Beata mens que nec adulatur aliquando, nec adulanti credit, que neque decipit
+        alterum, nec ipsa decipitur, tantumque nec malum facit aliquando, nec patitur.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-adul-Qd1e285" xml:id="timf-adul-Rd1e291">Ieronymus in epistola ad Demetriadem.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-adul-Dd1e296">
+          <head xml:id="timf-adul-Hd1e298">k</head>
+          <p xml:id="timf-adul-d1e301">
+            <cit>
+              <quote xml:id="timf-adul-Qd1e305">Isto maxime tempore regnat uicium adulcionis quodque est grauissimum quia
+        humilitatis ac beniuolencie loco ducitur; et ita fit ut qui adulari nescit, aut inuidus
+        aut superbus reputetur.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-adul-Qd1e305" xml:id="timf-adul-Rd1e311">Ieronymus ad Cellanciam.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-adul-Dd1e316">
+          <head xml:id="timf-adul-Hd1e318">l</head>
+          <p xml:id="timf-adul-d1e321">
+            <cit>
+              <quote xml:id="timf-adul-Qd1e325">Rumusculos et gloriolas et palpantes adulatores quasi hostes fuge.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-adul-Qd1e325" xml:id="timf-adul-Rd1e331">Ieronymus ibidem (ad Cellanciam).</ref>
+          </p>
+        </div>
+        <div xml:id="timf-adul-Dd1e337">
+          <head xml:id="timf-adul-Hd1e339">m</head>
+          <p xml:id="timf-adul-d1e342">
+            <cit>
+              <quote xml:id="timf-adul-Qd1e346">Natali ducimur malo et adulatoribus nostris libenter fauemus, et quamquam
+        respondeamus nos indignos et calidus rubor ora perfundat, tamen ad laudem suam anima
+        intrinsecus letatur.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-adul-Qd1e346" xml:id="timf-adul-Rd1e352">Ieronymus CXXI. epistola ad Sabinianum.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-adul-Dd1e357">
+          <head xml:id="timf-adul-Hd1e359">n</head>
+          <p xml:id="timf-adul-d1e362">
+            <cit>
+              <quote xml:id="timf-adul-Qd1e366">Nichil est quod tam facile corrumpat mentes hominum sicut adulacio. Plus enim nocet
+        lingua adulatoris quam gladius persecutoris.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-adul-Qd1e366" xml:id="timf-adul-Rd1e372">Ieronymus super Psalmos.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-adul-Dd1e377">
+          <head xml:id="timf-adul-Hd1e379">o</head>
+          <p xml:id="timf-adul-d1e382">
+            <cit>
+              <quote xml:id="timf-adul-Qd1e386">Non sic adulandum est principibus ut sanctarum scriptuarum ueritas negligatur, nec
+        generalis increpacio unius persone iniuria est.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-adul-Qd1e386" xml:id="timf-adul-Rd1e392">Ieronymus super Ysaiam libro VII.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-adul-Dd1e397">
+          <head xml:id="timf-adul-Hd1e399">p</head>
+          <p xml:id="timf-adul-d1e402">
+            <cit>
+              <quote xml:id="timf-adul-Qd1e406">Ne credas laudatoribus tuis, immo irrisoribus aurem ne libenter accommodes, qui cum
+        te adulationibus fouerint et quomodo impotentem meritis effecerint, si subito
+        respexeris, deprehendes post te colla incuruari, aut manu auriculas agitari asini, aut
+        estuantem canis protendi linguam.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-adul-Qd1e406" xml:id="timf-adul-Rd1e412">Ieronymus in epistola ad Rusticum monachum.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-adul-Dd1e417">
+          <head xml:id="timf-adul-Hd1e419">q</head>
+          <p xml:id="timf-adul-d1e422">
+            <cit>
+              <quote xml:id="timf-adul-Qd1e426">Nos ad patriam festinantes mortiferos Sirenarum cantus surda aure transire
+        debemus.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-adul-Qd1e426" xml:id="timf-adul-Rd1e432">Ieronymus in epistola quadam.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-adul-Dd1e437">
+          <head xml:id="timf-adul-Hd1e439">r</head>
+          <p xml:id="timf-adul-d1e442">
+            <cit>
+              <quote xml:id="timf-adul-Qd1e446">Inpinguat caput oleum peccatoris cum demulcet mentem fauor adulantis.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-adul-Qd1e446" xml:id="timf-adul-Rd1e452">Gregorius omelia XII. super ewangelia.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-adul-Dd1e458">
+          <head xml:id="timf-adul-Hd1e460">s</head>
+          <p xml:id="timf-adul-d1e463">
+            <cit>
+              <quote xml:id="timf-adul-Qd1e467">Quisquis male agentibus adulatur, puluillum sub capite iacentis ponit ut qui
+        corripi ex culpa debuerat, in ea fulcitus laudibus quiescat.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-adul-Qd1e467" xml:id="timf-adul-Rd1e473">Gregorius super Ezechielem omelia XI.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-adul-Dd1e478">
+          <head xml:id="timf-adul-Hd1e480">t</head>
+          <p xml:id="timf-adul-d1e483">
+            <cit>
+              <quote xml:id="timf-adul-Qd1e487">Adulacio, si ad tempus pacienter suscipitur, augetur et paulisper demulcet animum
+        ut angore sue certitudinis molescat in delectatione sermonis. Sed ne crescere ualeat,
+        statim cum sit sine mora finienda est.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-adul-Qd1e487" xml:id="timf-adul-Rd1e493">Gregorius ibidem (omelia XI.) super Ezechielem.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-adul-Dd1e498">
+          <head xml:id="timf-adul-Hd1e500">u</head>
+          <p xml:id="timf-adul-d1e503">
+            <cit>
+              <quote xml:id="timf-adul-Qd1e507">Qui auditis blandiciis in altum se extollit, quid aliud quam aurum reprobum fuit
+        quod fornax igne consumpsit?</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-adul-Qd1e507" xml:id="timf-adul-Rd1e513">Gregorius ibidem (omelia XI. super Ezechielem).</ref>
+          </p>
+        </div>
+        <div xml:id="timf-adul-Dd1e518">
+          <head xml:id="timf-adul-Hd1e520">x</head>
+          <p xml:id="timf-adul-d1e523">
+            <cit>
+              <quote xml:id="timf-adul-Qd1e527">Qui de amore non uenit honor, non honor sed adulacio est.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-adul-Qd1e527" xml:id="timf-adul-Rd1e533">Bernardus super Cantica.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-adul-Dd1e538">
+          <head xml:id="timf-adul-Hd1e540">y</head>
+          <p xml:id="timf-adul-d1e543">
+            <cit>
+              <quote xml:id="timf-adul-Qd1e547">Adulator omnis uirtutis inimicus est, et quasi clauum figit in oculo illius cum quo
+        sermonem conserit, eoque magis cauendus est quo sub amantis specie nocere non desinit,
+        donec racionis obtundat acumen et modicum id luminis quod adesse uidebatur
+        extinguat.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-adul-Qd1e547" xml:id="timf-adul-Rd1e553">Crisostomus in policratico de uestigiis philosophorum libro III.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-adul-Dd1e558">
+          <head xml:id="timf-adul-Hd1e560">z</head>
+          <p xml:id="timf-adul-d1e563">
+            <cit>
+              <quote xml:id="timf-adul-Qd1e567">[abest in manuscriptis]</quote>
+              <bibl/>
+            </cit>
+          </p>
+        </div>
+        <div xml:id="timf-adul-Dd1e576">
+          <head xml:id="timf-adul-Hd1e578">ab</head>
+          <p xml:id="timf-adul-d1e581">
+            <cit>
+              <quote xml:id="timf-adul-Qd1e585">Sicut finis oratoris est dictione persuasisse et medici medicina curasse, sic
+        adulatoris finis est suauiloquio decepisse.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-adul-Qd1e585" xml:id="timf-adul-Rd1e591">Crisostomus ibidem (in policratico de uestigiis philosophorum libro III.).</ref>
+          </p>
+        </div>
+        <div xml:id="timf-adul-Dd1e596">
+          <head xml:id="timf-adul-Hd1e598">ac</head>
+          <p xml:id="timf-adul-d1e601">
+            <cit>
+              <quote xml:id="timf-adul-Qd1e605">Cum aliquis aptus moribus populi, ut placeat eis quibus aures pruriunt, loquitur
+        que gratanter accipiant, loquitur que uicina sunt uoluptati, talis magister consuit
+        ceruicalia sub omni cubito manus.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-adul-Qd1e605" xml:id="timf-adul-Rd1e611">Origenes omelia I. super Ezechielem.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-adul-Dd1e616">
+          <head xml:id="timf-adul-Hd1e618">ad</head>
+          <p xml:id="timf-adul-d1e621">
+            <cit>
+              <quote xml:id="timf-adul-Qd1e625">Qui ad uoluntatem meditata deportant, et illa semper inquirunt que delectent pocius
+        audientes quam conuertant a uiciis, faciunt uelamina super caput.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-adul-Qd1e625" xml:id="timf-adul-Rd1e631">Origenes ibidem (omelia I. super Ezechielem).</ref>
+          </p>
+        </div>
+        <div xml:id="timf-adul-Dd1e636">
+          <head xml:id="timf-adul-Hd1e638">ae</head>
+          <p xml:id="timf-adul-d1e641">
+            <cit>
+              <quote xml:id="timf-adul-Qd1e645">Ipsa peccati nutrix adulacio que sicut oleum flammis in culpa ardentibus solet
+        administrare fomentum.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-adul-Qd1e645" xml:id="timf-adul-Rd1e651">Beda super Lucam libro II.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-adul-Dd1e656">
+          <head xml:id="timf-adul-Hd1e658">af</head>
+          <p xml:id="timf-adul-d1e661">
+            <cit>
+              <quote xml:id="timf-adul-Qd1e665">Adulator est qui tacet et dat consensum ne offendat illum quem credit habere
+        propicium.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-adul-Qd1e665" xml:id="timf-adul-Rd1e671">Hugo.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-adul-Dd1e676">
+          <head xml:id="timf-adul-Hd1e678">ag</head>
+          <p xml:id="timf-adul-d1e681">
+            <cit>
+              <quote xml:id="timf-adul-Qd1e685">Adulator est amicus in obsequio, hostis in animo, comptus in uerbo, turpis in
+        facto; letus ad prospera, fragilis ad aduersa, inflatus ad obsequia, anxius ad
+        obprobria, immoderatus ad gaudia, facilis ad humana, difficilis ad honesta.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-adul-Qd1e685" xml:id="timf-adul-Rd1e691">Hugo de sancto Victore.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-adul-Dd1e697">
+          <head xml:id="timf-adul-Hd1e699">ah</head>
+          <p xml:id="timf-adul-d1e702">
+            <cit>
+              <quote xml:id="timf-adul-Qd1e706">Oleum peccatoris est dilectio simulata uerborum que adulacionibus et blandimentis
+        nostras mentes uelut olei pinguedo libenter ingrediens, rigorem ueritatis emollit et ad
+        noxias cogitaciones amoris ficti pocius ostentacione perducit.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-adul-Qd1e706" xml:id="timf-adul-Rd1e712">Cassiodorus super illud Psalmi CXL.: Oleum peccatoris non impinguet.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-adul-Dd1e717">
+          <head xml:id="timf-adul-Hd1e719">ai</head>
+          <p xml:id="timf-adul-d1e722">
+            <cit>
+              <quote xml:id="timf-adul-Qd1e726">Ficti adulatores cum cenas diuitum captant nichil prius meditantur quam id quod
+        putant gratissimum auditoribus fore. Nam nec aliter impetrabunt quod petunt nisi quasdam
+        insidias auribus fecerint.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-adul-Qd1e726" xml:id="timf-adul-Rd1e732">Cassiodorus in quadam epistola.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-adul-Dd1e737">
+          <head xml:id="timf-adul-Hd1e739">ak</head>
+          <p xml:id="timf-adul-d1e742">
+            <cit>
+              <quote xml:id="timf-adul-Qd1e746">Adulacio blanda omnibus applaudit; omnibus salue dicit. Prodigos uocat liberales,
+        auaros parcos et sapientes, lasciuos curiales, garrulos affabiles, obstinatos
+        constantes, pigros maturos et graues. Hec sagitta leuiter uolat et cito
+        infigitur.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-adul-Qd1e746" xml:id="timf-adul-Rd1e752">Cassiodorus in quadam epistola.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-adul-Dd1e757">
+          <head xml:id="timf-adul-Hd1e759">al</head>
+          <p xml:id="timf-adul-d1e762">
+            <cit>
+              <quote xml:id="timf-adul-Qd1e766">Viciis semper seruiunt blandimenta, lenocinantur dulcia delictis, uirtutibus uero
+        austera et forcia sunt amica.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-adul-Qd1e766" xml:id="timf-adul-Rd1e772">Petrus Rauennas in quodam sermone.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-adul-Dd1e777">
+          <head xml:id="timf-adul-Hd1e779">am</head>
+          <p xml:id="timf-adul-d1e782">
+            <cit>
+              <quote xml:id="timf-adul-Qd1e786">Eliminat a palaciis adulacio ueritatem. Illi soli in magnatum graciam admittuntur
+        qui palpant blandiciis et aures fame bibulas calice Babilonis inebriant. Bene cum
+        magnatibus ageretur, si scirent inter adulacionem laudemque distinguere, sed ceca laudis
+        ambicio plus credens alii de se ipso quam sibi, utrumque recipit indistincte. Ampliant
+        eos beneficiis quos torquere debuerant, et a presumptione adulandi suppliciis deterrere.
+        Mordacissimus detractor in absencia nichil presencialiter proponit nisi quod placere
+        existimat. Verba oris eius iniquitas et dolus. Cum enim sal correctionis in omni
+        sacrificio acceptetur, a Domino mel in omni sacrificio reprobatur.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-adul-Qd1e786" xml:id="timf-adul-Rd1e792">Petrus Rauennas in quadam epistola.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-adul-Dd1e797">
+          <head xml:id="timf-adul-Hd1e799">an</head>
+          <p xml:id="timf-adul-d1e802">
+            <cit>
+              <quote xml:id="timf-adul-Qd1e806">Huius pestis pestilencia percuciuntur principum laterales, palatini canes,
+        adulacionis artifices, fabri laudis, figuli falsitatis. Hii sunt qui magniloqua
+        commendacionis tuba in diuitum auribus citharizant, qui mellite adulacionis fauos foras
+        eructant, qui ut emungant munera caput diuicis oleo adulacionis inungunt. Prelatorum
+        auribus pluuinaria laudum subiciunt qui ab eorum pallis aut ficticium puluerem excuciunt
+        aut uestem sophistice deplumant implumen.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-adul-Qd1e806" xml:id="timf-adul-Rd1e812">Alanus de conplanctu siue conquestione nature.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-adul-Dd1e818">
+          <head xml:id="timf-adul-Hd1e820">ao</head>
+          <p xml:id="timf-adul-d1e823">
+            <cit>
+              <quote xml:id="timf-adul-Qd1e827">Isti penes munera laudes, penes dona fauores, penes precium preconia fame
+        blandimentis constituunt.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-adul-Qd1e827" xml:id="timf-adul-Rd1e833">Alanus ibidem (de conplanctu siue conquestione nature).</ref>
+          </p>
+        </div>
+        <div xml:id="timf-adul-Dd1e838">
+          <head xml:id="timf-adul-Hd1e840">ap</head>
+          <p xml:id="timf-adul-d1e843">
+            <cit>
+              <quote xml:id="timf-adul-Qd1e847">Quid ergo adulacionis unctio nisi donorum emunctio? Quid commendacionis allusio
+        nisi prelatorum delusio? Quid laudis arrisio nisi eorundem derisio?</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-adul-Qd1e847" xml:id="timf-adul-Rd1e853">Alanus ibidem (de conplanctu siue conquestione nature).</ref>
+          </p>
+        </div>
+        <div xml:id="timf-adul-Dd1e858">
+          <head xml:id="timf-adul-Hd1e860">aq</head>
+          <p xml:id="timf-adul-d1e863">
+            <cit>
+              <quote xml:id="timf-adul-Qd1e867">Adulatores a uoluntate uultum, ab animo uerbum, a mente linguam, ab intellectu
+        loquelam amplo dissencionis interuallo diffibulant. Plerumque enim exterius
+        plausibiliter applaudendo collaudant quos interius contradictoria derisione defraudant.
+        Foris uultu applaudunt uirgineo, intus scorpionis pungunt aculeo; foris adulacionis
+        mellitos compluunt imbres, intus detractionis euomunt tempestates.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-adul-Qd1e867" xml:id="timf-adul-Rd1e873">Alanus ibidem (de conplanctu siue conquestione nature).</ref>
+          </p>
+        </div>
+        <div xml:id="timf-adul-Dd1e878">
+          <head xml:id="timf-adul-Hd1e880">ar</head>
+          <p xml:id="timf-adul-d1e883">
+            <cit>
+              <quote xml:id="timf-adul-Qd1e887">Dyogenes Siracusis cum olera ei lauanti Aristipus dixisset: Si Dyonisio adulari
+        uelles, ista non ederes; immo, inquit, si tu ista edere uelles, Dyonisio non adulares.
+        Hic ueridicus ueritatis annunciator, malens oleribus sustentari quam magnatibus
+        adulari.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-adul-Qd1e887" xml:id="timf-adul-Rd1e893">Valerius Maximus libro IIII. de memoralibus dictis Romanorum.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-adul-Dd1e898">
+          <head xml:id="timf-adul-Hd1e900">as</head>
+          <p xml:id="timf-adul-d1e903">
+            <cit>
+              <quote xml:id="timf-adul-Qd1e907">A turba quantum potes te separa ne adulatoribus latus prebeas. Artifices sunt ad
+        capiendos superiores; par illis eciam, si bene caueris, non eris. Sed, michi crede, si
+        capieris, ipse te trades. Habent hoc in se naturaliter blandicie; eciam cum reiciuntur
+        placent. Sepe excluse nouissime recipiuntur. Hoc enim ipsum imputant quod repellunt et
+        subici quidem nec contumelia possunt.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-adul-Qd1e907" xml:id="timf-adul-Rd1e913">Seneca de Tusculanis questionibus libro VIII.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-adul-Dd1e918">
+          <head xml:id="timf-adul-Hd1e920">at</head>
+          <p xml:id="timf-adul-d1e923">
+            <cit>
+              <quote xml:id="timf-adul-Qd1e927">Cito nobis placemus si inuenimus qui nos bonos uiros dicat, qui prudentes, qui
+        sanctos. Non sumus modica laudacione contenti; quicquid in nos adulacio sine pudore
+        congessit, tanquam debitum prendimus. Optimos nos esse et sapientissimos affirmantibus
+        assentimus cum sciamus sepe illos mentiri. Adeo quoque indulgemus nobis ut laudari
+        uelimus in id cui contraria tamen maxime facimus.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-adul-Qd1e927" xml:id="timf-adul-Rd1e933">Seneca LX. epistola.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-adul-Dd1e939">
+          <head xml:id="timf-adul-Hd1e941">au</head>
+          <p xml:id="timf-adul-d1e944">
+            <cit>
+              <quote xml:id="timf-adul-Qd1e948">Alexander cum in obsidione cuiusdam urbis circuisset muros, ictu sagitte percussus,
+        cum represso sanguine sicci uulneris dolor cresceret et crus obstupuisset coactus
+        absistere, omnes, inquit, iurant me esse filium Iouis, sed uulnus hoc hominem me esse
+        clamat. Idem nos faciamus. Dicamus uos quidem dicitis me esse prudentem. Ego autem uideo
+        quam multa inutilia concupiscam, nocitura optem.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-adul-Qd1e948" xml:id="timf-adul-Rd1e954">Seneca ibidem (LX. epistola).</ref>
+          </p>
+        </div>
+        <div xml:id="timf-adul-Dd1e959">
+          <head xml:id="timf-adul-Hd1e961">ax</head>
+          <p xml:id="timf-adul-d1e964">
+            <cit>
+              <quote xml:id="timf-adul-Qd1e968">Intus te ipsum considera non qualis sis aliis credas. Plerumque boni inepti et
+        inertes uocantur. Michi contingat iste derisus; equo animo audienda sunt imperitorum
+        conuicia et ad honesta uadenti contempnendus est iste contemptus.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-adul-Qd1e968" xml:id="timf-adul-Rd1e974">Seneca LXXVII. epistola.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-adul-Dd1e979">
+          <head xml:id="timf-adul-Hd1e981">ay</head>
+          <p xml:id="timf-adul-d1e984">
+            <cit>
+              <quote xml:id="timf-adul-Qd1e988">Adulacio apertis et propiciis auribus recipitur; in precordia ima descendit. Venit
+        ad me pro amico blandus inimicus.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-adul-Qd1e988" xml:id="timf-adul-Rd1e994">Seneca XLIII. epistola.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-adul-Dd1e999">
+          <head xml:id="timf-adul-Hd1e1001">az</head>
+          <p xml:id="timf-adul-d1e1004">
+            <cit>
+              <quote xml:id="timf-adul-Qd1e1008">[abest in manuscriptis]</quote>
+              <bibl/>
+            </cit>
+          </p>
+        </div>
+        <div xml:id="timf-adul-Dd1e1016">
+          <head xml:id="timf-adul-Hd1e1018">ba</head>
+          <p xml:id="timf-adul-d1e1021">
+            <cit>
+              <quote xml:id="timf-adul-Qd1e1025">O te felicem hominem! Si nichil habes propter quod quisquam tibi menciatur, nisi
+        quod iam eciam causa sublata est, mentimur consuetudinis causa. Adulator blandus
+        consilium dabit quod deliberanti gracius fore suspicabitur. Casse fidei sunt qui iugiter
+        blandiuntur.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-adul-Qd1e1025" xml:id="timf-adul-Rd1e1031">Seneca LXXXI. epistola.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-adul-Dd1e1036">
+          <head xml:id="timf-adul-Hd1e1038">bc</head>
+          <p xml:id="timf-adul-d1e1041">
+            <cit>
+              <quote xml:id="timf-adul-Qd1e1045">Adulacio quam similis est amicicie! Non imitatur tantum illam sed uincit et
+        precedit; eo ipso graciosos facit quo ledit. Vicia nobis sub uirtutum nomine obrepunt:
+        temeritas sub titulo fortitudinis latet, moderacio uocatur ignauia, pro cauto timidus
+        accipitur. In hiis magno periculo erramus.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-adul-Qd1e1045" xml:id="timf-adul-Rd1e1051">Seneca.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-adul-Dd1e1057">
+          <head xml:id="timf-adul-Hd1e1059">bd</head>
+          <p xml:id="timf-adul-d1e1062">
+            <cit>
+              <quote xml:id="timf-adul-Qd1e1066">Monstrabo tibi cuius rei inopia laborant magna fastigia, quid omnia possidentibus
+        desit, unum scilicet qui uerum dicat, dum nemo ex animi sui sentencia dicit et suadet,
+        sed adulandi certamen est unum amicorum omnium officium.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-adul-Qd1e1066" xml:id="timf-adul-Rd1e1072">Seneca in epistola.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-adul-Dd1e1077">
+          <head xml:id="timf-adul-Hd1e1079">be</head>
+          <p xml:id="timf-adul-d1e1082">
+            <cit>
+              <quote xml:id="timf-adul-Qd1e1086">Malum hominem blande loquentem agnosce tuum laqueum esse. Habet enim suum uenenum
+        blanda oracio.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-adul-Qd1e1086" xml:id="timf-adul-Rd1e1092">Seneca in epistolis.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-adul-Dd1e1097">
+          <head xml:id="timf-adul-Hd1e1099">bf</head>
+          <p xml:id="timf-adul-d1e1102">
+            <cit>
+              <quote xml:id="timf-adul-Qd1e1106">Dyogenes cuidam laudanti dixit: Adulator, desine utrumque fallere; nichil proficis
+        cum te intelligam.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-adul-Qd1e1106" xml:id="timf-adul-Rd1e1112">[auctor non nominatus]</ref>
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

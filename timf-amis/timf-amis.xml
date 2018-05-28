@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Amissio rerum</title>
+        <author ref="#ThomasOfIreland">Thomas Hybernicus</author>
+        <respStmt>
+          <name>Chris Nighman</name>
+          <resp>Editor</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Amissio rerum</title>
+          <date when="2018-05-22">May 22, 2018</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref>SCTA</ref> and <ref target="http://www.manipulusflorum.com/">Manipulus floreum Project</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Pb" n="bnf15985">Bnf 15985</witness>
+          <witness xml:id="Pc" n="bnf15985">Bnf 15986</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2018-05-22" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="timf-amis">
+        <head xml:id="timf-amis-Hd1e117">Amissio rerum</head>
+        <div xml:id="timf-amis-Dd1e120">
+          <head xml:id="timf-amis-Hd1e122">a</head>
+          <p xml:id="timf-amis-d1e125">
+            <cit>
+              <quote xml:id="timf-amis-Qd1e129">Potes aurum perdere et nolens; potes domum, potes honores, potes ipsam carnis
+        salutem. Bonum uero quo uere bonus es, nec inuitus accipis, nec inuitus amittis.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-amis-Qd1e129" xml:id="timf-amis-Rd1e135">Augustinus de uerbis Domini.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-amis-Dd1e140">
+          <head xml:id="timf-amis-Hd1e142">b</head>
+          <p xml:id="timf-amis-d1e145">
+            <cit>
+              <quote xml:id="timf-amis-Qd1e149">Sine dolore non pereunt que cum amore possessa sunt.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-amis-Qd1e149" xml:id="timf-amis-Rd1e155">Augustinus in encheridion.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-amis-Dd1e160">
+          <head xml:id="timf-amis-Hd1e162">c</head>
+          <p xml:id="timf-amis-d1e165">
+            <cit>
+              <quote xml:id="timf-amis-Qd1e169">Magna consolacio in rerum amissione est illa tempora ad mentem reducere quibus nos
+        contigit res quas perdidimus non habuisse; ut dum unusquisque intuetur quod aliquando
+        illa non habuit, dolorem temperet quod amisit.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-amis-Qd1e169" xml:id="timf-amis-Rd1e175">Gregorius libro II. moralium.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-amis-Dd1e180">
+          <head xml:id="timf-amis-Hd1e182">d</head>
+          <p xml:id="timf-amis-d1e185">
+            <cit>
+              <quote xml:id="timf-amis-Qd1e189">Sine dolore amittitur, quicquid sine amore possidetur. Que uero ardenter diligimus
+        habita, grauiter suspiramus ablata.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-amis-Qd1e189" xml:id="timf-amis-Rd1e195">Gregorius libro XXXI. moralium.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-amis-Dd1e201">
+          <head xml:id="timf-amis-Hd1e203">e</head>
+          <p xml:id="timf-amis-d1e206">
+            <cit>
+              <quote xml:id="timf-amis-Qd1e210">Quanto minor in possessione commoditas, tanto minor in amissione dolor.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-amis-Qd1e210" xml:id="timf-amis-Rd1e216">Gregorius in omelia.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-amis-Dd1e221">
+          <head xml:id="timf-amis-Hd1e223">f</head>
+          <p xml:id="timf-amis-d1e226">
+            <cit>
+              <quote xml:id="timf-amis-Qd1e230">Cum graui dolore amittuntur que cum magno amore habentur. Minus autem carendo
+        dolemus que minus possidendo diligimus.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-amis-Qd1e230" xml:id="timf-amis-Rd1e236">Ysidorus III. libro de summo bono.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-amis-Dd1e241">
+          <head xml:id="timf-amis-Hd1e243">g</head>
+          <p xml:id="timf-amis-d1e246">
+            <cit>
+              <quote xml:id="timf-amis-Qd1e250">Nichil perdit qui se habet. Circumspice ista que nos agunt in insaniam, que cum
+        plurimis lacrimis amittimus. Scies non dampnum in hiis molestum esse sed opinionem
+        dampni. Pecuniam minorem habebis nempe et molestiam, graciam minorem nempe et inuidiam,
+        scilicet minorem habebis.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-amis-Qd1e250" xml:id="timf-amis-Rd1e256">Seneca XLIII. epistola.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-amis-Dd1e261">
+          <head xml:id="timf-amis-Hd1e263">h</head>
+          <p xml:id="timf-amis-d1e266">
+            <cit>
+              <quote xml:id="timf-amis-Qd1e270">Pecuniam perdidi; et illa quam multos! Pecuniam perdidi; fortassis te illa
+        perderet. Pecuniam perdidi; O te felicem, si cum illa auariciam perdidisti! Pecuniam
+        perdidi; antequam tu haberes, alius ante perdiderat. Oculos perdidi; quam multis
+        cupiditatibus uia incisa est! Liberos amisi; stultus est qui mortem mortalium deflet.
+        Perierunt perituri; habebant illi cuius magis essent quam tui. Apud te precario
+        morabantur; educandos tibi illos fortuna mandauerat. Recepit illos, non
+        abstulit.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-amis-Qd1e270" xml:id="timf-amis-Rd1e276">Seneca de remediis fortuitorum.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-amis-Dd1e281">
+          <head xml:id="timf-amis-Hd1e283">i</head>
+          <p xml:id="timf-amis-d1e286">
+            <cit>
+              <quote xml:id="timf-amis-Qd1e290">Oculos perdidi; habet et nox suas uoluptates. Non intelligis partem esse innocencie
+        cecitatem. Huic oculi ad adulterium monstrant, huic incestum, huic domum quam
+        concupisceret, huic urbem. Irritamenta uiciorum sunt duces solum modo.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-amis-Qd1e290" xml:id="timf-amis-Rd1e296">Seneca ibidem (de remediis fortune).</ref>
+          </p>
+        </div>
+        <div xml:id="timf-amis-Dd1e301">
+          <head xml:id="timf-amis-Hd1e303">k</head>
+          <p xml:id="timf-amis-d1e306">
+            <cit>
+              <quote xml:id="timf-amis-Qd1e310">Nudus exi; sed existi. Omnia perdidi; sed cum omnibus perire potuisti. Cogitas quod
+        perdideris sed non quod euaseris.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-amis-Qd1e310" xml:id="timf-amis-Rd1e316">Seneca ibidem (de remediis fortune).</ref>
+          </p>
+        </div>
+        <div xml:id="timf-amis-Dd1e322">
+          <head xml:id="timf-amis-Hd1e324">l</head>
+          <p xml:id="timf-amis-d1e327">
+            <cit>
+              <quote xml:id="timf-amis-Qd1e331">Pecuniam perdidi; eris nunc in uia expeditior, domi tucior. Exonerauit te fortuna,
+        si intelligis, et tuciore posuit loco. Dampnum putas; remedium est. Deflens miserum te
+        clamitas quod opibus excussus es. Tuo uicio ista tibi iactura tam tristis est. Non tam
+        moleste ferres, si tanquam perditurus habuisses.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-amis-Qd1e331" xml:id="timf-amis-Rd1e337">Seneca ibidem (de remediis fortune).</ref>
+          </p>
+        </div>
+        <div xml:id="timf-amis-Dd1e342">
+          <head xml:id="timf-amis-Hd1e344">m</head>
+          <p xml:id="timf-amis-d1e347">
+            <cit>
+              <quote xml:id="timf-amis-Qd1e351">Vxorem bonam amisi; utrum inueneras bonam an feceras? Si inueneras, habere te posse
+        aliam ex hoc intelligas. Si feceras, bene tibi spera: res periit, saluus est
+        artifex.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-amis-Qd1e351" xml:id="timf-amis-Rd1e357">Seneca ibidem (de remediis fortune).</ref>
+          </p>
+        </div>
+        <div xml:id="timf-amis-Dd1e362">
+          <head xml:id="timf-amis-Hd1e364">n</head>
+          <p xml:id="timf-amis-d1e367">
+            <cit>
+              <quote xml:id="timf-amis-Qd1e371">Amicum perdidi; si unicum, erubesce. Quid in tanta tempestate ad unam anchoram
+        stabas? Alium quere et cum eum queras ubi inuenies; quere inter liberales artes, inter
+        recta et honesta officia; quere in laboribus. Ad mensam res ista non queritur.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-amis-Qd1e371" xml:id="timf-amis-Rd1e377">Seneca ibidem (de remediis fortune).</ref>
+          </p>
+        </div>
+        <div xml:id="timf-amis-Dd1e382">
+          <head xml:id="timf-amis-Hd1e384">o</head>
+          <p xml:id="timf-amis-d1e387">
+            <cit>
+              <quote xml:id="timf-amis-Qd1e391">Multa possum tibi ostendere que acquisita acceptaque libertatem nobis extorserunt.
+        Non essemus nostri, si ista nostra non essent.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-amis-Qd1e391" xml:id="timf-amis-Rd1e397">Seneca LXI. epistola.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-amis-Dd1e402">
+          <head xml:id="timf-amis-Hd1e404">p</head>
+          <p xml:id="timf-amis-d1e407">
+            <cit>
+              <quote xml:id="timf-amis-Qd1e411">Id agamus ut iocunda nobis amissorum fiat recordacio. Nemo libenter ad id redit
+        quod sine tormento cogitaturus non est.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-amis-Qd1e411" xml:id="timf-amis-Rd1e417">Seneca LXIII. epistola.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-amis-Dd1e422">
+          <head xml:id="timf-amis-Hd1e424">q</head>
+          <p xml:id="timf-amis-d1e427">
+            <cit>
+              <quote xml:id="timf-amis-Qd1e431">Nullius rei felicior amissio est quam que desiderari amissa non potest.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-amis-Qd1e431" xml:id="timf-amis-Rd1e437">Seneca epistola IIII.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-amis-Dd1e443">
+          <head xml:id="timf-amis-Hd1e445">r</head>
+          <p xml:id="timf-amis-d1e448">
+            <cit>
+              <quote xml:id="timf-amis-Qd1e452">Stilbon, capta patria, amissis liberis, amissa uxore, cum ex incendio publico solus
+        et tamen beatus exiret, interroganti Demetrio nunquid omnia perdidisset, respondit:
+        Nichil, inquit, perdidi. Omnia mea mecum sunt: iusticia, uirtus, prudencia. Nichil enim
+        bonum putare potuit quod eripi posset.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-amis-Qd1e452" xml:id="timf-amis-Rd1e458">Seneca IX. epistola.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-amis-Dd1e463">
+          <head xml:id="timf-amis-Hd1e465">s</head>
+          <p xml:id="timf-amis-d1e468">
+            <cit>
+              <quote xml:id="timf-amis-Qd1e472">Aspicere oportet quod possis perdere. Dimissum quod nescitur, non amittitur. Homo
+        tociens moritur, quociens amittit suos.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-amis-Qd1e472" xml:id="timf-amis-Rd1e478">Seneca in prouerbiis.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-amis-Dd1e483">
+          <head xml:id="timf-amis-Hd1e485">t</head>
+          <p xml:id="timf-amis-d1e488">
+            <cit>
+              <quote xml:id="timf-amis-Qd1e492">Byas, omnibus amissis, omnia, inquit, mea bona mecum porto. Pectore enim illa
+        gestabat non humeris, nec oculis uidenda sed animo estimanda. Que domicilio mentis
+        inclusa nec mortalium, nec deorum manibus labefactari queunt.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-amis-Qd1e492" xml:id="timf-amis-Rd1e498">Valerius Maximus libro VII.</ref>
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

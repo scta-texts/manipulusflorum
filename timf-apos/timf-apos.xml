@@ -1,0 +1,440 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Apostoli</title>
+        <author ref="#ThomasOfIreland">Thomas Hybernicus</author>
+        <respStmt>
+          <name>Chris Nighman</name>
+          <resp>Editor</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Apostoli</title>
+          <date when="2018-05-22">May 22, 2018</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref>SCTA</ref> and <ref target="http://www.manipulusflorum.com/">Manipulus floreum Project</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Pb" n="bnf15985">Bnf 15985</witness>
+          <witness xml:id="Pc" n="bnf15985">Bnf 15986</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2018-05-22" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="timf-apos">
+        <head xml:id="timf-apos-Hd1e117">Apostoli</head>
+        <div xml:id="timf-apos-Dd1e120">
+          <head xml:id="timf-apos-Hd1e122">a</head>
+          <p xml:id="timf-apos-d1e125">
+            <cit>
+              <quote xml:id="timf-apos-Qd1e129">Currunt utrique ad metam martyrii, perueniunt ad coronam non quidem eodem temporis
+        cursu, sed eodem anni reuertentis occursu. Cum enim sit in eorum passione anni
+        diuersitas, est tamen in uno die geminata festiuitas.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-apos-Qd1e129" xml:id="timf-apos-Rd1e135">Augustinus in sermone apostolorum Petri et Pauli.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-apos-Dd1e140">
+          <head xml:id="timf-apos-Hd1e142">b</head>
+          <p xml:id="timf-apos-d1e145">
+            <cit>
+              <quote xml:id="timf-apos-Qd1e149">Quis nunc iam desperet aut de humilitate generis aut de magnitudine criminis, cum
+        uideat sic inundasse celestis gracie fontem ut et piscatorem regibus preponeret et
+        persecutorem apostolis coequaret? Ille enim dum pauperiem suam curat, alimenta cotidiani
+        uictus querit in pelago, factus est diues in Christo cui reges et naciones famulantur in
+        seculo. Paulus uero dum urget gladiis sanctorum, fidei suscepit iugum et magister factus
+        est gencium, forma martyrum, formido demonum, indultor criminum, fonsque
+        uirtutum.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-apos-Qd1e149" xml:id="timf-apos-Rd1e155">Augustinus ibidem (in sermone apostolorum Petri et Pauli).</ref>
+          </p>
+        </div>
+        <div xml:id="timf-apos-Dd1e160">
+          <head xml:id="timf-apos-Hd1e162">c</head>
+          <p xml:id="timf-apos-d1e165">
+            <cit>
+              <quote xml:id="timf-apos-Qd1e169">Dedit Dominus potestatem apostolis super naturam ut eam curarent, super demones ut
+        eos euerterent, super elementa ut ipsa immutarent, super mortem ut eam contempnerent,
+        super angelos ut corpus Domini consecrarent. Hec eciam potestas data est eorum
+        successoribus secundum illud Apocalypsis XI.: Hii habent potestatem claudendi celum et
+        conuertendi aquam in sanguinem.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-apos-Qd1e169" xml:id="timf-apos-Rd1e175">Augustinus in sermone de apostolis.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-apos-Dd1e180">
+          <head xml:id="timf-apos-Hd1e182">d</head>
+          <p xml:id="timf-apos-d1e185">
+            <cit>
+              <quote xml:id="timf-apos-Qd1e189">Ex paucissimis et imperitissimis et abiectissimis multiplicantur, nobilitantur,
+        sublimantur copiosissima agmina, clarissima ingenia, cultissima eloquia, doctorum
+        acutorum ac facundorum.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-apos-Qd1e189" xml:id="timf-apos-Rd1e195">Augustinus II. epistola ad Volusianum.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-apos-Dd1e201">
+          <head xml:id="timf-apos-Hd1e203">e</head>
+          <p xml:id="timf-apos-d1e206">
+            <cit>
+              <quote xml:id="timf-apos-Qd1e210">Christus Ihesus Petrum et Andream et alios per quos operatus est salutem in medio
+        terre, non de foro Iustiniani, sed de simplicitate piscatoria legitur assumpsisse.
+        Inflat enim sapiencia huius mundi et legum uentosa loquacitas. Elegit enim non reges,
+        non senatores, non philosophos, sed plebeios pauperes, indoctos piscatores, ineruditos
+        liberalibus disciplinis, non peritos grammatica, non armatos dyaletica, non rethorica
+        inflatos. Piscatores Christus cum rethibus fidei paucissimos misit, atque ita ex omni
+        genere tam multos pisces et tanto mirabiliores quanto rariores eciam ipsos philosophos
+        cepit.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-apos-Qd1e210" xml:id="timf-apos-Rd1e216">Augustinus in sermone de apostolis.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-apos-Dd1e221">
+          <head xml:id="timf-apos-Hd1e223">f</head>
+          <p xml:id="timf-apos-d1e226">
+            <cit>
+              <quote xml:id="timf-apos-Qd1e230">Petrus sequebatur a longe et cetera. Fortasse et in hoc Petrus nobis maxima fit
+        admiracione reuerendus quod Dominum non reliquit, eciam cum uiueret. Metus nature est
+        cura pietatis. Alienum quod timet, suum quod non fugit. Quod sequitur deuocionis, quod
+        negat obreptionis. Commune quod labitur, fidei quod penitet.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-apos-Qd1e230" xml:id="timf-apos-Rd1e236">Ambrosius super Lucam libro IX.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-apos-Dd1e241">
+          <head xml:id="timf-apos-Hd1e243">g</head>
+          <p xml:id="timf-apos-d1e246">
+            <cit>
+              <quote xml:id="timf-apos-Qd1e250">Non sine causa factum putemus quod una die, uno loco, unius tyranni apostoli
+        tollerauere sentenciam. Vna die passi sunt ut ad Christum pariter peruenirent; uno loco
+        ne alteri Roma deesset; sub uno persecutore ut equalis crudelitas utrumque
+        constringeret. Dies ergo pro merito, locus pro gloria, persecutor decretus est pro
+        uirtute.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-apos-Qd1e250" xml:id="timf-apos-Rd1e256">Ambrosius in sermone apostolorum Petri et Pauli.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-apos-Dd1e261">
+          <head xml:id="timf-apos-Hd1e263">h</head>
+          <p xml:id="timf-apos-d1e266">
+            <cit>
+              <quote xml:id="timf-apos-Qd1e270">Paulus non est inferior Petro quamuis ille ecclesie fundamenta, iste sapiens
+        architectus sciens uestigia fundare populorum. Nec Paulus indignus collegio apostolorum
+        cum primo sit confitendus et nulli secundus.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-apos-Qd1e270" xml:id="timf-apos-Rd1e276">Ambrosius libro IIII. de spiritu sancto.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-apos-Dd1e281">
+          <head xml:id="timf-apos-Hd1e283">i</head>
+          <p xml:id="timf-apos-d1e286">
+            <cit>
+              <quote xml:id="timf-apos-Qd1e290">Potestatem tribuit Dominus apostolis ut sciant qui dampnantur a talibus humanam
+        sentenciam diuina sentencia corroborari.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-apos-Qd1e290" xml:id="timf-apos-Rd1e296">Ieronymus super illud Matthei XVIII.: Quecumque alligaueritis super terram.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-apos-Dd1e301">
+          <head xml:id="timf-apos-Hd1e303">k</head>
+          <p xml:id="timf-apos-d1e306">
+            <cit>
+              <quote xml:id="timf-apos-Qd1e310">Piscatores illitterati mittuntur ad predicandum ne fides credencium non uirtute
+        humana sed eloquencia et doctrina Dei fieri putaretur.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-apos-Qd1e310" xml:id="timf-apos-Rd1e316">Ieronymus super Mattheum libro I. super illud: Venite post me.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-apos-Dd1e322">
+          <head xml:id="timf-apos-Hd1e324">l</head>
+          <p xml:id="timf-apos-d1e327">
+            <cit>
+              <quote xml:id="timf-apos-Qd1e331">Nemo apostolis pauperior fuit; nemo tantum pro Domino dereliquit.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-apos-Qd1e331" xml:id="timf-apos-Rd1e337">Ieronymus in epistola ad Exuperancium.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-apos-Dd1e342">
+          <head xml:id="timf-apos-Hd1e344">m</head>
+          <p xml:id="timf-apos-d1e347">
+            <cit>
+              <quote xml:id="timf-apos-Qd1e351">Paulus terram simul ac mare, Greciam simul atque barbariam, omnemque prorsus,
+        quanta est sub sole regionem, quasi uolitans circuiuit, non simplici labore uelut in
+        uacuum itinera percurrens, sed peccatorum spinas pariter euellens, nimbum pietatis
+        ubique seminans, errores fugans, ueritatem reducens, ex hominibus angelos faciens, quin
+        immo ipsos homines quasi ex demonibus angelos prouehens.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-apos-Qd1e351" xml:id="timf-apos-Rd1e357">Crisostomus de laudibus Pauli omelia I.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-apos-Dd1e362">
+          <head xml:id="timf-apos-Hd1e364">n</head>
+          <p xml:id="timf-apos-d1e367">
+            <cit>
+              <quote xml:id="timf-apos-Qd1e371">O mirabiles quoque fluuios nobis genuit Paulus, non secundum paradysi fontem
+        quattuor tantum sed eciam multo plures ac cotidie fluentes, non terram irrigantes sed
+        animas hominum ad producenda uirtutum germina suscitantes! Quis igitur ad explicanda
+        Pauli merita sermo sufficiet? Que lingua laudibus eius inuenietur equalis cum omnia que
+        sunt in hominibus bona anima una possideat, et ea cuncta plene atque cumulate nec solum
+        hominum sed eciam, quod plus est, angelorum?</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-apos-Qd1e371" xml:id="timf-apos-Rd1e377">Crisostomus ibidem (de laudibus Pauli) omelia I.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-apos-Dd1e382">
+          <head xml:id="timf-apos-Hd1e384">o</head>
+          <p xml:id="timf-apos-d1e387">
+            <cit>
+              <quote xml:id="timf-apos-Qd1e391">Paulus celi ciuis, ecclesiarum columpna, angelus terrestris, celestis homo. Sicut
+        enim missum in ignem ferrum, totum profecto ignis efficitur, sic Paulus caritate
+        succensus, totus effectus est caritas.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-apos-Qd1e391" xml:id="timf-apos-Rd1e397">Ibidem (Crisostomus de laudibus Pauli omelia I.).</ref>
+          </p>
+        </div>
+        <div xml:id="timf-apos-Dd1e402">
+          <head xml:id="timf-apos-Hd1e404">p</head>
+          <p xml:id="timf-apos-d1e407">
+            <cit>
+              <quote xml:id="timf-apos-Qd1e411">Misit Christus apostolos quasi sol radios suos, quasi rosa suauitates sui odoris,
+        quasi ignis scintillas suas dispersit, ut sicut sol in radiis apparet, sicut rosa in
+        odoribus suis sentitur, sicut ignis in scintillis suis aspicitur, sic in illorum
+        uirtutibus Christi potencia agnoscatur. Quis enim uidens discipulos bene instructos non
+        scienciam magistri collaudet? Faciebat enim mirabilia Christus; faciebant et discipuli
+        eius et inter mirabilium operaciones maior fama uirtutum crescebat.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-apos-Qd1e411" xml:id="timf-apos-Rd1e417">Crisostomus super Mattheum.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-apos-Dd1e422">
+          <head xml:id="timf-apos-Hd1e424">q</head>
+          <p xml:id="timf-apos-d1e427">
+            <cit>
+              <quote xml:id="timf-apos-Qd1e431">O frater mi Thimothee, si uidisses agones consummacionis ipsorum, defecisses quidem
+        pre tristicia et dolore! Quis non fleret illa hora quando preceptum sentencie egressum
+        est in eos, ut scilicet Petrus crucifigeretur et Paulus decollaretur? Vidisses quidem
+        tunc turbas Iudeorum et gentilium percucientes eos et expuentes in facies eorum, sed
+        aduenienti terribili tempore consummacionis ipsorum ligauerunt columpnas mundi, non
+        utique absque fratrum gemitu atque ploratu et cum separarentur ab inuicem. Tunc Paulus
+        ait Petro: Pax tecum fundamentum ecclesiarum, pastor ouium et agnorum Christi. Ac Petrus
+        ad Paulum: Vade in pace predicator bonorum, mediator et dux salutis iustorum. Cum autem
+        elongassent eos ab inuicem, secutus sum magistrum meum. Non in eodem loco siue uico
+        occiderunt eos.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-apos-Qd1e431" xml:id="timf-apos-Rd1e437">Dyonisius in epistola ad Thimotheum.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-apos-Dd1e443">
+          <head xml:id="timf-apos-Hd1e445">r</head>
+          <p xml:id="timf-apos-d1e448">
+            <cit>
+              <quote xml:id="timf-apos-Qd1e452">Attende miraculum, uide prodigium, frater mi Thimothee. Nam presens fui in tempore
+        separacionis eorum, post mortem autem eorum uidi eos inuicem manu ad manum intrantes
+        portas urbis et indutos ueste luminis et coronis claritatis et lucis ornatos.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-apos-Qd1e452" xml:id="timf-apos-Rd1e458">Dyonisius in eadem epistola (ad Thimotheum).</ref>
+          </p>
+        </div>
+        <div xml:id="timf-apos-Dd1e463">
+          <head xml:id="timf-apos-Hd1e465">s</head>
+          <p xml:id="timf-apos-d1e468">
+            <cit>
+              <quote xml:id="timf-apos-Qd1e472">Merito apostolis sanctis attribuitur quod in sapiencie libris legitur: Hii sunt
+        uiri misericordie. Sunt enim plane uiri misericordie siue quia misericordiam consecuti,
+        siue quia misericordia pleni, siue quia misericorditer a Deo donati nobis.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-apos-Qd1e472" xml:id="timf-apos-Rd1e478">Bernardus in sermone apostolorum Petri et Pauli.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-apos-Dd1e483">
+          <head xml:id="timf-apos-Hd1e485">t</head>
+          <p xml:id="timf-apos-d1e488">
+            <cit>
+              <quote xml:id="timf-apos-Qd1e492">Scimus quod uiri isti nec sibi uixere, nec sibi sunt mortui, sed ei qui pro ipsis
+        mortuus est, magis autem nobis omnibus propter illum. Pro nobis facit eorum uita, eorum
+        doctrina, eciam et mors ipsa; et enim conuersione eminenciam, in predicacione
+        sapienciam, in passione sua pacienciam nobis beati apostoli contulerunt qui eciam usque
+        hodie conferre non cessant misericordia pleni et sanctarum oracionum fructibus.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-apos-Qd1e492" xml:id="timf-apos-Rd1e498">Bernardus ibidem (in sermone apostolorum Petri et Pauli).</ref>
+          </p>
+        </div>
+        <div xml:id="timf-apos-Dd1e503">
+          <head xml:id="timf-apos-Hd1e505">u</head>
+          <p xml:id="timf-apos-d1e508">
+            <cit>
+              <quote xml:id="timf-apos-Qd1e512">Igne Spiritus sancti quasi uiue lucis fonte Christus apostolos suos perfudit ut
+        ipsius postmodum uniuersum mundum tanquam duodecim solis radii ac totidem lampades
+        ueritatis illuminarent et inebriati nouo uino repleant atque irrigent sciencia corda
+        omnium populorum.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-apos-Qd1e512" xml:id="timf-apos-Rd1e518">Leo papa in sermone apostolorum Petri et Pauli.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-apos-Dd1e523">
+          <head xml:id="timf-apos-Hd1e525">x</head>
+          <p xml:id="timf-apos-d1e528">
+            <cit>
+              <quote xml:id="timf-apos-Qd1e532">Veniente luce diei egritudines alleuiantur, homines a sompno excitentur, aues
+        garriunt, bestie ad latibula sua fugiunt, sic luce apostolorum ueniente mundus fuit
+        edificatus in credendis, fecundatus in operibus bonis, alleuiatus peccatis, excitatus a
+        negligenciis, animatus ad contemplacionem celestium, ereptus de postestate
+        demonum.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-apos-Qd1e532" xml:id="timf-apos-Rd1e538">Basilius tractans illud Matthei V.: Vos estis lux mundi.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-apos-Dd1e543">
+          <head xml:id="timf-apos-Hd1e545">y</head>
+          <p xml:id="timf-apos-d1e548">
+            <cit>
+              <quote xml:id="timf-apos-Qd1e552">Paulus ultra humana raptus est ad tercium celum. Celestia secreta cognouit ut
+        ecclesiarum futurus doctor inter angelos disceret quod inter homines predicaret.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-apos-Qd1e552" xml:id="timf-apos-Rd1e558">Maximus in sermone apostolorum Petri et Pauli.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-apos-Dd1e564">
+          <head xml:id="timf-apos-Hd1e566">z</head>
+          <p xml:id="timf-apos-d1e569">
+            <cit>
+              <quote xml:id="timf-apos-Qd1e573">[abest in manuscriptis]</quote>
+              <bibl/>
+            </cit>
+          </p>
+        </div>
+        <div xml:id="timf-apos-Dd1e581">
+          <head xml:id="timf-apos-Hd1e583">ab</head>
+          <p xml:id="timf-apos-d1e586">
+            <cit>
+              <quote xml:id="timf-apos-Qd1e590">Litteris quas ad ciuitatem siue caput prouincie direxisti mira exhortacione uitam
+        moralem continentes usque refecti sumus quos sensus non puto ex te dictos, sed per te.
+        Tanta enim maiestas earum est rerum, tantaque generositate callens ut uix suffecturas
+        putem etates hominum quibus hiis instrui ut non dicam perfici possent.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-apos-Qd1e590" xml:id="timf-apos-Rd1e596">Seneca epistola I. ad Paulum.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-apos-Dd1e601">
+          <head xml:id="timf-apos-Hd1e603">ac</head>
+          <p xml:id="timf-apos-d1e606">
+            <cit>
+              <quote xml:id="timf-apos-Qd1e610">Confiteor Augustum sensibus tuis permotum cui perlecto uirtutis exordio, ista uox
+        fuit: Mirari eum posse ut qui non legittime imbutus sit taliter senciat, cui ego
+        respondi: Solere deos ore innocencium effari.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-apos-Qd1e610" xml:id="timf-apos-Rd1e616">Seneca VII. epistola.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-apos-Dd1e621">
+          <head xml:id="timf-apos-Hd1e623">ad</head>
+          <p xml:id="timf-apos-d1e626">
+            <cit>
+              <quote xml:id="timf-apos-Qd1e630">Aue, mi Paule karissime. Putasne me contristari et non luctuosum esse quod de
+        innocencia uestra deinde supplicium sumatur? Sed feramus equo animo et utamur foro quod
+        sors concessit, donec inuicta felicitas finem malis imponat.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-apos-Qd1e630" xml:id="timf-apos-Rd1e636">Seneca XI. epistola ad Paulum.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-apos-Dd1e641">
+          <head xml:id="timf-apos-Hd1e643">ae</head>
+          <p xml:id="timf-apos-d1e646">
+            <cit>
+              <quote xml:id="timf-apos-Qd1e650">Aue, mi Paule karissime. Cum sis uertex et altissimorum omnium moncium cacumen, uis
+        ita latere, ita sim tibi proximus ut alter tuus deputer. Nam qui meus tuus apud te locus
+        qui tuus uelim ut meus. Optarem enim eius esse loci apud meos cuius sis, Paule, apud
+        Christianos.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-apos-Qd1e650" xml:id="timf-apos-Rd1e656">Seneca XII. epistola.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-apos-Dd1e661">
+          <head xml:id="timf-apos-Hd1e663">af</head>
+          <p xml:id="timf-apos-d1e666">
+            <cit>
+              <quote xml:id="timf-apos-Qd1e670">Allegorice et enigmatice multa a te colliduntur et ideo rerum tanta uis et muneris
+        tibi tributa cultu quodam decoranda est. Certum michi concedas uelim Latinitati morem
+        gerere, honestis uocibus speciem adhibere ut generosi muneris concessio digne a te
+        possit expediri. Mirum enim tam arduas sentencias tam humilibus et quasi inordinatis
+        uerbis resonasse.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-apos-Qd1e670" xml:id="timf-apos-Rd1e676">Seneca XIII. epistola ad Paulum.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-apos-Dd1e682">
+          <head xml:id="timf-apos-Hd1e684">ag</head>
+          <p xml:id="timf-apos-d1e687">
+            <cit>
+              <quote xml:id="timf-apos-Qd1e691">Tuam tubam totus orbis iure ueneratur quam constat geminata felicitate cecinisse
+        quando nec emulum reperit nec equalem.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-apos-Qd1e691" xml:id="timf-apos-Rd1e697">Cassiodorus.</ref>
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

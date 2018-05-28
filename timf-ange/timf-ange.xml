@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Angelus</title>
+        <author ref="#ThomasOfIreland">Thomas Hybernicus</author>
+        <respStmt>
+          <name>Chris Nighman</name>
+          <resp>Editor</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Angelus</title>
+          <date when="2018-05-22">May 22, 2018</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref>SCTA</ref> and <ref target="http://www.manipulusflorum.com/">Manipulus floreum Project</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Pb" n="bnf15985">Bnf 15985</witness>
+          <witness xml:id="Pc" n="bnf15985">Bnf 15986</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2018-05-22" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="timf-ange">
+        <head xml:id="timf-ange-Hd1e117">Angelus</head>
+        <div xml:id="timf-ange-Dd1e120">
+          <head xml:id="timf-ange-Hd1e122">a</head>
+          <p xml:id="timf-ange-d1e125">
+            <cit>
+              <quote xml:id="timf-ange-Qd1e129">Prepositi sunt angeli celorum super potestates aereas, et inde procedit uerbum quod
+        fit hic. Intuentur enim legem fixam, legem eternam, iubentem sine scriptura, sine
+        sillabis, sine strepitu, fixam semper et stantem. Intuentur angeli corde mundo et ex
+        illa faciunt quicquid hic fit.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-ange-Qd1e129" xml:id="timf-ange-Rd1e135">Augustinus super illud Psalmi: Draco hic quem finxisti et cetera.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-ange-Dd1e140">
+          <head xml:id="timf-ange-Hd1e142">b</head>
+          <p xml:id="timf-ange-d1e145">
+            <cit>
+              <quote xml:id="timf-ange-Qd1e149">Vtique noscunt angeli sancti, docti de Deo cuius ueritatis eterna contemplacione
+        beati sunt, quanti numeri supplementum de genere humano integritas illius ciuitatis
+        expectat.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-ange-Qd1e149" xml:id="timf-ange-Rd1e155">Augustinus in encheridion.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-ange-Dd1e160">
+          <head xml:id="timf-ange-Hd1e162">c</head>
+          <p xml:id="timf-ange-d1e165">
+            <cit>
+              <quote xml:id="timf-ange-Qd1e169">Magna dignitas animarum ut unaqueque habeat ab ortu natiuitatis in custodia sui
+        angelum deputatum.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-ange-Qd1e169" xml:id="timf-ange-Rd1e175">Ieronymus super Mattheum libro III.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-ange-Dd1e180">
+          <head xml:id="timf-ange-Hd1e182">d</head>
+          <p xml:id="timf-ange-d1e185">
+            <cit>
+              <quote xml:id="timf-ange-Qd1e189">Superna illa ciuitas ex angelis et hominibus constat, ad quam tantum credimus
+        humanum genus ascendere, quantos illic contigit electos angelos remansisse, sicut
+        scriptum est: Statuit terminos gencium iuxta numerum angelorum Dei.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-ange-Qd1e189" xml:id="timf-ange-Rd1e195">Gregorius omelia XXXIIII. super ewangelia.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-ange-Dd1e201">
+          <head xml:id="timf-ange-Hd1e203">e</head>
+          <p xml:id="timf-ange-d1e206">
+            <cit>
+              <quote xml:id="timf-ange-Qd1e210">Vnusquisque in quantum sufficit, si a prauitate proximum reuocat, si exhortari ad
+        bene operandum curat, si eternum regnum uel supplicium erranti denunciat, cum uerba
+        sancte annunciacionis impendit, profecto angelus extitit.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-ange-Qd1e210" xml:id="timf-ange-Rd1e216">Gregorius in omelia VI. super ewangelia.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-ange-Dd1e221">
+          <head xml:id="timf-ange-Hd1e223">f</head>
+          <p xml:id="timf-ange-d1e226">
+            <cit>
+              <quote xml:id="timf-ange-Qd1e230">Qui parua capiunt sed tamen hec eadem parua pie annunciare fratribus non desistunt,
+        isti in angelorum numerum currunt. Qui secretorum celestium summa capere preualent et
+        nunciare, isti in archangelorum numerum duputantur. Qui amando ardent et loquendo alios
+        accendunt, isti seraphin dicantur.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-ange-Qd1e230" xml:id="timf-ange-Rd1e236">Gregorius in quadam omelia.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-ange-Dd1e241">
+          <head xml:id="timf-ange-Hd1e243">g</head>
+          <p xml:id="timf-ange-d1e246">
+            <cit>
+              <quote xml:id="timf-ange-Qd1e250">Angeli cum ad nos ueniunt sic exterius implent ministerium ut tamen nunquam desint
+        interius per contemplacionem. Et mittuntur igitur et assistunt quia et si circumscriptus
+        est angelicus spiritus, summus tamen spiritus, ipse qui Deus est, circumscriptus non
+        est. Angeli itaque et missi ante ipsum qui a quolibet missi ueniant intra ipsum
+        currunt.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-ange-Qd1e250" xml:id="timf-ange-Rd1e256">Gregorius ibidem in omelia.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-ange-Dd1e261">
+          <head xml:id="timf-ange-Hd1e263">h</head>
+          <p xml:id="timf-ange-d1e266">
+            <cit>
+              <quote xml:id="timf-ange-Qd1e270">In hoc est natura angelica a nature nostre condicione distincta quod nos et loco
+        circumscribimur et cecitatis ignorancia coartamur. Angelorum uero spiritus loco quidem
+        circumscribuntur sed tamen eorum sciencie longe super nos incomparabiliter dilatantur.
+        Interius et exterius sciendo distincti sunt quoniam ipsum fontem sciencie contemplantur.
+        Quid enim de hiis que scienda sunt nesciunt qui scientem omnia sciunt?</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-ange-Qd1e270" xml:id="timf-ange-Rd1e276">Gregorius II. libro moralium.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-ange-Dd1e281">
+          <head xml:id="timf-ange-Hd1e283">i</head>
+          <p xml:id="timf-ange-d1e286">
+            <cit>
+              <quote xml:id="timf-ange-Qd1e290">Nouem esse angelorum ordines testante sacro eloquio scimus, scilicet angelos,
+        archangelos, uirtutes, potestates, principatus, dominaciones, thronos, cherubin atque
+        seraphin.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-ange-Qd1e290" xml:id="timf-ange-Rd1e296">Gregorius in omelia.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-ange-Dd1e301">
+          <head xml:id="timf-ange-Hd1e303">k</head>
+          <p xml:id="timf-ange-d1e306">
+            <cit>
+              <quote xml:id="timf-ange-Qd1e310">Angelorum uocabulum nomen est officii, non nature. Nam sancti illi celestis patrie
+        spiritus semper sunt spiritus sed semper uocati angeli nequaquam possunt. Tunc solum
+        sunt angeli cum per eos aliqua nunciantur, unde Psalmo: Qui facit angelos suos spiritus.
+        Hii ergo qui minima nunciant angeli, qui uero summa nunciant, archangeli uocantur. Greca
+        enim lingua angeli nuncii, archangeli uero summi nuncii uocantur. Qui idcirco priuatis
+        nominibus censentur ut Michael, Gabriel, Raphael, ut signetur eciam per uocabula quid in
+        operacione ualeant.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-ange-Qd1e310" xml:id="timf-ange-Rd1e316">Gregorius in omelia: Erant appropinquantes.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-ange-Dd1e322">
+          <head xml:id="timf-ange-Hd1e324">l</head>
+          <p xml:id="timf-ange-d1e327">
+            <cit>
+              <quote xml:id="timf-ange-Qd1e331">Timet angelus adorari ab humana natura quam uidet in Deo sublimatam.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-ange-Qd1e331" xml:id="timf-ange-Rd1e337">Gregorius ibidem (in omelia: Erant appropinquantes).</ref>
+          </p>
+        </div>
+        <div xml:id="timf-ange-Dd1e342">
+          <head xml:id="timf-ange-Hd1e344">m</head>
+          <p xml:id="timf-ange-d1e347">
+            <cit>
+              <quote xml:id="timf-ange-Qd1e351">Simus deuoti, simus grati tantis custodibus. Redimemus eos quantum possumus,
+        quantum debemus. Affectuose in Deo angelos eius tanquam futuros aliquando coheredes, nos
+        uero interim actores et tutores a patre positos et prepositos nobis. Adhuc enim paruuli
+        sub tutoribus et actoribus sumus.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-ange-Qd1e351" xml:id="timf-ange-Rd1e357">Bernardus in sermone de angelis.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-ange-Dd1e362">
+          <head xml:id="timf-ange-Hd1e364">n (1)</head>
+          <p xml:id="timf-ange-d1e367">
+            <cit>
+              <quote xml:id="timf-ange-Qd1e371">Quociens ergo grauissima cernitur urgere temptacio et tribulacio uehemens imminere,
+        inuoca custodem tuum, directorem tuum, adiutorem tuum in opportunitatibus tuis. In
+        tribulacione uero neque dormitat nec dormit et si quando ad tempus dissimulat.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-ange-Qd1e371" xml:id="timf-ange-Rd1e377">Bernardus ibidem (in sermone de angelis).</ref>
+          </p>
+        </div>
+        <div xml:id="timf-ange-Dd1e382">
+          <head xml:id="timf-ange-Hd1e384">n (2)</head>
+          <p xml:id="timf-ange-d1e387">
+            <cit>
+              <quote xml:id="timf-ange-Qd1e391">Ve nobis! Si quando prouocati sancti angeli peccatis et negligenciis nostris,
+        indignos nos iudicauerint presencia et uisitacione sua, et quorum presencia protegere
+        nos et propulsare poterat inimicum. Quod si tam necessariam habemus familiaritatem
+        dignacionis angelice, cauenda est nobis eorum offensa et in hiis minime exercendum
+        quibus eos nouimus oblectari. Hec autem placent eis que in nobis inuenire delectant ut
+        est sobrietas, castitas, paupertas, uoluntaria, creber in celum gemitus. Et super hec
+        omnia ueritatem et pacem a nobis exigunt.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-ange-Qd1e391" xml:id="timf-ange-Rd1e397">Bernardus ibidem (in sermone de angelis).</ref>
+          </p>
+        </div>
+        <div xml:id="timf-ange-Dd1e402">
+          <head xml:id="timf-ange-Hd1e404">o</head>
+          <p xml:id="timf-ange-d1e407">
+            <cit>
+              <quote xml:id="timf-ange-Qd1e411">Benignus es, Domine, qui non es contentus nostra fragilitate murorum, sed ipsis
+        hominum custodibus angelicam custodiam superponis.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-ange-Qd1e411" xml:id="timf-ange-Rd1e417">Bernardus ibidem (in sermone de angelis).</ref>
+          </p>
+        </div>
+        <div xml:id="timf-ange-Dd1e422">
+          <head xml:id="timf-ange-Hd1e424">p</head>
+          <p xml:id="timf-ange-d1e427">
+            <cit>
+              <quote xml:id="timf-ange-Qd1e431">Tu ergo, si uis habere ministerium angelorum, fuge consolaciones seculi et
+        temptacionibus resiste dyaboli.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-ange-Qd1e431" xml:id="timf-ange-Rd1e437">Bernardus in sermone quadragesime super illud: Accesserunt angeli.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-ange-Dd1e443">
+          <head xml:id="timf-ange-Hd1e445">q</head>
+          <p xml:id="timf-ange-d1e448">
+            <cit>
+              <quote xml:id="timf-ange-Qd1e452">Angelis suis mandauit et cetera. O quantam tibi debet hoc uerbum inferre
+        reuerenciam, afferre deuocionem, conferre fiduciam, pro presencia reuerenciam, pro
+        beniuolencia deuocionem, pro custodia fiduciam! Caute ergo ambula ubi sunt angeli ut
+        custodiant te in omnibus uiis tuis.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-ange-Qd1e452" xml:id="timf-ange-Rd1e458">Bernardus ibidem (in sermone quadragesime super illud: Accesserunt angeli).</ref>
+          </p>
+        </div>
+        <div xml:id="timf-ange-Dd1e463">
+          <head xml:id="timf-ange-Hd1e465">r</head>
+          <p xml:id="timf-ange-d1e468">
+            <cit>
+              <quote xml:id="timf-ange-Qd1e472">In quo uis diuersorio, in quo uis angulo reuerenciam exhibe tuo angelo ne audeas
+        illo presente quod me uidente non auderes. Adsunt igitur tibi non modo presentes tecum,
+        sed eciam pro te adsunt ut protegant, adsunt ut prosint.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-ange-Qd1e472" xml:id="timf-ange-Rd1e478">Bernardus ibidem (in sermone quadragesime super illud: Accesserunt angeli).</ref>
+          </p>
+        </div>
+        <div xml:id="timf-ange-Dd1e483">
+          <head xml:id="timf-ange-Hd1e485">s</head>
+          <p xml:id="timf-ange-d1e488">
+            <cit>
+              <quote xml:id="timf-ange-Qd1e492">Credimus angelos sanctos astare orantibus, offerre Deo uota et preces hominum, si
+        sine deceptione leuari puras manus perspexerint.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-ange-Qd1e492" xml:id="timf-ange-Rd1e498">Ibidem (Bernardus in sermone quadragesime super illud: Accesserunt angeli).</ref>
+          </p>
+        </div>
+        <div xml:id="timf-ange-Dd1e503">
+          <head xml:id="timf-ange-Hd1e505">t</head>
+          <p xml:id="timf-ange-d1e508">
+            <cit>
+              <quote xml:id="timf-ange-Qd1e512">Angelus est substancia intellectualis, semper mobilis, arbitrio libera, incorporea,
+        Deo ministrans, gracia non natura immortaliatem suscipiens cuius substancie speciem et
+        terminum solus qui creator est nouit.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-ange-Qd1e512" xml:id="timf-ange-Rd1e518">Damascenus libro III. capitulo III.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-ange-Dd1e523">
+          <head xml:id="timf-ange-Hd1e525">u</head>
+          <p xml:id="timf-ange-d1e528">
+            <cit>
+              <quote xml:id="timf-ange-Qd1e532">Boni angeli ad ministerium humane salutis deputati sunt ut cunctis administrent
+        mundi et regant omnia iussu Dei.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-ange-Qd1e532" xml:id="timf-ange-Rd1e538">Ysidorus de summo bono.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-ange-Dd1e543">
+          <head xml:id="timf-ange-Hd1e545">x</head>
+          <p xml:id="timf-ange-d1e548">
+            <cit>
+              <quote xml:id="timf-ange-Qd1e552">Singule gentes prepositos angelos habere creduntur; omnes homines angelos habere
+        probantur.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-ange-Qd1e552" xml:id="timf-ange-Rd1e558">Ibidem (Ysidorus de summo bono).</ref>
+          </p>
+        </div>
+        <div xml:id="timf-ange-Dd1e564">
+          <head xml:id="timf-ange-Hd1e566">y</head>
+          <p xml:id="timf-ange-d1e569">
+            <cit>
+              <quote xml:id="timf-ange-Qd1e573">Natura angelorum mutabilis est quia inest illis mutabilitas in natura, sed fecit
+        eos incorruptos caritas sempiterna.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-ange-Qd1e573" xml:id="timf-ange-Rd1e579">Ysidorus ibidem (de summo bono).</ref>
+          </p>
+        </div>
+        <div xml:id="timf-ange-Dd1e584">
+          <head xml:id="timf-ange-Hd1e586">z</head>
+          <p xml:id="timf-ange-d1e589">
+            <cit>
+              <quote xml:id="timf-ange-Qd1e593">[abest in manuscriptis]</quote>
+              <bibl/>
+            </cit>
+          </p>
+        </div>
+        <div xml:id="timf-ange-Dd1e601">
+          <head xml:id="timf-ange-Hd1e603">ab</head>
+          <p xml:id="timf-ange-d1e606">
+            <cit>
+              <quote xml:id="timf-ange-Qd1e610">Angeli sunt natura mutabiles conditi sed facti contemplacione immutabiles, animo
+        impassibiles, mente racionales, stirpe eterni et beatitudine perpetui.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-ange-Qd1e610" xml:id="timf-ange-Rd1e616">Ibidem (Ysidorus de summo bono).</ref>
+          </p>
+        </div>
+        <div xml:id="timf-ange-Dd1e621">
+          <head xml:id="timf-ange-Hd1e623">ac</head>
+          <p xml:id="timf-ange-d1e626">
+            <cit>
+              <quote xml:id="timf-ange-Qd1e630">Adest unicuique nostrum, eciam minimis qui sunt in ecclesia Dei, angelus bonus,
+        angelus Domini qui regat, qui moneat, qui gubernet, qui pro actibus nostris corrigendis
+        et miseracionibus exposcendis cotidie uideat faciem Patris qui in celis est.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-ange-Qd1e630" xml:id="timf-ange-Rd1e636">Origenes super librum numerorum omelia LXVI.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-ange-Dd1e641">
+          <head xml:id="timf-ange-Hd1e643">ad</head>
+          <p xml:id="timf-ange-d1e646">
+            <cit>
+              <quote xml:id="timf-ange-Qd1e650">Agunt angeli diem festum letantes super hiis qui refugientes consorcia demonum, per
+        exercicia uirtutum angelicis festinant sociare consorciis.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-ange-Qd1e650" xml:id="timf-ange-Rd1e656">Origenes ibidem (super librum numerorum) omelia LXIX.</ref>
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

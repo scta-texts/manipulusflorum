@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Antichristus</title>
+        <author ref="#ThomasOfIreland">Thomas Hybernicus</author>
+        <respStmt>
+          <name>Chris Nighman</name>
+          <resp>Editor</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Antichristus</title>
+          <date when="2018-05-22">May 22, 2018</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref>SCTA</ref> and <ref target="http://www.manipulusflorum.com/">Manipulus floreum Project</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Pb" n="bnf15985">Bnf 15985</witness>
+          <witness xml:id="Pc" n="bnf15985">Bnf 15986</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2018-05-22" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="timf-anti">
+        <head xml:id="timf-anti-Hd1e117">Antichristus</head>
+        <div xml:id="timf-anti-Dd1e120">
+          <head xml:id="timf-anti-Hd1e122">a</head>
+          <p xml:id="timf-anti-d1e125">
+            <cit>
+              <quote xml:id="timf-anti-Qd1e129">Allegacio dyaboli est non permitti exercere totam temptacionem quam potest uel
+        fraudulenter. Quod, si permitteretur in tam longo tempore et tanta infirmitate multorum,
+        plures tales quales Deus id perpeti non uult, et fideles duceret et ne crederent
+        impediret. Quod ne faceret alligatus est. Tunc autem soluetur quando et breue tempus
+        erit. Nam tribus annis et sex mensibus legitur Sathanas totis suis uiribus
+        seuiturus.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-anti-Qd1e129" xml:id="timf-anti-Rd1e135">Augustinus XX. libro de ciuitate Dei capitulo VIII.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-anti-Dd1e140">
+          <head xml:id="timf-anti-Hd1e142">b</head>
+          <p xml:id="timf-anti-d1e145">
+            <cit>
+              <quote xml:id="timf-anti-Qd1e149">Gentes iste quas appellat Goc et Magoc, non sic sunt accipiende, tanquam sint
+        aliqui in aliqua parte terrarum barbari constituti, siue quos quidam suspicant Getas et
+        Magetas propter litteras horum nominum primas. Toto namque orbe terrarum significati
+        sunt isti esse cum dictum est: naciones que sunt in quattuor angulis terre; easque dixit
+        esse Goc et Magoc quorum interpretacionem nominum cognouimus esse: Goc tectum, Magoc de
+        tecto, tanquam domus et ipse qui procedit de domo. Gentes ergo sunt in quibus dyabolum
+        intelligimus inclusum et ipse de illis quodammodo sese offerens ut ille sint tectum,
+        ipse de tecto. Si autem utrumque referamus ad gentes, et tectum ipse sunt, quia in eis
+        nunc dyabolus includitur et de tecto ipse erunt quando in apertum odium de operto
+        erupture sunt.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-anti-Qd1e149" xml:id="timf-anti-Rd1e155">Augustinus XX. de ciuitate Dei capitulo XI.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-anti-Dd1e160">
+          <head xml:id="timf-anti-Hd1e162">c</head>
+          <p xml:id="timf-anti-d1e165">
+            <cit>
+              <quote xml:id="timf-anti-Qd1e169">Mille anni duobus modis possunt quantum michi occurrit intelligi. Aut quia in
+        ultimis annis mille res agitur, id est in sexto annorum miliario tanquam sexto die cuius
+        nunc spacia posteriora uoluuntur. Secuturo deinde sabbato quod non habet uesperam,
+        scilicet requie sanctorum que non habet finem, ut huius miliarii tanquam diei nouissimam
+        partem que remanebat usque ad terminum seculi, mille annos appellauerit, aut certe mille
+        annis pro annis omnibus huius seculi posuit ut perfecto numero notaretur ipsa temporis
+        plenitudo. Millenarius quippe numerus denarii numeri quadratum solidum reddit, scilicet
+        decies decem decies.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-anti-Qd1e169" xml:id="timf-anti-Rd1e175">Augustinus ibidem (XX. de ciuitate Dei) capitulo VII.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-anti-Dd1e180">
+          <head xml:id="timf-anti-Hd1e182">d</head>
+          <p xml:id="timf-anti-d1e185">
+            <cit>
+              <quote xml:id="timf-anti-Qd1e189">Porro cum mille pro ipsa uniuersitate aliquando ponitur, quale est illud quod in
+        Psalmo legitur: Memor fuit in seculum uerbi quod mandauit in mille generaciones, id est
+        in omnes.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-anti-Qd1e189" xml:id="timf-anti-Rd1e195">Ibidem (Augustinus XX. de ciuitate Dei) capitulo VII.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-anti-Dd1e201">
+          <head xml:id="timf-anti-Hd1e203">e</head>
+          <p xml:id="timf-anti-d1e206">
+            <cit>
+              <quote xml:id="timf-anti-Qd1e210">Dyaboli custodie annos mille intelligimus, id est annos omnes suos queque pars
+        habeat diuersis ac propriis prolixitatibus finiendo, sicut de CCCC annis in XVI huius
+        operis uolumine disputaui, quoniam plus aliqui erant et tamen quadringenti sunt
+        nuncupati.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-anti-Qd1e210" xml:id="timf-anti-Rd1e216">Augustinus ibidem (XX. de ciuitate Dei) capitulo XIII.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-anti-Dd1e221">
+          <head xml:id="timf-anti-Hd1e223">f</head>
+          <p xml:id="timf-anti-d1e226">
+            <cit>
+              <quote xml:id="timf-anti-Qd1e230">Que sit causa dilacionis eius ut reueletur in tempore suo scitis, aperte hoc dicere
+        noluit et ideo nos qui nescimus quod illi sciebant, peruenire cum labore ad id quod
+        sensit apostolus cupimus nec ualemus, presertim quia et illa que addidit hunc sensum
+        faciunt obscuriorem. Iam enim misterium iniquitatis operatur. Tantum qui modo tenet
+        teneat, donec de medio fiat; et tunc reuelabitur iniqus. Ego prorsus quid dixerit me
+        fateor ignorare. Suspiciones tamen hominum quas uel audire uel legere potui non
+        tacebo.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-anti-Qd1e230" xml:id="timf-anti-Rd1e236">Augustinus ibidem (XX. de ciuitate Dei) capitulo XIX.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-anti-Dd1e241">
+          <head xml:id="timf-anti-Hd1e243">g</head>
+          <p xml:id="timf-anti-d1e246">
+            <cit>
+              <quote xml:id="timf-anti-Qd1e250">Non absurde quod ait Apostolus de ipso Romano imperio creditur dictum tanquam
+        dictum sit: Tantum qui modo imperat imperet, donec de medio fiat; hoc est, donec exeat
+        de medio ecclesie misterium iniquitatis quod nunc occultum est. Alius ergo sic, alius
+        sic Apostoli obscura uerba coniectat quod tamen eum dixisse non dubium est, non ueniet
+        ad uiuos et mortuos iudicandos Christus nisi prius uenerit ad seducendos in anima
+        mortuos aduersarius eius Antichristus. Sed in quo Dei templo sessurus sit incertum est,
+        et utrum in illa ruina templi quod a Salomone rege constructum est an in
+        ecclesia.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-anti-Qd1e250" xml:id="timf-anti-Rd1e256">Augustinus XX. libro capitulo XIX.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-anti-Dd1e261">
+          <head xml:id="timf-anti-Hd1e263">h</head>
+          <p xml:id="timf-anti-d1e266">
+            <cit>
+              <quote xml:id="timf-anti-Qd1e270">Helias quippe ante aduentum iudicis Saluatoris non immerito speratur esse uenturus
+        qui eciam nunc uiuere non immerito creditur. Curru namque igneo raptus est de rebus
+        humanis quod euidentissime scriptura sacra testatur. Cum ergo uenerit exponendo legem
+        spiritualiter quam nunc Iudei carnaliter sapiunt, conuertet cor patris ad filium, id est
+        corda patrum ad filios cum intelligenciam patrum perducet ad intelligenciam
+        filiorum.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-anti-Qd1e270" xml:id="timf-anti-Rd1e276">Augustinus libro XX. de ciuitate Dei capitulo XXIX.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-anti-Dd1e281">
+          <head xml:id="timf-anti-Hd1e283">i</head>
+          <p xml:id="timf-anti-d1e286">
+            <cit>
+              <quote xml:id="timf-anti-Qd1e290">In iudicio uel circa iudicium has res dicimus esse uenturas, Heliam Tesbiten, fidem
+        Iudeorum, antichristum persecuturum, Christum uenturum et iudicaturum, mortuorum
+        resurrectionem, bonorum malorumque direptionem, mundi conflagracionem eiusdemque
+        renouacionem. Que omnia quidem uentura esse credendum est, sed quibus modis et quo
+        ordine uenient, magis tunc docebit rerum experiencia quam nunc ad perfectum hominem
+        intelligencia ualet consequi. Existimo tamen eo quo a me commemorata sunt ordine esse
+        uentura.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-anti-Qd1e290" xml:id="timf-anti-Rd1e296">Augustinus XX. de ciuitate Dei capitulo XXX. scilicet ultimo.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-anti-Dd1e301">
+          <head xml:id="timf-anti-Hd1e303">k</head>
+          <p xml:id="timf-anti-d1e306">
+            <cit>
+              <quote xml:id="timf-anti-Qd1e310">Nam de Saluatoris aduentu qui expectatur in fine tempora dinumerare non audeo, nec
+        aliquem prophetam de hac re numerum annorum existimo prefinisse, sed illud pocius
+        preualere quod ipse Dominus ait: Nemo potest cognoscere tempora que pater posuit in sua
+        potestate.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-anti-Qd1e310" xml:id="timf-anti-Rd1e316">Augustinus epistola I. ad Hesicium et est LXVIII.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-anti-Dd1e322">
+          <head xml:id="timf-anti-Hd1e324">l</head>
+          <p xml:id="timf-anti-d1e327">
+            <cit>
+              <quote xml:id="timf-anti-Qd1e331">Qui tenet teneat, donec de medio fiat, et tunc reuelabitur ille iniqus quem Dominus
+        Ihesus interficiet spiritu oris sui. Docet nos antichristum manifestum futurum, si
+        quidem ipsum uidetur aliquanto euidentiore significacione tetigisse interficiendum
+        spiritu oris Domini Ihesu Christi, sed post quantum temporis istud tempus erit, nec
+        saltem obscure locutus est.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-anti-Qd1e331" xml:id="timf-anti-Rd1e337">Augustinus secunda epistola ad Hesicium.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-anti-Dd1e342">
+          <head xml:id="timf-anti-Hd1e344">m</head>
+          <p xml:id="timf-anti-d1e347">
+            <cit>
+              <quote xml:id="timf-anti-Qd1e351">Non prius ueniet Christus quam regni Romani defectio fiat et appareat antichristus
+        qui interficiet sanctos, reddita Romanis libertate sub suo tamen nomine.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-anti-Qd1e351" xml:id="timf-anti-Rd1e357">Ambrosius super illud II. Thessalonicenses II.: Nisi uenerit discessio primum.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-anti-Dd1e362">
+          <head xml:id="timf-anti-Hd1e364">n</head>
+          <p xml:id="timf-anti-d1e367">
+            <cit>
+              <quote xml:id="timf-anti-Qd1e371">Beatus qui interfecto antichristo dies supra numerum prefinitum XLV prestolatur
+        quibus et Dominus et Saluator in sua maiestate uenturus est. Quare autem post
+        interfectionem antichristi XLV dierum silencium sit, diuine sciencie est nisi forte
+        dicamus quod dilacio regni sanctorum paciencie comprobacio est.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-anti-Qd1e371" xml:id="timf-anti-Rd1e377">Ieronymus super illud Danielis: Beatus qui expectat et peruenit usque ad dies
+       M.CCC.XXXV.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-anti-Dd1e382">
+          <head xml:id="timf-anti-Hd1e384">o</head>
+          <p xml:id="timf-anti-d1e387">
+            <cit>
+              <quote xml:id="timf-anti-Qd1e391">Antequam antichristus appareat uirtutes ab ecclesia et signa cessabunt, quatenus
+        eam quasi abiectiorem persequatur audacius. Ob hanc enim utilitatem cessabunt sub
+        antichristo ab ecclesia miracula et uirtutes ut per hoc sanctorum clareat paciencia et
+        reproborum qui scandalizabuntur leuitas ostendatur et persequencium audacia ferocior
+        efficiatur.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-anti-Qd1e391" xml:id="timf-anti-Rd1e397">Ysidorus libro I. de summo bono capitulo XXV.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-anti-Dd1e402">
+          <head xml:id="timf-anti-Hd1e404">p</head>
+          <p xml:id="timf-anti-d1e407">
+            <cit>
+              <quote xml:id="timf-anti-Qd1e411">Antichristi multa membra precesserunt et praue actionis merito caput proprium
+        preuenerunt secundum apostoli sentenciam qui iam iniquitatis ministerium operari illum
+        affirmat eciam antequam reueletur.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-anti-Qd1e411" xml:id="timf-anti-Rd1e417">Ysidorus ibidem (libro I. de summo bono) capitulo XXVI.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-anti-Dd1e422">
+          <head xml:id="timf-anti-Hd1e424">q</head>
+          <p xml:id="timf-anti-d1e427">
+            <cit>
+              <quote xml:id="timf-anti-Qd1e431">Tam mira facturus est prodigia et signa dum uenerit antichristus ut eciam electis
+        quoddam cordis gignatur scrupulum quod cito exuperet in illis racio per quam scient in
+        deceptione reproborum et electorum probacione eadem fieri prodigia.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-anti-Qd1e431" xml:id="timf-anti-Rd1e437">Ysidorus ibidem (libro I. de summo bono capitulo XXVI.).</ref>
+          </p>
+        </div>
+        <div xml:id="timf-anti-Dd1e443">
+          <head xml:id="timf-anti-Hd1e445">r</head>
+          <p xml:id="timf-anti-d1e448">
+            <cit>
+              <quote xml:id="timf-anti-Qd1e452">Grauius tunc contra ecclesiam deseuiet synagoga quam in ipso Saluatoris aduentu
+        Christianos est persecuta. Dum in martyres dyabolus iam exercuerit magnam crudelitatem
+        eciam ligatus, crudelior tamen erit sub antichristi temporibus quando eciam erit
+        soluendus. Nam si ligatus tanta facere potuit, quanta solutus faciet?</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-anti-Qd1e452" xml:id="timf-anti-Rd1e458">Ibidem (Ysidorus libro I. de summo bono capitulo XXVI.).</ref>
+          </p>
+        </div>
+        <div xml:id="timf-anti-Dd1e463">
+          <head xml:id="timf-anti-Hd1e465">s</head>
+          <p xml:id="timf-anti-d1e468">
+            <cit>
+              <quote xml:id="timf-anti-Qd1e472">Quanto breue tempus uiderit sibi restare dyabolus ut dampnetur, tanto in magna
+        persecucionis ira mouetur, diuina iusticia permittente ut glorificentur iusti,
+        sordidentur iniqui et ut dyabolo crescat durior dampnacionis sentencia.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-anti-Qd1e472" xml:id="timf-anti-Rd1e478">Ibidem (Ysidorus libro I. de summo bono capitulo XXVI.).</ref>
+          </p>
+        </div>
+        <div xml:id="timf-anti-Dd1e483">
+          <head xml:id="timf-anti-Hd1e485">t</head>
+          <p xml:id="timf-anti-d1e488">
+            <cit>
+              <quote xml:id="timf-anti-Qd1e492">Antichristus templum Ierosolimis reparare et omnes ueteris legis cerimonias
+        restaurare temptabit.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-anti-Qd1e492" xml:id="timf-anti-Rd1e498">Ysidorus VIII. ethimologiarum.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-anti-Dd1e503">
+          <head xml:id="timf-anti-Hd1e505">u</head>
+          <p xml:id="timf-anti-d1e508">
+            <cit>
+              <quote xml:id="timf-anti-Qd1e512">In explecione Romani regni necesse est seculum consummari.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-anti-Qd1e512" xml:id="timf-anti-Rd1e518">Effrem libro I.</ref>
+          </p>
+        </div>
+        <div xml:id="timf-anti-Dd1e523">
+          <head xml:id="timf-anti-Hd1e525">x</head>
+          <p xml:id="timf-anti-d1e528">
+            <cit>
+              <quote xml:id="timf-anti-Qd1e532">Nascetur autem antichristus in Babilone de tribu Dan, iuxta quod Iacob ait: Fiat
+        Dan coluber in uia, cerastes in semita et cetera. Et cum uenerit Ierosolimam circumcidet
+        se, dicens Iudeis: Ego sum Christus uobis in lege promissus. Tunc confluent ad eum omnes
+        Iudei et reedificabunt templum a Romanis destructum, sedebitque ibi docens se esse
+        Deum.</quote>
+              <bibl/>
+            </cit>
+            <ref corresp="#timf-anti-Qd1e532" xml:id="timf-anti-Rd1e538">Aymo in glossa II. ad Thessalonicenses II. capitulo.</ref>
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>
