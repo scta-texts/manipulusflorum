@@ -104,9 +104,10 @@
           <head xml:id="timf-adul-Hd1e197">e</head>
           <p xml:id="timf-adul-d1e200">
             <cit>
-              <quote xml:id="timf-adul-Qd1e204" source="http://scta.info/resource/aconf-l9">Sicut adulantes amici peruertunt, sic inimici litigantes plerumque
-        corrigunt.</quote>
-              <bibl/>
+              <quote xml:id="timf-adul-Qd1e204" source="http://scta.info/resource/aconf-l9-d1e190">
+                Sicut adulantes amici peruertunt, sic inimici litigantes plerumque
+                corrigunt.
+              </quote>
             </cit>
             <ref corresp="#timf-adul-Qd1e204" xml:id="timf-adul-Rd1e210">Augustinus IX. libro confessionum.</ref>
           </p>
@@ -126,7 +127,7 @@
           <head xml:id="timf-adul-Hd1e238">g</head>
           <p xml:id="timf-adul-d1e241">
             <cit>
-              <quote xml:id="timf-adul-Qd1e245" source="http://scta.info/resource/aconf-l2">Magis optabo a quolibet reprehendi quam uel ab adulante laudari. Nullus enim
+              <quote xml:id="timf-adul-Qd1e245" source="http://scta.info/resource/adt-l2-d1e188">Magis optabo a quolibet reprehendi quam uel ab adulante laudari. Nullus enim
         reprehensor formidandus est amatori ueritatis. Laudator uero errat et confirmat
         errorem.</quote>
               <bibl/>

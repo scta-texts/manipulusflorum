@@ -136,10 +136,11 @@
           <head xml:id="timf-amic-Hd1e243">g</head>
           <p xml:id="timf-amic-d1e246">
             <cit>
-              <quote xml:id="timf-amic-Qd1e250" source="http://scta.info/resource/aconf-l9">Sicut amici adulantes peruertunt, sic inimici litigantes plerumque
-        corrigunt.</quote>
-              <bibl/>
-            </cit>
+              <quote xml:id="timf-amic-Qd1e250" source="http://scta.info/resource/aconf-l9-d1e190">
+                Sicut amici adulantes peruertunt, sic inimici litigantes plerumque 
+                corrigunt
+              </quote>
+            </cit>.
             <ref corresp="#timf-amic-Qd1e250" xml:id="timf-amic-Rd1e256">Augustinus IX. confessionum.</ref>
           </p>
         </div>
@@ -147,9 +148,10 @@
           <head xml:id="timf-amic-Hd1e263">h</head>
           <p xml:id="timf-amic-d1e266">
             <cit>
-              <quote xml:id="timf-amic-Qd1e270" source="http://scta.info/resource/aconf-l9">Non omnis qui parcit amicus est, nec omnis qui uerberat inimicus. Melius est cum
+              <quote xml:id="timf-amic-Qd1e270" source="http://scta.info/resource/aconf-l9">
+                Non omnis qui parcit amicus est, nec omnis qui uerberat inimicus. Melius est cum
         seueritate diligere quam cum lenitate decipere.</quote>
-              <bibl/>
+              <bibl/><!-- can't find this -->
             </cit>
             <ref corresp="#timf-amic-Qd1e270" xml:id="timf-amic-Rd1e276">Augustinus ibidem (IX. confessionum).</ref>
           </p>

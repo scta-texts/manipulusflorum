@@ -93,7 +93,7 @@
           <head xml:id="timf-amor-Hd1e182">d</head>
           <p xml:id="timf-amor-d1e185">
             <cit>
-              <quote xml:id="timf-amor-Qd1e189">Omnis creatura cum bona sit et bene amari potest et male, bene scilicet ordine
+              <quote xml:id="timf-amor-Qd1e189" source="http://scta.info/resource/adcd-l15-d1e2265">Omnis creatura cum bona sit et bene amari potest et male, bene scilicet ordine
         constituto, male ordine perturbato.</quote>
               <bibl/>
             </cit>
@@ -127,10 +127,10 @@
           <head xml:id="timf-amor-Hd1e243">g</head>
           <p xml:id="timf-amor-d1e246">
             <cit>
-              <quote xml:id="timf-amor-Qd1e250">Beatus qui amat te et amicum in te et inimicum propter te. Solus ille nullum carum
+              <quote xml:id="timf-amor-Qd1e250" source="http://scta.info/resource/aconf-l4-d1e173">
+                Beatus qui amat te et amicum in te et inimicum propter te. Solus ille nullum carum
         amittit cui omnes in illo cari sunt qui non amittitur. Te nemo amittit nisi qui
         dimittit, et quo it nisi a te placato ad te iratum.</quote>
-              <bibl/>
             </cit>
             <ref corresp="#timf-amor-Qd1e250" xml:id="timf-amor-Rd1e256">Augustinus libro confessionum.</ref>
           </p>
@@ -139,9 +139,9 @@
           <head xml:id="timf-amor-Hd1e263">h</head>
           <p xml:id="timf-amor-d1e266">
             <cit>
-              <quote xml:id="timf-amor-Qd1e270" source="http://scta.info/resource/aconf-l13">Ponderibus suis aguntur omnia et loca sua petunt. Pondus meum amor meus; illo feror
+              <quote xml:id="timf-amor-Qd1e270" source="http://scta.info/resource/aconf-l13-d1e150">
+                Ponderibus suis aguntur omnia et loca sua petunt. Pondus meum amor meus; illo feror
         quocunque feror.</quote>
-              <bibl/>
             </cit>
             <ref corresp="#timf-amor-Qd1e270" xml:id="timf-amor-Rd1e276">Augustinus libro XIII. confessionum.</ref>
           </p>
@@ -150,9 +150,11 @@
           <head xml:id="timf-amor-Hd1e283">i</head>
           <p xml:id="timf-amor-d1e286">
             <cit>
-              <quote xml:id="timf-amor-Qd1e290" source="http://scta.info/resource/aconf-l13">Verus amor non sentit amaritudines sed dulcedinem quia soror amoris dulcedo sicut
-        soror odii est amaritudo.</quote>
-              <bibl/>
+              <quote xml:id="timf-amor-Qd1e290" source="http://scta.info/resource/aconf-l13">
+                Verus amor non sentit amaritudines sed dulcedinem quia soror amoris dulcedo sicut
+                soror odii est amaritudo.
+              </quote>
+              <bibl/> <!-- can't find this -->
             </cit>
             <ref corresp="#timf-amor-Qd1e290" xml:id="timf-amor-Rd1e296">Augustinus ibidem (libro XIII. confessionum).</ref>
           </p>
@@ -163,7 +165,7 @@
             <cit>
               <quote xml:id="timf-amor-Qd1e310" source="http://scta.info/resource/aconf-l13">Qui amat non laborat. Omnis enim labor non amantibus grauis est. Solum amor est
         quod nomen difficultatis erubescit.</quote>
-              <bibl/>
+              <bibl/> <!-- can't find -->
             </cit>
             <ref corresp="#timf-amor-Qd1e310" xml:id="timf-amor-Rd1e316">Augustinus ibidem (libro XIII. confessionum).</ref>
           </p>
@@ -218,8 +220,8 @@
           <head xml:id="timf-amor-Hd1e404">p</head>
           <p xml:id="timf-amor-d1e407">
             <cit>
-              <quote xml:id="timf-amor-Qd1e411">Minus, Domine, te amat qui aliquid tecum amat quod propter te non amat.</quote>
-              <bibl/>
+              <quote xml:id="timf-amor-Qd1e411" source="http://scta.info/resource/aconf-l10-d1e305">Minus, Domine, te amat qui aliquid tecum amat quod propter te non amat.</quote>
+              
             </cit>
             <ref corresp="#timf-amor-Qd1e411" xml:id="timf-amor-Rd1e417">Augustinus in libro confessionum.</ref>
           </p>
