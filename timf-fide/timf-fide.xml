@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Fides sive Fidelitas</title>
+        <author ref="#ThomasOfIreland">Thomas Hybernicus</author>
+        <respStmt>
+          <name>Chris Nighman</name>
+          <resp>Editor</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Fides sive Fidelitas</title>
+          <date when="2024-08-30">August 30, 2024</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref>SCTA</ref> and <ref target="http://www.manipulusflorum.com/">Manipulus floreum
+            Project</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Pb" n="bnf15985">Bnf 15985</witness>
+          <witness xml:id="Pc" n="bnf15986">Bnf 15986</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2024-08-30" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="timf-fide">
+        <head xml:id="timf-fide-Hd1e109">Fides</head>
+        <p xml:id="timf-fide-d1e111" n="a">
+          <quote xml:id="timf-fide-Qd1e113"> Fides appellata est ab eo quod fit. Due sillabe sonant cum dicitur fides; prima
+            sillaba est a facto, secunda a dicto. Interrogo ergo te utrum credas? Dicis: credo; fac
+            quod dicis et fides est. </quote>
+          <ref xml:id="timf-fide-Rd1e115"> Augustinus sermone XXII. </ref>
+        </p>
+        <p xml:id="timf-fide-d1e118" n="b">
+          <quote xml:id="timf-fide-Qd1e120"> Mentis humane acies inualida in tam excellenti luce non figitur, nisi per
+            iusticiam fidei emendetur. </quote>
+          <ref xml:id="timf-fide-Rd1e122"> Augustinus I. de trinitate. </ref>
+        </p>
+        <p xml:id="timf-fide-d1e125" n="c">
+          <quote xml:id="timf-fide-Qd1e127"> Nulle maiores diuicie, nulli thesauri, nulli honores, nulla huius mundi maior est
+            substancia quam est fides catholica, que peccatores homines saluat, cecos illuminat,
+            infirmos curat, cathicuminos baptizat, fideles iustificat, penitentes reparat, iustos
+            augmentat, martyres coronat, uirgines et uiduas et coniugales casto pudore conseruat,
+            clericos ordinat, sacerdotes consecrat, in eterna hereditate cum sanctis angelis
+            collocat. </quote>
+          <ref xml:id="timf-fide-Rd1e129"> Augustinus de uerbis Domini. </ref>
+        </p>
+        <p xml:id="timf-fide-d1e132" n="d">
+          <quote xml:id="timf-fide-Qd1e134"> Ille apud Deum plus habet loci, qui plus attulit non argenti sed fidei. </quote>
+          <ref xml:id="timf-fide-Rd1e136"> Augustinus in libro de ouibus. </ref>
+        </p>
+        <p xml:id="timf-fide-d1e140" n="e">
+          <quote xml:id="timf-fide-Qd1e142"> Cum dilectione fides Christiani, sine dilectione fides demonis. Qui autem non
+            credunt peiores sunt quam demones et tardiores. </quote>
+          <ref xml:id="timf-fide-Rd1e144"> Augustinus libro de caritate. </ref>
+        </p>
+        <p xml:id="timf-fide-d1e147" n="f">
+          <quote xml:id="timf-fide-Qd1e149"> Sicut in radice arboris nulla prorsus apparet pulcritudinis species, et tamen
+            quicquid est, in arbore pulcritudinis uel decoris ex illa procedit, sic ex fidei
+            humilitate quicquid meriti, quicquid beatitudinis anima susceptura est, ex fidei
+            fundamento procedit. </quote>
+          <ref xml:id="timf-fide-Rd1e151"> Augustinus super Iohannem. </ref>
+        </p>
+        <p xml:id="timf-fide-d1e154" n="g">
+          <quote xml:id="timf-fide-Qd1e156"> Quid est fides nisi credere quod non uides? Vnde et quomodo capitur trinitas
+            recte, o homo, interrogas; quomodo creditur, non bene interrogas. Immo ideo bene
+            creditur quia cito non capitur; nam si cito caperetur, non esset opus ut crederetur quia
+            uideretur. </quote>
+          <ref xml:id="timf-fide-Rd1e158"> Augustinus ibidem (super Iohannem). </ref>
+        </p>
+        <p xml:id="timf-fide-d1e161" n="h">
+          <quote xml:id="timf-fide-Qd1e163"> Noli intelligere ut credas, sed crede ut intelligas. Intellectus merces fidei est. </quote>
+          <ref xml:id="timf-fide-Rd1e165"> Ibidem (Augustinus super Iohannem). </ref>
+        </p>
+        <p xml:id="timf-fide-d1e168" n="i">
+          <quote xml:id="timf-fide-Qd1e170"> Quod operum lex minando imperat, hoc fidei lex credendo impetrat. </quote>
+          <ref xml:id="timf-fide-Rd1e172"> Augustinus de spiritu et littera. </ref>
+        </p>
+        <p xml:id="timf-fide-d1e175" n="k">
+          <quote xml:id="timf-fide-Qd1e177"> O thesauris omnibus opulentior fides! O uirtutibus corporeis omnibus fides
+            fortior, medicis omnibus salutatior! </quote>
+          <ref xml:id="timf-fide-Rd1e179"> Ambrosius in libro de uirginitate. </ref>
+        </p>
+        <p xml:id="timf-fide-d1e183" n="l">
+          <quote xml:id="timf-fide-Qd1e185"> Aufer argumenta ubi fides queritur. In ipsis gignasiis suis iam dyaletica taceat.
+            Piscatoribus creditur, non dyaleticis. </quote>
+          <ref xml:id="timf-fide-Rd1e187"> Ambrosius libro I. de trinitate. </ref>
+        </p>
+        <p xml:id="timf-fide-d1e190" n="m">
+          <quote xml:id="timf-fide-Qd1e192"> Quid tibi fideles esse putas, quod aut pecunie oblacione aut blanda locutione tibi
+            estimas obligatos? </quote>
+          <ref xml:id="timf-fide-Rd1e194"> Ambrosius libro II. de officiis. </ref>
+        </p>
+        <p xml:id="timf-fide-d1e197" n="n">
+          <quote xml:id="timf-fide-Qd1e199"> Cito fides inexercitata languescit et crebris ociosa temptatur incommodis.
+            Remissas excubias callidus insidiator irrumpit, assuetum autem bello uirum hesterna
+            fraus instruit et gloriose prouehit palma uictorie. Pax ergo fidei corruptele materia
+            est. </quote>
+          <ref xml:id="timf-fide-Rd1e201"> Ambrosius super Beati immaculati. </ref>
+        </p>
+        <p xml:id="timf-fide-d1e204">
+          <quote xml:id="timf-fide-Qd1e206" n="o"> Diuina operacio, si racione apprehenditur, non est admirabilis; nec fides habet
+            meritum, cui humana racio prebet experimentum. </quote>
+          <ref xml:id="timf-fide-Rd1e209"> Gregorius omelia XXVI. super euangelia. </ref>
+        </p>
+        <p xml:id="timf-fide-d1e212" n="p">
+          <quote xml:id="timf-fide-Qd1e214"> Tunc enim ueraciter fideles sumus, si quod uerbis promittimus, operibus implemus. </quote>
+          <ref xml:id="timf-fide-Rd1e216"> Gregorius omelia XXIX. </ref>
+        </p>
+        <p xml:id="timf-fide-d1e219" n="q">
+          <quote xml:id="timf-fide-Qd1e221"> Quid non inueniat fides? Attingit inaccessa, deprehendit ignota, comprehendit
+            immensa, apprehendit nouissima, ipsam denique eternitatem suo illo uastissimo sinu
+            quodammodo circumcludit. </quote>
+          <ref xml:id="timf-fide-Rd1e223"> Bernardus super Cantica. </ref>
+        </p>
+        <p xml:id="timf-fide-d1e227" n="r">
+          <quote xml:id="timf-fide-Qd1e229"> Opinio, si habeat assertionem, temeraria est; fides, si habet hesitacionem,
+            infirma est; intellectus, si signata fidei temptet irrumpere, reputatur effractor,
+            scrutator maiestatis. </quote>
+          <ref xml:id="timf-fide-Rd1e231"> Bernardus libro de consideracione. </ref>
+        </p>
+        <p xml:id="timf-fide-d1e234" n="s">
+          <quote xml:id="timf-fide-Qd1e236"> Fides aliquando recipit, quod racio non presumit. Qualis sit cuiusque fides,
+            tribulacio probat. </quote>
+          <ref xml:id="timf-fide-Rd1e238"> Bernardus de duodecim gradibus humilitatis. </ref>
+        </p>
+        <p xml:id="timf-fide-d1e241" n="t">
+          <quote xml:id="timf-fide-Qd1e243"> Sola fides et mentis ad Deum conuersio, sine effusione sanguinis et sine
+            perfusione aque, salutem sine dubio operatur uolenti, sed non ualenti, prohibente
+            articulo, baptizari. </quote>
+          <ref xml:id="timf-fide-Rd1e245"> Bernardus in epistolis. </ref>
+        </p>
+        <p xml:id="timf-fide-d1e248" n="u">
+          <quote xml:id="timf-fide-Qd1e250"> Dicamus fidem uitem, uirtutes palmites, botrum opus, deuocionem uinum. </quote>
+          <ref xml:id="timf-fide-Rd1e252"> Bernardus super Cantica. </ref>
+        </p>
+        <p xml:id="timf-fide-d1e255" n="x">
+          <quote xml:id="timf-fide-Qd1e257"> Transgreditur enim fides fines racionis humane, nature usum, experiencie terminos. </quote>
+          <ref xml:id="timf-fide-Rd1e259"> Bernardus sermone LXXVII. </ref>
+        </p>
+        <p xml:id="timf-fide-d1e262" n="y">
+          <quote xml:id="timf-fide-Qd1e264"> Non fidei sed perfidie, non confidencie sed diffidencie est in semetipso habere
+            fiduciam. </quote>
+          <ref xml:id="timf-fide-Rd1e266"> Bernardus sermone XII. </ref>
+        </p>
+        <p xml:id="timf-fide-d1e270" n="z">
+          <quote xml:id="timf-fide-Qd1e272"> Is fidelis est qui nec sibi credit nec in se sperat, factus sibi tanquam uas
+            perditum, sed sic perdens animam suam, ut in uitam eternam custodiat eam. </quote>
+          <ref xml:id="timf-fide-Rd1e274"> Bernardus ibidem (sermone XII). </ref>
+        </p>
+        <p xml:id="timf-fide-d1e277" n="ab">
+          <quote xml:id="timf-fide-Qd1e279"> Qui fidelis fuerit in umbra memorie, lucem presencie sine dubio obtinebit. </quote>
+          <ref xml:id="timf-fide-Rd1e281"> Bernardus in quodam sermone. </ref>
+        </p>
+        <p xml:id="timf-fide-d1e284" n="ac">
+          <quote xml:id="timf-fide-Qd1e286"> Rei que uidetur facilis est fides. Eius autem quod nondum accepit principium, non
+            facile suscipitur credulitas. </quote>
+          <ref xml:id="timf-fide-Rd1e288"> Crisostomus super Mattheum capitulo I. </ref>
+        </p>
+        <p xml:id="timf-fide-d1e291" n="ad">
+          <quote xml:id="timf-fide-Qd1e293"> Quam magna magorum fides est, non dicentes: si magnus est puer hic, que necessitas
+            fuge est et occulte recessionis? Hoc enim est uere fidei non querere causas eorum que
+            uere precipiuntur, sed suaderi solum ab eis. </quote>
+          <ref xml:id="timf-fide-Rd1e295"> Crisostomus super Mattheum capitulo II. </ref>
+        </p>
+        <p xml:id="timf-fide-d1e298" n="ae">
+          <quote xml:id="timf-fide-Qd1e300"> Lapis quidem durus est, sed cum factum fuerit de eo opus, desistere nescit. Sic et
+            gentiles cum difficultate credunt, et tamen credentes in eternum permanent in fide. </quote>
+          <ref xml:id="timf-fide-Rd1e302"> Crisostomus super illud Matthei III.: Potens est Dominus de lapidibus istis. </ref>
+        </p>
+        <p xml:id="timf-fide-d1e305" n="af">
+          <quote xml:id="timf-fide-Qd1e307"> Sicut semper discere signum est nunquam posse perficere, sic testimonium semper
+            querere signum est nunquam uelle credere. </quote>
+          <ref xml:id="timf-fide-Rd1e309"> Crisostomus super illud Matthei XII.: Volumus a te signum uidere. </ref>
+        </p>
+        <p xml:id="timf-fide-d1e313" n="ag">
+          <quote xml:id="timf-fide-Qd1e315"> Vna est ueritas et non partita. Et sicut qui margaritam habet ipse nouit quantum
+            diues est, et tamen multis potest esse non cognitus; ita et qui fidei ueritatem
+            detinent, noscunt quod diuites sunt. Infideles autem thesaurum nescientes hunc, diuicias
+            nostras ignorant. </quote>
+          <ref xml:id="timf-fide-Rd1e317"> Crisostomus super illud Matthei XIII.: Inuenta una preciosa margarita. </ref>
+        </p>
+        <p xml:id="timf-fide-d1e320" n="ah">
+          <quote xml:id="timf-fide-Qd1e322"> Similis natura infidelitatis terre arenose, quia quantamcumque pluuiam susciperet,
+            non fructificaret. </quote>
+          <ref xml:id="timf-fide-Rd1e324"> Crisostomus ibidem (super illud Matthei XIII.: Inuenta una preciosa margarita).
+          </ref>
+        </p>
+        <p xml:id="timf-fide-d1e327" n="ai">
+          <quote xml:id="timf-fide-Qd1e329"> Talis est natura fidei: quanto magis uetatur, tanto magis accenditur. Virtus fidei
+            in periculis secura est, in securitate periclitatur. Quid enim aliud sic laxat uigorem
+            fidei, sicut longa transquillitas? </quote>
+          <ref xml:id="timf-fide-Rd1e331"> Crisostomus super illud Matthei XX.: Ac illi magis clamabant. </ref>
+        </p>
+        <p xml:id="timf-fide-d1e334" n="ak">
+          <quote xml:id="timf-fide-Qd1e336"> Fides lampas est, quia sicut lampas illuminat domum, ita fides animam. </quote>
+          <ref xml:id="timf-fide-Rd1e338"> Crisostomus super Mattheum XXV. </ref>
+        </p>
+        <p xml:id="timf-fide-d1e341" n="al">
+          <quote xml:id="timf-fide-Qd1e343"> Fides religionis catholice lumen est anime, hostium uite, fundamentum salutis
+            eterne. </quote>
+          <ref xml:id="timf-fide-Rd1e345"> Crisostomus in tractatu de symbolo: Credo in Deum et cetera. </ref>
+        </p>
+        <p xml:id="timf-fide-d1e348" n="am">
+          <quote xml:id="timf-fide-Qd1e350"> Ecce quid a te requirat immensa illa pietas, quod facile possit implere nuda
+            paupertas, despecta mediocritas, indocta simplicitas. Non per multas distraheris
+            ambages, nec duris difficultatibus occupandus inuolueris. Quod a te et pro te
+            reposcitur, intra te est, id est oris famulatus et cordis affectus, secundum illud:
+            corde creditur et cetera. In anima ergo tua reposuit omnia anime tue presidia Deus tuus,
+            ut unde peccatum egreditur, inde et peccati medicina peteretur. </quote>
+          <ref xml:id="timf-fide-Rd1e352"> Crisostomus ibidem (in tractatu de symbolo: Credo in Deum et cetera). </ref>
+        </p>
+        <p xml:id="timf-fide-d1e356" n="an">
+          <quote xml:id="timf-fide-Qd1e358" source="http://scta.info/resource/hsvhsv-g22858-d1e529@138-148">Fides est uoluntaria certitudo absencium supra opinionem et infra scienciam
+            constituta.</quote>
+          <ref xml:id="timf-fide-Rd1e361"> Hugo. </ref><!-- almost seems like Hugh is quoting someone else here -->
+        </p>
+        <p xml:id="timf-fide-d1e365" n="ao">
+          <quote xml:id="timf-fide-Qd1e367"> Vtinam attenderent Iudei, utinam aduerterent pagani, cum quanta consciencie
+            securitate pro hac parte ad diuinum iudicium poterimus accedere. Nonne cum omni
+            confidencia Deo dicere poterimus: Domine, si error est, a te ipso decepti sumus. Nam
+            ista tantis signis et prodigiis confirmata sunt, et talibus que non nisi per te fieri
+            possunt, et certe a summe sanctitatis uiris sunt nobis tradita, cum summa et autentica
+            attestacione probata, te ipso cooperante et sermonem confirmante sequentibus signis? </quote>
+          <ref xml:id="timf-fide-Rd1e369"> Ricardus libro I. de trinitate. </ref>
+        </p>
+        <p xml:id="timf-fide-d1e372" n="ap">
+          <quote xml:id="timf-fide-Qd1e374"> Tantum crescit calor fidei, quantum de flamma subtractum fuerit corporali. </quote>
+          <ref xml:id="timf-fide-Rd1e376"> Cassiodorus super illud Psalmi: Quia factus sum sicut uter in pruina. </ref>
+        </p>
+        <p xml:id="timf-fide-d1e379" n="aq">
+          <quote xml:id="timf-fide-Qd1e381"> Totum in se habet homo, qui se habet. Ipse autem se habet, qui Deum habet. Deum
+            uero habet, qui eum suum credit et confitetur actorem. </quote>
+          <ref xml:id="timf-fide-Rd1e383"> Petrus Rauennas in quodam sermone. </ref>
+        </p>
+        <p xml:id="timf-fide-d1e386" n="ar">
+          <quote xml:id="timf-fide-Qd1e388"> Fides est perceptio ueritatis rerum cum assercione sine causarum cognicione. </quote>
+          <ref xml:id="timf-fide-Rd1e390"> Tullius II. rethorice. </ref>
+        </p>
+        <p xml:id="timf-fide-d1e393" n="as">
+          <quote xml:id="timf-fide-Qd1e395"> Fides sanctissimum humani pectoris bonum est, nulla necessitate ad fallendum
+            cogitur, nullo corrumpitur premio. Vre, inquit, cede, occide; non prodam, sed quo magis
+            secreta dolor queret, hoc illa altius condet. </quote>
+          <ref xml:id="timf-fide-Rd1e397"> Seneca LXXXVII. epistola. </ref>
+        </p>
+        <p xml:id="timf-fide-d1e401" n="at">
+          <quote xml:id="timf-fide-Qd1e403"> Malo michi successum deesse quam fidem. Eciam hosti est equs, qui habet in
+            consilio fidem. Fidem qui perdit, nil potest ultra perdere. Fides unanima, unde abiit,
+            nunquam redit. Fidem nemo unquam perdit, nisi qui non habet. </quote>
+          <ref xml:id="timf-fide-Rd1e405"> Seneca in prouerbiis. </ref>
+        </p>
+        <p xml:id="timf-fide-d1e408" n="au">
+          <quote xml:id="timf-fide-Qd1e410"> Viri boni est eciam non pollicitam fidem seruare. Maximum maioribus nostris telum
+            fidem fuisse, ex quo plures pace suscepte, quam bello gentes fuerint deuicte. Nocens
+            fit, ubi succumbit fides. </quote>
+          <ref xml:id="timf-fide-Rd1e412"> Cato. </ref>
+        </p>
+        <p xml:id="timf-fide-d1e415" n="ubi"> 
+          <ref xml:id="timf-fide-Rd1e417">Caritas ab</ref>; <ref xml:id="timf-fide-Rd1e419">Doctrina ao</ref>; <ref xml:id="timf-fide-Rd1e421">Elemosyna bc</ref>; <ref xml:id="timf-fide-Rd1e423">Eucharistia b</ref>; <ref xml:id="timf-fide-Rd1e425" target="http://scta.info/resource/timf-gloa-d1e40">Gloria eterna at</ref>; <ref xml:id="timf-fide-Rd1e428">Heresis e</ref>; <ref xml:id="timf-fide-Rd1e430">Lex
+          a</ref>; <ref xml:id="timf-fide-Rd1e432">Predicacio be</ref>; <ref xml:id="timf-fide-Rd1e434">Resurrectio o</ref>; <ref xml:id="timf-fide-Rd1e436">Salus d</ref>; <ref xml:id="timf-fide-Rd1e438">Scriptura m</ref>; <ref xml:id="timf-fide-Rd1e441">Spes a</ref>, <ref xml:id="timf-fide-Rd1e443">d</ref>, <ref xml:id="timf-fide-Rd1e445">o</ref>; <ref xml:id="timf-fide-Rd1e447">Suspicio d</ref>. </p>
+      </div>
+    </body>
+  </text>
+</TEI>

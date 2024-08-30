@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Fides sive Fidelitas</title>
+        <author ref="#ThomasOfIreland">Thomas Hybernicus</author>
+        <respStmt>
+          <name>Chris Nighman</name>
+          <resp>Editor</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Fides sive Fidelitas</title>
+          <date when="2024-08-30">August 30, 2024</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref>SCTA</ref> and <ref target="http://www.manipulusflorum.com/">Manipulus floreum
+            Project</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+            
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Pb" n="bnf15985">Bnf 15985</witness>
+          <witness xml:id="Pc" n="bnf15986">Bnf 15986</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2024-08-30" status="draft" n="0.0.0">
+          <p>Created file for the first time.
+          </p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="timf-gloa">
+        <head xml:id="timf-gloa-Hd1e109">Gloria aeterna</head>
+        <p xml:id="timf-gloa-d1e111" n="a">
+          <quote xml:id="timf-gloa-Qd1e113"> Tanta est pulcritudo iusticie, tanta est iocunditas lucis eterne, hoc est
+            incommutabilis ueritatis atque sapiencie, ut eciam si non liceret in ea amplius manere
+            quam unius diei mora, propter hoc solum innumerabiles anni huius uite pleni deliciis et
+            circumfluencia bonorum temporalium recte meritoque contempnerentur. </quote>
+          <ref xml:id="timf-gloa-Rd1e115"> Augustinus libro de moribus ecclesie. </ref>
+        </p>
+        <p xml:id="timf-gloa-d1e118" n="b">
+          <quote xml:id="timf-gloa-Qd1e120" source="http://scta.info/resource/adcd-l22-d1e3833@189-331"> Verus honor, qui nulli negabitur digno, nulli deferetur indigno, sed nec ad
+            eum ambiet ullus indignus, ubi nullus permittetur esse nisi dignus. Vera pax, ubi nichil
+            aduersi nec a se ipso, nec ab alio quisque pacietur. Premium uirtutis erit ipse qui
+            uirtutem dedit eique se ipsum, quo melius et maius nichil possit esse promisit. Quid est
+            enim aliud quod per prophetam dixit: Ero illorum Deus et ipsi erunt michi plebs; ubi ego
+            ero unde sacientur, ego ero quecumque ab hominibus honeste desiderantur, et uita et
+            salus et uictus et copia et gloria et honor et pax et omnia bona? Sic enim et illud
+            recte intelligitur quod ait Apostolus: Vt sit Deus omnia in omnibus. Ipse finis erit
+            desideriorum nostrorum qui sine fine uidebitur, sine fastidio amabitur, sine fatigacione
+            laudabitur. Hoc munus, hic affectus, hic actus procul dubio erit omnibus, sicut uita
+            eterna, communis. </quote>
+          <ref xml:id="timf-gloa-Rd1e123"> Augustinus libro XXII. de ciuitate Dei. </ref>
+        </p>
+        <p xml:id="timf-gloa-d1e126" n="c">
+          <quote xml:id="timf-gloa-Qd1e128"> Facilius possumus dicere in illa uita eterna, quid ibi non sit, quam quid
+            ibi sit. Non est ibi mors, non est ibi luctus, non est ibi lassitudo, non est
+            infirmitas, non est fames; nulla sitis, nulli estus, nulla corruptio, nulla indigencia,
+            nulla mesticia, nulla tristicia. </quote>
+          <ref xml:id="timf-gloa-Rd1e130"> Augustinus de symbolo libro III. </ref>
+        </p>
+        <p xml:id="timf-gloa-d1e133" n="d">
+          <quote xml:id="timf-gloa-Qd1e135"> Illuc festinate ubi semper uiuatis. Si enim sic amatis istam miseram
+            fluuidamque uitam, ubi cum tanto labore uiuitis et ubi uix currendo, satagendo, sudando,
+            suspirando necessariis corporis satisfaciatis; quanto magis amare debetis uitam eternam,
+            ubi nullum laborem sustinebitis, ubi semper summa securitas, summa felicitas, felix
+            libertas, felix beatitudo; ubi implebitur illud quod Dominus dicit in ewangelio: Erunt
+            homines similes angelis, et illud: Fulgebunt iusti et cetera. </quote>
+          <ref xml:id="timf-gloa-Rd1e137"> Augustinus de utilitate agende penitencie. </ref>
+        </p>
+        <p xml:id="timf-gloa-d1e141" n="e">
+          <quote xml:id="timf-gloa-Qd1e143"> Hereditas, inquam, Christi qua coheredes sumus, non minuitur copia
+            possessorum, nec fit angustior numerositate coheredum, sed tanta est multis quanta
+            paucis, tanta singulis quanta omnibus. </quote>
+          <ref xml:id="timf-gloa-Rd1e145"> Augustinus super Psalmum XLIX. </ref>
+        </p>
+        <p xml:id="timf-gloa-d1e148" n="f">
+          <quote xml:id="timf-gloa-Qd1e150"> Tantum emit uidua duobus minutis, quantum emit Petrus relinquens recia,
+            quantum emit Zacheus dando dimidium patrimonium. Regnum Dei tantum ualet, quantum
+            habueris. </quote>
+          <ref xml:id="timf-gloa-Rd1e152"> Augustinus ibidem. </ref>
+        </p>
+        <p xml:id="timf-gloa-d1e155" n="g">
+          <quote xml:id="timf-gloa-Qd1e157"> Hoc est ociosorum negocium, hoc opus uacancium, hec actio quietorum, hec
+            cura securorum. </quote>
+          <ref xml:id="timf-gloa-Rd1e159"> Augustinus super Psalmum CX. </ref>
+        </p>
+        <p xml:id="timf-gloa-d1e162" n="h">
+          <quote xml:id="timf-gloa-Qd1e164"> Diuicie si diliguntur, ibi seruentur, ubi perire non possunt; honor si
+            diligitur, illuc habeatur, ubi nemo indignus honoratur; salus si diligitur, ibi
+            adipiscenda desideretur, ubi adepta nichil timetur; uita si diligitur, ibi acquiratur,
+            ubi nulla morte finitur. </quote>
+          <ref xml:id="timf-gloa-Rd1e166"> Augustinus in epistola. </ref>
+        </p>
+        <p xml:id="timf-gloa-d1e169" n="i">
+          <quote xml:id="timf-gloa-Qd1e171"> Tanto illud quod ualde magnum est, quod nec oculus uidit, quia non est
+            color, nec auris audiuit, quia non est sonus, nec in cor hominis ascendit, quia cor
+            hominis illuc debet ascendere, sumemus capacius, quanto id et fidelius credimus, et
+            speramus firmius, et desideramus ardencius. </quote>
+          <ref xml:id="timf-gloa-Rd1e173"> Augustinus ad Diascorum. </ref>
+        </p>
+        <p xml:id="timf-gloa-d1e176" n="k">
+          <quote xml:id="timf-gloa-Qd1e178"> Talis erit illa delectacio pulcritudinis, ut semper tibi presens sit, et
+            nunquam sacieris, immo semper sacieris, et nunquam sacieris. Si enim dixero quod non
+            saciaberis, fames erit. Si dixero quod saciaberis, fastidium timeo. Vbi nec fastidium
+            erit nec fames, quid dicam nescio, sed Deus habet quod exhibeat. </quote>
+          <ref xml:id="timf-gloa-Rd1e180"> Augustinus super Iohannem omelia III. </ref>
+        </p>
+        <p xml:id="timf-gloa-d1e184" n="l">
+          <quote xml:id="timf-gloa-Qd1e186"> Ecce uenale est regnum Dei; eme, si uis. Nec multum existimes de re magna
+            propter precii magnitudinem. Tantum ualet, quantum habes. Noli querere quid habeas, sed
+            qualis sis. Res ista te ualet tantum, quantum es. Tu te da et habebis illam. Sed malus
+            sum, inquies, et forte me non accipit. Dando te illi, bonus eris. </quote>
+          <ref xml:id="timf-gloa-Rd1e188"> Augustinus de spiritu et anima. </ref>
+        </p>
+        <p xml:id="timf-gloa-d1e191" n="m">
+          <quote xml:id="timf-gloa-Qd1e193"> Regnum celorum uim patitur. Ideo quia reatus quem littera sine spiritu
+            iubendo faciebat, credendo soluitur et uiolencia Spiritus Sancti impetratur. </quote>
+          <ref xml:id="timf-gloa-Rd1e195"> Augustinus in libro de fide et operibus. </ref>
+        </p>
+        <p xml:id="timf-gloa-d1e198" n="n">
+          <quote xml:id="timf-gloa-Qd1e200"> Non erit aliqua inuidia disparis claritatis, quoniam regnabit in omnibus
+            unitas caritatis. </quote>
+          <ref xml:id="timf-gloa-Rd1e202"> Augustinus super Iohannem. </ref>
+        </p>
+        <p xml:id="timf-gloa-d1e205" n="o">
+          <quote xml:id="timf-gloa-Qd1e207"> Incomparabiliter superna ciuitas clara est, ubi uictoria ueritas, ubi
+            dignitas sanctitas, ubi uita eternitas. </quote>
+          <ref xml:id="timf-gloa-Rd1e209"> Augustinus. </ref>
+        </p>
+        <p xml:id="timf-gloa-d1e212" n="p">
+          <quote xml:id="timf-gloa-Qd1e214"> In ciuitate Dei rex ueritas, lex caritas, dignitas equitas, pax felicitas,
+            uita eternitas; sed in ciuitate dyaboli econtra rex falsitas, lex cupiditas, dignitas
+            iniquitas, lis felicitas, uita temporalitas. </quote>
+          <ref xml:id="timf-gloa-Rd1e216"> Augustinus de ciuitate Dei. </ref>
+        </p>
+        <p xml:id="timf-gloa-d1e219" n="q">
+          <quote xml:id="timf-gloa-Qd1e221"> Ibi ymnidici angelorum chori, ibi societas supernorum ciuium, ibi dulcis
+            solempnitas a peregrinacionis huius tristi labore redeuncium, ibi festiuitas sine fine,
+            eternitas sine labe, serenitas sine nube. </quote>
+          <ref xml:id="timf-gloa-Rd1e223"> Augustinus super Iohannem in omelia: Ego sum pastor bonus. </ref>
+        </p>
+        <p xml:id="timf-gloa-d1e227" n="r">
+          <quote xml:id="timf-gloa-Qd1e229"> Si consideremus, que et quanta sunt que sanctis dabuntur in die iudicii,
+            que et quanta sunt que nobis promittuntur in celis, uilescunt omnia que habentur in
+            terris. Terrena namque substancia superne felicitati comparata pondus est, non
+            subsidium. Temporalis uita eterne uite comparata mors est dicenda pocius quam uita. Que
+            lingua uel quis intellectus capere sufficit illa superne ciuitatis quanta sint gaudia,
+            angelorum choris interesse, cum beatissimis spiritibus glorie conditoris assistere,
+            presentem Dei uultum cernere, incircumscriptum uidere, nullo mortis metu affici,
+            incorruptionis munere letari? </quote>
+          <ref xml:id="timf-gloa-Rd1e231"> Augustinus in encheridion. </ref>
+        </p>
+        <p xml:id="timf-gloa-d1e234" n="s">
+          <!-- first part doesn't seem to be in city of god -->
+          Ibi quicquid amabitur aderit, nec desiderabitur quod non aderit. Omne quod
+            ibi erit bonum erit, et summus Deus summum bonum erit, et quod est omnino beatissimum,
+            ita semper fore certum erit. <quote xml:id="timf-gloa-Qd1e238" source="http://scta.info/resource/adcd-l22-d1e3845/critical/transcription@180-210"> Ibi uacabimus et uidebimus, uidebimus et amabimus, amabimus
+            et laudabimus. Ecce quod erit in fine sine fine. Nam quis alius noster est finis nisi
+            peruenire ad regnum, cuius nullus est finis?</quote> 
+          <ref xml:id="timf-gloa-Rd1e241"> Augustinus libro XXII. de ciuitate Dei. </ref>
+        </p>
+        <p xml:id="timf-gloa-d1e244" n="t">
+          <quote xml:id="timf-gloa-Qd1e246"> Quod Deus preparauit diligentibus se, fide non capitur, spe non attingitur,
+            caritate non comprehenditur, desideria et uota transgreditur; acquiri potest, estimari
+            non potest. </quote>
+          <ref xml:id="timf-gloa-Rd1e248"> Augustinus ibidem. </ref>
+        </p>
+        <p xml:id="timf-gloa-d1e251" n="u">
+          <quote xml:id="timf-gloa-Qd1e253"> Ibi tota uirtus erit uidere quod amas, et summa felicitas amare quod
+            uideas, et ibi beata uita in suo fonte bibitur, ubi ueritatis uisio clarissime aperitur. </quote>
+          <ref xml:id="timf-gloa-Rd1e255"> Augustinus XII. de ciuitate Dei. </ref>
+        </p>
+        <p xml:id="timf-gloa-d1e258" n="x">
+          <quote xml:id="timf-gloa-Qd1e260"> Regnum celorum non est dantis sed accipientis. Non est enim personarum
+            acceptio apud Deum, sed quicumque se talem prebuerit ut regno celorum dignus fiat, hic
+            accipiet quod non persone sed uite paratum est. </quote>
+          <ref xml:id="timf-gloa-Rd1e262"> Ieronymus super Psalmum LXVIII. </ref>
+        </p>
+        <p xml:id="timf-gloa-d1e265" n="y">
+          <quote xml:id="timf-gloa-Qd1e267"> Nullus labor durus, nullum tempus longum uideri debet, quo gloria
+            eternitatis acquiritur. </quote>
+          <ref xml:id="timf-gloa-Rd1e269"> Ieronymus in epistola. </ref>
+        </p>
+        <p xml:id="timf-gloa-d1e273" n="z">
+          <quote xml:id="timf-gloa-Qd1e275"> Regnum celorum uim patitur. Grandis uiolencia est generatos in terra celum
+            querere et possidere per uirtutem quod non tenuimus per naturam. </quote>
+          <ref xml:id="timf-gloa-Rd1e277"> Ieronymus. </ref>
+        </p>
+        <p xml:id="timf-gloa-d1e280" n="ab">
+          <quote xml:id="timf-gloa-Qd1e282"> Quantalibet intencione se humana mens tetenderit, eciam si fantasias
+            ymaginum corporalium a cogitacione conpescat. Si enim omnes circumscriptos spiritus ab
+            oculis cordis ammoueat, adhuc tamen in carne mortali posita uidere gloriam Dei non ualet
+            sicut est, sed quicquid de illa est quod in mente resplendet, similitudo et non ipsa
+            est. </quote>
+          <ref xml:id="timf-gloa-Rd1e284"> Gregorius super Ezechielem omelia VIII. </ref>
+        </p>
+        <p xml:id="timf-gloa-d1e287" n="ac">
+          <quote xml:id="timf-gloa-Qd1e289"> Curramus, sequamur Christum; non sunt hic uera solacia, sed ibi ponitur
+            ubi uera uita. </quote>
+          <ref xml:id="timf-gloa-Rd1e291"> Gregorius in moralibus. </ref>
+        </p>
+        <p xml:id="timf-gloa-d1e294" n="ad">
+          <quote xml:id="timf-gloa-Qd1e296"> Regnum celorum rapi uult nostris fletibus, quod nostris meritis non
+            debetur. Videte si negare debemus quod petimur, quando patroni sunt qui petunt. </quote>
+          <ref xml:id="timf-gloa-Rd1e298"> Gregorius in omelia. </ref>
+        </p>
+        <p xml:id="timf-gloa-d1e301" n="ae">
+          <quote xml:id="timf-gloa-Qd1e303"> Tanta uis in illa pace nos sociat, ut quod in se quisque non acceperit,
+            hoc se accepisse in alio exultet. Vna cunctis erit beatitudo leticie, quamuis non una
+            sit omnibus sublimitas uite. Erit et in illa beatitudine culpe memoria, non que mentem
+            polluat, sed que nos leticie arcius astringit. </quote>
+          <ref xml:id="timf-gloa-Rd1e305"> Gregorius in moralibus. </ref>
+        </p>
+        <p xml:id="timf-gloa-d1e308" n="af">
+          <quote xml:id="timf-gloa-Qd1e310"> Solis iustis celestis patrie debentur premia, ut humiles, casti, mites
+            atque misericordes ad gaudia eterna perueniant. </quote>
+          <ref xml:id="timf-gloa-Rd1e312"> Gregorius in moralibus. </ref>
+        </p>
+        <p xml:id="timf-gloa-d1e316" n="ag">
+          <quote xml:id="timf-gloa-Qd1e318"> In domo Patris mansiones multe sunt. Si enim dispar retribucio in illa
+            beatitudine eterna non esset, una pocius mansio quam multe essent. Multe ergo mansiones
+            sunt, in quibus et distincti bonorum ordines propter meritorum consorcium communiter
+            letentur. Et tamen unum denarium omnes laborantes accipiunt, qui in multis mansionibus
+            distinguntur, quia et una est beatitudo quam illic percipiunt, et dispar retribucionis
+            qualitas quam per opera diuersa sequntur. </quote>
+          <ref xml:id="timf-gloa-Rd1e320"> Gregorius libro IIII. dyalogorum. </ref>
+        </p>
+        <p xml:id="timf-gloa-d1e323" n="ah">
+          <quote xml:id="timf-gloa-Qd1e325"> Quoniam electis in hac uita est dilectio operum, in alia quoque uita erit
+            procul dubio discrecio dignitatum, ut quo hic alius alium superat, illic alius alium
+            retribucione transcendat. Et quamuis in illa retribucione dignitas eadem non sit, una
+            tamen omnibus uita beatitudinis erit. </quote>
+          <ref xml:id="timf-gloa-Rd1e327"> Gregorius libro IIII. moralium. </ref>
+        </p>
+        <p xml:id="timf-gloa-d1e330" n="ai">
+          <quote xml:id="timf-gloa-Qd1e332"> Corona duodecim stellarum in patria: prima stella memoria sine obliuione;
+            secunda racio sine errore; tercia uoluntas sine omni perturbacione; quarta
+            impassibilitas in quam corpus nostrum surget sine corruptione; quinta claritas qua
+            configurabitur claritati corporis Christi; sexta agilitas ut secundum mobilitatem
+            cogitacionum nostrarum fit agile; septima subtilitas ut quantumlibet spissum uel solidum
+            ei penetrabile; octaua est diligere proximum suum in omni ueritate tanquam seipsum; nona
+            est uidere proximum suum in omni puritate diligentem se sicut diligit semetipsum; decima
+            est Deum perfecte diligere, scilicet plusquam seipsum; undecima est diligere seipsum
+            tantummodo propter Deum; duodecima est uidere Deum diligentem se supra quam diligat
+            seipsum. </quote>
+          <ref xml:id="timf-gloa-Rd1e334"> Bernardus in quodam sermone. </ref>
+        </p>
+        <p xml:id="timf-gloa-d1e337" n="ak">
+          <quote xml:id="timf-gloa-Qd1e339"> O uere felix et gloriosa sacietas! O sanctum conuiuium! O desiderabiles
+            epule, ubi nimirum anxietas nulla, nullum poterit esse fastidium, quin sacietas summa et
+            summum inerit desiderium! </quote>
+          <ref xml:id="timf-gloa-Rd1e341"> Bernardus in sermone. </ref>
+        </p>
+        <p xml:id="timf-gloa-d1e344" n="al">
+          <quote xml:id="timf-gloa-Qd1e346"> Illud uerum et solum est gaudium, quod non de creatura, sed de Creatore
+            concipitur, et quod, cum possederis, nemo tollet a te, cui comparata omnis aliunde
+            iocunditas meror est, omnis suauitas dolor est, omne dulce amarum, omne decorum fedum,
+            omne postremo, quodcumque aliud delectari possit, molestum. </quote>
+          <ref xml:id="timf-gloa-Rd1e348"> Bernardus in epistola. </ref>
+        </p>
+        <p xml:id="timf-gloa-d1e351" n="am">
+          <quote xml:id="timf-gloa-Qd1e353"> Festinemus ad locum tuciorem, id est ad agrum uberiorem, ad pastum
+            saniorem, ut habitemus sine metu, habundemus sine defectu, epulemur sine fastidio. </quote>
+          <ref xml:id="timf-gloa-Rd1e355"> Bernardus. </ref>
+        </p>
+        <p xml:id="timf-gloa-d1e359" n="an">
+          <quote xml:id="timf-gloa-Qd1e361"> O beata regio paradysi! O beata regio deliciarum ad quam suspiro de ualle
+            lacrimarum, ubi sapiencia sine ignorancia, ubi memoria sine obliuione, ubi intellectus
+            sine errore, ubi racio sine obscuritate fulgebit! Beati qui habitant ibi et laudabunt
+            Deum in secula seculorum amen. Regnum Dei conceditur, promittitur, ostenditur,
+            percipitur. Conceditur in predestinacione, promittitur in uocacione, ostenditur in
+            iustificacione, percipitur in glorificacione. </quote>
+          <ref xml:id="timf-gloa-Rd1e363"> Bernardus in sermone. </ref>
+        </p>
+        <p xml:id="timf-gloa-d1e366" n="ao">
+          <quote xml:id="timf-gloa-Qd1e368"> Nulla erit in futuro discordia sed cuncta consona, cuncta conueniencia.
+            Omnium enim sanctorum erit una concordia, nullus ibi dyaboli metus, nulle insidie
+            demonum, terrore gehenne procul, mors neque corporis neque anime, sed immortalitatis
+            munere metus uterque resolutus. </quote>
+          <ref xml:id="timf-gloa-Rd1e370"> Crisostomus de reparatione lapsi. </ref>
+        </p>
+        <p xml:id="timf-gloa-d1e373" n="ap">
+          <quote xml:id="timf-gloa-Qd1e375"> Intuere cetum non solum ex hominibus sed ex angelis atque archangelis,
+            tronis eciam et dominationibus, principatibus ac potestatibus conuocatum. De rege autem
+            qui horum medius residet, dicere uox nulla sufficiet. Effugit enim omnem sermonem atque
+            omnem sensum humane mentis excedit decus illud, illa pulcritudo, illa uirtus, illa
+            gloria, illa magnificencia, illa maiestas. </quote>
+          <ref xml:id="timf-gloa-Rd1e377"> Crisostomus ibidem. </ref>
+        </p>
+        <p xml:id="timf-gloa-d1e380" n="aq">
+          <quote xml:id="timf-gloa-Qd1e382"> Si cotidie oporteret nos tormenta perferre, si ipsam gehennam paruo
+            tempore tollerare pro eo, ut Christum uidere possemus in gloria uenientem et sanctorum
+            eius numero sociari, non erat dignum pati omne quod triste est, modo ut tanti boni
+            tanteque glorie participes haberemur. </quote>
+          <ref xml:id="timf-gloa-Rd1e384"> Crisostomus ibidem. </ref>
+        </p>
+        <p xml:id="timf-gloa-d1e387" n="ar">
+          <quote xml:id="timf-gloa-Qd1e389"> Futura uita ubi creditur esse beate sempiterna, sempiterne beata; ubi est
+            certa securitas, secura tranquillitas, tranquilla iocunditas, felix eternitas, eterna
+            felicitas; ubi est amor perfectus, timor nullus, dies eternus, alacer motus et unus
+            omnium spiritus. </quote>
+          <ref xml:id="timf-gloa-Rd1e391"> Prosper de uita contemplatiua. </ref>
+        </p>
+        <p xml:id="timf-gloa-d1e394" n="as">
+          <quote xml:id="timf-gloa-Qd1e396"> Futura uita ubi ipsa ciuitas que est angelorum sanctorumque omnium
+            congregacione beata, meritis fulgentibus micat, eterna salus exuberat, ueritas regnat;
+            ubi nec fallit quisquam nec fallitur, unde nullus beatus eicitur; ubi nullus miser
+            admittitur. </quote>
+          <ref xml:id="timf-gloa-Rd1e398"> Prosper ibidem. </ref>
+        </p>
+        <p xml:id="timf-gloa-d1e402" n="at">
+          <quote xml:id="timf-gloa-Qd1e404"> Ad fidem plures ueniunt, et ad celeste regnum pauci perducuntur. Omnes
+            enim canonici uocantur ad electionem, sed unus eligitur. </quote>
+          <ref xml:id="timf-gloa-Rd1e406"> Rabanus super illud Matthei XX.: Multi uocati, pauci uero electi. </ref>
+        </p>
+        <p xml:id="timf-gloa-d1e409" n="au">
+          <quote xml:id="timf-gloa-Qd1e411"> Patriam nostram paradysum computemus, parentes patriarchas iam habere
+            cepimus. Quid non properamus et currimus ut patriam nostram uidere, ut parentes salutare
+            possimus? Magnus illic nos karorum numerus expectat, parentum, fratrum, filiorum
+            frequens nos et copiosa turba desiderat iam de sua incolumitate secura, adhuc de nostra
+            salute sollicita. Ad horum conspectum et complexum uenire quanta et illis et nobis in
+            commune leticia est. </quote>
+          <ref xml:id="timf-gloa-Rd1e413"> Cyprianus epistola VI. de mortalitate. </ref>
+        </p>
+        <p xml:id="timf-gloa-d1e416" n="ax">
+          <quote xml:id="timf-gloa-Qd1e418"> Bene dicitur Dominum celum extendere, ubi meretrices et publicanos eum
+            constat admittere. Nam cum sint per iusticias celi iustorum, facti sunt et gracie
+            largitate peccancium. </quote>
+          <ref xml:id="timf-gloa-Rd1e420"> Cassiodorus super illud Psalmi: Extendit celum sicut pellem. </ref>
+        </p>
+        <p xml:id="timf-gloa-d1e423" n="ay">
+          <quote xml:id="timf-gloa-Qd1e425"> Eternitas est diuturnitas sine inicio et fine, et carens omni
+            mutabilitate. </quote>
+          <ref xml:id="timf-gloa-Rd1e427"> Boecius. </ref>
+        </p>
+        <p xml:id="timf-gloa-d1e430" n="ubi">
+          <ref xml:id="timf-gloa-Rd1e432" target="http://scta.info/resource/timf-acci-d1e266">Accidia g</ref>; <ref xml:id="timf-gloa-Rd1e435" target="http://scta.info/resource/timf-amor-d1e427">Amor q</ref>, <ref xml:id="timf-gloa-Rd1e438" target="http://scta.info/resource/timf-amor-d1e765">al</ref>, <ref xml:id="timf-gloa-Rd1e441" target="http://scta.info/resource/timf-amor-d1e1145">bg</ref>; <ref xml:id="timf-gloa-Rd1e444" target="http://scta.info/resource/timf-ange-d1e145">Angelus
+            b</ref>, <ref xml:id="timf-gloa-Rd1e448" target="http://scta.info/resource/timf-ange-d1e185">d</ref>; <ref xml:id="timf-gloa-Rd1e451" target="http://scta.info/resource/timf-anim-d1e448">Anima r</ref>; <ref xml:id="timf-gloa-Rd1e454">Beatitudo b</ref>, <ref xml:id="timf-gloa-Rd1e456">l</ref>,
+          <ref xml:id="timf-gloa-Rd1e458">m</ref>, <ref xml:id="timf-gloa-Rd1e460">p</ref>; <ref xml:id="timf-gloa-Rd1e463">Consolacio e</ref>; <ref xml:id="timf-gloa-Rd1e465">Delicie g</ref>;
+          <ref xml:id="timf-gloa-Rd1e467">Desiderium c</ref>; <ref xml:id="timf-gloa-Rd1e469">Diuicie q</ref>; <ref xml:id="timf-gloa-Rd1e471">Gaudium a</ref>; <ref xml:id="timf-gloa-Rd1e473">Infernus
+            r</ref>; <ref xml:id="timf-gloa-Rd1e476">Innocencia e</ref>; <ref xml:id="timf-gloa-Rd1e478">Labor f</ref>, <ref xml:id="timf-gloa-Rd1e480">g</ref>; <ref xml:id="timf-gloa-Rd1e482">Mandatum
+              c</ref>; <ref xml:id="timf-gloa-Rd1e484">Meritum c</ref>, <ref xml:id="timf-gloa-Rd1e486">p</ref>; <ref xml:id="timf-gloa-Rd1e489">Tempus a</ref>; <ref xml:id="timf-gloa-Rd1e491">Vita e</ref>.
+          
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>
