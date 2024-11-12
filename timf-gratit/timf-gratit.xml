@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Gratitudo siue gratiarum actio</title>
+        <author ref="#ThomasOfIreland">Thomas Hybernicus</author>
+        <respStmt>
+          <name>Chris Nighman</name>
+          <resp>Editor</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Gratitudo siue gratiarum actio</title>
+          <date when="2024-10-16">October 16, 2024</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref>SCTA</ref> and <ref target="http://www.manipulusflorum.com/">Manipulus floreum
+            Project</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Pb" n="bnf15985">Bnf 15985</witness>
+          <witness xml:id="Pc" n="bnf15986">Bnf 15986</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2024-10-16" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="timf-grat">
+        <head xml:id="timf-grat-Hd1e109">Gratitudo siue gratiarum actio</head>
+
+        <p xml:id="timf-grat-d1e112" n="a">
+          <quote xml:id="timf-grat-Qd1e114">Quid est tota die? Id est sine intermissione laudare: in prosperis quia consolaris,
+            in aduersis quia corrigis, antequam essem quia fecisti, cum essem salutem dedisti, cum
+            peccassem quia ignouisti, cum conuersus essem quia adiuuisti, cum perseuerassem quia
+            coronasti.</quote>
+          <ref xml:id="timf-grat-Rd1e116">Augustinus super illud Psalmi: Tota die repleatur os meum laude.</ref>
+        </p>
+        <p xml:id="timf-grat-d1e119" n="b">
+          <quote xml:id="timf-grat-Qd1e121">Non est ista superbia elati sed confessio non ingrati, et habere te cognosce et
+            nichil ex te habere, ut nec superbus sis nec ingratus. Dic Deo tuo: sanctus sum quia
+            sanctificasti me, quia accepi non que habui, quia tu dedisti non quia eo merui.</quote>
+          <ref xml:id="timf-grat-Rd1e123">Augustinus super illud Psalmi: Custodi animam meam quoniam sanctus sum.</ref>
+        </p>
+        <p xml:id="timf-grat-d1e126" n="c">
+          <quote xml:id="timf-grat-Qd1e128">Omnia peccata sic habenda sunt tanquam dimittantur, a quibus Deus custodit ne
+            committantur. Noli modicum diligere quasi a quo modicum dimissum est, sed pocius multum
+            dilige a quo tibi multum tributum est. Si enim diligit cui donatum est ne redderet,
+            quanto magis debet diligere cui donatum est ut haberet. Nam et quisquis ab inicio
+            pudicus permanet, ab illo regitur; et quisquis ab inpudico pudicus factus est, ab illo
+            corrigitur; et quisquis usque in finem inpudicus est, ab illo deseritur. Hec autem ille
+            occulto iudicio facere potest, iniquo non potest; et fortasse ideo latet ut plus
+            timeatur et minus superbiatur.</quote>
+          <ref xml:id="timf-grat-Rd1e130">Augustinus de sancta uirginitate.</ref>
+        </p>
+        <p xml:id="timf-grat-d1e133" n="d">
+          <quote xml:id="timf-grat-Qd1e135">Quid melius et animo geramus, et ore promamus, et calamo exprimamus, quam Deo
+            gracias? Hoc nec dici breuius, nec audiri lecius, nec intelligi gracius, nec agi
+            fructuosius potest.</quote>
+          <ref xml:id="timf-grat-Rd1e137">Augustinus in epistola ad Marcellinum.</ref>
+        </p>
+        <p xml:id="timf-grat-d1e141" n="e">
+          <quote xml:id="timf-grat-Qd1e143">Danti rependi quicquam gracius ab accipiente non potest, quam si gratum habuerit
+            quod gratis accepit. Nam spiritui gracie contumeliam facit, qui beneficium dantis grata
+            mente non suscipit.</quote>
+          <ref xml:id="timf-grat-Rd1e145">Bernardus ad Hemericum cancellarium.</ref>
+        </p>
+        <p xml:id="timf-grat-d1e148" n="f">
+          <quote xml:id="timf-grat-Qd1e150">Optima beneficiorum custos est ipsa memoria beneficiorum et perpetua confessio
+            graciarum.</quote>
+          <ref xml:id="timf-grat-Rd1e152">Crisostomus super Mattheum omelia XXV.</ref>
+        </p>
+        <p xml:id="timf-grat-d1e155" n="g">
+          <quote xml:id="timf-grat-Qd1e157">Amonio uos ut Dominum semper benedicatis: si uenerint mala, benedicite, et
+            dissoluantur mala; si prospera uenerint, benedicite, et perseuerabunt prospera.</quote>
+          <ref xml:id="timf-grat-Rd1e159">Crisostomus in tractatu de symbolo.</ref>
+        </p>
+        <p xml:id="timf-grat-d1e162" n="h">
+          <quote xml:id="timf-grat-Qd1e164">Iugiter sibi subuenire facit, cui collatum beneficium ante oculos semper
+            assistit.</quote>
+          <ref xml:id="timf-grat-Rd1e166">Cassiodorus super illud Psalmi: Quoniam misericordia tua ante oculos.</ref>
+        </p>
+        <p xml:id="timf-grat-d1e169" n="i">
+          <quote xml:id="timf-grat-Qd1e171">Prestita dona numerantur, ut ad beneficia consueta animus boni iudicis
+            inuitetur.</quote>
+          <ref xml:id="timf-grat-Rd1e173">Cassiodorus super Psalmos.</ref>
+        </p>
+        <p xml:id="timf-grat-d1e176" n="k">
+          <quote xml:id="timf-grat-Qd1e178">Meliora meretur suscipere, qui collata bona de corde non probatur amittere.</quote>
+          <ref xml:id="timf-grat-Rd1e180">Cassiodorus ibidem.</ref>
+        </p>
+        <p xml:id="timf-grat-d1e184" n="l">
+          <quote xml:id="timf-grat-Qd1e186">Si bene merentibus aliena gracia non respondet, merces tamen sua uirtuti non
+            deerit, que pocius fructus lucra satis habet simpliciter, apud se de bono felicis
+            consciencie testimonio gloriari. Neque enim subiecta est externe disposicionis arbitrio,
+            sed in sua proprie puritatis maiestate consistens, ab indignioribus premia non
+            requirit.</quote>
+          <ref xml:id="timf-grat-Rd1e188">Cassiodorus in quadam epistola.</ref>
+        </p>
+        <p xml:id="timf-grat-d1e191" n="m">
+          <quote xml:id="timf-grat-Qd1e193">Qui quanta sibi gracia collata sit nescit, quantas largitori grates debeat non
+            intelligit. Non enim potest quis plene intelligere quod acceperit, nisi meminerit quid
+            ante meruerit.</quote>
+          <ref xml:id="timf-grat-Rd1e195">Cassiodorus in quadam epistola.</ref>
+        </p>
+        <p xml:id="timf-grat-d1e198" n="n">
+          <quote xml:id="timf-grat-Qd1e200">Omnis prouectus ad diuinitatis est munera referendus, quia nichil constat fore
+            bonum, nisi quod ab ipso dinoscitur esse collatum.</quote>
+          <ref xml:id="timf-grat-Rd1e202">Cassiodorus in quadam epistola.</ref>
+        </p>
+        <p xml:id="timf-grat-d1e205" n="o">
+          <quote xml:id="timf-grat-Qd1e207">Inuitat ad magna, qui gratanter suscipit modica, et spem de futuris recipit, qui
+            transacta beneficia recognoscit, nec desperacione frangitur, qui magnorum munerum
+            consolacione roboratur.</quote>
+          <ref xml:id="timf-grat-Rd1e209">Cassiodorus libro IIII. epistolarum.</ref>
+        </p>
+        <p xml:id="timf-grat-d1e212" n="p">
+          <quote xml:id="timf-grat-Qd1e214">Nullum officium referenda gracia magis necessarium. Nam si Hesiodus iubet reddere
+            maiore mensura, quam acceperis utenda, quid debemus facere prouocati beneficio? Imitari
+            agros fertiles, qui multo plus reddunt, quam acceperunt. Quia, si non dubitamus bona
+            conferre hiis, quos speramus nobis profuturos, quales debemus esse in eos qui iam
+            profuerunt? Nam demus uel non demus, in nostra potestate est; non reddere uero bono uiro
+            non licet, si absque iniuria id facere possit.</quote>
+          <ref xml:id="timf-grat-Rd1e216">Seneca in quadam epistola.</ref>
+        </p>
+        <p xml:id="timf-grat-d1e219" n="q">
+          <quote xml:id="timf-grat-Qd1e221">Ad reddendum graciam opus est et tempore et facultate et aspirante fortuna. Nichil
+            tam necessarium aut cum maiori cura dicendum, quam beneficium dare et gracias
+            agere.</quote>
+          <ref xml:id="timf-grat-Rd1e223">Seneca III. de beneficiis.</ref>
+        </p>
+        <p xml:id="timf-grat-d1e227" n="r">
+          <quote xml:id="timf-grat-Qd1e229">Quidam furtiue gracias agunt et in angulo et ad aurem. Verentur palam ferre, ut sua
+            pocius uirtute quam alieno adiutorio habere dicantur.</quote>
+          <ref xml:id="timf-grat-Rd1e231">Seneca II. libro de beneficiis.</ref>
+        </p>
+        <p xml:id="timf-grat-d1e234" n="s">
+          <quote xml:id="timf-grat-Qd1e236">Nunquam tibi graciam referre potero, tamen illud certe non desinam ubique confiteri
+            me referre non posse. Nam qui grate beneficium accipit, primam eius pensionem
+            soluit.</quote>
+          <ref xml:id="timf-grat-Rd1e238">Seneca ibidem.</ref>
+        </p>
+        <p xml:id="timf-grat-d1e241" n="t">
+          <quote xml:id="timf-grat-Qd1e243">Sapiens omnia examinabit secum quantum acceperit, a quo et quando, ubi,
+            quemadmodum. Itaque negamus quemquam scire graciam referre nisi sapientem.</quote>
+          <ref xml:id="timf-grat-Rd1e245">Seneca LXXXII. epistola.</ref>
+        </p>
+        <p xml:id="timf-grat-d1e248" n="u">
+          <quote xml:id="timf-grat-Qd1e250">Hoc certe iusticie conuenit suam cuique reddere beneficio graciam, iniurie talionem
+            aut certe malam graciam.</quote>
+          <ref xml:id="timf-grat-Rd1e252">Seneca LXXXIII. epistola.</ref>
+        </p>
+        <p xml:id="timf-grat-d1e255" n="x">
+          <quote xml:id="timf-grat-Qd1e257">Non omnes grati sciunt, debere beneficium potest eciam imprudens et rudis et unus e
+            turba, ignorat autem quantum pro re debeat.</quote>
+          <ref xml:id="timf-grat-Rd1e259">Seneca ibidem.</ref>
+        </p>
+        <p xml:id="timf-grat-d1e262" n="y">
+          <quote xml:id="timf-grat-Qd1e264">Sapienti notum est quanti res queque taxanda sit. Nam stultus, eciam si bone
+            uoluntatis est, aut minus quam debet aut tempore aut quod non debet reddit loco, id quod
+            reddendum est effundit atque abicit.</quote>
+          <ref xml:id="timf-grat-Rd1e266">Seneca ibidem.</ref>
+        </p>
+        <p xml:id="timf-grat-d1e270" n="z">
+          <quote xml:id="timf-grat-Qd1e272">Nemo eciam referre graciam scit nisi sapiens. Stultus autem quemadmodum potest
+            refert; sciencia illi pocius quam uoluntas deest, uelle non discitur. Sapiens omnia
+            inter se comparabit. Maius enim aut minus fit, quamuis idem sit tempore, loco,
+            causa.</quote>
+          <ref xml:id="timf-grat-Rd1e274">Seneca ibidem.</ref>
+        </p>
+        <p xml:id="timf-grat-d1e277" n="ab">
+          <quote xml:id="timf-grat-Qd1e279">Gratus sum non ut alius michi libencius prestet priori irretitus exemplo, sed ut
+            rem iocundissimam faciam.</quote>
+          <ref xml:id="timf-grat-Rd1e281">Seneca ibidem.</ref>
+        </p>
+        <p xml:id="timf-grat-d1e284" n="ac">
+          <quote xml:id="timf-grat-Qd1e286">Credamus itaque nil esse grato animo honestius; omnes hoc urbes, omnes eciam ex
+            barbaris regionibus gentes conclamabunt. In omni iudiciorum diuersitate referendam bene
+            merentibus graciam omnes uno ore affirmabunt. In hiis discors turba consenciet.</quote>
+          <ref xml:id="timf-grat-Rd1e288">Seneca ibidem.</ref>
+        </p>
+        <p xml:id="timf-grat-d1e291" n="ubi">
+          <ref xml:id="timf-grat-Rd1e293">Beneficiencia</ref>; <ref xml:id="timf-grat-Rd1e295">Creatio e</ref>, <ref xml:id="timf-grat-Rd1e297">f</ref>; <ref xml:id="timf-grat-Rd1e299">Dilectio d</ref>,
+            <ref xml:id="timf-grat-Rd1e301">o</ref>; <ref xml:id="timf-grat-Rd1e304">Homo l</ref>; <ref xml:id="timf-grat-Rd1e306">Ingratitudo</ref>; <ref xml:id="timf-grat-Rd1e308">Lacrima n</ref>; <ref xml:id="timf-grat-Rd1e310">Laus
+            ah</ref>; <ref xml:id="timf-grat-Rd1e312">Nocumentum h</ref>; <ref xml:id="timf-grat-Rd1e314">Paciencia e</ref>, <ref xml:id="timf-grat-Rd1e317">ar</ref>; <ref xml:id="timf-grat-Rd1e319">Virtus
+            i.</ref>
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

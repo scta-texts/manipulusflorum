@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Gaudium</title>
+        <author ref="#ThomasOfIreland">Thomas Hybernicus</author>
+        <respStmt>
+          <name>Chris Nighman</name>
+          <resp>Editor</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Gaudium</title>
+          <date when="2024-10-16">October 16, 2024</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref>SCTA</ref> and <ref target="http://www.manipulusflorum.com/">Manipulus floreum
+            Project</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Pb" n="bnf15985">Bnf 15985</witness>
+          <witness xml:id="Pc" n="bnf15986">Bnf 15986</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2024-10-16" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="timf-gaud">
+        <head xml:id="timf-gaud-Hd1e109">Gaudium</head>
+        <p xml:id="timf-gaud-d1e111" n="a">
+          <quote xml:id="timf-gaud-Qd1e113" source="http://scta.info/resource/aconf-l10-d1e262@19-54">Est gaudium quod non datur impiis, sed eis qui te gratis colunt, quorum gaudium tu
+            ipse es. Et ipsa est beata uita gaudere de te, propter te. Ipsa est et non est
+            altera.</quote>
+          <ref xml:id="timf-gaud-Rd1e115">Augustinus X. confessionum.</ref>
+        </p>
+        <p xml:id="timf-gaud-d1e118" n="b">
+          <quote xml:id="timf-gaud-Qd1e120">Temporalibus gaudent, qui bona eterna desiderare non norunt.</quote>
+          <ref xml:id="timf-gaud-Rd1e122">Augustinus super Psalmum LII.</ref>
+        </p>
+        <p xml:id="timf-gaud-d1e125" n="c">
+          <quote xml:id="timf-gaud-Qd1e127" source="http://scta.info/resource/iuy75t-d1e100-d1e2171@41-61">Comparemus gaudia ueritatis cum gaudio uanitatis; et si horremus, doleamus; si
+            dolemus, oremus; si oramus, exaudiamur; si exaudiamur, et illos lucramur.</quote>
+          <ref xml:id="timf-gaud-Rd1e129">Augustinus super Iohannem.</ref>
+        </p>
+        <p xml:id="timf-gaud-d1e132" n="d">
+          <quote xml:id="timf-gaud-Qd1e134">Inepta leticia dicit: Vt quid animi gaudium intus abscondis? Ingredere in publicum
+            letus, dic aliquid foris unde uel tu uel proximi rideant; fac eos letos tua
+            leticia.</quote>
+          <ref xml:id="timf-gaud-Rd1e136">Augustinus de conflictu uiciorum.</ref>
+        </p>
+        <p xml:id="timf-gaud-d1e140" n="e">
+          <quote xml:id="timf-gaud-Qd1e142">Animi leticia interdum corporis dolores mitigat; quod si ad egrotationem corporis
+            accedat egritudo animi, duplicatur infirmitas.</quote>
+          <ref xml:id="timf-gaud-Rd1e144">Ieronymus super Ysaiam.</ref>
+        </p>
+        <p xml:id="timf-gaud-d1e147" n="f">
+          <quote xml:id="timf-gaud-Qd1e149">Dignum est itaque, ut in se semper homo merores inueniat ut qui, derelicto
+            creatore, gaudium in se querebat.</quote>
+          <ref xml:id="timf-gaud-Rd1e151">Gregorius XII. moralium.</ref>
+        </p>
+        <p xml:id="timf-gaud-d1e154" n="g">
+          <quote xml:id="timf-gaud-Qd1e156">Iure restat, ut quot prius in mundo incolumes habuimus gaudia, tot de ipso
+            postmodum cogamur sentire tormenta.</quote>
+          <ref xml:id="timf-gaud-Rd1e158">Gregorius in moralibus.</ref>
+        </p>
+        <p xml:id="timf-gaud-d1e161" n="h">
+          <quote xml:id="timf-gaud-Qd1e163">Fit plerumque, ut in ipsis piis fletibus illa interni gaudii claritas erumpat; et
+            mens que in corpore prius ceca iacuerat, ad inspectionem fulgoris intimi suspiriis
+            uegetata conualescat.</quote>
+          <ref xml:id="timf-gaud-Rd1e165">Ibidem.</ref>
+        </p>
+        <p xml:id="timf-gaud-d1e168" n="i">
+          <quote xml:id="timf-gaud-Qd1e170">Non nunquam quicquid gaudii, quicquid uirtutis fauere uidebatur, subito in pauore
+            temptationis amittitur, et quasi euacuaturus eisdem uirtutibus tristis animus solo
+            merore possidetur.</quote>
+          <ref xml:id="timf-gaud-Rd1e172">Ibidem.</ref>
+        </p>
+        <p xml:id="timf-gaud-d1e175" n="k">
+          <quote xml:id="timf-gaud-Qd1e177">Iubilum namque dicitur, quando ineffabile gaudium mente concipitur, quod nec
+            abscondi possit, nec sermonibus aperiri, et tamen quibusdam proditur motibus, quamuis
+            nullis proprietatibus exprimatur.</quote>
+          <ref xml:id="timf-gaud-Rd1e179">Gregorius libro XXIIII. moralium.</ref>
+        </p>
+        <p xml:id="timf-gaud-d1e183" n="l">
+          <quote xml:id="timf-gaud-Qd1e185">Iubilatio dicitur cum cordis leticia oris efficacia non expletur, sed quibusdam
+            modis gaudium prodit, quod ipse qui gaudet, nec regere preualet, nec explere.</quote>
+          <ref xml:id="timf-gaud-Rd1e187">Gregorius libro XXVIII. moralium.</ref>
+        </p>
+        <p xml:id="timf-gaud-d1e190" n="m">
+          <quote xml:id="timf-gaud-Qd1e192">Solet leticia archana mentis aperire, atque aperiendo amittere, aduersa uero cum
+            nos exterius deprimunt, interius cautiores reddunt.</quote>
+          <ref xml:id="timf-gaud-Rd1e194">Ibidem.</ref>
+        </p>
+        <p xml:id="timf-gaud-d1e197" n="n">
+          <quote xml:id="timf-gaud-Qd1e199">Illud est uerum ac summum gaudium, quod non de creatura sed de creatore concipitur,
+            quod cum acceperis nemo tollet a te, cui aliunde comparata omnis iocunditas meror est,
+            omnis suauitas dolor est, omne dulce amarum est, omne decorum fedum est, omne postremo
+            quod delectari potest molestum est.</quote>
+          <ref xml:id="timf-gaud-Rd1e201">Bernardus in quodam sermone.</ref>
+        </p>
+        <p xml:id="timf-gaud-d1e204" n="o">
+          <quote xml:id="timf-gaud-Qd1e206">Verum gaudium non possidetur, nisi pax et iusticia teneatur. Prima enim est et
+            quasi radix iusticia, secunda pax, tercia gaudium; de iusticia nascitur pax, de pace
+            gaudium generatur</quote>. <ref xml:id="timf-gaud-Rd1e208">Cesarius in ammonitione XL.</ref>
+        </p>
+        <p xml:id="timf-gaud-d1e211" n="p">
+          <quote xml:id="timf-gaud-Qd1e213">Mensura leticie de magnitudine nuncii uenit, et tanta fit alacritas animi, quanta
+            fuerit consideratio rei.</quote>
+          <ref xml:id="timf-gaud-Rd1e215">Cassiodorus libro I. epistolarum.</ref>
+        </p>
+        <p xml:id="timf-gaud-d1e218" n="q">
+          <quote xml:id="timf-gaud-Qd1e220">Bonum insolitum plus amatur et sequenti gaudio confert dulcedinem temporum premissa
+            tristicia.</quote>
+          <ref xml:id="timf-gaud-Rd1e222">Cassiodorus ibidem.</ref>
+        </p>
+        <p xml:id="timf-gaud-d1e226" n="r">
+          <quote xml:id="timf-gaud-Qd1e228">Dicimus nos magnum gaudium ex illius consulatu quod non est gaudium, sed ut sepe
+            inicium future tristicie. Gaudio enim iunctum est non desinere nec in contrarium uerti.
+            Omnes tendunt ad gaudium, sed unde stabile et magnum consequantur ignorant. Ille ex
+            conuiuiis et luxuria, ille ex ambitione et circumfusa clientum turba, ille ex amica,
+            alius ex studiorum liberalium uana ostentatione et nil sonantibus litteris: omnes istos
+            oblectamenta fallacia et breuia decipiunt, sicut ebrietas, que unius hore hylarem
+            insaniam longi temporis tedio pensat.</quote>
+          <ref xml:id="timf-gaud-Rd1e230">Seneca LXVII. epistola.</ref>
+        </p>
+        <p xml:id="timf-gaud-d1e233" n="s">
+          <quote xml:id="timf-gaud-Qd1e235">Malum alienum tuum ne feceris gaudium.</quote>
+          <ref xml:id="timf-gaud-Rd1e237">Seneca in prouerbiis.</ref>
+        </p>
+        <p xml:id="timf-gaud-d1e240" n="ubi">
+          <ref xml:id="timf-gaud-Rd1e242">Contemptus m</ref>; <ref xml:id="timf-gaud-Rd1e244">Iudex t</ref>; <ref xml:id="timf-gaud-Rd1e246">Securitas n</ref>; <ref xml:id="timf-gaud-Rd1e248">Tristicia</ref>.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

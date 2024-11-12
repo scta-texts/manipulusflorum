@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Homicidium</title>
+        <author ref="#ThomasOfIreland">Thomas Hybernicus</author>
+        <respStmt>
+          <name>Chris Nighman</name>
+          <resp>Editor</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Homicidium</title>
+          <date when="2024-11-12">November 12, 2024</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref>SCTA</ref> and <ref target="http://www.manipulusflorum.com/">Manipulus floreum
+            Project</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Pb" n="bnf15985">Bnf 15985</witness>
+          <witness xml:id="Pc" n="bnf15986">Bnf 15986</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2024-11-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="timf-homi">
+        <head xml:id="timf-homi-Hd1e109">Homicidium</head>
+        <p xml:id="timf-homi-d1e111" n="a">
+          <quote xml:id="timf-homi-Qd1e113" source="http://scta.info/resource/gd-p2c23q8-d1e625"> Qui sine aliqua publica administratione malificum interfecerit, uelut homicida
+            iudicabitur, et tanto amplius, quanto sibi potestatem a Deo non concessam usurpare non
+            timuit</quote>
+          <ref xml:id="timf-homi-Rd1e115">Augustinus libro I. de ciuitate Dei. </ref>
+        </p>
+        <p xml:id="timf-homi-d1e118" n="b">
+          <quote xml:id="timf-homi-Qd1e120" source="http://scta.info/resource/iuy75t-d1e386-d1e779@118-147"> Homicida dicitur dyabolus, non gladio armatus, non ferro accinctus; ad hominem
+            uenit, uerbum seminauit et occidit. Noli ergo putare te non esse homicidam, quando
+            fratri tuo mala persuades</quote>
+          <ref xml:id="timf-homi-Rd1e122">Augustinus super Iohannem. </ref>
+        </p>
+        <p xml:id="timf-homi-d1e125" n="c">
+          <quote xml:id="timf-homi-Qd1e127"> Tot occidimus, quot ad mortem ire cotidie tepidi et tacentes uidemus</quote>
+          <ref xml:id="timf-homi-Rd1e129">Gregorius super Ezechielem. </ref>
+        </p>
+        <p xml:id="timf-homi-d1e132" n="d">
+          <quote xml:id="timf-homi-Qd1e134"> Qui bonum odit in homine, nunquid homicida poterit appellari? Adhuc uiuit homo, et
+            ille iam reus est mortis eius</quote>
+          <ref xml:id="timf-homi-Rd1e136">Bernardus in sermone quodam. </ref>
+        </p>
+        <p xml:id="timf-homi-d1e140" n="e">
+          <quote xml:id="timf-homi-Qd1e142"> Nec interest quis occidat, si innocentem aliquis occidendum esse
+            pronunciet</quote>
+          <ref xml:id="timf-homi-Rd1e144">Cassiodorus super Psalmum LXII. </ref>
+        </p>
+        <p xml:id="timf-homi-d1e147" n="ubi"> (abest) </p>
+
+      </div>
+    </body>
+  </text>
+</TEI>

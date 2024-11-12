@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Gratia</title>
+        <author ref="#ThomasOfIreland">Thomas Hybernicus</author>
+        <respStmt>
+          <name>Chris Nighman</name>
+          <resp>Editor</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Gratia</title>
+          <date when="2024-10-16">October 16, 2024</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref>SCTA</ref> and <ref target="http://www.manipulusflorum.com/">Manipulus floreum
+            Project</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Pb" n="bnf15985">Bnf 15985</witness>
+          <witness xml:id="Pc" n="bnf15986">Bnf 15986</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2024-10-16" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="timf-grat">
+        <head xml:id="timf-grat-Hd1e109">Gratia</head>
+        <p xml:id="timf-grat-d1e111" n="a1">
+          <quote xml:id="timf-grat-Qd1e113">Homo tunc peccatis uincitur, dum uiribus suis iuste uiuere conatur sine adiutorio
+            liberantis gracie Dei.</quote>
+          <ref xml:id="timf-grat-Rd1e115">Augustinus super epistolam ad Romanos.</ref>
+        </p>
+        <p xml:id="timf-grat-d1e118" n="a2">
+          <quote xml:id="timf-grat-Qd1e120" source="http://scta.info/resource/iuy75t-d1e67-d1e1715@241-260">Si graciam ideo tibi dedit Deus, quia gratis dedit, gratis ama. Noli ad premium
+            diligere Deum; ipse sit premium tuum.</quote>
+          <ref xml:id="timf-grat-Rd1e123">Augustinus super Iohannem.</ref>
+        </p>
+        <p xml:id="timf-grat-d1e126" n="b">
+          <quote xml:id="timf-grat-Qd1e128">Si leuis morbus esset, contempneretur; si morbus contempneretur, medicus non
+            quereretur; si medicus contempneretur, morbus non finiretur. Ideo ubi habundauit
+            peccatum, superabundauit et gracia.</quote>
+          <ref xml:id="timf-grat-Rd1e130">Augustinus de uerbis apostolorum.</ref>
+        </p>
+        <p xml:id="timf-grat-d1e133" n="c">
+          <quote xml:id="timf-grat-Qd1e135" source="http://scta.info/resource/augen-d1e244-d1e119@111-128">Sola gracia discernit redemptos a perditis, quos in unam concreuerat massam
+            perditionis ab origine ducta causa communis.</quote>
+          <ref xml:id="timf-grat-Rd1e138">Augustinus in encheridion.</ref>
+        </p>
+        <p xml:id="timf-grat-d1e142" n="d">
+          <quote xml:id="timf-grat-Qd1e144">Dei gracia cur ad istum ueniat, ad illum non ueniat, occulta esse causa potest,
+            iniusta non potest.</quote>
+          <ref xml:id="timf-grat-Rd1e146">Augustinus de baptismo paruulorum.</ref>
+        </p>
+        <p xml:id="timf-grat-d1e149" n="e">
+          <quote xml:id="timf-grat-Qd1e151">Lex Dei caritas est. Lex data est ut gracia quereretur; gracia data est ut lex
+            impleretur.</quote>
+          <ref xml:id="timf-grat-Rd1e153">Augustinus de spiritu et littera.</ref>
+        </p>
+        <p xml:id="timf-grat-d1e156" n="f">
+          <quote xml:id="timf-grat-Qd1e158">Talis est gracia Spiritus Sancti, ut si in corde tristiciam inuenit, consumit et
+            dissoluit; si desiderium, permansiuum facit; si trepidationem, eciam abicit.</quote>
+          <ref xml:id="timf-grat-Rd1e160">Augustinus in quodam sermone.</ref>
+        </p>
+        <p xml:id="timf-grat-d1e163" n="g">
+          <quote xml:id="timf-grat-Qd1e165">Vberior est gracia quam precatio. Semper enim plus Dominus tribuit quam
+            rogatur.</quote>
+          <ref xml:id="timf-grat-Rd1e167">Ambrosius super Lucam.</ref>
+        </p>
+        <p xml:id="timf-grat-d1e170" n="h">
+          <quote xml:id="timf-grat-Qd1e172">Gratia uehementior est ad diligendum quam natura. Reddendo uacuatur pecunia, gracia
+            autem et habendo soluitur et soluendo retinetur.</quote>
+          <ref xml:id="timf-grat-Rd1e174">Ambrosius de officiis.</ref>
+        </p>
+        <p xml:id="timf-grat-d1e177" n="i">
+          <quote xml:id="timf-grat-Qd1e179">Dum nos gracia diuini respectus illuminat, cuncta mentis nostre nobis abscondita
+            manifestat.</quote>
+          <ref xml:id="timf-grat-Rd1e181">Gregorius libro VIII. moralium.</ref>
+        </p>
+        <p xml:id="timf-grat-d1e185" n="k">
+          <quote xml:id="timf-grat-Qd1e187">Filii Israel manna deserentes, cum peponibus et carnibus porros cepasque
+            quesierunt, quia uidelicet peruerse mentes gracie dona despiciunt, et pro carnalibus
+            uoluptatibus laboriosa huius uite itinera eciam lacrimis plena concupiscunt.</quote>
+          <ref xml:id="timf-grat-Rd1e189">Gregorius in moralibus.</ref>
+        </p>
+        <p xml:id="timf-grat-d1e192" n="l">
+          <quote xml:id="timf-grat-Qd1e194">Cum per semet ipsum loquitur Deus, de uerbo eius sine uerbis et sillabis cor
+            docetur, quia uirtus eius intima quadam subleuatione cognoscitur. Ad quam mens plena
+            suspenditur, uacua grauatur. Pondus quoddam est quod omnem animam quam replet
+            leuat.</quote>
+          <ref xml:id="timf-grat-Rd1e196">Gregorius ibidem.</ref>
+        </p>
+        <p xml:id="timf-grat-d1e199" n="m">
+          <quote xml:id="timf-grat-Qd1e201">Gracia in tribus consistere arbitror: in odio preteritorum malorum, contemptu
+            presencium bonorum, et desiderio futurorum.</quote>
+          <ref xml:id="timf-grat-Rd1e203">Bernardus de libero arbitrio.</ref>
+        </p>
+        <p xml:id="timf-grat-d1e206" n="n">
+          <quote xml:id="timf-grat-Qd1e208">Preoccupatum quippe secularibus desideriis animum delectatio sancta declinat, nec
+            misceri poterunt uana ueris, eterna caducis, spiritualia corporalibus, summa ymis, ut
+            pariter sapias que sursum sunt et que super terram.</quote>
+          <ref xml:id="timf-grat-Rd1e210">Bernardus sermone LXXVII.</ref>
+        </p>
+        <p xml:id="timf-grat-d1e213" n="o">
+          <quote xml:id="timf-grat-Qd1e215">In ueritate didici nil eque efficax esse ad graciam promerendam, retinendam,
+            recuperandam, quam si omni tempore coram Deo inueniaris nec altum sapere, sed timere.
+            Beatus homo qui semper pauidus est. Time cum abierit, time cum denuo reuertetur, et hoc
+            est semper pauidum esse.</quote>
+          <ref xml:id="timf-grat-Rd1e217">Bernardus super Cantica sermone LIIII.</ref>
+        </p>
+        <p xml:id="timf-grat-d1e220" n="p">
+          <quote xml:id="timf-grat-Qd1e222">Gracia balsamum purissimum est; et ideo purum, solidum et profundum uas
+            requirit.</quote>
+          <ref xml:id="timf-grat-Rd1e224">Bernardus ibidem.</ref>
+        </p>
+        <p xml:id="timf-grat-d1e228" n="q">
+          <quote xml:id="timf-grat-Qd1e230">Aliquando plerique et uitam habentes mundam, non accipiunt graciam. Quare? Ne in
+            superbiam eleuentur, ne inflentur uentositate iactancie, ne altitudo muneris
+            negligentiores efficiat.</quote>
+          <ref xml:id="timf-grat-Rd1e232">Crisostomus super epistolam ad Hebreos.</ref>
+        </p>
+        <p xml:id="timf-grat-d1e235" n="r">
+          <quote xml:id="timf-grat-Qd1e237">Pauper et creditor obuiauerunt sibi, utriusque illuminator est Dominus. Prouerbium
+            XXIX. Glossa Bede: Pauper est humilis auditor, creditor, predicator qui sibi obuiant cum
+            in unam pietatis graciam conueniunt. Vtriusque illuminator est Dominus, quia nec iste
+            predicat, nec ille credit sine Dei munere. Vnde sine me nichil potestis facere.</quote>
+          <ref xml:id="timf-grat-Rd1e239">Beda in glossa.</ref>
+        </p>
+        <p xml:id="timf-grat-d1e242" n="ubi">
+          <ref xml:id="timf-grat-Rd1e244" target="http://scta.info/resource/timf-adue-d1e145">Aduentus b</ref>; <ref xml:id="timf-grat-Rd1e247" target="http://scta.info/resource/timf-anim-d1e387">Anima o</ref>; <ref xml:id="timf-grat-Rd1e250">Cor d</ref>; <ref xml:id="timf-grat-Rd1e252">Creatio b</ref>;
+            <ref xml:id="timf-grat-Rd1e254">Deuotio h</ref>; <ref xml:id="timf-grat-Rd1e257">Maria r</ref>; <ref xml:id="timf-grat-Rd1e259">Penitencia m</ref>; <ref xml:id="timf-grat-Rd1e261">Predicatio
+            ae</ref>; <ref xml:id="timf-grat-Rd1e263">Salus a</ref>. </p>
+      </div>
+    </body>
+  </text>
+</TEI>

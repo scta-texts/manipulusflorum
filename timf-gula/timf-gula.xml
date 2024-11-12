@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Gula</title>
+        <author ref="#ThomasOfIreland">Thomas Hybernicus</author>
+        <respStmt>
+          <name>Chris Nighman</name>
+          <resp>Editor</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Gula</title>
+          <date when="2024-11-12">November 12, 2024</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref>SCTA</ref> and <ref target="http://www.manipulusflorum.com/">Manipulus floreum
+            Project</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Pb" n="bnf15985">Bnf 15985</witness>
+          <witness xml:id="Pc" n="bnf15986">Bnf 15986</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2024-11-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="timf-gula">
+        <head xml:id="timf-gula-Hd1e109">Gula</head>
+        <p xml:id="timf-gula-d1e111" n="a">
+          <quote xml:id="timf-gula-Qd1e113"> Ventris ingluuies dicit, ad esum Dominus omnia munda creauit, et qui saturari cibo
+            respuit, quid aliud quam diuine ordinacioni contradicit? </quote>
+          <ref xml:id="timf-gula-Rd1e115"> Augustinus in libro de conflictu uiciorum. </ref>
+        </p>
+        <p xml:id="timf-gula-d1e118" n="b">
+          <quote xml:id="timf-gula-Qd1e120"> Non propter porcum, sed propter pomum mortem primus homo inuenit, et Esau primatum
+            suum non propter gallinam, sed propter lenticulam perdidit. Scio enim Noe omne genus
+            carnis, quod cibo esset usui manducare concessum, Elyam cibo carnis refectum, Iohannem
+            mirabili abstinencia preditum animalibus, id est locustis in escam cedentibus, non
+            fuisse pollutum. Et scio Esau lenticule concupiscencia deceptum, et Dauid propter aque
+            desiderium a seipso reprehensum, et regem nostrum non de carne sed de pane temptatum. </quote>
+          <ref xml:id="timf-gula-Rd1e122"> Augustinus in glossa super illud Romanos XIIII: Noli propter escam destruere opus
+            Dei omnia quidem munda sunt. </ref>
+        </p>
+        <p xml:id="timf-gula-d1e125" n="c">
+          <quote xml:id="timf-gula-Qd1e127"> Male domine seruitur gule, que semper expetit, numquam expletur. Quid enim
+            insaciabilius uentre? Hodie suscipit, cras exiget. Cum impletus fuerit, disputatur de
+            continencia; cum digesserit, uale uirtutibus dicitur. </quote>
+          <ref xml:id="timf-gula-Rd1e129"> Ambrosius in sermone de ieiunio. </ref>
+        </p>
+        <p xml:id="timf-gula-d1e132" n="d">
+          <quote xml:id="timf-gula-Qd1e134"> Fames amica uirginitati est inimica lasciuie. Saturitas uero castitatem prodigit,
+            nutrit illecebram. </quote>
+          <ref xml:id="timf-gula-Rd1e136"> Ambrosius in sermone de quadragesima. </ref>
+        </p>
+        <p xml:id="timf-gula-d1e140" n="e">
+          <quote xml:id="timf-gula-Qd1e142"> Sit uilis et uespertinus cibus olera et legumina interdumque pisciculos pro summis
+            ducas deliciis. Qui Christum desiderat et illo pane uescitur, non querit magno opere,
+            quam de preciosis cibis stercus conficiat. </quote>
+          <ref xml:id="timf-gula-Rd1e144"> Ieronymus in epistola ad Paulinum. </ref>
+        </p>
+        <p xml:id="timf-gula-d1e147" n="f">
+          <quote xml:id="timf-gula-Qd1e149"> Ypocrates in amphorismis docet crassa et obesa corpora, que crescendi mensuram
+            impleuerunt, nisi cito ablacione sanguinis imminuantur, in paralisim et pessima morborum
+            genera erumpere, et idcirco necessariam esse dempcionem, ut rursum habeant in que
+            possint crescere. Non enim manere in uno statu naturam corporum, sed aut crescere semper
+            aut decrescere, non posse uiuere animal, nisi crescendo capax sit. Vnde et Galienus uel
+            doctissimus Galieni interpres adepta, quorum uita et ars sagina est, dicit in
+            exhortacione medicine, nec uiuere posse diu nec sanos esse, animasque ita nimio sanguine
+            et adipibus, quasi luto inuolutas, nichil tenue, nichil celeste, sed semper de carnibus
+            eructuare et uentris ingluuie cogitare. </quote>
+          <ref xml:id="timf-gula-Rd1e151"> Ieronymus in epistola. </ref>
+        </p>
+        <p xml:id="timf-gula-d1e154" n="g">
+          <quote xml:id="timf-gula-Qd1e156"> Legimus quosdam morbo articulari et podagre humoribus laborantes, proscripcione
+            bonorum ad simplicem mensam et pauperes cibos redactos conualuisse. Caruerant enim
+            sollicitudine dispensande domus et epularum largitate, que et corpus frangunt et animum. </quote>
+          <ref xml:id="timf-gula-Rd1e158"> Ieronymus in epistola ad Iouinianum. </ref>
+        </p>
+        <p xml:id="timf-gula-d1e161" n="h">
+          <quote xml:id="timf-gula-Qd1e163"> Semper saturitati iuncta lasciuia est. Vicina sunt sibi uenter et genitalia pro
+            membrorum ordine ordo uiciorum. </quote>
+          <ref xml:id="timf-gula-Rd1e165"> Ieronymus in quodam sermone. </ref>
+        </p>
+        <p xml:id="timf-gula-d1e168" n="i">
+          <quote xml:id="timf-gula-Qd1e170"> Non cibus sed appetitus in uicio est. Vnde et lautiores cibos plerumque sine culpa
+            sumimus, et abiectiores non sine reatu consciencie degustamus. </quote>
+          <ref xml:id="timf-gula-Rd1e172"> Gregorius libro XXX. moralium. </ref>
+        </p>
+        <p xml:id="timf-gula-d1e175" n="k">
+          <quote xml:id="timf-gula-Qd1e177"> Dominante gule uicio, omne quod homines fortiter egerunt perdunt, et dum uenter
+            non restringitur, simul cuncte uirtutes obruuntur. </quote>
+          <ref xml:id="timf-gula-Rd1e179"> Gregorius ibidem. </ref>
+        </p>
+        <p xml:id="timf-gula-d1e183" n="l">
+          <quote xml:id="timf-gula-Qd1e185"> Cocorum princeps muros Iherusalem deicit, quia dum uenter ingluuie tenditur,
+            uirtutes anime per luxuriam destruuntur. </quote>
+          <ref xml:id="timf-gula-Rd1e187"> Gregorius in pastorali. </ref>
+        </p>
+        <p xml:id="timf-gula-d1e190" n="m">
+          <quote xml:id="timf-gula-Qd1e192"> Pene semper epulas comitatur uoluptas. Nam dum corpus in refectionis delectacione
+            resoluitur, cor ad inane gaudium relaxatur. </quote>
+          <ref xml:id="timf-gula-Rd1e194"> Gregorius libro I. moralium. </ref>
+        </p>
+        <p xml:id="timf-gula-d1e197" n="n">
+          <quote xml:id="timf-gula-Qd1e199"> Non ad conflictum spiritualis agonis assurgitur, si non prius intra nosmetipsos
+            hostis positus, gule uidelicet appetitus, edomatur; quia si non ea que nobis sunt
+            uiciniora prosternimus, inaniter ad ea que longius sunt impugnanda transimus. Incassum
+            namque contra exteriores inimicos in campo bellum geritur, si intra urbis menia ciuis
+            insidians habetur. </quote>
+          <ref xml:id="timf-gula-Rd1e201"> Gregorius libro XXX. moralium. </ref>
+        </p>
+        <p xml:id="timf-gula-d1e204" n="o">
+          <quote xml:id="timf-gula-Qd1e206"> Sepe edendi racio seruit gule, et seruire se simulat indigencie nature, cumque
+            uenter in ingluuiem extendit, membra in luxuriam erigit. </quote>
+          <ref xml:id="timf-gula-Rd1e208"> Gregorius libro VII. moralium. </ref>
+        </p>
+        <p xml:id="timf-gula-d1e211" n="p">
+          <quote xml:id="timf-gula-Qd1e213"> Sic uoluptas plerumque sub necessitate se palliat, ut uix eam perfectus quisque
+            discernat. Nam dum solui debitum necessitas petit, uoluptas explere desiderium suppetit;
+            et tanto gulam securius in preceps ruit, quanto sub honesto nomine necessitatis explende
+            se contegit. </quote>
+          <ref xml:id="timf-gula-Rd1e215"> Gregorius libro XXX. moralium. </ref>
+        </p>
+        <p xml:id="timf-gula-d1e218" n="q">
+          <quote xml:id="timf-gula-Qd1e220"> Melius est exiguo sanguine ad usum uesci, quam uentoso legumine usque ad ructum
+            exsaturari, precipue cum et Esau non de carne sed de lente sit reprehensus, et de ligno
+            Adam non de carne dampnatus, et Ionathas ex gustu mellis non carnis morti iudicatus,
+            econtra uero Helyas innoxie carnem comederit, Abraham angelos gratissime carnibus pauit,
+            et de ipsis sua fieri sacrificia Deus preceperit. </quote>
+          <ref xml:id="timf-gula-Rd1e222"> Bernardus in apologetico. </ref>
+        </p>
+        <p xml:id="timf-gula-d1e226" n="r">
+          <quote xml:id="timf-gula-Qd1e228"> Paulus Thimotheo modico uino utendum consuluit, et Dominus ipse bibit, ita ut uini
+            potator appellatus sit, apostolis quoque bibendum dedit, insuper et ex eo sacramenta sui
+            sanguinis edidit. </quote>
+          <ref xml:id="timf-gula-Rd1e230"> Bernardus ibidem. </ref>
+        </p>
+        <p xml:id="timf-gula-d1e233" n="s">
+          <quote xml:id="timf-gula-Qd1e235"> Ipsa deinde qualitas rerum talis deforis apparere curatur, ut non minus aspectus
+            quam gustus delectetur, et cum iam stomachus crebris ructibus repletum se indicet, nec
+            dum tamen curiositas saciatur. Sed dum oculi coloribus, palatum saporibus illiciuntur,
+            infelix stomachus cui nec colores lucent, nec sapores demulcent, dum omnia suscipere
+            cogitur, oppressus magis obruitur quam reficitur. </quote>
+          <ref xml:id="timf-gula-Rd1e237"> Bernardus ibidem. </ref>
+        </p>
+        <p xml:id="timf-gula-d1e240" n="t">
+          <quote xml:id="timf-gula-Qd1e242"> Inter prandendum quantum fauces dapibus, tantum aures pascuntur rumoribus, quibus
+            totum intentus modum nescias in edendo. Interim autem fercula ferculis apponuntur, et
+            pro solis carnibus a quibus abstinetur, grandia piscium corpora duplicantur. </quote>
+          <ref xml:id="timf-gula-Rd1e244"> Bernardus super Cantica. </ref>
+        </p>
+        <p xml:id="timf-gula-d1e247" n="u">
+          <quote xml:id="timf-gula-Qd1e249"> Gule saturitas nimia aciem mentis obtundit ingeniumque euertere facit. </quote>
+          <ref xml:id="timf-gula-Rd1e251"> Ysidorus libro I. de summo bono. </ref>
+        </p>
+        <p xml:id="timf-gula-d1e254" n="x">
+          <quote xml:id="timf-gula-Qd1e256"> Quibuslibet escis refectus uenter seminaria luxurie parit, nec preualet mens
+            discrecionum gubernacula moderari ciborum pondere prefocata. Non enim sola crapula uini
+            mentem inebriare consueuit, uerum eciam cunctarum escarum nimietas uacillantem eam ac
+            nutabundam reddit, omnique integritatis ac puritatis contemplacione dispoliat. </quote>
+          <ref xml:id="timf-gula-Rd1e258"> Iohannes Cassianus de institutis monachorum. </ref>
+        </p>
+        <p xml:id="timf-gula-d1e261" n="y">
+          <quote xml:id="timf-gula-Qd1e263"> Numquam poterit ardentes concupiscencie stimulos inhibere, quisquis desideria gule
+            refrenare nequierit. Interioris hominis castitas uirtutis huius consumacione
+            discernitur. Numquam enim robustioribus emulis colluctari posse confidas eum, quem in
+            leuiore conflictu conspexeris ab inferioribus paruisque superari. </quote>
+          <ref xml:id="timf-gula-Rd1e265"> Iohannes Cassianus ibidem. </ref>
+        </p>
+        <p xml:id="timf-gula-d1e269" n="z">
+          <quote xml:id="timf-gula-Qd1e271"> Impossibile est saturum uentrem pugnas interioris hominis experiri, nec bellis
+            robustioribus attemptari dignum est eum, qui potest deici leuiore conflictu. </quote>
+          <ref xml:id="timf-gula-Rd1e273"> Ibidem. </ref>
+        </p>
+        <p xml:id="timf-gula-d1e276" n="ab">
+          <quote xml:id="timf-gula-Qd1e278"> Quidam cum ad edendum assederint, inquieta quadam agitacione membrorum
+            intemperanciam animi sui designant. Caput excuciunt, brachia exerunt, manus in altum
+            expandunt, et non sine magna turpitudine quasi totum epulum simul sint absorturi,
+            ingentes quosdam conatus et gestus satis indecoros ostendunt. In uno loco sedentes
+            oculis et manibus que prope et longe sunt, omnia circumcurrunt, simul panes comminuunt,
+            uina in calices effundunt, discos in gyrum circumducunt. Hanelant et suspirant pre
+            angustia, ita ut existimes eos alium rugienti uentri patentiorem aditum querere, quasi
+            angustia faucium non possit esurienti stomacho satis sufficientem habundanciam
+            ministrare, et uelut rex super obsessam ciuitatem assultum facturus, dubitant ubi primum
+            expugnacionem aggrediantur, dum simul in omni parte irruptionem facere concupiscunt. </quote>
+          <ref xml:id="timf-gula-Rd1e280"> Hugo in suo claustrali. </ref>
+        </p>
+        <p xml:id="timf-gula-d1e283" n="ac">
+          <quote xml:id="timf-gula-Qd1e285"> Quidam supersticiosum nimis in preparandis cibis studium adhibent, infinita
+            decoctionum, frixurarum et condimentorum genera excogitantes, modo mollia, modo dura,
+            modo frigida, modo calida, modo cocta, modo assa, modo pipere, modo alleo, modo cymino,
+            modo sale condita, secundum consuetudinem pregnancium mulierum desiderantes. Ita quod
+            ibi desudant coquorum artes et fiunt uarie questiones: utrum fieri debeant assata uel
+            frixa uel elixa et tanta sollicitudine preparantur, ut deuoratis quatuor uel quinque
+            ferculis, prima non impediunt nouissima, et cum iam stomachus crebris ructibus repletum
+            se indicat, nondum tamen curiositas saciatur. Isti uidentur colere uentrem tanquam Deum. </quote>
+          <ref xml:id="timf-gula-Rd1e287"> Hugo ibidem. </ref>
+        </p>
+        <p xml:id="timf-gula-d1e290" n="ad">
+          <quote xml:id="timf-gula-Qd1e292"> Solent diis templa construi, altaria erigi, ministri ad seruiendum ordinari,
+            ymolari pecudes, thura concremari. Deo siquidem uentri templum est coquina, altare
+            mensa, ministri coci, ymolate pecudes, cocte carnes, fumus incensorum, odor saporum. </quote>
+          <ref xml:id="timf-gula-Rd1e294"> Hugo ibidem. </ref>
+        </p>
+        <p xml:id="timf-gula-d1e297" n="ae">
+          <quote xml:id="timf-gula-Qd1e299"> Gula est solius corporis causa, illecebrosus et auidus ciborum appetitus. </quote>
+          <ref xml:id="timf-gula-Rd1e301"> Huguccio. </ref>
+        </p>
+        <p xml:id="timf-gula-d1e304" n="af">
+          <quote xml:id="timf-gula-Qd1e306"> Gula uel castrimargia est uorax edacitas, naucenti stomacho applaudens, natalibus
+            finibus non contenta. </quote>
+          <ref xml:id="timf-gula-Rd1e308"> Ibidem. </ref>
+        </p>
+        <p xml:id="timf-gula-d1e312" n="ag">
+          <quote xml:id="timf-gula-Qd1e314"> Hec pestilencia, id est gula, non uulgari humilitate contenta, profundius se
+            porrigit in prelatos qui salmones, lucios, ceterosque pisces equipollenti generositate
+            presignes, uariis decoctionum cruciatos martiriis, baptizandi adulterantes officium,
+            sacri piperis fonte baptizant, ut ex tali baptismate baptizati multiformem saporis
+            graciam consequantur. In eadem mensa terrestre animal piperis inundacione submergitur,
+            piscis natat in pipere, auis eiusdem uiscositate ligatur. Dumque tot animalium genera
+            ymo uentris ergastulantur in carcere, aquatile animal secum pedestre aeriumque genus in
+            eodem sepulcro intumulari miratur, quibus si detur licencia exeundi, egressui uix porte
+            sufficit amplitudo. </quote>
+          <ref xml:id="timf-gula-Rd1e316"> Alanus libro de conplanctu nature. </ref>
+        </p>
+        <p xml:id="timf-gula-d1e319" n="ah1">
+          <quote xml:id="timf-gula-Qd1e321">Quicquid auium uolitat, quicquid piscium natat, quicquid ferarum discurrit, nostris
+            sepelitur uentribus; quere nunc cur subito moriamur, quia mortibus uiuimus.</quote>
+          <ref xml:id="timf-gula-Rd1e323">Seneca X. rethorice.</ref>
+        </p>
+        <p xml:id="timf-gula-d1e326" n="ah2">
+          <quote xml:id="timf-gula-Qd1e328">Ventri obedientes animalium numero computamur non hominum.</quote>
+          <ref xml:id="timf-gula-Rd1e330">Seneca LXI. epistola.</ref>
+        </p>
+        <p xml:id="timf-gula-d1e333" n="ai">
+          <quote xml:id="timf-gula-Qd1e335">Multos morbos fercula multa fecerunt. Innumerabiles morbos non miraberis, cocos
+            numera. </quote>
+          <ref xml:id="timf-gula-Rd1e337"> Seneca in epistola VII. </ref>
+        </p>
+        <p xml:id="timf-gula-d1e340" n="ak">
+          <quote xml:id="timf-gula-Qd1e342"> Vna silua pluribus elefantibus sufficit, homo uero non pascitur terra et mari. </quote>
+          <ref xml:id="timf-gula-Rd1e344"> Ibidem. </ref>
+        </p>
+        <p xml:id="timf-gula-d1e347" n="al">
+          <quote xml:id="timf-gula-Qd1e349"> Venter precepta non audit, poscit et appellat. Non est tamen molestus creditor;
+            paruo contentus est si das illi quod debes, non quod potes. </quote>
+          <ref xml:id="timf-gula-Rd1e351"> Seneca XXI. epistola. </ref>
+        </p>
+        <p xml:id="timf-gula-d1e355" n="am">
+          <quote xml:id="timf-gula-Qd1e357"> Inicium uite hominis aqua et panis, gulosis autem non sufficiunt fructus arborum,
+            non grana leguminum, non radices herbarum, non pisces maris, non bestie terre, non aues
+            celi, sed queruntur pigmenta, parantur aromata et nutriuntur altilia, capiuntur obessa,
+            que studiose coquntur, ante cocos que laute parantur officio ministrorum. Alius
+            contundit et colat, alius confundit et conficit, substanciam conuertit in accidens,
+            naturam mutat in artem, ut saturitas transeat in esuriem, reuocet ad appetitum; ad
+            irrigandum gulam, non ad sustentandum naturam, non ad necessitatem supplendam, sed ad
+            auiditatem explendam. </quote>
+          <ref xml:id="timf-gula-Rd1e359"> Innocencius de uilitate condicionis humane. </ref>
+        </p>
+        <p xml:id="timf-gula-d1e362" n="an">
+          <quote xml:id="timf-gula-Qd1e364"> Gula paradisum clausit, primogenitum uendidit, suspendit pistorem, decollauit
+            Baptistam. Nabussardan, princeps coquorum, templum incendit, et Ierusalem totam euertit.
+            Balthazar in conuiuio manum contra se scribentem aspexit: mane, thechel, fares; et eadem
+            nocte interfectus est a Caldeis. </quote>
+          <ref xml:id="timf-gula-Rd1e366"> Innocencius ibidem. </ref>
+        </p>
+        <p xml:id="timf-gula-d1e369" n="ubi">
+          <ref xml:id="timf-gula-Rd1e371">Abstinencia</ref>;<ref xml:id="timf-gula-Rd1e373"> Auaricia as</ref>; <ref xml:id="timf-gula-Rd1e375">Conuersacio ac</ref>, <ref xml:id="timf-gula-Rd1e377">ad</ref>,
+            <ref xml:id="timf-gula-Rd1e379">ae</ref>, <ref xml:id="timf-gula-Rd1e382">af</ref>, <ref xml:id="timf-gula-Rd1e384">ag</ref>; <ref xml:id="timf-gula-Rd1e386">Delicie n</ref>; <ref xml:id="timf-gula-Rd1e388">Deuocio m</ref>;
+            <ref xml:id="timf-gula-Rd1e390">Discrecio m</ref>; <ref xml:id="timf-gula-Rd1e392">Diuicie ac</ref>; <ref xml:id="timf-gula-Rd1e395">Ebrietas</ref>; <ref xml:id="timf-gula-Rd1e397">Gloria
+            uana</ref>; <ref xml:id="timf-gula-Rd1e399">Ieiunium q</ref>; <ref xml:id="timf-gula-Rd1e401">Peccatum o</ref>; <ref xml:id="timf-gula-Rd1e403">Sobrietas</ref>;
+            <ref xml:id="timf-gula-Rd1e405">Temperancia d</ref>; <ref xml:id="timf-gula-Rd1e408">Vicium b</ref>, <ref xml:id="timf-gula-Rd1e410">f</ref>. </p>
+      </div>
+    </body>
+  </text>
+</TEI>

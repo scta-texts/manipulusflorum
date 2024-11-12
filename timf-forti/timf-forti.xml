@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Fortitudo</title>
+        <author ref="#ThomasOfIreland">Thomas Hybernicus</author>
+        <respStmt>
+          <name>Chris Nighman</name>
+          <resp>Editor</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Fortitudo</title>
+          <date when="2024-10-16">October 16, 2024</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref>SCTA</ref> and <ref target="http://www.manipulusflorum.com/">Manipulus floreum
+            Project</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Pb" n="bnf15985">Bnf 15985</witness>
+          <witness xml:id="Pc" n="bnf15986">Bnf 15986</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2024-10-16" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="timf-forti">
+        <head xml:id="timf-forti-Hd1e109">Fortitudo</head>
+        <p xml:id="timf-forti-d1e111" n="a">
+          <quote xml:id="timf-forti-Qd1e113">Qui uera uirtute fortis est, nec temere audet nec inconsulte timet.</quote>
+          <ref xml:id="timf-forti-Rd1e115">Augustinus in epistola ad Ieronymum.</ref>
+        </p>
+        <p xml:id="timf-forti-d1e118" n="b">
+          <quote xml:id="timf-forti-Qd1e120">Nemo est qui non magis dolorem fugiat quam affectat uoluptatem, quando quidem uidemus immanissimas bestias a maximis uoluptatibus exterreri dolorum metu, contra que firmiter stat fortis.</quote>
+          <ref xml:id="timf-forti-Rd1e122">Augustinus libro LXXXIII. questionum.</ref>
+        </p>
+        <p xml:id="timf-forti-d1e125" n="c">
+          <quote xml:id="timf-forti-Qd1e127">Non mediocris animi est fortitudo, que sola defendit ornamenta uirtutum omnium, et iusticiam custodit, et que inexpiabili prelio aduersus omnia uicia decertat, inuicta ad labores, fortis ad pericula, rigidior aduersus uoluptates, ut auariciam fugiat tanquam labem quandam que uirtutem effeminat.</quote>
+          <ref xml:id="timf-forti-Rd1e129">Ambrosius libro I. de officiis.</ref>
+        </p>
+        <p xml:id="timf-forti-d1e132" n="d">
+          <quote xml:id="timf-forti-Qd1e134">Stultus sicut luna mutatur. Sapiens enim non metu frangitur, non potestate mutatur, non attollitur prosperis, non tristibus mergitur. Vbi enim sapiencia, ibi uirtus cum ibi constancia et fortitudo. Sapiens ergo idem est, animo non minuitur, non augetur rerum mutacionibus, nec ut paruulus fluctuat, ut circumferatur omni uento doctrine, sed manet perfectus in Christo, fundatus caritate, radicatus fide.</quote>
+          <ref xml:id="timf-forti-Rd1e136">Ambrosius in epistola ad Simplicianum.</ref>
+        </p>
+        <p xml:id="timf-forti-d1e140" n="e">
+          <quote xml:id="timf-forti-Qd1e142">In duobus generibus fortitudo spectatur animi: primo ut exteriora corporis pro minimis habeat et quasi superflua despicienda magis quam expetenda ducat, secundo ut ea que summa sunt omnesque res in quibus est honestas, preclara animi intencione usque ad effectum prosequatur.</quote>
+          <ref xml:id="timf-forti-Rd1e144">Ambrosius libro I. de officiis.</ref>
+        </p>
+        <p xml:id="timf-forti-d1e147" n="f">  
+          <quote xml:id="timf-forti-Qd1e149">Iusti et fortis uiri est, nec aduersis frangi, nec prosperis subleuari, sed in utroque esse moderatus.</quote>
+          <ref xml:id="timf-forti-Rd1e151">Ieronymus super Ioel.</ref>
+        </p>
+        <p xml:id="timf-forti-d1e154" n="g">
+          <quote xml:id="timf-forti-Qd1e156">Fortitudo corporis imbecillitas anime, et rursum imbecillitas corporis est fortitudo anime.</quote>
+          <ref xml:id="timf-forti-Rd1e158">Ieronymus super Amos libro II.</ref>
+        </p>
+        <p xml:id="timf-forti-d1e161" n="h">
+          <quote xml:id="timf-forti-Qd1e163">Per bonam et malam famam a dextris et a sinistris Christi miles graditur, nec laude extollitur, nec uituperacione frangitur, non diuiciis tumet, non confunditur paupertate, et leta contempnit et tristia.</quote>
+          <ref xml:id="timf-forti-Rd1e165">Ieronymus in epistola.</ref>
+        </p>
+        <p xml:id="timf-forti-d1e168" n="i">
+          <quote xml:id="timf-forti-Qd1e170">Fortitudo atque constancia uia regia est, a qua declinat ad dexteram, qui temerarius est et pertinax, ad sinistram, qui formidolosus est et pauidus.</quote>
+          <ref xml:id="timf-forti-Rd1e172">Ieronymus in originali super Ysaiam.</ref>
+        </p>
+        <p xml:id="timf-forti-d1e175" n="k">
+          <quote xml:id="timf-forti-Qd1e177">Tanto se unusquisque ad fortitudinem profecisse uerius demonstrat, quanto aliena mala robustius tolerat, Nam minus in se conualuit quem iniquitas aliena sternit. Qui in eo quod ferre contrarietatem non ualet, pusillanimitatis sue gladio confossus iacet.</quote>
+          <ref xml:id="timf-forti-Rd1e179">Gregorius libro V. moralium.</ref>
+        </p>
+        <p xml:id="timf-forti-d1e183" n="l">
+          <quote xml:id="timf-forti-Qd1e185">Fortitudo destruitur nisi per consilium fulciatur, quia quo plus se posse conspicit, eo uirtus sine racionis moderamine deterius in preceps ruit.</quote>
+          <ref xml:id="timf-forti-Rd1e187">Gregorius ibidem.</ref>
+        </p>
+        <p xml:id="timf-forti-d1e190" n="m">
+          <quote xml:id="timf-forti-Qd1e192">Iustorum fortitudo est carnem uincere, propriis uoluntatibus contraire, delectacionem uite presentis extinguere, huius mundi aspera pro eternis premiis amare, prosperitatis blandimenta contempnere, aduersitatis metum in corde superare.</quote>
+          <ref xml:id="timf-forti-Rd1e194">Gregorius libro VIII. moralium.</ref>
+        </p>
+        <p xml:id="timf-forti-d1e197" n="n">
+          <quote xml:id="timf-forti-Qd1e199">Reproborum fortitudo est transitoria sine cessacione diligere, contra flagella conditoris insensibiliter perdurare, ab amore rerum temporalium nec ex aduersitate quiescere, ad inanem gloriam eciam cum uite detrimento peruenire, malicie augmenta exquirere, bonorum uitam non solum uerbis ac moribus sed eciam gladiis impugnare, in semetipsis spem ponere, iniquitatem cotidie sine ullo desiderii defectu perpetrare.</quote>
+          <ref xml:id="timf-forti-Rd1e201">Gregorius ibidem.</ref>
+        </p>
+        <p xml:id="timf-forti-d1e204" n="o">
+          <quote xml:id="timf-forti-Qd1e206">Non numquam culpa fortium occasio uirtutis fit et uirtus infirmorum occasio peccati. Sicut influente aqua paulatim consumitur terra, sic leniter subripiente uicio mens eciam fortis absorbetur.</quote>
+          <ref xml:id="timf-forti-Rd1e208">Gregorius ibidem.</ref>
+        </p>
+        <p xml:id="timf-forti-d1e211" n="p">
+          <quote xml:id="timf-forti-Qd1e213">Fortes facti sunt sancti, terrorem domant, spiritum roborant, uirtutibus corruscant, terrena despiciunt, celestia appetunt, occidi possunt. Flecti autem nequeunt, nec sustinere falsa per infirmitatem metuunt, nec lesi unquam a ueritate conticescunt.</quote>
+          <ref xml:id="timf-forti-Rd1e215">Gregorius in quadam omelia.</ref>
+        </p>
+        <p xml:id="timf-forti-d1e218" n="q">
+          <quote xml:id="timf-forti-Qd1e220">Bonus circuitus, si iusticia querit, prudencia inuenit, fortitudo uendicat, temperancia possidet, ut sit iusticia in affectu, prudencia in intellectu, fortitudo in effectu, temperancia in usu.</quote>
+          <ref xml:id="timf-forti-Rd1e222">Bernardus libro de consideracione.</ref>
+        </p>
+        <p xml:id="timf-forti-d1e226" n="r">
+          <quote xml:id="timf-forti-Qd1e228">Sicut continens uita labor, perseuerancia et agonum certamina faciunt unumquemque uirum uirtutis appellari, sic econtra uita remissa, negligens et ignara facit uirum ignauie iudicari.</quote>
+          <ref xml:id="timf-forti-Rd1e230">Origenes super librum Numerorum omelia XXV.</ref>
+        </p>
+        <p xml:id="timf-forti-d1e233" n="s">
+          <quote xml:id="timf-forti-Qd1e235">Vir uocatur a uiribus, qui nescit in aduersis tollerando deficere, aut in prosperis aliqua elacione se iactare, sed animo stabili defixus et celestium rerum contemplacione firmatus, manet semper impauidus.</quote>
+          <ref xml:id="timf-forti-Rd1e237">Cassiodorus super Psalmum I: Beatus uir.</ref>
+        </p>
+        <p xml:id="timf-forti-d1e240" n="t">
+          <quote xml:id="timf-forti-Qd1e242">Fortitudo cum ad aspera ineunda pronum faciat, pocius communem utilitatem quam sua commoda attendit. Sicut enim sciencia remota iusticia calliditas pocius quam sapiencia appellanda est, sic animus ad periculum paratus, si sua cupiditate, non communi utilitate impellitur, temeritatis pocius nomen habet quam fortitudinis.</quote>
+          <ref xml:id="timf-forti-Rd1e244">Tullius in rethorica sua.</ref>
+        </p>
+        <p xml:id="timf-forti-d1e247" n="u">
+          <quote xml:id="timf-forti-Qd1e249">Fortitudo est immobilis inter aduersa gloriosa animi claritudo res arduas pulchre administrans, que nec aduersis infestando frangitur, nec prosperis blandiendo eleuatur.</quote>
+          <ref xml:id="timf-forti-Rd1e251">Tullius ibidem.</ref>
+        </p>
+        <p xml:id="timf-forti-d1e254" n="x">
+          <quote xml:id="timf-forti-Qd1e256">Constancia est inter fluctuantes causas et personas nulla mentis concuti trepidacione.</quote>
+          <ref xml:id="timf-forti-Rd1e258">Tullius ibidem.</ref>
+        </p>
+        <p xml:id="timf-forti-d1e261" n="y">
+          <quote xml:id="timf-forti-Qd1e263">Fortis et compositus animus est, qui nec ablatum quicquam sibi sentit nec abiectum, sed in eodem habitu est quomodocumque res cedunt, cui siue aggeruntur uulgaria bona supra res suas eminet, siue aliquid ex istis uel omnia casus excusserit, minor non fit.</quote>
+          <ref xml:id="timf-forti-Rd1e265">Seneca XXXVII. epistola.</ref>
+        </p>
+        <p xml:id="timf-forti-d1e269" n="z">
+          <quote xml:id="timf-forti-Qd1e271">Queris an omne bonum optabile sit. Si bonum est, inquis, fortiter torqueri et magno animo uti et pacienter egrotare, sequitur ut ista optabilia sint. Distingue: tormenta a me abesse uelim, sed si sustinenda fuerint, ut me in illis fortiter, honeste, animose geram optabo. Velim non incidere bellum, sed si incido, et uulnera et famem et omnia, que bellorum necessitas affert, generose feram optabo. Itaque non incommoda optabilia sunt, sed uirtus qua perferuntur incommoda. Non pati tormenta optabile est, sed pati fortiter.</quote>
+          <ref xml:id="timf-forti-Rd1e273">Seneca LXVIII. epistola.</ref>
+        </p>
+        <p xml:id="timf-forti-d1e276" n="ab">
+          <quote xml:id="timf-forti-Qd1e278">Quemadmodum hostis est perniciosior fugientibus, sic omne fortuitum incommodum magis instat cedenti et aduerso. Parata tibi est pax, si se in aliquo certamine debellata fortuna est. Corpus conualitudo tenet et non animum.</quote>
+          <ref xml:id="timf-forti-Rd1e280">Seneca LXXIX. epistola.</ref> 
+        </p>
+        <p xml:id="timf-forti-d1e283" n="ac">
+          <quote xml:id="timf-forti-Qd1e285">Fortes quidem et paratissimi fundere sanguinem suum alienum uidere non possunt.  
+            Alii facilius gladium recipiunt quam uident.</quote>
+          <ref xml:id="timf-forti-Rd1e287">Seneca LVIII. epistola.</ref>
+        </p>
+        <p xml:id="timf-forti-d1e290" n="ubi">
+          <ref xml:id="timf-forti-Rd1e292">Bellum l</ref>; <ref xml:id="timf-forti-Rd1e294">Consilium f</ref>; <ref xml:id="timf-forti-Rd1e296">Deuocio d</ref>; <ref xml:id="timf-forti-Rd1e298">Instabilitas d</ref>; <ref xml:id="timf-forti-Rd1e300">Magnanimitas</ref>; <ref xml:id="timf-forti-Rd1e303">Mors cr</ref>; <ref xml:id="timf-forti-Rd1e305">Perseuerancia f</ref>; <ref xml:id="timf-forti-Rd1e307">Prudencia n</ref>, <ref xml:id="timf-forti-Rd1e309">z</ref>; <ref xml:id="timf-forti-Rd1e311">Sapiencia az</ref>; <ref xml:id="timf-forti-Rd1e313">Timor</ref>; <ref xml:id="timf-forti-Rd1e316">Tribulacio m</ref>, <ref xml:id="timf-forti-Rd1e318">z</ref>; <ref xml:id="timf-forti-Rd1e320">Virtus af</ref>.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

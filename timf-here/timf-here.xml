@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Haeresis</title>
+        <author ref="#ThomasOfIreland">Thomas Hybernicus</author>
+        <respStmt>
+          <name>Chris Nighman</name>
+          <resp>Editor</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Haeresis</title>
+          <date when="2024-11-12">November 12, 2024</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref>SCTA</ref> and <ref target="http://www.manipulusflorum.com/">Manipulus floreum
+            Project</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Pb" n="bnf15985">Bnf 15985</witness>
+          <witness xml:id="Pc" n="bnf15986">Bnf 15986</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2024-11-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="timf-here">
+        <head xml:id="timf-here-Hd1e109">Haeresis</head>
+        <p xml:id="timf-here-d1e112" n="a">
+          <quote xml:id="timf-here-Qd1e114"> Hereticus est qui pro alicuius temporalis commodi, et maxime glorie principatusque
+            sui gracia, falsas ac nouas opiniones gignit uel sequitur</quote>
+          <ref xml:id="timf-here-Rd1e116">Augustinus de diffinitionibus. </ref>
+        </p>
+        <p xml:id="timf-here-d1e119" n="b">
+          <quote xml:id="timf-here-Qd1e121"> Hereticus est qui conceptam noui erroris perfidiam pertinaciter defendit</quote>
+          <ref xml:id="timf-here-Rd1e123">Augustinus. </ref>
+        </p>
+        <p xml:id="timf-here-d1e126" n="c">
+          <quote xml:id="timf-here-Qd1e128"> Scisma est eadem opinantem atque eodem ritu colentem quo ceteri, solo
+            aggregationis delectari dissidio, heresis uero diuersa opinatur ab hiis que catholica
+            credit ecclesia</quote>
+          <ref xml:id="timf-here-Rd1e130">Augustinus contra Faustum. </ref>
+        </p>
+        <p xml:id="timf-here-d1e133" n="d">
+          <quote xml:id="timf-here-Qd1e135"> Si qui sentenciam suam, quamuis falsam atque peruersam, nulla pertinaci
+            animositate defendunt, querunt autem tanta sollicitudine ueritatem, corrigi parati cum
+            inuenerint, nequaquam sunt inter hereticos deputandi</quote>
+          <ref xml:id="timf-here-Rd1e137">Augustinus ibidem. </ref>
+        </p>
+        <p xml:id="timf-here-d1e141" n="e">
+          <quote xml:id="timf-here-Qd1e143"> Hec est fides, papa beatissime, quam in catholica didicimus ecclesia. In qua si
+            minus perite aut parum caute forte aliquid positum est, emendari cupimus a te qui Petri
+            fidem et sedem tenes. Si autem hec nostra confessio apostolatus tui iudicio comprobatur,
+            quicumque me culpare uoluerit, se imperitum uel maliuolum, uel eciam non catholicum sed
+            hereticum, comprobabit</quote>
+          <ref xml:id="timf-here-Rd1e145">Ieronymus in epistola. </ref>
+        </p>
+        <p xml:id="timf-here-d1e148" n="f">
+          <quote xml:id="timf-here-Qd1e150"> Resecande sunt putride carnes, et scabiosa ouis a caulis repellenda, ne tota
+            domus, massa et peccora ardeat, corrumpatur, putrescat, intereat. Arcius in Alexandria
+            una scintilla fuit, sed quoniam non statim oppressus est, totum orbem eius flamma
+            populata est</quote>
+          <ref xml:id="timf-here-Rd1e152">Ieronymus. </ref>
+        </p>
+        <p xml:id="timf-here-d1e155" n="g">
+          <quote xml:id="timf-here-Qd1e157"> Quicumque aliter scripturam intelligit, quam sensus Spiritus Sancti efflagitat, a
+            quo scripta est, licet ab ecclesia non recesserit, tamen hereticus appellari
+            potest</quote>
+          <ref xml:id="timf-here-Rd1e159">Ieronymus. </ref>
+        </p>
+        <p xml:id="timf-here-d1e162" n="h">
+          <quote xml:id="timf-here-Qd1e164"> De intelligencia heresis non de scriptura est; sensus et non sermo fit
+            crimen</quote>
+          <ref xml:id="timf-here-Rd1e166">Ylarius II. de trinitate. </ref>
+        </p>
+        <p xml:id="timf-here-d1e169" n="i">
+          <quote xml:id="timf-here-Qd1e171"> Plus longe nocet falsus catholicus quam si uerus appareret hereticus</quote>
+          <ref xml:id="timf-here-Rd1e173">Bernardus super Cantica. </ref>
+        </p>
+        <p xml:id="timf-here-d1e176" n="k">
+          <quote xml:id="timf-here-Qd1e178"> Sicut cauendi sunt, qui habent speciem bone uite propter dogma nequicie, sic et
+            hii qui integre fidei et doctrine sunt, et turpiter uiuunt</quote>
+          <ref xml:id="timf-here-Rd1e180">Crisostomus super Mattheum. </ref>
+        </p>
+        <p xml:id="timf-here-d1e184" n="l">
+          <quote xml:id="timf-here-Qd1e186"> Scisma est error pertinax catholicam pacem in singulari perturbans
+            ecclesia</quote>
+          <ref xml:id="timf-here-Rd1e188">Hugo.</ref>
+        </p>
+        <p xml:id="timf-here-d1e191" n="ubi"> 
+          <ref xml:id="timf-here-Rd1e193">Detractio c</ref>; <ref xml:id="timf-here-Rd1e195">Error.</ref> 
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

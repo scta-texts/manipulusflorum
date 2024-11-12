@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Fraternitas</title>
+        <author ref="#ThomasOfIreland">Thomas Hybernicus</author>
+        <respStmt>
+          <name>Chris Nighman</name>
+          <resp>Editor</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Fraternitas</title>
+          <date when="2024-10-16">October 16, 2024</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref>SCTA</ref> and <ref target="http://www.manipulusflorum.com/">Manipulus floreum
+            Project</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Pb" n="bnf15985">Bnf 15985</witness>
+          <witness xml:id="Pc" n="bnf15986">Bnf 15986</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2024-10-16" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="timf-frat">
+        <head xml:id="timf-frat-Hd1e109">Fraternitas</head>
+        <p xml:id="timf-frat-d1e111" n="a">
+          <quote xml:id="timf-frat-Qd1e113">Vera fraternitas est que fratrem ueneratur deuotum, corripit dissolutum; que
+            presenti obsequitur, absentem non rodit; sano applaudit, infirmum non deserit; placatum
+            non prouocat, iratum ut maiorem metuit.</quote>
+          <ref xml:id="timf-frat-Rd1e115">Rabanus super ultimum capitulum Matthei.</ref>
+        </p>
+        <p xml:id="timf-frat-d1e118" n="b">
+          <quote xml:id="timf-frat-Qd1e120">Hec est uera fraternitas que nullis unquam casibus scinditur, quam non solum
+            dissociare uel delere locorum uel temporum interualla non preualent, sed nec mors quidem
+            ipsa diuellit.</quote>
+          <ref xml:id="timf-frat-Rd1e122">In collacionibus patrum et est abbatis Ioseph.</ref>
+        </p>
+        <p xml:id="timf-frat-d1e125" n="c">
+          <quote xml:id="timf-frat-Qd1e127">Hec est uera et indirupta fraternitas que gemina amicorum perfectione ac uirtute
+            concrescit, cuius semel initum fedus nec desideriorum uarietas, nec contentiosa dirumpet
+            contrarietas uoluntatum.</quote>
+          <ref xml:id="timf-frat-Rd1e129">Ibidem.</ref>
+        </p>
+        <p xml:id="timf-frat-d1e132" n="d">
+          <quote xml:id="timf-frat-Qd1e134">Nichil autem prodest si moribus ac proposito dissidentes una habitatione iungantur,
+            nec obest parili uirtute fundatis per locorum interualla disiungi. Apud Dominum namque
+            morum cohabitatio, non locorum, unitas fratres habitatione coniungit, nec potest unquam
+            pacis integritas custodiri, ubi uoluntatum diuersitas inuenitur.</quote>
+          <ref xml:id="timf-frat-Rd1e136">Ibidem.</ref>
+        </p>
+        <p xml:id="timf-frat-d1e140" n="e">
+          <quote xml:id="timf-frat-Qd1e142">Huius primum fundamentum substanciam mundialem in contemptu habere. Iniustum enim
+            atque impium est, si post abrenunciatam mundi et omnium que in eo sunt uanitatem,
+            preciosissime dilectioni fratris suppellex uilissima que superfuit preferatur. Secundum
+            est ut ita unusquisque resecet suas uoluntates, ne se sapientem atque consultum esse
+            iudicans suis malit quam fratris diffinitionibus obedire. Tercium est ut sciat omnia,
+            eciam que utilia ac necessaria estimat, postponenda bono caritatis et pacis. Quartum est
+            ut credat nec iustis nec iniustis de causis penitus irascendum. Quintum est ut aduersus
+            se iracundiam fratris, eciam sine ratione conceptam, eodem modo quo suam curare
+            desideret, sciens equaliter sibi perniciosam alterius esse tristiciam, ac si aduersus
+            alium ipse moueatur, nisi eam quantum in se est de fratris eciam mente
+            depulerit.</quote>
+          <ref xml:id="timf-frat-Rd1e144">Ibidem.</ref>
+        </p>
+        <p xml:id="timf-frat-d1e147" n="ubi">
+          <ref xml:id="timf-frat-Rd1e149">Exemplum p</ref>; <ref xml:id="timf-frat-Rd1e151">Humilitas h</ref>; <ref xml:id="timf-frat-Rd1e153">Ira g</ref>; <ref xml:id="timf-frat-Rd1e155">Obediencia q</ref>,
+            <ref xml:id="timf-frat-Rd1e157">r</ref>; <ref xml:id="timf-frat-Rd1e160">Pax ac</ref>; <ref xml:id="timf-frat-Rd1e162">Societas</ref>. </p>
+      </div>
+    </body>
+  </text>
+</TEI>

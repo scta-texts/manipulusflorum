@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Fraus et dolus</title>
+        <author ref="#ThomasOfIreland">Thomas Hybernicus</author>
+        <respStmt>
+          <name>Chris Nighman</name>
+          <resp>Editor</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Fraus et dolus</title>
+          <date when="2024-10-16">October 16, 2024</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref>SCTA</ref> and <ref target="http://www.manipulusflorum.com/">Manipulus floreum
+            Project</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Pb" n="bnf15985">Bnf 15985</witness>
+          <witness xml:id="Pc" n="bnf15986">Bnf 15986</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2024-10-16" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="timf-fraus">
+        <head xml:id="timf-fraus-Hd1e109">Fraus et Dolus</head>
+        <p xml:id="timf-fraus-d1e111" n="a">
+          <quote xml:id="timf-fraus-Qd1e113">Fallacia est per quam motibus deceptoriis ueritas palliata, uel odium alterius, uel
+            proprium commodum intendit.</quote>
+          <ref xml:id="timf-fraus-Rd1e115">Augustinus de diffinitionibus.</ref>
+        </p>
+        <p xml:id="timf-fraus-d1e118" n="b">
+          <quote xml:id="timf-fraus-Qd1e120">Venena non dantur nisi melle circumlita, et uicia non decipiunt nisi sub specie
+            umbraque uirtutum.</quote>
+          <ref xml:id="timf-fraus-Rd1e122">Ambrosius in libro de uirginibus.</ref>
+        </p>
+        <p xml:id="timf-fraus-d1e125" n="c">
+          <quote xml:id="timf-fraus-Qd1e127">Sciendum quoque est quod tribus modis fraus ipsa committitur, quia per hanc
+            proculdubio aut tacita cordis humani gracia, aut fauoris aura, aut res quelibet exterior
+            desideratur.</quote>
+          <ref xml:id="timf-fraus-Rd1e129">Gregorius libro IX. moralium.</ref>
+        </p>
+        <p xml:id="timf-fraus-d1e132" n="d">
+          <quote xml:id="timf-fraus-Qd1e134">Solus in Dei opere fraudem non facit, qui cum ad studia bone actionis inuigilat,
+            nec ad corporalis rei premia, nec ad laudis uerba, nec ad humani iudicii graciam
+            hanelat.</quote>
+          <ref xml:id="timf-fraus-Rd1e136">Gregorius ibidem.</ref>
+        </p>
+        <p xml:id="timf-fraus-d1e140" n="e">
+          <quote xml:id="timf-fraus-Qd1e142">Dolosus aduersarius ferire simul utitur, et aperte seuiens et insidiose latens, ut
+            dum de occulto sagitta metuitur, minus ante faciem hasta timeatur, uel dum ante faciem
+            haste resistitur, nequaquam ex occulto ueniens sagitta uideatur.</quote>
+          <ref xml:id="timf-fraus-Rd1e144">Gregorius in moralibus.</ref>
+        </p>
+        <p xml:id="timf-fraus-d1e147" n="f">
+          <quote xml:id="timf-fraus-Qd1e149">Verba propterea instituta sunt ut non se inuicem homines fallant, sed ut in
+            alterius quisque noticiam cogitationes suas proferat. Verbis ergo uti ad fallaciam, non
+            ad quod instituta sunt, peccatum est.</quote>
+          <ref xml:id="timf-fraus-Rd1e151">Gregorius ibidem.</ref>
+        </p>
+        <p xml:id="timf-fraus-d1e154" n="g">
+          <quote xml:id="timf-fraus-Qd1e156">Diuturna fraudatio tediorum est nutrix, suspicionum fomes, impaciencie fax, nouerca
+            moris, desperationis mater.</quote>
+          <ref xml:id="timf-fraus-Rd1e158">Bernardus super Cantica.</ref>
+        </p>
+        <p xml:id="timf-fraus-d1e161" n="h">
+          <quote xml:id="timf-fraus-Qd1e163">Facilior cautio est ubi manifesta est formido, et ad certamen minus tunc
+            prestituitur, quando se aduersarius confitetur. Plus timendus est et cauendus inimicus
+            cum latenter subripit, cum per pacis ymaginem fallens occultis accessibus serpit, unde
+            et nomen serpentis accepit.</quote>
+          <ref xml:id="timf-fraus-Rd1e165">Cyprianus in quadam epistola.</ref>
+        </p>
+        <p xml:id="timf-fraus-d1e168" n="i">
+          <quote xml:id="timf-fraus-Qd1e170">Dolus est, cum aliud agitur et aliud simulatur. Callidus est, qui exitum uirtutis
+            dolo ac fraude imitatur.</quote>
+          <ref xml:id="timf-fraus-Rd1e172">Ysidorus in synonimis.</ref>
+        </p>
+        <p xml:id="timf-fraus-d1e175" n="k">
+          <quote xml:id="timf-fraus-Qd1e177">Quidam simpliciter uiuunt, et in omnibus prosperantur. Quidam uersantur in dolis,
+            et eis quelibet aduersantur.</quote>
+          <ref xml:id="timf-fraus-Rd1e179">Petrus Rauennas in quadam epistola.</ref>
+        </p>
+        <p xml:id="timf-fraus-d1e183" n="l">
+          <quote xml:id="timf-fraus-Qd1e185">Insperatum bonum est, si is ad quem deceptionis pertinet periculum, sibi gracie
+            procuret augmentum. Ius enim exigit sagittam fraudis redire in dolosum uerticem
+            sagittantis.</quote>
+          <ref xml:id="timf-fraus-Rd1e187">Cassiodorus libro V. epistolarum.</ref>
+        </p>
+        <p xml:id="timf-fraus-d1e190" n="m">
+          <quote xml:id="timf-fraus-Qd1e192">Occultum et insidiosum malum perfidia, cuius efficacissime uires sunt mentiri et
+            fallere, fructus in aliquo admisso scelere consistit, que mendaciis et fallacia quasi
+            preclaris artibus gaudet.</quote>
+          <ref xml:id="timf-fraus-Rd1e194">Valerius Maximus libro IX.</ref>
+        </p>
+        <p xml:id="timf-fraus-d1e197" n="n">
+          <quote xml:id="timf-fraus-Qd1e199">Fraus est accipere quod non possis reddere. Repelli se homines facilius quam decipi
+            ferunt.</quote>
+          <ref xml:id="timf-fraus-Rd1e201">Seneca in prouerbiis.</ref>
+        </p>
+        <p xml:id="timf-fraus-d1e204" n="ubi">
+          <ref xml:id="timf-fraus-Rd1e206">Amicicia bn</ref>; <ref xml:id="timf-fraus-Rd1e208">Discrecio f</ref>; <ref xml:id="timf-fraus-Rd1e210">Doctrina bo</ref>; <ref xml:id="timf-fraus-Rd1e212">Ypocrisis
+            ak</ref>, <ref xml:id="timf-fraus-Rd1e214">aq</ref>, <ref xml:id="timf-fraus-Rd1e217">as</ref>, <ref xml:id="timf-fraus-Rd1e219">ba</ref>; <ref xml:id="timf-fraus-Rd1e221">Mendacium o</ref>;
+            <ref xml:id="timf-fraus-Rd1e223">Mercatio</ref>; <ref xml:id="timf-fraus-Rd1e225">Simplicitas a</ref>; <ref xml:id="timf-fraus-Rd1e227">Suspicio d</ref>; <ref xml:id="timf-fraus-Rd1e230">Temptatio
+            u</ref>, <ref xml:id="timf-fraus-Rd1e232">x</ref>; <ref xml:id="timf-fraus-Rd1e234">Veritas m</ref>. </p>
+      </div>
+    </body>
+  </text>
+</TEI>

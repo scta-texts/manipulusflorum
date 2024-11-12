@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Gloria mala sive vana</title>
+        <author ref="#ThomasOfIreland">Thomas Hybernicus</author>
+        <respStmt>
+          <name>Chris Nighman</name>
+          <resp>Editor</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Gloria mala sive vana</title>
+          <date when="2024-10-16">October 16, 2024</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref>SCTA</ref> and <ref target="http://www.manipulusflorum.com/">Manipulus floreum
+            Project</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Pb" n="bnf15985">Bnf 15985</witness>
+          <witness xml:id="Pc" n="bnf15986">Bnf 15986</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2024-10-16" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="timf-glom">
+        <head xml:id="timf-glom-Hd1e109">Gloria mala sive vana</head>
+
+        <p xml:id="timf-glom-d1e111" n="a">
+          <quote xml:id="timf-glom-Qd1e113" source="http://scta.info/resource/aconf-l10-d1e403@65-87">Sepe homo de ipso uane glorie contemptu uanius gloriatur. Non enim eam contempnit
+            dum gloriatur intus de gloria quam amplexatur.</quote>
+          <ref xml:id="timf-glom-Rd1e116">Augustinus libro confessionum.</ref>
+        </p>
+        <p xml:id="timf-glom-d1e119" n="b">
+          <quote xml:id="timf-glom-Qd1e121">Qui bene didicit uel expertus est uiciorum superandorum gradus, intelligit uicium
+            inanis glorie uel solum uel maxime cauendum esse perfectis. Quo primo enim uicio lapsa
+            est anima, hoc ultimum uincit.</quote>
+          <ref xml:id="timf-glom-Rd1e123">Augustinus super Psalmum VII.</ref>
+        </p>
+        <p xml:id="timf-glom-d1e126" n="c">
+          <quote xml:id="timf-glom-Qd1e128">Inanis gloria huius seculi fallax est suauitas et infructuosus labor et perpetuus
+            timor et periculosa sublimitas, inicium sine prouidencia, finis cum penitencia.</quote>
+          <ref xml:id="timf-glom-Rd1e130">Augustinus super Psalmum CXLIX.</ref>
+        </p>
+        <p xml:id="timf-glom-d1e133" n="d">
+          <quote xml:id="timf-glom-Qd1e135">Inanis gloria dicit: Age bonum quod uales, ostende bonum cunctis quod agis, ut
+            bonus a cunctis dicaris, ut sanctus et uenerabilis ab hominibus prediceris, ut Dei
+            electus uoceris, ut nemo te contempnat, nemo te despiciat, sed uniuersi debitum tibi
+            honorem persoluant.</quote>
+          <ref xml:id="timf-glom-Rd1e137">Augustinus in libro de conflictu uiciorum.</ref>
+        </p>
+        <p xml:id="timf-glom-d1e141" n="e">
+          <quote xml:id="timf-glom-Qd1e143">Non est tanti gaudii excelsa tenere, quanti meroris est de excelsis corruere, nec
+            tantam gloriam sequi post uictoriam, quantam ignominiam post ruinam.</quote>
+          <ref xml:id="timf-glom-Rd1e145">Ambrosius in suo pastorali.</ref>
+        </p>
+        <p xml:id="timf-glom-d1e148" n="f">
+          <quote xml:id="timf-glom-Qd1e150">Gloria inanis est inordinatus animi motus, quo aliquis propriam desiderat
+            excellenciam, ut alios honore precellat.</quote>
+          <ref xml:id="timf-glom-Rd1e152">Ieronymus in quadam epistola.</ref>
+        </p>
+        <p xml:id="timf-glom-d1e155" n="g">
+          <quote xml:id="timf-glom-Qd1e157">Ne nimis religiosa uelis uideri nec plus humilis, quam necesse est. Gloriam
+            fugiendo non queras.</quote>
+          <ref xml:id="timf-glom-Rd1e159">Ieronymus ad Nepocianum.</ref>
+        </p>
+        <p xml:id="timf-glom-d1e162" n="h">
+          <quote xml:id="timf-glom-Qd1e164">Sub hoste quem prosternit moritur, qui de culpa quam superat eleuatur.</quote>
+          <ref xml:id="timf-glom-Rd1e166">Gregorius libro XXX. moralium.</ref>
+        </p>
+        <p xml:id="timf-glom-d1e169" n="i">
+          <quote xml:id="timf-glom-Qd1e171">Quia ante oculos hominum sequendo eam apprehendere non possunt, student plerumque
+            gloriam tenere fugiendo. Non nulli quia presentem gloriam amantes assequi non possunt,
+            quasi despicientes sequntur.</quote>
+          <ref xml:id="timf-glom-Rd1e173">Gregorius in moralibus.</ref>
+        </p>
+        <p xml:id="timf-glom-d1e176" n="k">
+          <quote xml:id="timf-glom-Qd1e178">Tanto ad uorandum lacius patet fouea, quanto de semetipsa elacius gloriatur
+            uita.</quote>
+          <ref xml:id="timf-glom-Rd1e180">Gregorius ibidem.</ref>
+        </p>
+        <p xml:id="timf-glom-d1e184" n="l">
+          <quote xml:id="timf-glom-Qd1e186">Cum bene uiuitur, ualde timendum est ne mens, despectis ceteris, de gloria
+            singularitatis eleuetur.</quote>
+          <ref xml:id="timf-glom-Rd1e188">Gregorius libro VI. moralium.</ref>
+        </p>
+        <p xml:id="timf-glom-d1e191" n="m">
+          <quote xml:id="timf-glom-Qd1e193">Non parua contempnacio est ex eo bono, quod communiter datur, priuate
+            gloriari.</quote>
+          <ref xml:id="timf-glom-Rd1e195">Gregorius in moralibus.</ref>
+        </p>
+        <p xml:id="timf-glom-d1e198" n="n">
+          <quote xml:id="timf-glom-Qd1e200">Time sagittam; leuiter uolat, leuiter penetrat. Sed dico tibi: non leue infligit
+            uulnus; cito interficit. Nimirum sagitta hec uana gloria est.</quote>
+          <ref xml:id="timf-glom-Rd1e202">Bernardus in sermone.</ref>
+        </p>
+        <p xml:id="timf-glom-d1e205" n="o">
+          <quote xml:id="timf-glom-Qd1e207">Non bone sed pax hominibus bone uoluntatis, uoluntatis inique est, qui nequaquam
+            pace contentus, superbo oculo et insaciabili corde quietus hanelat ad gloriam Dei, nec
+            pacem inde retinens, nec gloriam apprehendens. Nec laus calami est laudabilis scriptura,
+            nec gloria lingue aut labiorum sermo bonus.</quote>
+          <ref xml:id="timf-glom-Rd1e209">Bernardus super Cantica.</ref>
+        </p>
+        <p xml:id="timf-glom-d1e212" n="p">
+          <quote xml:id="timf-glom-Qd1e214">Non recte plane, sed peruersi est animi, querere gloriam et non exercere uirtutem,
+            et uelle coronari qui legittime non certauit.</quote>
+          <ref xml:id="timf-glom-Rd1e216">Bernardus in sermone sancti Victoris.</ref>
+        </p>
+        <p xml:id="timf-glom-d1e219" n="q">
+          <quote xml:id="timf-glom-Qd1e221">Virtus mater glorie est. Sola enim est cui gloria iure debetur et secure
+            impendetur. Que autem est sine uirtute gloria, profecto indebite uenit, propere
+            affectatur, periculose captatur.</quote>
+          <ref xml:id="timf-glom-Rd1e223">Bernardus ibidem.</ref>
+        </p>
+        <p xml:id="timf-glom-d1e227" n="r">
+          <quote xml:id="timf-glom-Qd1e229">Qui omnium pecuniarum contemptum habuerunt, et nulli ymaginacioni tocius mundi se
+            inmiscuerunt, et tyrannicas corporum concupiscencias sustinuerunt, hii multociens capti
+            a uana gloria omnia perdiderunt.</quote>
+          <ref xml:id="timf-glom-Rd1e231">Crisostomus super Iohannem.</ref>
+        </p>
+        <p xml:id="timf-glom-d1e234" n="s">
+          <quote xml:id="timf-glom-Qd1e236">Vanitas uanitatum et cetera. Hunc uersiculum, si saperent, qui in potencia
+            uersantur, in parietibus omnibus et in uestibus suis scriberent, in foro, in domo, in
+            ianuis, in ingressibus, et ante omnia in conscienciis suis, ut semper eum oculis
+            cernerent et corde sentirent.</quote>
+          <ref xml:id="timf-glom-Rd1e238">Crisostomus omelia V.</ref>
+        </p>
+        <p xml:id="timf-glom-d1e241" n="t">
+          <quote xml:id="timf-glom-Qd1e243">Tuba est omnis actus uel sermo, per quem ipsa operis iactancia designatur; tuba
+            ergo canere est pompam uane laudis appetere.</quote>
+          <ref xml:id="timf-glom-Rd1e245">Crisostomus super illud Matthei V.: Noli tuba canere.</ref>
+        </p>
+        <p xml:id="timf-glom-d1e248" n="u">
+          <quote xml:id="timf-glom-Qd1e250">Nichil enim ita pecunias concipiscere facit ut glorie cupido. Propter hoc namque
+            famulorum greges, equos auro opertos, et argenteas mensas expetunt homines, non ut
+            utilitatem aut uoluptatem impleant, sed ut multis ostendantur.</quote>
+          <ref xml:id="timf-glom-Rd1e252">Crisostomus super Mattheum.</ref>
+        </p>
+        <p xml:id="timf-glom-d1e255" n="x">
+          <quote xml:id="timf-glom-Qd1e257">Dicebant apud se, si benefecerimus cum pauperibus, quis illud uidet? Et si
+            uiderint, non multi uident; et si multi uident, pro tempore uident. Transit tempus et
+            cum tempore beneficii memoria. Melius est ergo edificia facere que aspiciant omnis, non
+            in hoc tempore solum, sed eciam in posterum. O insipiens, quid tibi prodest post mortem
+            ista memoria, si ubi es torqueris, et ubi non es laudaris?</quote>
+          <ref xml:id="timf-glom-Rd1e259">Crisostomus super Mattheum.</ref>
+        </p>
+        <p xml:id="timf-glom-d1e262" n="y">
+          <quote xml:id="timf-glom-Qd1e264">Quisquis ex deteriore iam melior esse cepit, caueat de acceptis extolli uirtutibus,
+            ne grauius per uanam gloriam corruat, quam prius per lapsum uiciorum iacebat.</quote>
+          <ref xml:id="timf-glom-Rd1e266">Ysidorus libro I. de summo bono.</ref>
+        </p>
+        <p xml:id="timf-glom-d1e270" n="z">
+          <quote xml:id="timf-glom-Qd1e272">Dic michi, ubi sunt amatores mundi qui ante pauca tempora nobiscum erant? Nichil ex
+            eis remansit nisi cineres et uermes. Attende diligenter quid sunt uel quid fuerunt.
+            Homines fuerunt sicut tu; comederunt, biberunt, riserunt, duxerunt in bonis dies suos,
+            et in puncto ad inferna descenderunt. Hic caro eorum uermibus et illic anima ignibus
+            deputatur, donec rursus infelici collegio colligati sempiternis inuoluantur incendiis,
+            qui socii fuerunt in uiciis, socii erunt in penis. Vna namque pena implicat quos unus
+            amor in crimine ligat.</quote>
+          <ref xml:id="timf-glom-Rd1e274">Hugo libro I. de anima.</ref>
+        </p>
+        <p xml:id="timf-glom-d1e277" n="ab">
+          <quote xml:id="timf-glom-Qd1e279">Quid profuit illis inanis gloria, breuis leticia, mundi potencia, carnis uoluptas,
+            false diuicie, magna familia et mala concupiscencia? Vbi risus, ubi iocus, ubi
+            iactancia, ubi arrogancia? De tanta leticia, quanta tristicia! Post tantam uoluptatem,
+            tam grauis miseria! De illa exultacione ceciderunt in magnam ruinam et magna tormenta.
+            Quicquid illis accidit, tibi accidere potest, quia homo es; homo de humo, limus de limo.
+            De terra es et de terra uiuis et in terram reuerteris, quando ueniet dies ultima que
+            subito uenit, et forsitan hodie erit. Certum est quia morieris, sed incertum quando aut
+            quomodo uel ubi. Quoniam mors te ubique exspectat, tu quoque, si sapiens fueris, ubique
+            eam exspectabis.</quote>
+          <ref xml:id="timf-glom-Rd1e281">Hugo ibidem.</ref>
+        </p>
+        <p xml:id="timf-glom-d1e284" n="ac">
+          <quote xml:id="timf-glom-Qd1e286">Diuicias siquidem honores sollicitudo inseparabiliter commitatur. Mundi pompa et
+            fauor populi fumus est, et aura subito euanescens. Que si plerumque placeant,
+            penitudinem inducunt; et si delectant ad modicum, productiore spacio
+            displicebunt.</quote>
+          <ref xml:id="timf-glom-Rd1e288">Petrus Rauennas in quadam epistola.</ref>
+        </p>
+        <p xml:id="timf-glom-d1e291" n="ad">
+          <quote xml:id="timf-glom-Qd1e293">Nulla est tanta humilitas que dulcedine glorie non tangatur, que eciam a claris
+            uiris interdum ex humilimis rebus petita. Ceterum gloria ab hiis quidem qui contemptum
+            eius inducere conantur, non negligitur, quoniam quidem ipsis uoluminibus nomina sua
+            diligenter adiciunt, ut quod professione negant, usurpatione memorie assequantur. Est
+            enim glorie uane magnus appetitor, qui se a gloria affuisse gloriatur.</quote>
+          <ref xml:id="timf-glom-Rd1e295">Valerius Maximus libro VIII. de memorabilibus dictis.</ref>
+        </p>
+        <p xml:id="timf-glom-d1e298" n="ae">
+          <quote xml:id="timf-glom-Qd1e300">Vanitas est, que nec plenitudinem confert continenti, nec fructum laboranti, nec
+            fulcimentum innitenti.</quote>
+          <ref xml:id="timf-glom-Rd1e302">Hugo libro de uanitate mundi.</ref>
+        </p>
+        <p xml:id="timf-glom-d1e305" n="af">
+          <quote xml:id="timf-glom-Qd1e307" source="http://scta.info/resource/hy7y6y-d1e67-d1e313@1-13">Gloria quam fallax sepe, quam turpis est! Non iniuria Tragicus exclamat: <!-- following part of quote doesn't seem to be in Boethius -->gloria,
+            gloria, in milibus mortalium nichil aliud facta quam aurium inflacio magna.</quote>
+          <ref xml:id="timf-glom-Rd1e312">Boecius III. de consolacione.</ref>
+        </p>
+        <p xml:id="timf-glom-d1e316" n="ag">
+          <quote xml:id="timf-glom-Qd1e318" source="http://scta.info/resource/hy7y6y-d1e59-d1e239@516-534">Sic rerum uersa condicio est, ut diuinum merito racionis animal non aliter sibi
+            splendere, nisi inanimate superlectilis possessione uideatur.</quote>
+          <ref xml:id="timf-glom-Rd1e321">Boecius II. de consolacione.</ref>
+        </p>
+        <p xml:id="timf-glom-d1e324" n="ah">
+          <quote xml:id="timf-glom-Qd1e326">Gloriam adeo inmoderato querimus affectu quod boni magis uideri quam esse, mali
+            autem esse quam uideri uolumus. Vnde poeta: falsus honor iuuat et mendax infamia
+            terret.</quote>
+          <ref xml:id="timf-glom-Rd1e328">Tullius.</ref>
+        </p>
+        <p xml:id="timf-glom-d1e331" n="ai">
+          <quote xml:id="timf-glom-Qd1e333">Qui sordido uehiculo erubescit, precioso gloriabitur. Quid ad rem pertinent mule
+            saginate? Quid ista uehicula celata? Quid fallere deaurate? Quid monilia demissa
+            pectoribus? Ista nec dominum facere possunt meliorem nec mulam.</quote>
+          <ref xml:id="timf-glom-Rd1e335">Seneca LXXXVIII. epistola.</ref>
+        </p>
+
+        <p xml:id="timf-glom-d1e338" n="ak">
+          <quote xml:id="timf-glom-Qd1e340">O quantum erat seculi decus, Catonem uno caballo esse contentum et ne toto quidem!
+            Partem enim sarcine ab utroque latere dependentes occupabant. O quam cuperem illi nunc
+            aliquem occurrere ex hiis trussulis in uia, et multum ante se pulueris
+            agitantibus!</quote>
+          <ref xml:id="timf-glom-Rd1e342">Seneca ibidem.</ref>
+        </p>
+        <p xml:id="timf-glom-d1e345" n="al">
+          <quote xml:id="timf-glom-Qd1e347">Queris quali mensa, quali argento, quam paribus ministeriis et leuibus afferatur
+            cibus; nil preter cibum natura desiderat. Nunquid tibi cum fauces urit sitis, aurea
+            queris pocula? Ambiciosa non est fames, contenta est desinere. Que desinat, non nimis
+            curat.</quote>
+          <ref xml:id="timf-glom-Rd1e349">Seneca.</ref>
+        </p>
+        <p xml:id="timf-glom-d1e352" n="am">
+          <quote xml:id="timf-glom-Qd1e354">Nunquid fortis se fortem gloriabitur, quem corporis egritudo efficit
+            infirmum?</quote>
+          <ref xml:id="timf-glom-Rd1e356">Seneca libro de moribus.</ref>
+        </p>
+        <p xml:id="timf-glom-d1e360" n="an">
+          <quote xml:id="timf-glom-Qd1e362">Nunquid diues in opibus suis gloriatur, cuius spem fur uel tyrannus
+            arripuit?</quote>
+          <ref xml:id="timf-glom-Rd1e364">Ibidem.</ref>
+        </p>
+        <p xml:id="timf-glom-d1e367" n="ao">
+          <quote xml:id="timf-glom-Qd1e369">Nunquid nobilitas gloriabitur effecta, nonnunquam indignis et miserabilioribus
+            seruiens?</quote>
+          <ref xml:id="timf-glom-Rd1e371">Ibidem.</ref>
+        </p>
+        <p xml:id="timf-glom-d1e374" n="ap">
+          <quote xml:id="timf-glom-Qd1e376">Cito ignominia fit superbi gloria.</quote>
+          <ref xml:id="timf-glom-Rd1e378">Seneca in prouerbiis.</ref>
+        </p>
+
+        <p xml:id="timf-glom-d1e381" n="ubi">
+          <ref xml:id="timf-glom-Rd1e383" target="http://scta.info/resource/timf-ambi">Ambicio</ref>; <ref xml:id="timf-glom-Rd1e386">Caro ad</ref>; <ref xml:id="timf-glom-Rd1e388">Consideracio a</ref>; <ref xml:id="timf-glom-Rd1e390">Curiositas
+          x</ref>; <ref xml:id="timf-glom-Rd1e392">Diuicie af</ref>, <ref xml:id="timf-glom-Rd1e395">ah</ref>, <ref xml:id="timf-glom-Rd1e397">ax</ref>; <ref xml:id="timf-glom-Rd1e399">Eleemosyna ap</ref>,
+          <ref xml:id="timf-glom-Rd1e401">ax</ref>; <ref xml:id="timf-glom-Rd1e403">Fauor</ref>; <ref xml:id="timf-glom-Rd1e405" target="http://scta.info/resource/timf-gaud-d1e226">Gaudium r</ref>; <ref xml:id="timf-glom-Rd1e409" target="http://scta.info/resource/timf-glob-d1e118">Gloria bona b</ref>,
+          <ref xml:id="timf-glom-Rd1e412" target="http://scta.info/resource/timf-glob-d1e147">f</ref>, <ref xml:id="timf-glom-Rd1e415" target="http://scta.info/resource/timf-glob-d1e154">g</ref>; <ref xml:id="timf-glom-Rd1e418">Honor a</ref>, <ref xml:id="timf-glom-Rd1e420">b</ref>; <ref xml:id="timf-glom-Rd1e422">Ypocrisis an</ref>;
+            <ref xml:id="timf-glom-Rd1e425">Laus ap</ref>; <ref xml:id="timf-glom-Rd1e427">Mors ao</ref>; <ref xml:id="timf-glom-Rd1e429">Mundus</ref>; <ref xml:id="timf-glom-Rd1e431">Prosperitas u</ref>,
+            <ref xml:id="timf-glom-Rd1e433">x</ref>, <ref xml:id="timf-glom-Rd1e435">ag</ref>, <ref xml:id="timf-glom-Rd1e438">an</ref>, <ref xml:id="timf-glom-Rd1e440">ao</ref>, <ref xml:id="timf-glom-Rd1e442">ap</ref>; <ref xml:id="timf-glom-Rd1e444">Solitudo
+            s</ref>; <ref xml:id="timf-glom-Rd1e446">Tempus k</ref>; <ref xml:id="timf-glom-Rd1e448">Vita g</ref>, <ref xml:id="timf-glom-Rd1e451">l</ref>. </p>
+      </div>
+    </body>
+  </text>
+</TEI>
