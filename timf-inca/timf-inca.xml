@@ -219,9 +219,9 @@
 
 
         <p xml:id="timf-inca-d1e240" n="t">
-          <quote xml:id="timf-inca-Qd1e242">Opus restaurationis est incarnatio uerbi cum omnibus sacramentis suis, siue hiis
+          <quote xml:id="timf-inca-Qd1e242" source="http://scta.info/resource/hsvhsv-g10033-d1e184@60-79">Opus restaurationis est incarnatio uerbi cum omnibus sacramentis suis, siue hiis
             qui precesserunt ab initio seculi, siue qui sequuntur.</quote>
-          <ref xml:id="timf-inca-Rd1e244">Hugo in libro de sacramentis.</ref>
+          <ref xml:id="timf-inca-Rd1e244" corresp="#timf-inca-Qd1e242">Hugo in libro de sacramentis.</ref>
         </p>
 
         <p xml:id="timf-inca-d1e247" n="ubi">
