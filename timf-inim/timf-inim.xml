@@ -124,8 +124,8 @@
 
 
         <p xml:id="timf-inim-d1e168" n="i">
-          <quote xml:id="timf-inim-Qd1e170">Nulla pestis efficacior ad nocendum quam familiaris inimicus.</quote>
-          <ref xml:id="timf-inim-Rd1e172">Boecius libro III. de consolacione.</ref>
+          <quote xml:id="timf-inim-Qd1e170" source="http://scta.info/resource/hy7y6y-d1e67-d1e297@280-288">Nulla pestis efficacior ad nocendum quam familiaris inimicus.</quote>
+          <ref xml:id="timf-inim-Rd1e172" corresp="#timf-inim-Qd1e170">Boecius libro III. de consolacione.</ref>
         </p>
 
 
