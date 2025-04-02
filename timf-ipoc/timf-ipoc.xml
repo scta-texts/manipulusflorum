@@ -73,9 +73,9 @@
 
 
         <p xml:id="timf-ipoc-d1e125" n="c">
-          <quote xml:id="timf-ipoc-Qd1e127">Seneca eo dampnabilius colebat ydola, quo illa que mendaciter agebat, sic ageret,
+          <quote xml:id="timf-ipoc-Qd1e127" source="http://scta.info/resource/adcd-l6-d1e951@214-228">Seneca eo dampnabilius colebat ydola, quo illa que mendaciter agebat, sic ageret,
             ut cum populo ueraciter agere existimaretur.</quote>
-          <ref xml:id="timf-ipoc-Rd1e129">Augustinus libro VI. de ciuitate Dei.</ref>
+          <ref xml:id="timf-ipoc-Rd1e129" corresp="#timf-ipoc-Qd1e127">Augustinus libro VI. de ciuitate Dei.</ref>
         </p>
 
 
