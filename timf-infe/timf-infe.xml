@@ -59,12 +59,12 @@
       <div xml:id="timf-infe">
         <head xml:id="timf-infe-Hd1e109">Infernus</head>
         <p xml:id="timf-infe-d1e111" n="a">
-          <quote xml:id="timf-infe-Qd1e113">Melius est dubitare de occultis quam litigare de incertis. Illum quippe diuitem in
+          <quote xml:id="timf-infe-Qd1e113" source="http://scta.info/resource/wN2gEA-e3RanT-d1e183@117-175">Melius est dubitare de occultis quam litigare de incertis. Illum quippe diuitem in
             ardore penarum et illum pauperem in refrigerio gaudiorum esse intelligendos non dubito.
             Sed quomodo intelligenda sit illa flamma inferni, ille sinus Abrahe, illa diuitis
             lingua, ille digitus pauperis, illa sitis tormenti, illa stilla refrigerii, uix fortasse
             a mansuete querentibus, contenciose autem certantibus nunquam inuenitur.</quote>
-          <ref xml:id="timf-infe-Rd1e115">Augustinus de Genesi libro VIII.</ref>
+          <ref xml:id="timf-infe-Rd1e115" corresp="#timf-infe-Qd1e113">Augustinus de Genesi libro VIII.</ref>
         </p>
         <p xml:id="timf-infe-d1e118" n="b">
           <quote xml:id="timf-infe-Qd1e120">Neque enim fatigare nos debet incerta eorum pulcritudo, quorum erit certa et
