@@ -59,9 +59,9 @@
       <div xml:id="timf-ieiu">
         <head xml:id="timf-ieiu-Hd1e109">Ieiunium</head>
         <p xml:id="timf-ieiu-d1e111" n="a">
-          <quote xml:id="timf-ieiu-Qd1e113">Ieiunium magnum et generale est, abstinere ab iniquitatibus et illicitis
+          <quote xml:id="timf-ieiu-Qd1e113" source="http://scta.info/resource/iuy75t-d1e181-d1e387@185-201">Ieiunium magnum et generale est, abstinere ab iniquitatibus et illicitis
             uoluptatibus seculi, quod est perfectum ieiunium.</quote>
-          <ref xml:id="timf-ieiu-Rd1e115">Augustinus super Iohannem.</ref>
+          <ref xml:id="timf-ieiu-Rd1e115" corresp="#timf-ieiu-Qd1e113">Augustinus super Iohannem.</ref>
         </p>
 
 
