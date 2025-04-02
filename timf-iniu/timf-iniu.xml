@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -25,7 +26,8 @@
             Project</ref>
         </authority>
         <availability status="free">
-          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0"
+              >Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
           </p>
         </availability>
       </publicationStmt>
@@ -37,7 +39,8 @@
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
-      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <schemaRef n="lbp-critical-1.0.0"
+        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
       <editorialDecl>
         <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
           guidelines for a critical edition.</p>
@@ -56,174 +59,222 @@
       <div xml:id="starts-on"/>
     </front>
     <body>
-      <div xml:id="timf-inim">
-        <head xml:id="timf-inim-Hd1e109">Iniuria</head>
-        <p xml:id="timf-inim-d1e111" n="a">
-<quote xml:id="timf-inim-Qd1e113">Contumelia est dictis uel factis turpia inferre.</quote>
-<ref xml:id="timf-inim-Rd1e115">Augustinus.</ref>
-</p>
-
-        
-        <p xml:id="timf-inim-d1e118" n="b">
-<quote xml:id="timf-inim-Qd1e120">Qui non repellit a socio si potest iniuriam, tam est in uicio quam ille qui infert.</quote>
-<ref xml:id="timf-inim-Rd1e122">Ambrosius libro I. de officiis.</ref>
-</p>
-
-        
-        <p xml:id="timf-inim-d1e125" n="c">
-<quote xml:id="timf-inim-Qd1e127">Nos in Dei iniuria benigni sumus, et in nostris contumeliis exercemus odia.</quote>
-<ref xml:id="timf-inim-Rd1e129">Ieronymus super illud Matthei: Si peccauerit in te frater tuus, libro III.</ref>
-</p>
-
-        
-        <p xml:id="timf-inim-d1e132" n="d">
-<quote xml:id="timf-inim-Qd1e134">Meam iniuriam pacienter sustinui; impietatem contra Deum ferre non potui.</quote>
-<ref xml:id="timf-inim-Rd1e136">Ieronymus in epistola ad Riparium presbiterum.</ref>
-</p>
-
-        
-        <p xml:id="timf-inim-d1e140" n="e">
-<quote xml:id="timf-inim-Qd1e142">Tunc illata uicia bene toleramus, cum in secreto mentis ad mala perpetrata recurrimus. Leue quippe uidebitur, quod iniuria percutimur, dum in actione nostra conspicimus, quia peius est quod murmuremur. Sic quod fit, ut contumeliis gracia magis quam ira debeatur, quarum interuentu Deo iudice pena grauior declinari posse confiditur.</quote>
-<ref xml:id="timf-inim-Rd1e144">Gregorius libro XXX. moralium.</ref>
-</p>
-
-        
-        <p xml:id="timf-inim-d1e147" n="f">
-<quote xml:id="timf-inim-Qd1e149">Gloriosus est iniuriam tacendo fugere quam respondendo superare. Et si seruus conuicium dicat, iustus taceat; et si infirmus iniuriam faciat, iustus sufferat; et si pauper criminetur, iustus non respondeat.</quote>
-<ref xml:id="timf-inim-Rd1e151">Gregorius ibidem in moralia.</ref>
-</p>
-
-        
-        <p xml:id="timf-inim-d1e154" n="g">
-<quote xml:id="timf-inim-Qd1e156">Pacienter quippe illatam iniuriam tolerat, qui pie meminit, quod fortasse ad huc ex se habeat, in quo ipse debeat tolerari. Et quasi aqua ignis extinguitur, cum surgente furore animi sua cuique ad mentem culpa reuocatur, quia erubescit peccatis non parcere, qui Deo uel proximo sepe se recolit parcenda peccasse.</quote>
-<ref xml:id="timf-inim-Rd1e158">Gregorius in moralibus libro V.</ref>
-</p>
-
-        
-        <p xml:id="timf-inim-d1e161" n="h">
-<quote xml:id="timf-inim-Qd1e163">In propriis iniuriis pacientem esse laudabile est, iniurias autem Dei dissimulare impium est.</quote>
-<ref xml:id="timf-inim-Rd1e165">Crisostomus super Mattheum.</ref>
-</p>
-
-        
-        <p xml:id="timf-inim-d1e168" n="i">
-<quote xml:id="timf-inim-Qd1e170">Parua uerba multociens homicidium pepererunt, et ciuitates integras conuerterunt. Nunquid parum estimes fratrem stultum uocare, auferens ei prudenciam et intellectum, quo homines sumus, et ab irracionabilibus distamus.</quote>
-<ref xml:id="timf-inim-Rd1e172">Crisostomus super illud Matthei V.: Qui dixerit fratri suo fatue et cetera.</ref>
-</p>
-
-        
-        <p xml:id="timf-inim-d1e175" n="k">
-<quote xml:id="timf-inim-Qd1e177">Quicquid a quolibet hominum passi fuerimus iniuste, aut remissionem accipiemus omnium peccatorum, aut, si tanta in nobis delicta non fuerint, clarioribus honoremur coronis.</quote>
-<ref xml:id="timf-inim-Rd1e179">Crisostomus omelia IX. super Mattheum.</ref>
-</p>
-
-        
-        <p xml:id="timf-inim-d1e183" n="l">
-<quote xml:id="timf-inim-Qd1e185">Si uindicare uis, sile, et funestam ei dedisti plagam.</quote>
-<ref xml:id="timf-inim-Rd1e187">Crisostomus super Mattheum.</ref>
-</p>
-
-        
-        <p xml:id="timf-inim-d1e190" n="m">
-<quote xml:id="timf-inim-Qd1e192">Discamus exemplo Christi nostras iniurias magnanimiter sustinere, Dei autem iniurias nec usque ad auditum sufferre. Nam in iniuriis propriis pacienciam tenere laudabile est, iniurias autem Dei pacienter sustinere nimis impium est.</quote>
-<ref xml:id="timf-inim-Rd1e194">Crisostomus super Mattheum.</ref>
-</p>
-
-        
-        <p xml:id="timf-inim-d1e197" n="n">
-<quote xml:id="timf-inim-Qd1e199">Iniuria est uerbo uel facto cum aliquo iniuste agere. Exprobare est in faciem maledicere.</quote>
-<ref xml:id="timf-inim-Rd1e201">Ysidorus in synonimis.</ref>
-</p>
-
-        
-        <p xml:id="timf-inim-d1e204" n="o">
-<quote xml:id="timf-inim-Qd1e206">Grauissimum genus iniurie est, usque ad pedem contumelie peruenire.</quote>
-<ref xml:id="timf-inim-Rd1e208">Cassiodorus super illud Psalmi: Conculcauerunt.</ref>
-</p>
-
-        
-        <p xml:id="timf-inim-d1e211" n="p">
-<quote xml:id="timf-inim-Qd1e213">Nescio quis nostrum hoc possit implere, ut laceretur obprobriis fama nostra, et exultemus in Domino. Eleganter enim in quodam uolumine legimus, quod si non queras gloriam, non doleberis, cum inglorius fueris.</quote>
-<ref xml:id="timf-inim-Rd1e215">Rabanus super illud Matthei V.: Gaudete et exultate et cetera.</ref>
-</p>
-
-        
-        <p xml:id="timf-inim-d1e218" n="q">
-<quote xml:id="timf-inim-Qd1e220">Vltra felicitatem constat esse uictorie, inimicum saluum fecisse, nec iniuriam uindicasse.</quote>
-<ref xml:id="timf-inim-Rd1e222">Valerius episcopus in quodam sermone.</ref>
-</p>
-
-        
-        <p xml:id="timf-inim-d1e226" n="r">
-<quote xml:id="timf-inim-Qd1e228">In omni iniuria per multum interest, utrum perturbacione animi an consulte fiat. Perturbacio plerumque breuis est et ad tempus. Ideo leuiora sunt, que repentino motu accidunt, quam ea que premeditata inferuntur.</quote>
-<ref xml:id="timf-inim-Rd1e230">Tullius in sua rethorica.</ref>
-</p>
-
-        
-        <p xml:id="timf-inim-d1e233" n="s">
-<quote xml:id="timf-inim-Qd1e235">Vindicacio est per quam uis aut iniuria, et omnino quicquid obscurum aut ignominiosum est, defendendo aut ulciscendo propulsatur.</quote>
-<ref xml:id="timf-inim-Rd1e237">Tullius ibidem.</ref>
-</p>
-
-        
-        <p xml:id="timf-inim-d1e240" n="t">
-<quote xml:id="timf-inim-Qd1e242">Qui non defendit nec obsistit iniurie si potest, tam est in uicio, quam si parentes aut amicos aut patriam deserat.</quote>
-<ref xml:id="timf-inim-Rd1e244">Tullius de officiis.</ref>
-</p>
-
-        
-        <p xml:id="timf-inim-d1e247" n="u">
-<quote xml:id="timf-inim-Qd1e249">Turpe est maxime homini uirtuoso refricare iniurias et odiorum sopitos cineres denuo suscitare.</quote>
-<ref xml:id="timf-inim-Rd1e251">Tullius de amicicia.</ref>
-</p>
-
-        
-        <p xml:id="timf-inim-d1e254" n="x">
-<quote xml:id="timf-inim-Qd1e256">Memoria beneficiorum fragilis, iniuriarum tenax.</quote>
-<ref xml:id="timf-inim-Rd1e258">Seneca in prouerbiis.</ref>
-</p>
-
-        
-        <p xml:id="timf-inim-d1e261" n="y">
-<quote xml:id="timf-inim-Qd1e263">Iniuria iniuste irrogata eius infamia est qui fecit.</quote>
-<ref xml:id="timf-inim-Rd1e265">Seneca in prouerbiis philosophorum.</ref>
-</p>
-
-        
-        <p xml:id="timf-inim-d1e269" n="z">
-<quote xml:id="timf-inim-Qd1e271">Viri boni est scire pati nec facere iniuriam.</quote>
-<ref xml:id="timf-inim-Rd1e273">Seneca ibidem.</ref>
-</p>
-
-        
-        <p xml:id="timf-inim-d1e276" n="ab">
-<quote xml:id="timf-inim-Qd1e278">Difficile est iniuriam conuenire cum paciencia.</quote>
-<ref xml:id="timf-inim-Rd1e280">Ibidem.</ref>
-</p>
-
-        
-        <p xml:id="timf-inim-d1e283" n="ac">
-<quote xml:id="timf-inim-Qd1e285">Duplicat dolorem sustinentis indignitas inferentis, intolerabileque fit malum, cuius auctorem turpe sit confiteri. Solacium mali est dignitas aduersantis. Duplicatur dolor cum ab eo, a quo non merueris uenit. Tanto magis iniuria est affectior, quanto proximus est qui facit. Si aliena temere protuleris uicia, tua intempestiue audies crimina.</quote>
-<ref xml:id="timf-inim-Rd1e287">Seneca ibidem.</ref>
-</p>
-
-        
-        <p xml:id="timf-inim-d1e290" n="ad">
-<quote xml:id="timf-inim-Qd1e292">Iniuriam irrogatam ait eius esse infamiam, qui fecit. Discedens a maledicente sibi ait: Vt tu lingue tue, sic ego mearum aurium sum dominus.</quote>
-<ref xml:id="timf-inim-Rd1e294">Seneca ibidem.</ref>
-</p>
-
-        
-        <p xml:id="timf-inim-d1e297" n="ae">
-<quote xml:id="timf-inim-Qd1e299">Contumeliam nec fortis potest nec ingenuus pati. Graue crimen eciam leuiter cum est dictum nocet. Heu, quam miserum est ab illo ledi, de quo non possum credi! Iniuriarum remedium est obliuio. In calamitoso risus eciam iniuria est. Multis minatur, qui uni facit iniuriam.</quote>
-<ref xml:id="timf-inim-Rd1e301">Seneca in prouerbiis.</ref>
-</p>
-
-        
-        <p xml:id="timf-inim-d1e304">
-        <ref xml:id="timf-inim-Rd1e306">Humilitas e</ref>; <ref xml:id="timf-inim-Rd1e308">Ira ad</ref>; <ref xml:id="timf-inim-Rd1e310">Miseria f</ref>; <ref xml:id="timf-inim-Rd1e312">Stulticia e</ref>; <ref xml:id="timf-inim-Rd1e314">Venia u</ref>.
+      <div xml:id="timf-iniu">
+        <head xml:id="timf-iniu-Hd1e109">Iniuria</head>
+        <p xml:id="timf-iniu-d1e111" n="a">
+          <quote xml:id="timf-iniu-Qd1e113">Contumelia est dictis uel factis turpia inferre.</quote>
+          <ref xml:id="timf-iniu-Rd1e115">Augustinus.</ref>
         </p>
-        
+
+
+        <p xml:id="timf-iniu-d1e118" n="b">
+          <quote xml:id="timf-iniu-Qd1e120">Qui non repellit a socio si potest iniuriam, tam est in
+            uicio quam ille qui infert.</quote>
+          <ref xml:id="timf-iniu-Rd1e122">Ambrosius libro I. de officiis.</ref>
+        </p>
+
+
+        <p xml:id="timf-iniu-d1e125" n="c">
+          <quote xml:id="timf-iniu-Qd1e127">Nos in Dei iniuria benigni sumus, et in nostris
+            contumeliis exercemus odia.</quote>
+          <ref xml:id="timf-iniu-Rd1e129">Ieronymus super illud Matthei: Si peccauerit in te frater
+            tuus, libro III.</ref>
+        </p>
+
+
+        <p xml:id="timf-iniu-d1e132" n="d">
+          <quote xml:id="timf-iniu-Qd1e134">Meam iniuriam pacienter sustinui; impietatem contra Deum
+            ferre non potui.</quote>
+          <ref xml:id="timf-iniu-Rd1e136">Ieronymus in epistola ad Riparium presbiterum.</ref>
+        </p>
+
+
+        <p xml:id="timf-iniu-d1e140" n="e">
+          <quote xml:id="timf-iniu-Qd1e142">Tunc illata uicia bene toleramus, cum in secreto mentis
+            ad mala perpetrata recurrimus. Leue quippe uidebitur, quod iniuria percutimur, dum in
+            actione nostra conspicimus, quia peius est quod murmuremur. Sic quod fit, ut contumeliis
+            gracia magis quam ira debeatur, quarum interuentu Deo iudice pena grauior declinari
+            posse confiditur.</quote>
+          <ref xml:id="timf-iniu-Rd1e144">Gregorius libro XXX. moralium.</ref>
+        </p>
+
+
+        <p xml:id="timf-iniu-d1e147" n="f">
+          <quote xml:id="timf-iniu-Qd1e149">Gloriosus est iniuriam tacendo fugere quam respondendo
+            superare. Et si seruus conuicium dicat, iustus taceat; et si infirmus iniuriam faciat,
+            iustus sufferat; et si pauper criminetur, iustus non respondeat.</quote>
+          <ref xml:id="timf-iniu-Rd1e151">Gregorius ibidem in moralia.</ref>
+        </p>
+
+
+        <p xml:id="timf-iniu-d1e154" n="g">
+          <quote xml:id="timf-iniu-Qd1e156">Pacienter quippe illatam iniuriam tolerat, qui pie
+            meminit, quod fortasse ad huc ex se habeat, in quo ipse debeat tolerari. Et quasi aqua
+            ignis extinguitur, cum surgente furore animi sua cuique ad mentem culpa reuocatur, quia
+            erubescit peccatis non parcere, qui Deo uel proximo sepe se recolit parcenda
+            peccasse.</quote>
+          <ref xml:id="timf-iniu-Rd1e158">Gregorius in moralibus libro V.</ref>
+        </p>
+
+
+        <p xml:id="timf-iniu-d1e161" n="h">
+          <quote xml:id="timf-iniu-Qd1e163">In propriis iniuriis pacientem esse laudabile est,
+            iniurias autem Dei dissimulare impium est.</quote>
+          <ref xml:id="timf-iniu-Rd1e165">Crisostomus super Mattheum.</ref>
+        </p>
+
+
+        <p xml:id="timf-iniu-d1e168" n="i">
+          <quote xml:id="timf-iniu-Qd1e170">Parua uerba multociens homicidium pepererunt, et
+            ciuitates integras conuerterunt. Nunquid parum estimes fratrem stultum uocare, auferens
+            ei prudenciam et intellectum, quo homines sumus, et ab irracionabilibus
+            distamus.</quote>
+          <ref xml:id="timf-iniu-Rd1e172">Crisostomus super illud Matthei V.: Qui dixerit fratri suo
+            fatue et cetera.</ref>
+        </p>
+
+
+        <p xml:id="timf-iniu-d1e175" n="k">
+          <quote xml:id="timf-iniu-Qd1e177">Quicquid a quolibet hominum passi fuerimus iniuste, aut
+            remissionem accipiemus omnium peccatorum, aut, si tanta in nobis delicta non fuerint,
+            clarioribus honoremur coronis.</quote>
+          <ref xml:id="timf-iniu-Rd1e179">Crisostomus omelia IX. super Mattheum.</ref>
+        </p>
+
+
+        <p xml:id="timf-iniu-d1e183" n="l">
+          <quote xml:id="timf-iniu-Qd1e185">Si uindicare uis, sile, et funestam ei dedisti
+            plagam.</quote>
+          <ref xml:id="timf-iniu-Rd1e187">Crisostomus super Mattheum.</ref>
+        </p>
+
+
+        <p xml:id="timf-iniu-d1e190" n="m">
+          <quote xml:id="timf-iniu-Qd1e192">Discamus exemplo Christi nostras iniurias magnanimiter
+            sustinere, Dei autem iniurias nec usque ad auditum sufferre. Nam in iniuriis propriis
+            pacienciam tenere laudabile est, iniurias autem Dei pacienter sustinere nimis impium
+            est.</quote>
+          <ref xml:id="timf-iniu-Rd1e194">Crisostomus super Mattheum.</ref>
+        </p>
+
+
+        <p xml:id="timf-iniu-d1e197" n="n">
+          <quote xml:id="timf-iniu-Qd1e199">Iniuria est uerbo uel facto cum aliquo iniuste agere.
+            Exprobare est in faciem maledicere.</quote>
+          <ref xml:id="timf-iniu-Rd1e201">Ysidorus in synonimis.</ref>
+        </p>
+
+
+        <p xml:id="timf-iniu-d1e204" n="o">
+          <quote xml:id="timf-iniu-Qd1e206">Grauissimum genus iniurie est, usque ad pedem contumelie
+            peruenire.</quote>
+          <ref xml:id="timf-iniu-Rd1e208">Cassiodorus super illud Psalmi: Conculcauerunt.</ref>
+        </p>
+
+
+        <p xml:id="timf-iniu-d1e211" n="p">
+          <quote xml:id="timf-iniu-Qd1e213">Nescio quis nostrum hoc possit implere, ut laceretur
+            obprobriis fama nostra, et exultemus in Domino. Eleganter enim in quodam uolumine
+            legimus, quod si non queras gloriam, non doleberis, cum inglorius fueris.</quote>
+          <ref xml:id="timf-iniu-Rd1e215">Rabanus super illud Matthei V.: Gaudete et exultate et
+            cetera.</ref>
+        </p>
+
+
+        <p xml:id="timf-iniu-d1e218" n="q">
+          <quote xml:id="timf-iniu-Qd1e220">Vltra felicitatem constat esse uictorie, inimicum saluum
+            fecisse, nec iniuriam uindicasse.</quote>
+          <ref xml:id="timf-iniu-Rd1e222">Valerius episcopus in quodam sermone.</ref>
+        </p>
+
+
+        <p xml:id="timf-iniu-d1e226" n="r">
+          <quote xml:id="timf-iniu-Qd1e228">In omni iniuria per multum interest, utrum perturbacione
+            animi an consulte fiat. Perturbacio plerumque breuis est et ad tempus. Ideo leuiora
+            sunt, que repentino motu accidunt, quam ea que premeditata inferuntur.</quote>
+          <ref xml:id="timf-iniu-Rd1e230">Tullius in sua rethorica.</ref>
+        </p>
+
+
+        <p xml:id="timf-iniu-d1e233" n="s">
+          <quote xml:id="timf-iniu-Qd1e235">Vindicacio est per quam uis aut iniuria, et omnino
+            quicquid obscurum aut ignominiosum est, defendendo aut ulciscendo propulsatur.</quote>
+          <ref xml:id="timf-iniu-Rd1e237">Tullius ibidem.</ref>
+        </p>
+
+
+        <p xml:id="timf-iniu-d1e240" n="t">
+          <quote xml:id="timf-iniu-Qd1e242">Qui non defendit nec obsistit iniurie si potest, tam est
+            in uicio, quam si parentes aut amicos aut patriam deserat.</quote>
+          <ref xml:id="timf-iniu-Rd1e244">Tullius de officiis.</ref>
+        </p>
+
+
+        <p xml:id="timf-iniu-d1e247" n="u">
+          <quote xml:id="timf-iniu-Qd1e249">Turpe est maxime homini uirtuoso refricare iniurias et
+            odiorum sopitos cineres denuo suscitare.</quote>
+          <ref xml:id="timf-iniu-Rd1e251">Tullius de amicicia.</ref>
+        </p>
+
+
+        <p xml:id="timf-iniu-d1e254" n="x">
+          <quote xml:id="timf-iniu-Qd1e256">Memoria beneficiorum fragilis, iniuriarum tenax.</quote>
+          <ref xml:id="timf-iniu-Rd1e258">Seneca in prouerbiis.</ref>
+        </p>
+
+
+        <p xml:id="timf-iniu-d1e261" n="y">
+          <quote xml:id="timf-iniu-Qd1e263">Iniuria iniuste irrogata eius infamia est qui
+            fecit.</quote>
+          <ref xml:id="timf-iniu-Rd1e265">Seneca in prouerbiis philosophorum.</ref>
+        </p>
+
+
+        <p xml:id="timf-iniu-d1e269" n="z">
+          <quote xml:id="timf-iniu-Qd1e271">Viri boni est scire pati nec facere iniuriam.</quote>
+          <ref xml:id="timf-iniu-Rd1e273">Seneca ibidem.</ref>
+        </p>
+
+
+        <p xml:id="timf-iniu-d1e276" n="ab">
+          <quote xml:id="timf-iniu-Qd1e278">Difficile est iniuriam conuenire cum paciencia.</quote>
+          <ref xml:id="timf-iniu-Rd1e280">Ibidem.</ref>
+        </p>
+
+
+        <p xml:id="timf-iniu-d1e283" n="ac">
+          <quote xml:id="timf-iniu-Qd1e285">Duplicat dolorem sustinentis indignitas inferentis,
+            intolerabileque fit malum, cuius auctorem turpe sit confiteri. Solacium mali est
+            dignitas aduersantis. Duplicatur dolor cum ab eo, a quo non merueris uenit. Tanto magis
+            iniuria est affectior, quanto proximus est qui facit. Si aliena temere protuleris uicia,
+            tua intempestiue audies crimina.</quote>
+          <ref xml:id="timf-iniu-Rd1e287">Seneca ibidem.</ref>
+        </p>
+
+
+        <p xml:id="timf-iniu-d1e290" n="ad">
+          <quote xml:id="timf-iniu-Qd1e292">Iniuriam irrogatam ait eius esse infamiam, qui fecit.
+            Discedens a maledicente sibi ait: Vt tu lingue tue, sic ego mearum aurium sum
+            dominus.</quote>
+          <ref xml:id="timf-iniu-Rd1e294">Seneca ibidem.</ref>
+        </p>
+
+
+        <p xml:id="timf-iniu-d1e297" n="ae">
+          <quote xml:id="timf-iniu-Qd1e299">Contumeliam nec fortis potest nec ingenuus pati. Graue
+            crimen eciam leuiter cum est dictum nocet. Heu, quam miserum est ab illo ledi, de quo
+            non possum credi! Iniuriarum remedium est obliuio. In calamitoso risus eciam iniuria
+            est. Multis minatur, qui uni facit iniuriam.</quote>
+          <ref xml:id="timf-iniu-Rd1e301">Seneca in prouerbiis.</ref>
+        </p>
+
+
+        <p xml:id="timf-iniu-d1e304">
+          <ref xml:id="timf-iniu-Rd1e306">Humilitas e</ref>; <ref xml:id="timf-iniu-Rd1e308">Ira
+            ad</ref>; <ref xml:id="timf-iniu-Rd1e310">Miseria f</ref>; <ref
+            xml:id="timf-iniu-Rd1e312">Stulticia e</ref>; <ref xml:id="timf-iniu-Rd1e314">Venia
+            u</ref>. </p>
+
 
       </div>
     </body>
