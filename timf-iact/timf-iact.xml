@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Iactantia</title>
+        <author ref="#ThomasOfIreland">Thomas Hybernicus</author>
+        <respStmt>
+          <name>Chris Nighman</name>
+          <resp>Editor</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Iactantia</title>
+          <date when="2025-04-01">April 1, 2025</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref>SCTA</ref> and <ref target="http://www.manipulusflorum.com/">Manipulus floreum
+            Project</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Pb" n="bnf15985">Bnf 15985</witness>
+          <witness xml:id="Pc" n="bnf15986">Bnf 15986</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2025-04-01" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="timf-iact">
+        <head xml:id="timf-iact-Hd1e109">Iactantia</head>
+        <p xml:id="timf-iact-d1e111" n="a">
+          <quote xml:id="timf-iact-Qd1e113">Animaduertendum est non solum rerum corporearum nitore atque pompa, sed eciam in
+            ipsis sordibus luctuosis esse posse iactanciam, et eo periculosior est, quo sub specie
+            seruitutis Dei decipit.</quote>
+          <ref xml:id="timf-iact-Rd1e115">Augustinus de sermone Domini in monte.</ref>
+        </p>
+
+
+        <p xml:id="timf-iact-d1e118" n="b">
+          <quote xml:id="timf-iact-Qd1e120">Iactancia non est uicium laudis humane, sed uicium anime peruerse amantis humanam
+            laudem spreto testimonio consciencie.</quote>
+          <ref xml:id="timf-iact-Rd1e122">Augustinus XII. de ciuitate Dei.</ref>
+        </p>
+
+
+        <p xml:id="timf-iact-d1e125" n="c">
+          <quote xml:id="timf-iact-Qd1e127">Hostes ad rapinam prouocat, qui suas eorum noticie diuicias denudat.</quote>
+          <ref xml:id="timf-iact-Rd1e129">Gregorius in moralibus.</ref>
+        </p>
+
+
+        <p xml:id="timf-iact-d1e132" n="d">
+          <quote xml:id="timf-iact-Qd1e134">Si uis sublime ostendere uirtutis, noli sapere sublime, et tunc illud quod egeris,
+            esse monstrabis excelsius. Noli te quicquam putare fecisse cum feceris, et plenissime
+            cuncta fecisti.</quote>
+          <ref xml:id="timf-iact-Rd1e136">Crisostomus super Mattheum.</ref>
+        </p>
+
+
+        <p xml:id="timf-iact-d1e140" n="e">
+          <quote xml:id="timf-iact-Qd1e142">Dum causa iactancie pauper pascitur, eciam ipsum misericordie opus in peccatum
+            conuertitur.</quote>
+          <ref xml:id="timf-iact-Rd1e144">Ysidorus de summo bono libro III.</ref>
+        </p>
+
+
+        <p xml:id="timf-iact-d1e147" n="f">
+          <quote xml:id="timf-iact-Qd1e149">Occulta quod agis in quantum uales. Quod si ex toto non uales, sit in animo
+            occultandi uoluntas, et non erit de ostentatione ulla temeritas.</quote>
+          <ref xml:id="timf-iact-Rd1e151">Ysidorus de conflictu uiciorum.</ref>
+        </p>
+
+
+        <p xml:id="timf-iact-d1e154" n="g">
+          <quote xml:id="timf-iact-Qd1e156">Nichil est quod magis diminuat laudis preconium, quam suos assidue iactitare
+            successus, et singulis diebus anni uendere diem unum. Legitur de Mario quod cum plurima
+            fecisset egregie, una sui iactitatione gloriam fame perdidit, et quia sibi presumpsit
+            ascribere, quod ex ore alieno captare debuerat, publice commendationis uota
+            demeruit.</quote>
+          <ref xml:id="timf-iact-Rd1e158">Valerius Maximus in libro suo.</ref>
+        </p>
+
+        <p xml:id="timf-iact-d1e161" n="ubi">
+          <ref xml:id="timf-iact-Rd1e163">Consideratio h</ref>, <ref xml:id="timf-iact-Rd1e165">n</ref>, <ref xml:id="timf-iact-Rd1e167">o</ref>; <ref xml:id="timf-iact-Rd1e169">Elemosina ah</ref>;
+            <ref xml:id="timf-iact-Rd1e171">Gloria uana h</ref>, <ref xml:id="timf-iact-Rd1e174">t</ref>, <ref xml:id="timf-iact-Rd1e176">y</ref>; <ref xml:id="timf-iact-Rd1e178">Mors ag</ref>; <ref xml:id="timf-iact-Rd1e180">Ornatus
+            b</ref>; <ref xml:id="timf-iact-Rd1e182">Sapiencia ag</ref>; <ref xml:id="timf-iact-Rd1e184">Superbia aq</ref>, <ref xml:id="timf-iact-Rd1e187">as</ref>. </p>
+      </div>
+    </body>
+  </text>
+</TEI>

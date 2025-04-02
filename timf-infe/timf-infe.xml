@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Infernus</title>
+        <author ref="#ThomasOfIreland">Thomas Hybernicus</author>
+        <respStmt>
+          <name>Chris Nighman</name>
+          <resp>Editor</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Infernus</title>
+          <date when="2025-04-01">April 1, 2025</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref>SCTA</ref> and <ref target="http://www.manipulusflorum.com/">Manipulus floreum
+            Project</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Pb" n="bnf15985">Bnf 15985</witness>
+          <witness xml:id="Pc" n="bnf15986">Bnf 15986</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2025-04-01" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="timf-infe">
+        <head xml:id="timf-infe-Hd1e109">Infernus</head>
+        <p xml:id="timf-infe-d1e111" n="a">
+          <quote xml:id="timf-infe-Qd1e113">Melius est dubitare de occultis quam litigare de incertis. Illum quippe diuitem in
+            ardore penarum et illum pauperem in refrigerio gaudiorum esse intelligendos non dubito.
+            Sed quomodo intelligenda sit illa flamma inferni, ille sinus Abrahe, illa diuitis
+            lingua, ille digitus pauperis, illa sitis tormenti, illa stilla refrigerii, uix fortasse
+            a mansuete querentibus, contenciose autem certantibus nunquam inuenitur.</quote>
+          <ref xml:id="timf-infe-Rd1e115">Augustinus de Genesi libro VIII.</ref>
+        </p>
+        <p xml:id="timf-infe-d1e118" n="b">
+          <quote xml:id="timf-infe-Qd1e120">Neque enim fatigare nos debet incerta eorum pulcritudo, quorum erit certa et
+            sempiterna dampnacio.</quote>
+        </p>
+        <p xml:id="timf-infe-d1e123" n="c">
+          <quote xml:id="timf-infe-Qd1e125">In inferno et si erit stimulus penitudinis, nulla erit ibi correctio uoluntatis, a
+            quibus ita culpabitur iniquitas sua, ut nullatenus ab eis possit diligi uel desiderari
+            iusticia.</quote>
+          <ref xml:id="timf-infe-Rd1e127">Augustinus de fide ad Petrum.</ref>
+        </p>
+
+        <p xml:id="timf-infe-d1e130" n="d">
+          <quote xml:id="timf-infe-Qd1e132">Ita diuiti illi, qui apud inferos torquebatur, fuit cura de uiuis, quamuis quid
+            agerent omnino nesciret, quemadmodum est nobis cura de mortuis, quamuis quid agant
+            utique nesciamus.</quote>
+          <ref xml:id="timf-infe-Rd1e134">Augustinus de cura pro mortuis agenda.</ref>
+        </p>
+
+
+        <p xml:id="timf-infe-d1e138" n="e">
+          <quote xml:id="timf-infe-Qd1e140">Illa ultrix flamma uiciorum concremacionem habet et lumen non habet quia quo illos
+            gehenne flamma deuorat, a uisione ueri luminis cecat; ut et foras eos dolor combustionis
+            cruciet et intus pena cecitatis obscuret, quatenus qui auctori suo corpore et corde
+            deliquerunt, simul et corpore et corde puniantur. Et utrobique penas senciant, qui dum
+            hic uiuerent prauis suis delectacionibus ex utroque seruiebant.</quote>
+          <ref xml:id="timf-infe-Rd1e142">Gregorius libro IX. moralium.</ref>
+        </p>
+
+
+        <p xml:id="timf-infe-d1e145" n="f">
+          <quote xml:id="timf-infe-Qd1e147">Vnus gehenne ignis credendus est, sed non uno modo omnes cruciat peccatores.
+            Vniuscuiusque enim quantum exigit culpa, tantum illic senciet penam.</quote>
+          <ref xml:id="timf-infe-Rd1e149">Gregorius libro IIII. dyalogorum.</ref>
+        </p>
+
+
+        <p xml:id="timf-infe-d1e152" n="g">
+          <quote xml:id="timf-infe-Qd1e154">Gehenne ignis cum sit corporeus, ut in se missos reprobos corporaliter exurat, nec
+            studio humano succenditur nec lignis nutritur, sed creatus semel durat inextinguibilis,
+            et succensione non indiget, et ardore non caret.</quote>
+          <ref xml:id="timf-infe-Rd1e156">Gregorius libro XX. moralium.</ref>
+        </p>
+
+
+        <p xml:id="timf-infe-d1e159" n="h">
+          <quote xml:id="timf-infe-Qd1e161">Quisquis ad toleranda inferni mala descenderit, nequaquam ulterius ad lucem
+            redibit, quia nequaquam ultra misericordia parcentis liberat, quos semel in locis
+            penalibus iusticia iudicantis dampnat.</quote>
+          <ref xml:id="timf-infe-Rd1e163">Gregorius IX. moralium.</ref>
+        </p>
+
+
+        <p xml:id="timf-infe-d1e166" n="i">
+          <quote xml:id="timf-infe-Qd1e168">Tunc edax flamma comburit, quos nunc carnalis delectacio polluit, tunc infinitum
+            patens inferni baratrum deuorat, quos inanis elacio nunc exaltat; atque qui quolibet ex
+            uicio uoluntatem hic callidi persuasoris expleuerunt, tunc cum duce suo reprobi ad
+            tormenta perueniunt.</quote>
+          <ref xml:id="timf-infe-Rd1e170">Gregorius ibidem.</ref>
+        </p>
+
+
+        <p xml:id="timf-infe-d1e173" n="k">
+          <quote xml:id="timf-infe-Qd1e175">Iuxta modum culpe pena distinguitur, et secundum modum criminis unusquisque
+            dampnatus in inferni igne cruciabitur.</quote>
+          <ref xml:id="timf-infe-Rd1e177">Gregorius libro XX. moralium.</ref>
+        </p>
+
+
+        <p xml:id="timf-infe-d1e181" n="l">
+          <quote xml:id="timf-infe-Qd1e183">Sicut in hoc mundo multi sub uno sole consistunt, nec tamen eiusdem solis ardorem
+            equanimiter senciunt, quia alius plus estuat atque alius minus, ita illic uno igne non
+            unus est modus incendii, quia quod hic diuersitas corporum, hoc illic agit diuersitas
+            peccatorum, ut et ignem non dissimilem habeant, et tamen eosdem singulos dissimiliter
+            exurat.</quote>
+          <ref xml:id="timf-infe-Rd1e185">Gregorius libro IIII. dyalogorum.</ref>
+        </p>
+
+
+        <p xml:id="timf-infe-d1e188" n="m">
+          <quote xml:id="timf-infe-Qd1e190">Eicientur in tenebras exteriores, ut illic dentes strideant, qui hic de edacitate
+            gaudebant. Nam fletus de ardore stridor solet excitari de frigore. Vbi duplex ostenditur
+            esse gehenna, scilicet nimii frigoris et intollerabilis feruoris.</quote>
+          <ref xml:id="timf-infe-Rd1e192">Gregorius super illud Matthei VIII.: Eicientur et cetera.</ref>
+        </p>
+
+
+        <p xml:id="timf-infe-d1e195" n="n">
+          <quote xml:id="timf-infe-Qd1e197">In inferno erit frigus intollerabile, ignis inextinguibilis, uermis inmortalis,
+            fetor intollerabilis, tenebre palpabiles, flagella cedencium, horrida uisio demonum,
+            confusio peccatorum, desperacio omnium bonorum. Erit enim miseris mors sine morte,
+            defectus sine defectu, quia mors ibi semper incipit, et deficere nescit.</quote>
+          <ref xml:id="timf-infe-Rd1e199">Gregorius ibidem.</ref>
+        </p>
+
+
+        <p xml:id="timf-infe-d1e202" n="o">
+          <quote xml:id="timf-infe-Qd1e204">Ibi clamabit pilosus ad pilosum, unus ad alium, demon ad demonem; percute,
+            dilacera, interfice, uelociter spolia detrahe, cito predare, infer prunas et
+            ebulientibus impone lepotibus.</quote>
+          <ref xml:id="timf-infe-Rd1e206">Bernardus in quodam sermone.</ref>
+        </p>
+
+
+        <p xml:id="timf-infe-d1e209" n="p">
+          <quote xml:id="timf-infe-Qd1e211">Prius benedicti uocabuntur in regnum, quam maledicti in caminum ignis deiciantur
+            eterni, quo uidelicet acrius doleant, uidentes quod amiserint et iusti uidebunt et
+            letabuntur, considerantes quid euaserint.</quote>
+          <ref xml:id="timf-infe-Rd1e213">Bernardus in sermone.</ref>
+        </p>
+
+
+        <p xml:id="timf-infe-d1e216" n="q">
+          <quote xml:id="timf-infe-Qd1e218">Ibi erit fletus et stridor dencium: fletus quidem ob ignem qui non extinguitur,
+            stridor ob uermen qui non moritur; plane fletus ex dolore, stridor dencium ex
+            furore.</quote>
+          <ref xml:id="timf-infe-Rd1e220">Bernardus in sermone.</ref>
+        </p>
+
+
+        <p xml:id="timf-infe-d1e224" n="r">
+          <quote xml:id="timf-infe-Qd1e226">Intollerabilis res est gehenna. Quis nesciat et supplicium horribile? Tamen si
+            mille aliquis ponat gehennas, nichil est tale dicturus, quale est a beate illius glorie
+            honore propelli, exosum esse Christo et audire ab illo: non noui uos.</quote>
+          <ref xml:id="timf-infe-Rd1e228">Crisostomus super Mattheum omelia XXIII.</ref>
+        </p>
+
+
+        <p xml:id="timf-infe-d1e231" n="s">
+          <quote xml:id="timf-infe-Qd1e233">Ignis gehenne et lucebit miseris ad augmentum, ut uideant unde doleant, et non
+            lucebit ad consolacionem, ne uideant unde gaudeant.</quote>
+          <ref xml:id="timf-infe-Rd1e235">Ysidorus libro I. de summo bono.</ref>
+        </p>
+
+
+        <p xml:id="timf-infe-d1e238" n="t">
+          <quote xml:id="timf-infe-Qd1e240">Infernus latus est sine mensura, profundus sine fundo, plenus ardore incomparabili,
+            plenus fetore intollerabili, plenus dolore innumerabili. Ibi miseria, ibi tenebre, ibi
+            ordo nullus, ibi horror eternus, ibi nulla spes boni, nulla desperacio mali.</quote>
+          <ref xml:id="timf-infe-Rd1e242">Hugo libro IIII. de anima.</ref>
+        </p>
+
+        <p xml:id="timf-infe-d1e245" n="ubi">
+          <ref xml:id="timf-infe-Rd1e247">Auaricia c</ref>; <ref xml:id="timf-infe-Rd1e249">Mors ba</ref>; <ref xml:id="timf-infe-Rd1e251">Pena m</ref>, <ref xml:id="timf-infe-Rd1e253">n</ref>, <ref xml:id="timf-infe-Rd1e255">q</ref>,
+            <ref xml:id="timf-infe-Rd1e258">x</ref>, <ref xml:id="timf-infe-Rd1e260">ac</ref>, <ref xml:id="timf-infe-Rd1e262">ad</ref>. </p>
+      </div>
+    </body>
+  </text>
+</TEI>

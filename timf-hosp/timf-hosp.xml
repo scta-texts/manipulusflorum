@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Hospitalitas</title>
+        <author ref="#ThomasOfIreland">Thomas Hybernicus</author>
+        <respStmt>
+          <name>Chris Nighman</name>
+          <resp>Editor</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Hospitalitas</title>
+          <date when="2025-04-01">April 1, 2025</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref>SCTA</ref> and <ref target="http://www.manipulusflorum.com/">Manipulus floreum
+            Project</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Pb" n="bnf15985">Bnf 15985</witness>
+          <witness xml:id="Pc" n="bnf15986">Bnf 15986</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2025-04-01" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="timf-hosp">
+        <head xml:id="timf-hosp-Hd1e109">Hospitalitas</head>
+        <p xml:id="timf-hosp-d1e111" n="a">
+          <quote xml:id="timf-hosp-Qd1e113">Discite, Christiani, sine discretione exhibere hospitalitatem ne forte cui domum
+            clauseritis, cui humanitatem negaueritis, ipse sit Deus.</quote>
+          <ref xml:id="timf-hosp-Rd1e115">Augustinus contra V. hereses.</ref>
+        </p>
+
+
+        <p xml:id="timf-hosp-d1e118" n="b">
+          <quote xml:id="timf-hosp-Qd1e120">Obsecutus Loth angelis tanquam peregrinis consuetudine hospitalitatis, liberatus a
+            periculo ciuitatis et temporale, euasit incendium, et eternum consecutus est
+            premium.</quote>
+          <ref xml:id="timf-hosp-Rd1e122">Augustinus ibidem.</ref>
+        </p>
+
+
+        <p xml:id="timf-hosp-d1e125" n="c">
+          <quote xml:id="timf-hosp-Qd1e127">Tanta est apud Deum hospitalitatis gracia, ut ne potus quidem aque frigide a
+            premiis remunerationis immunis sit. Vides quia Abraham Deum recipit hospitio dum
+            hospites querit. Vides quia Loth angelos recipit. Vnde scis an et tu cum suscipis
+            hominem, suscipias Christum? Licet in hospite Christus sit quia Christus in paupere est,
+            sicut ipse ait: Hospes fui et cetera.</quote>
+          <ref xml:id="timf-hosp-Rd1e129">Ambrosius libro de officiis.</ref>
+        </p>
+
+
+        <p xml:id="timf-hosp-d1e132" n="d">
+          <quote xml:id="timf-hosp-Qd1e134">Est publica species humanitatis, ut peregrinus hospitio non egeat, susciapitur
+            officiose, pateat aduenienti ianua.</quote>
+          <ref xml:id="timf-hosp-Rd1e136">Ibidem.</ref>
+        </p>
+
+
+        <p xml:id="timf-hosp-d1e140" n="e">
+          <quote xml:id="timf-hosp-Qd1e142">Vt humanitatis intuitu hospitio recipiat non habentes hospicium, et egenum sine
+            tecto inducat in domum suam, nec solus deuoret bona Christi, que ei largita est bonitas
+            Christi, et ut ylarem datorem diligat Christus, sine murmure contribuat pauperibus
+            Christi.</quote>
+          <ref xml:id="timf-hosp-Rd1e144">Ambrosius in suo pastorali super illud ad Tytum I.: Hospitalitatem.</ref>
+        </p>
+
+
+        <p xml:id="timf-hosp-d1e147" n="f">
+          <quote xml:id="timf-hosp-Qd1e149">Hospes per famam eligendus est populi et iudicio uicinorum, ne predicationis
+            dignitas suscipientis infamia deturpetur.</quote>
+          <ref xml:id="timf-hosp-Rd1e151">Ieronymus super Mattheum X.</ref>
+        </p>
+
+
+        <p xml:id="timf-hosp-d1e154" n="g">
+          <quote xml:id="timf-hosp-Qd1e156">Qualem mercedem habet, qui propter Deum peregrinatur, talem habet, qui suscipit
+            peregrinantem. Et fiunt ambo equales, et qui propter Deum refrigerat, et qui propter
+            Deum laborat.</quote>
+          <ref xml:id="timf-hosp-Rd1e158">Crisostomus super Mattheum XI.</ref>
+        </p>
+
+
+        <p xml:id="timf-hosp-d1e161" n="h">
+          <quote xml:id="timf-hosp-Qd1e163">Socrates, cum hospites suos satis tenui cena suscipere pararet, et amicus eius hoc
+            ei uituperaret, respondit: Si boni uiri sunt, equanimiter ferent; si mali, non
+            curabuntur. Si res tua tibi non sufficit, tu parcendo fac, ut rei sufficias tue.</quote>
+          <ref xml:id="timf-hosp-Rd1e165">Seneca.</ref>
+        </p>
+        <p xml:id="timf-hosp-d1e168" n="ubi">
+          <ref xml:id="timf-hosp-Rd1e170">Sapiencia g</ref>; <ref xml:id="timf-hosp-Rd1e172">Christianus c</ref>. </p>
+      </div>
+    </body>
+  </text>
+</TEI>

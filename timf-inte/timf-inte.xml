@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Intentio</title>
+        <author ref="#ThomasOfIreland">Thomas Hybernicus</author>
+        <respStmt>
+          <name>Chris Nighman</name>
+          <resp>Editor</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Intentio</title>
+          <date when="2025-04-01">April 1, 2025</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref>SCTA</ref> and <ref target="http://www.manipulusflorum.com/">Manipulus floreum
+            Project</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Pb" n="bnf15985">Bnf 15985</witness>
+          <witness xml:id="Pc" n="bnf15986">Bnf 15986</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2025-04-01" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="timf-inte">
+        <head xml:id="timf-inte-Hd1e109">Intentio</head>
+        <p xml:id="timf-inte-d1e111" n="a">
+          <quote xml:id="timf-inte-Qd1e113">Quod non bona intentione facis, nichil tibi proderit, quia quomodo feceris, non
+            quomodo illi euenerit, tibi imputabitur.</quote>
+          <ref xml:id="timf-inte-Rd1e115">Augustinus tractans illud Matthei VI.: Si lumen quod in te est et cetera.</ref>
+        </p>
+
+
+        <p xml:id="timf-inte-d1e118" n="b">
+          <quote xml:id="timf-inte-Qd1e120">Si semel cor intentione corrumpitur, sequentis actionis medietas et terminus ab
+            hoste callido secure possidetur, quoniam totam arborem sibi fructus ferre conspicit,
+            quam ueneni dente in radice uiciauit. Summa cura uigilandum est ne uel bonis operibus
+            seruiens mens reproba intentione polluatur.</quote>
+          <ref xml:id="timf-inte-Rd1e122">Gregorius in moralibus.</ref>
+        </p>
+
+
+        <p xml:id="timf-inte-d1e125" n="c">
+          <quote xml:id="timf-inte-Qd1e127">Humane aures talia uerba nostra iudicant, qualia foris sonant, diuina uero iudicia
+            talia foris audiunt, qualia ex intimis proferuntur.</quote>
+          <ref xml:id="timf-inte-Rd1e129">Gregorius libro XXVII. moralium.</ref>
+        </p>
+
+
+        <p xml:id="timf-inte-d1e132" n="d">
+          <quote xml:id="timf-inte-Qd1e134">Omni cura seruandus est a malicie puluere oculus cordis, ne hoc quod in actione
+            rectum hominibus ostendat, apud semetipsum per uicium elationis intorqueat.</quote>
+          <ref xml:id="timf-inte-Rd1e136">Idem.</ref>
+        </p>
+
+
+        <p xml:id="timf-inte-d1e140" n="e">
+          <quote xml:id="timf-inte-Qd1e142">Valde laboriosum est custodire, ne mala homo facere audeat, ne in bonis actibus per
+            intentionem titubet, et inter recta opera sinistra eum cogitatio illudat.</quote>
+          <ref xml:id="timf-inte-Rd1e144">Gregorius libro XI. moralium.</ref>
+        </p>
+
+
+        <p xml:id="timf-inte-d1e147" n="f">
+          <quote xml:id="timf-inte-Qd1e149">Sicut fabrica columpnis, columpne autem basibus innituntur, ita uita nostra in
+            uirtutibus uirtutes uero in intima intentione subsistunt.</quote>
+          <ref xml:id="timf-inte-Rd1e151">Gregorius in moralibus.</ref>
+        </p>
+
+
+        <p xml:id="timf-inte-d1e154" n="g">
+          <quote xml:id="timf-inte-Qd1e156">Tunc solum Deo uera obsequia reddimus, cum eum propter amoris fiduciam non timemus,
+            cum nos ad bona opera affectus non metus dirigit, cum malum nostre menti non placet. Non
+            est census in crimine sed affectus.</quote>
+          <ref xml:id="timf-inte-Rd1e158">Gregorius in moralibus.</ref>
+        </p>
+
+
+        <p xml:id="timf-inte-d1e161" n="h">
+          <quote xml:id="timf-inte-Qd1e163">Vt interior oculus uere simplex sit, duo illi arbitror esse necessaria: caritatem
+            in intentione et ueritatem in electione. Quomodo denique simplex erit oculus cum
+            ignorancia ueritatis. Est qui bonum diligit et malum nescius agit; huius bonus est
+            quidem oculus quia pius, non tamen simplex quia cecus. Et est qui bonum et libenter agit
+            et prudenter intelligit. Istius uero oculum non immerito simplicem dixerim, utpote cui
+            neutrum bonum desit, nec zelus scilicet bonus nec sciencia. Is uere oculus nequam est,
+            qui peruersus pariter et cecus bonum agit et malum credit.</quote>
+          <ref xml:id="timf-inte-Rd1e165">Bernardus de praecepto et dispensatione.</ref>
+        </p>
+
+
+        <p xml:id="timf-inte-d1e168" n="i">
+          <quote xml:id="timf-inte-Qd1e170">Bonum prorsus condempnat intentio praua, et malum non penitus excusat
+            recta.</quote>
+          <ref xml:id="timf-inte-Rd1e172">Bernardus ibidem.</ref>
+        </p>
+
+
+        <p xml:id="timf-inte-d1e175" n="k">
+          <quote xml:id="timf-inte-Qd1e177">Sicut oculum simplicem duo ista faciunt bona, amor boni et cognitio ueri, sic
+            nequam oculum duo e regione mala constituunt: cecitas, qua fit ut ueritatem non
+            agnoscat, et peruersitas, qua fit ut diligat iniquitatem.</quote>
+          <ref xml:id="timf-inte-Rd1e179">Bernardus libro de consideratione.</ref>
+        </p>
+
+
+        <p xml:id="timf-inte-d1e183" n="l">
+          <quote xml:id="timf-inte-Qd1e185">Causa actum poterit decorare, si aut necessitate subsistat, aut utilitate uigeat,
+            aut honestate splendescat, cum affectu mentis tota ualeat substancia operis colorari.
+            Opus non ex se sed ex causa fit crimen, nec aliqua uirtutis ostentatione clarescit, cui
+            uoluptas originem prebet.</quote>
+          <ref xml:id="timf-inte-Rd1e187">Crisostomus tractatu de symbolo.</ref>
+        </p>
+
+
+        <p xml:id="timf-inte-d1e190" n="m">
+          <quote xml:id="timf-inte-Qd1e192">Nichil interest quo animo facias, quod uiciosum est fecisse, quia facta cernuntur,
+            animus uero non uidetur. Nulla enim laus est non facere, quod facere non possis.</quote>
+          <ref xml:id="timf-inte-Rd1e194">Seneca libro de moribus.</ref>
+        </p>
+        <p xml:id="timf-inte-d1e197" n="ubi">
+          <ref xml:id="timf-inte-Rd1e199">Cor h</ref>; <ref xml:id="timf-inte-Rd1e201">Elemosina b</ref>, <ref xml:id="timf-inte-Rd1e203">y</ref>, <ref xml:id="timf-inte-Rd1e205">af</ref>; <ref xml:id="timf-inte-Rd1e207">Excusatio
+            c</ref>; <ref xml:id="timf-inte-Rd1e210">Exemplum i</ref>; <ref xml:id="timf-inte-Rd1e212">Iactancia e</ref>, <ref xml:id="timf-inte-Rd1e214">f</ref>; <ref xml:id="timf-inte-Rd1e216">Ypocrisis
+            m</ref>, <ref xml:id="timf-inte-Rd1e218">bf</ref>; <ref xml:id="timf-inte-Rd1e220">Loquacitas n</ref>; <ref xml:id="timf-inte-Rd1e223">Nocumentum c</ref>;
+            <ref xml:id="timf-inte-Rd1e225">Relinquere p</ref>. </p>
+      </div>
+    </body>
+  </text>
+</TEI>

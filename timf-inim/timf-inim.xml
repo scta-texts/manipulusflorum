@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Inimicitia</title>
+        <author ref="#ThomasOfIreland">Thomas Hybernicus</author>
+        <respStmt>
+          <name>Chris Nighman</name>
+          <resp>Editor</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Inimicitia</title>
+          <date when="2025-04-01">April 1, 2025</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref>SCTA</ref> and <ref target="http://www.manipulusflorum.com/">Manipulus floreum
+            Project</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Pb" n="bnf15985">Bnf 15985</witness>
+          <witness xml:id="Pc" n="bnf15986">Bnf 15986</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2025-04-01" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="timf-inim">
+        <head xml:id="timf-inim-Hd1e109">Inimicitia</head>
+
+        <p xml:id="timf-inim-d1e111" n="a">
+          <quote xml:id="timf-inim-Qd1e113">Ea elemosyna nichil est maius, qua ex corde dimittimus, quod in nos quisque
+            peccauit. Minus ergo bonum est erga eum esse beniuolum siue eciam beneficum, qui tibi
+            nichil mali fecit. Illud multo grandius et manifestissime bonitatis est, ut tuum quoque
+            inimicum diligas, et qui tibi malum uult et si potest facit, tu semper bonum uelis
+            faciasque quod possis.</quote>
+          <ref xml:id="timf-inim-Rd1e115">Augustinus in encheridion.</ref>
+        </p>
+
+
+        <p xml:id="timf-inim-d1e118" n="b">
+          <quote xml:id="timf-inim-Qd1e120">Qui quamdiu tibi inimicus es, inimicum habes sermonem Dei. Esto tibi amicus et
+            concordas cum ipso, sicque non solum nichil perdidisti, sed et te ipsum qui perieras
+            inuenisti.</quote>
+          <ref xml:id="timf-inim-Rd1e122">Augustinus de uerbis Domini sermone I.</ref>
+        </p>
+
+
+        <p xml:id="timf-inim-d1e125" n="c">
+          <quote xml:id="timf-inim-Qd1e127">Si is qui non relinquit parentes propter nomen Dei non est Deo dignus, quanto magis
+            qui diligit eius inimicos acceptus Deo esse poterit. Ipsi enim grauiores inimici, qui ex
+            amicis inimici facti sunt.</quote>
+          <ref xml:id="timf-inim-Rd1e129">Ambrosius super Beati immaculati.</ref>
+        </p>
+
+
+        <p xml:id="timf-inim-d1e132" n="d">
+          <quote xml:id="timf-inim-Qd1e134">Virtus est coram hominibus inimicos tollerare, sed uirtus coram Deo diligere, quia
+            hoc solum Deus sacrificium accipit, quod ante oculos eius in altari boni operis
+            caritatis flamma incendit.</quote>
+          <ref xml:id="timf-inim-Rd1e136">Gregorius in pastorali.</ref>
+        </p>
+
+
+        <p xml:id="timf-inim-d1e140" n="e">
+          <quote xml:id="timf-inim-Qd1e142">Inimicos et enim Dei perfecto odio odisse est, et quod facti sunt diligere et quod
+            faciunt increpare, mores prauorum premere, uite prodesse.</quote>
+          <ref xml:id="timf-inim-Rd1e144">Gregorius ibidem: Perfecto odio oderam illos.</ref>
+        </p>
+
+
+        <p xml:id="timf-inim-d1e147" n="f">
+          <quote xml:id="timf-inim-Qd1e149">Humana mens omnem quem inimicum tollerat, eciam impium et iniquum putat.</quote>
+          <ref xml:id="timf-inim-Rd1e151">Gregorius in moralibus.</ref>
+        </p>
+
+
+        <p xml:id="timf-inim-d1e154" n="g">
+          <quote xml:id="timf-inim-Qd1e156">Vbi amicicia permanet, nichil facile creditur, nichil facile recipitur, quod
+            discidium possit operari. Si uero inimicicie semel occupauerint animos, omnia que fiunt,
+            que dicuntur, ita accipiuntur, et ita intelliguntur, ut ad maiores et longiores
+            proficiant inimicicias. Si quid enim boni dicatur de inimico, non creditur. Si quid
+            autem mali, hoc solum creditur et confirmatur.</quote>
+          <ref xml:id="timf-inim-Rd1e158">Crisostomus in libro de compunctione cordis.</ref>
+        </p>
+
+
+        <p xml:id="timf-inim-d1e161" n="h">
+          <quote xml:id="timf-inim-Qd1e163">Grauissimum inimicicie genus est, esse corde aduersarios et lingua simulare
+            deuotos.</quote>
+          <ref xml:id="timf-inim-Rd1e165">Cassiodorus super Psalmum LIIII.</ref>
+        </p>
+
+
+        <p xml:id="timf-inim-d1e168" n="i">
+          <quote xml:id="timf-inim-Qd1e170">Nulla pestis efficacior ad nocendum quam familiaris inimicus.</quote>
+          <ref xml:id="timf-inim-Rd1e172">Boecius libro III. de consolacione.</ref>
+        </p>
+
+
+        <p xml:id="timf-inim-d1e175" n="k">
+          <quote xml:id="timf-inim-Qd1e177">Quid est homini inimicissimum? Alter homo. Inimicicias tarde suscipe, amicicias
+            moderate exerce.</quote>
+          <ref xml:id="timf-inim-Rd1e179">Seneca in libro de moribus.</ref>
+        </p>
+
+
+        <p xml:id="timf-inim-d1e183" n="m">
+          <quote xml:id="timf-inim-Qd1e185">Nulle sunt occultiores insidie quam hee que latent in simulacione officii aut in
+            aliquo celsitudinis nomine. Nam eum qui palam est aduersarium facile cauendo uitare
+            possis, et Troianos equus idcirco fefellit quia formam Minerue mentitus est.</quote>
+          <ref xml:id="timf-inim-Rd1e187">Seneca in prouerbiis.</ref>
+        </p>
+
+
+        <p xml:id="timf-inim-d1e190" n="n">
+          <quote xml:id="timf-inim-Qd1e192">Sumere uindictam ex inimico, si te inimicum senserit, perdidisti. Grauius
+            aduersarium securitate decipies. Nocere nescit, qui se uelle nocere prodiderit.</quote>
+          <ref xml:id="timf-inim-Rd1e194">Seneca in prouerbiis.</ref>
+        </p>
+
+        <p xml:id="timf-inim-d1e197">
+          <ref xml:id="timf-inim-Rd1e199">Adulacio e</ref>; <ref xml:id="timf-inim-Rd1e201">Amicicia h</ref>, <ref xml:id="timf-inim-Rd1e203">ab</ref>, <ref xml:id="timf-inim-Rd1e205">ac</ref>, <ref xml:id="timf-inim-Rd1e207">ar</ref>,
+            <ref xml:id="timf-inim-Rd1e210">et</ref>; <ref xml:id="timf-inim-Rd1e212">Dilectio n</ref>; <ref xml:id="timf-inim-Rd1e214">Diuicie bg</ref>; <ref xml:id="timf-inim-Rd1e216">Mirabile f</ref>;
+            <ref xml:id="timf-inim-Rd1e218">Odium u</ref>; <ref xml:id="timf-inim-Rd1e220">Oracio an</ref>; <ref xml:id="timf-inim-Rd1e223">Venia f</ref>. </p>
+
+      </div>
+    </body>
+  </text>
+</TEI>

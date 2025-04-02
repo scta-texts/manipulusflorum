@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ieiunium</title>
+        <author ref="#ThomasOfIreland">Thomas Hybernicus</author>
+        <respStmt>
+          <name>Chris Nighman</name>
+          <resp>Editor</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Ieiunium</title>
+          <date when="2025-04-01">April 1, 2025</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref>SCTA</ref> and <ref target="http://www.manipulusflorum.com/">Manipulus floreum
+            Project</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Pb" n="bnf15985">Bnf 15985</witness>
+          <witness xml:id="Pc" n="bnf15986">Bnf 15986</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2025-04-01" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="timf-ieiu">
+        <head xml:id="timf-ieiu-Hd1e109">Ieiunium</head>
+        <p xml:id="timf-ieiu-d1e111" n="a">
+          <quote xml:id="timf-ieiu-Qd1e113">Ieiunium magnum et generale est, abstinere ab iniquitatibus et illicitis
+            uoluptatibus seculi, quod est perfectum ieiunium.</quote>
+          <ref xml:id="timf-ieiu-Rd1e115">Augustinus super Iohannem.</ref>
+        </p>
+
+
+        <p xml:id="timf-ieiu-d1e118" n="b">
+          <quote xml:id="timf-ieiu-Qd1e120">Ieiunium purgat mentem, subleuat sensum, carnem spiritui subicit, cor facit
+            contritum et humiliatum, concupiscencie nebulas dispergit, libidinum ardores extinguit,
+            castitatis uero lumen accendit.</quote>
+          <ref xml:id="timf-ieiu-Rd1e122">Augustinus in sermone de ieiunio.</ref>
+        </p>
+
+
+        <p xml:id="timf-ieiu-d1e125" n="c">
+          <quote xml:id="timf-ieiu-Qd1e127">Ieiunium uerbositatem non amat, diuicias superfluitatem iudicat, superbiam spernit,
+            humilitatem commendat, prestat homini se ipsum intelligere, quod est infirmum et
+            fragile.</quote>
+          <ref xml:id="timf-ieiu-Rd1e129">Augustinus ibidem.</ref>
+        </p>
+
+
+        <p xml:id="timf-ieiu-d1e132" n="d">
+          <quote xml:id="timf-ieiu-Qd1e134">Quamuis abstineat quis certis diebus, quamuis ciborum dulcia alimenta non sumat,
+            non tamen illius fertur acceptum ieiunium, qui non diebus quadraginta ieiunat. Pudet
+            dicere: senes et anicule quadragesimam faciunt, diuites iuuenesque non faciunt.</quote>
+          <ref xml:id="timf-ieiu-Rd1e136">Ambrosius in sermone de quadragesima.</ref>
+        </p>
+
+
+        <p xml:id="timf-ieiu-d1e140" n="e">
+          <quote xml:id="timf-ieiu-Qd1e142">Ille quadragesimam facit, qui ieiunando et uigilando ascendit ad pascha. Nam sicut
+            reliquo anno ieiunare premium est, ita in quadragesima non ieiunare peccatum est. Illa
+            enim uoluntaria sunt ieiunia, ista necessaria; illa de arbitrio ueniunt, ista de lege;
+            ad illa inuitamur, ad ista compellimur.</quote>
+          <ref xml:id="timf-ieiu-Rd1e144">Ambrosius ibidem.</ref>
+        </p>
+
+
+
+        <p xml:id="timf-ieiu-d1e147" n="f">
+          <quote xml:id="timf-ieiu-Qd1e149">Qui constitutum numerum una die manducando preterit, non ut unius diei uiolator
+            accusatur, sed ut tocius quadragesime transgressor arguitur.</quote>
+          <ref xml:id="timf-ieiu-Rd1e151">Ambrosius ibidem.</ref>
+        </p>
+
+
+        <p xml:id="timf-ieiu-d1e154" n="g">
+          <quote xml:id="timf-ieiu-Qd1e156">Ieiunium mors culpe, excidium delictorum, remedium salutis, radix gracie,
+            fundamentum est castitatis. Hoc gradu ad Deum cicius peruenitur, hoc gradu antequam
+            curru Helyas ascendit.</quote>
+          <ref xml:id="timf-ieiu-Rd1e158">Ambrosius de Helya et ieiunio.</ref>
+        </p>
+
+
+        <p xml:id="timf-ieiu-d1e161" n="h">
+          <quote xml:id="timf-ieiu-Qd1e163">Ieiunii labor compensatur mentis placiditate, leuatur usu, sustentatur ocio, aut
+            fallitur negocio.</quote>
+          <ref xml:id="timf-ieiu-Rd1e165">Ambrosius de officiis.</ref>
+        </p>
+
+
+        <p xml:id="timf-ieiu-d1e168" n="i">
+          <quote xml:id="timf-ieiu-Qd1e170">Non sanat oculum, quod calcaneo adhibetur. Ieiunio passiones corporis, oratione
+            pestes sanande sunt mentis.</quote>
+          <ref xml:id="timf-ieiu-Rd1e172">Ieronymus super Marcum.</ref>
+        </p>
+
+
+        <p xml:id="timf-ieiu-d1e175" n="k">
+          <quote xml:id="timf-ieiu-Qd1e177">Tantum tibi ieiuniorum impone modum, quantum ferre potes. Sint tibi pura,
+            simplicia, casta, moderata ieiunia, et non superstitiosa. Quid prodest oleo non uesci,
+            et molestias quasdam difficultates ciborum querere?</quote>
+          <ref xml:id="timf-ieiu-Rd1e179">Ieronymus ad Nepocianum.</ref>
+        </p>
+
+
+        <p xml:id="timf-ieiu-d1e183" n="l">
+          <quote xml:id="timf-ieiu-Qd1e185">Sic debes ieiunare, ut non palpites et respirare uix possis, et comitum tuarum uel
+            porteris uel traharis manibus, sed ut fracto corporis appetitu nec in lectione, nec in
+            psalmis, nec in uigiliis solito quid minus facias.</quote>
+          <ref xml:id="timf-ieiu-Rd1e187">Ieronymus ad Demetriadem uirginem.</ref>
+        </p>
+
+
+        <p xml:id="timf-ieiu-d1e190" n="m">
+          <quote xml:id="timf-ieiu-Qd1e192">Ieiunium non solum perfecta uirtus, sed ceterarum uirtutum fundamentum est, et
+            sanctificatio et pudicicia atque prudencia, sine qua nemo uidebit Deum.</quote>
+          <ref xml:id="timf-ieiu-Rd1e194">Ibidem.</ref>
+        </p>
+
+
+        <p xml:id="timf-ieiu-d1e197" n="n1">
+          <quote xml:id="timf-ieiu-Qd1e199">Ardentes dyaboli sagitte ieiuniorum et uigiliarum frigore restringende
+            sunt.</quote>
+          <ref xml:id="timf-ieiu-Rd1e201">Ieronymus ad Cellanciam.</ref>
+        </p>
+
+
+        <p xml:id="timf-ieiu-d1e204" n="n2">
+          <quote xml:id="timf-ieiu-Qd1e206">Sint moderata et sancta in omni mentis humilitate ieiunia, que ita attenuent
+            corpus, non mentem eleuent, ne res humilitatis gignat superbiam, et uicia de uirtute
+            nascantur.</quote>
+          <ref xml:id="timf-ieiu-Rd1e208">Ieronymus in epistolis.</ref>
+        </p>
+
+
+        <p xml:id="timf-ieiu-d1e211" n="o">
+          <quote xml:id="timf-ieiu-Qd1e213">Prudenter enim Deus sibi uult seruiri, non ut nimietate debiles fiant, et post
+            medicorum suffragia requirant. Temperandum enim est ut, si fieri potest, ceptum
+            obsequium gradatim prouehatur, pocius quam inconsiderancia minuatur.</quote>
+          <ref xml:id="timf-ieiu-Rd1e215">Glossa Ieronymi super illud I. Thimothei V.: Noli aquam bibere sed modico uino
+            utere.</ref>
+        </p>
+
+
+        <p xml:id="timf-ieiu-d1e218" n="p">
+          <quote xml:id="timf-ieiu-Qd1e220">Sanctificate ieiunium. Ieiunium sanctificare est, adiunctis bonis aliis, dignam Deo
+            carnis abstinenciam ostendere.</quote>
+          <ref xml:id="timf-ieiu-Rd1e222">Gregorius in pastorali.</ref>
+        </p>
+
+
+        <p xml:id="timf-ieiu-d1e226" n="q">
+          <quote xml:id="timf-ieiu-Qd1e228">Non Deo sed sibi ieiunat, qui ea que uentri ad tempus subtrahit, non inopibus
+            tribuit, sed uentri post modum offerenda custodit.</quote>
+          <ref xml:id="timf-ieiu-Rd1e230">Gregorius ibidem.</ref>
+        </p>
+
+
+        <p xml:id="timf-ieiu-d1e233" n="r">
+          <quote xml:id="timf-ieiu-Qd1e235">Illud ieiunium Deus approbat ut hoc quod tibi subtrahis alteri largire, ut unde tua
+            caro affligitur, inde egentis proximi caro reparetur.</quote>
+          <ref xml:id="timf-ieiu-Rd1e237">Gregorius in omelia.</ref>
+        </p>
+
+
+        <p xml:id="timf-ieiu-d1e240" n="s">
+          <quote xml:id="timf-ieiu-Qd1e242">Bene ieiunat, qui alimenta corporis, que sunt communia dona conditoris cum
+            indigentibus percipit, qui ea que sibi ad tempus subtrahit, nequaquam uentri offerenda
+            custodit, sed pauperibus tribuit.</quote>
+          <ref xml:id="timf-ieiu-Rd1e244">Gregorius ibidem.</ref>
+        </p>
+
+
+        <p xml:id="timf-ieiu-d1e247" n="t">
+          <quote xml:id="timf-ieiu-Qd1e249">Si sola gula peccauit, sola ieiunet et sufficit. Si uero peccauerunt et membra
+            cetera, cur non ieiunent et ipsa? Ieiunet igitur oculus a curiosis aspectibus et omni
+            petulancia, ut bene humiliatus coherceatur in penitencia, qui male liber uagabatur in
+            culpa. Ieiunet auris nequiter pruriens a fabulis et rumoribus, et quecumque ociosa sunt
+            et ad salutem minime pertinencia. Ieiunet lingua a detractione et murmuratione, ab
+            inutilibus, uanis atque scurrilibus uerbis, interdum quoque, ob grauitatem silencii ab
+            ipsis que uideri poterant necessaria. Ieiunet manus ab ociosis signis et ab operibus
+            omnibus, quecumque non sunt imperata. Sed et multo magis anima ipsa ieiunet a uiciis et
+            propria uoluntate sua. Et enim sine ieiunio hec cetera a Domino reprobantur, sicut
+            scriptum est, quia in diebus ieiuniorum uestrorum uoluntates uestre inueniuntur.</quote>
+          <ref xml:id="timf-ieiu-Rd1e251">Bernardus sermone XXXVII.</ref>
+        </p>
+
+
+        <p xml:id="timf-ieiu-d1e254" n="u">
+          <quote xml:id="timf-ieiu-Qd1e256">Dignum reor aliquatenus exponere, quo fructu et quemadmodum oporteat ieiunare.
+            Primum quidem pro eo quod ab ipsis quoque licitis abstinemus, ea nobis, que prius
+            commisimus, illicita condonantur. Quid est condonari commissa, nisi ieiunio breui
+            ieiunia redimi sempiterna? Gehennam enim meruimus, ubi nullus unquam cibus est,
+            consolatio nulla, terminus nullus, ubi guttam aque diues postulat et accipere non
+            meretur.</quote>
+          <ref xml:id="timf-ieiu-Rd1e258">Bernardus sermone XXXVIII.</ref>
+        </p>
+
+
+        <p xml:id="timf-ieiu-d1e261" n="x">
+          <quote xml:id="timf-ieiu-Qd1e263">Bonum et salutare ieiunium, quo redimuntur eterna supplicia, dum remittuntur
+            peccata. Non solum autem ablutio est peccatorum, sed et extirpatio uiciorum; non solum
+            optinet ueniam, sed meretur graciam; non solum delet peccata preterita, que commissimus,
+            sed et repellit futura, que committere poteramus.</quote>
+          <ref xml:id="timf-ieiu-Rd1e265">Bernardus ibidem.</ref>
+        </p>
+
+
+        <p xml:id="timf-ieiu-d1e269" n="y">
+          <quote xml:id="timf-ieiu-Qd1e271">Ieiunium orationi deuotionem et fiduciam donat. Oratio uirtutem impetrat ieiunandi,
+            et ieiunium graciam meretur orandi. Ieiunium orationem roborat, oratio sanctificat
+            ieiunium et representat Domino.</quote>
+          <ref xml:id="timf-ieiu-Rd1e273">Ibidem.</ref>
+        </p>
+
+
+        <p xml:id="timf-ieiu-d1e276" n="z">
+          <quote xml:id="timf-ieiu-Qd1e278">Oratio iusti, ut ait scriptura, penetrat celos. Sint ergo ieiunio uestro, ut facile
+            celos penetret, ale due, orationis scilicet atque iusticie. Non est magnum si ieiunet
+            cum Christo qui sessurus est ad mensam Patris cum ipso.</quote>
+          <ref xml:id="timf-ieiu-Rd1e280">Bernardus ibidem.</ref>
+        </p>
+
+
+        <p xml:id="timf-ieiu-d1e283" n="ab">
+          <quote xml:id="timf-ieiu-Qd1e285">Qui peccat et ieiunat, non ad gloriam Dei ieiunat, nec se humiliat, sed substancie
+            sue parcit.</quote>
+          <ref xml:id="timf-ieiu-Rd1e287">Crisostomus super Mattheum.</ref>
+        </p>
+
+
+        <p xml:id="timf-ieiu-d1e290" n="ac">
+          <quote xml:id="timf-ieiu-Qd1e292">Non culpatur infirmus ieiunium soluens, a quo cibos accipit pauper esuriens, nec
+            escam sumendo polluitur, que elemosinam imperciendo mundatur.</quote>
+          <ref xml:id="timf-ieiu-Rd1e294">Leo papa de ieiunio septimi mensis.</ref>
+        </p>
+
+
+        <p xml:id="timf-ieiu-d1e297" n="ad">
+          <quote xml:id="timf-ieiu-Qd1e299">Non in sola abstinencia cibi stat nostri summa ieiunii, aut fructuose corpori esca
+            subtrahitur, nisi mens ab iniquitate reuocatur, et ab obtrectationibus lingua
+            cohibeatur.</quote>
+          <ref xml:id="timf-ieiu-Rd1e301">Ibidem.</ref>
+        </p>
+
+
+        <p xml:id="timf-ieiu-d1e304" n="ae">
+          <quote xml:id="timf-ieiu-Qd1e306">Aliis diebus ieiunare aut remedium aut premium est, in quadragesima non ieiunare
+            peccatum est. Alio tempore qui ieiunat, accipiet indulgenciam, in hiis diebus qui
+            potest, et non ieiunat, senciet penam.</quote>
+          <ref xml:id="timf-ieiu-Rd1e308">Cesarius in ammonitione secunda.</ref>
+        </p>
+
+
+        <p xml:id="timf-ieiu-d1e312" n="af">
+          <quote xml:id="timf-ieiu-Qd1e314">Tale est ieiunium sine elemosina, qualis sine oleo est lucerna.</quote>
+          <ref xml:id="timf-ieiu-Rd1e316">Ibidem.</ref>
+        </p>
+
+
+        <p xml:id="timf-ieiu-d1e319" n="ag">
+          <quote xml:id="timf-ieiu-Qd1e321">Ieiuniis sic est adhibenda temperies, ut corpus nostrum nec saturitas excitet, nec
+            inedia immoderata debilitet.</quote>
+          <ref xml:id="timf-ieiu-Rd1e323">Fulgencius ad Probam.</ref>
+        </p>
+
+
+        <p xml:id="timf-ieiu-d1e326" n="ah">
+          <quote xml:id="timf-ieiu-Qd1e328">Ieiunium Christiani egentis debet esse refectio; ieiunium pacem debet nutrire non
+            iurgia. Quale illud est autem quod non uesceris carnibus, et de ore tuo omni esca
+            sordidius egreditur maledictum? Quale est quod sanctificatur uenter ieiunio, et
+            polluitur lingua mendacio?</quote>
+          <ref xml:id="timf-ieiu-Rd1e330">Maximus in natali Domini.</ref>
+        </p>
+
+
+        <p xml:id="timf-ieiu-d1e333" n="ai">
+          <quote xml:id="timf-ieiu-Qd1e335">Non tantum est ieiunii lucrum, quantum ire dispendium, nec tantus fructus lectione
+            capitur, quantum detrimentum contemptu fratris incurritur.</quote>
+          <ref xml:id="timf-ieiu-Rd1e337">In collatione abbatis Moysi.</ref>
+        </p>
+
+
+        <p xml:id="timf-ieiu-d1e340" n="ak">
+          <quote xml:id="timf-ieiu-Qd1e342">Pulcre abbas Macharius cuidam percunctanti: cur fame ab hora tercia pulsaretur, qui
+            in cenobio ebdomadis integris refectionem sepe contempnens non sensisset esuriem?
+            Respondit: quia hic nullus est ieiunii tui testis, qui te suis laudibus nutriat aut
+            sustentat. Ibi autem te digitus hominum et cenodoxie refectio saginabit.</quote>
+          <ref xml:id="timf-ieiu-Rd1e344">In collatione Cerapionis.</ref>
+        </p>
+
+
+        <p xml:id="timf-ieiu-d1e347" n="al">
+          <quote xml:id="timf-ieiu-Qd1e349">Ieiunium scimus esse Dei arcem, Christi castrum, murum Spiritus Sancti, uexillum
+            fidei, castitatis signum, sanctitatis tropheum.</quote>
+          <ref xml:id="timf-ieiu-Rd1e351">Petrus Rauennas in quodam sermone.</ref>
+        </p>
+
+
+        <p xml:id="timf-ieiu-d1e355" n="am">
+          <quote xml:id="timf-ieiu-Qd1e357">Ieiunium quamuis auferat uiciorum morbos, carnis amputet passiones, criminum causas
+            propellat, tamen sine misericordie unguento, sine pietatis riuo, sine elemosine sumptu,
+            perfectam salutem mentibus non reponit. Ieiunium sanat uulnera peccatorum, sed
+            cicatrices uulnerum sine misericordia non emundat.</quote>
+          <ref xml:id="timf-ieiu-Rd1e359">Petrus Rauennas ibidem.</ref>
+        </p>
+
+        <p xml:id="timf-ieiu-d1e362" n="ubi">
+          <ref xml:id="timf-ieiu-Rd1e364">Abstinencia</ref>; <ref xml:id="timf-ieiu-Rd1e366">Caro d</ref>; <ref xml:id="timf-ieiu-Rd1e368">Discretio m</ref>, <ref xml:id="timf-ieiu-Rd1e370">n</ref>;
+            <ref xml:id="timf-ieiu-Rd1e372">Oratio t</ref>, <ref xml:id="timf-ieiu-Rd1e375">ae</ref>; <ref xml:id="timf-ieiu-Rd1e377">Satisfactio d</ref>; <ref xml:id="timf-ieiu-Rd1e379">Seruicium c</ref>;
+            <ref xml:id="timf-ieiu-Rd1e381">Christus i</ref>. </p>
+
+      </div>
+    </body>
+  </text>
+</TEI>

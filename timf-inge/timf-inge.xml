@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ingenium</title>
+        <author ref="#ThomasOfIreland">Thomas Hybernicus</author>
+        <respStmt>
+          <name>Chris Nighman</name>
+          <resp>Editor</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Ingenium</title>
+          <date when="2025-04-01">April 1, 2025</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref>SCTA</ref> and <ref target="http://www.manipulusflorum.com/">Manipulus floreum
+            Project</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Pb" n="bnf15985">Bnf 15985</witness>
+          <witness xml:id="Pc" n="bnf15986">Bnf 15986</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2025-04-01" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="timf-inge">
+        <head xml:id="timf-inge-Hd1e109">Ingenium</head>
+        <p xml:id="timf-inge-d1e111" n="a">
+          <quote xml:id="timf-inge-Qd1e113">Nichil per aliquod ingenium ita astruitur, quin ita acre ingenium econtra
+            inuenitur.</quote>
+          <ref xml:id="timf-inge-Rd1e115">Augustinus in quodam sermone.</ref>
+        </p>
+
+
+        <p xml:id="timf-inge-d1e118" n="b">
+          <quote xml:id="timf-inge-Qd1e120">Apis acriter pungit et mel conficit, sic in paruo corpore anima ingeniosa et
+            acerrima uiget, et doctrine suauitatem profert.</quote>
+          <ref xml:id="timf-inge-Rd1e122">Glossa Ieronymi super illud Ecclesiastici XI.: Breuis in uolatilibus apis et inicium
+            dulcoris habet fructus eius.</ref>
+        </p>
+
+
+        <p xml:id="timf-inge-d1e125" n="c">
+          <quote xml:id="timf-inge-Qd1e127">Ingenii acumen uel tarditas premium uel penam in futuro non collocat.</quote>
+          <ref xml:id="timf-inge-Rd1e129">Ieronymus in quadam epistola.</ref>
+        </p>
+
+
+        <p xml:id="timf-inge-d1e132" n="d1">
+          <quote xml:id="timf-inge-Qd1e134">Abscondere talentum in terra est acceptum ingenium in terrenis actibus implicare,
+            et non lucrum spirituale acquirere.</quote>
+          <ref xml:id="timf-inge-Rd1e136">Gregorius super illud Matthei XXV.: Abiens fodit in terram.</ref>
+        </p>
+
+
+        <p xml:id="timf-inge-d1e140" n="d2">
+          <quote xml:id="timf-inge-Qd1e142">Dum ingeniosi per negligenciam in malis remanent, simplices quos ingenii penna non
+            adiuuat, ad optinenda eterni regni menia uirtus operationis leuat.</quote>
+          <ref xml:id="timf-inge-Rd1e144">Glossa Gregorii super illud Prouerbiorum XXX.: Stellio manibus nititur.</ref>
+        </p>
+
+
+        <p xml:id="timf-inge-d1e147" n="e">
+          <quote xml:id="timf-inge-Qd1e149">Semper in robusto et uegeto corpore animus mollior iacet atque tepidum cor, et
+            rursum in corpore debili et infirmo fortior uiget promptiorque spiritus.</quote>
+          <ref xml:id="timf-inge-Rd1e151">Bernardus in apologetico.</ref>
+        </p>
+
+
+        <p xml:id="timf-inge-d1e154" n="f">
+          <quote xml:id="timf-inge-Qd1e156">Sicut qui tardus est ad capiendum, pro intentione tamen boni studii premium
+            percipit, ita qui prestitum sibi ex Deo ingenium negligit, condempnationis reus existit,
+            quia donum quod accepit despicit, et per desidiam derelinquit.</quote>
+          <ref xml:id="timf-inge-Rd1e158">Ysidorus libro III. de summo bono.</ref>
+        </p>
+
+
+        <p xml:id="timf-inge-d1e161" n="g">
+          <quote xml:id="timf-inge-Qd1e163">Quidam Dei iudicio donum sciencie quia negligunt accipiunt, ut durius de rebus
+            creditis puniantur. Tardiores autem ideo quod scire cupiunt difficulter inueniunt, ut
+            pro maximo exercicio laboris maximum premium habeant retributionis.</quote>
+          <ref xml:id="timf-inge-Rd1e165">Ysidorus ibidem.</ref>
+        </p>
+
+
+        <p xml:id="timf-inge-d1e168" n="h">
+          <quote xml:id="timf-inge-Qd1e170">Non semper ingenii uena respondit ad uotum, et quandoque dicta laudabiliora
+            casualiter scribenti se offerunt, que per studii uehemenciam et indaginem laboriose
+            meditationis inueniri non possunt.</quote>
+          <ref xml:id="timf-inge-Rd1e172">Petrus Rauennas in quadam epistola.</ref>
+        </p>
+
+
+        <p xml:id="timf-inge-d1e175" n="i">
+          <quote xml:id="timf-inge-Qd1e177">Potest ingenium fortissimum ac beatissimum sub qualibet cute latere. Potest ex
+            deformi humilique corpusculo formosus animus ac magnus exire. Non deformitate corporis
+            fedatur animus, sed pulcritudine animi corpus ornatur.</quote>
+          <ref xml:id="timf-inge-Rd1e179">Seneca epistola LXVII.</ref>
+        </p>
+
+
+        <p xml:id="timf-inge-d1e183" n="k">
+          <quote xml:id="timf-inge-Qd1e185">Nullum ingenium potest esse magnum, antequam habeat aliquid admixtum de
+            furia.</quote>
+          <ref xml:id="timf-inge-Rd1e187">Seneca libro de tranquillitate animi.</ref>
+        </p>
+        <p xml:id="timf-inge-d1e190">
+          <ref xml:id="timf-inge-Rd1e192">Exercitatio</ref>; <ref xml:id="timf-inge-Rd1e194">Sobrietas b</ref>; <ref xml:id="timf-inge-Rd1e196">Studium e</ref>, <ref xml:id="timf-inge-Rd1e198">f</ref>,
+            <ref xml:id="timf-inge-Rd1e200">ah</ref>, <ref xml:id="timf-inge-Rd1e203">ai</ref>; <ref xml:id="timf-inge-Rd1e205">Vita d</ref>. </p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,494 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ipocrisis</title>
+        <author ref="#ThomasOfIreland">Thomas Hybernicus</author>
+        <respStmt>
+          <name>Chris Nighman</name>
+          <resp>Editor</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Ipocrisis</title>
+          <date when="2025-04-01">April 1, 2025</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref>SCTA</ref> and <ref target="http://www.manipulusflorum.com/">Manipulus floreum
+            Project</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Pb" n="bnf15985">Bnf 15985</witness>
+          <witness xml:id="Pc" n="bnf15986">Bnf 15986</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2025-04-01" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="timf-ipoc">
+        <head xml:id="timf-ipoc-Hd1e109">Ipocrisis</head>
+        <p xml:id="timf-ipoc-d1e111" n="a">
+          <quote xml:id="timf-ipoc-Qd1e113">Simulata equitas non est equitas, sed duplex iniquitas, quia et iniquitas et
+            simulacio.</quote>
+          <ref xml:id="timf-ipoc-Rd1e115">Augustinus super Psalmum LXIII.</ref>
+        </p>
+
+
+        <p xml:id="timf-ipoc-d1e118" n="b">
+          <quote xml:id="timf-ipoc-Qd1e120">Quisquis appetit uideri quod non est, ypocrita est. Simulat enim iustum nec
+            exhibet, quia totum fructum in laude hominum ponit.</quote>
+          <ref xml:id="timf-ipoc-Rd1e122">Augustinus libro de sermone Domini in monte.</ref>
+        </p>
+
+
+        <p xml:id="timf-ipoc-d1e125" n="c">
+          <quote xml:id="timf-ipoc-Qd1e127">Seneca eo dampnabilius colebat ydola, quo illa que mendaciter agebat, sic ageret,
+            ut cum populo ueraciter agere existimaretur.</quote>
+          <ref xml:id="timf-ipoc-Rd1e129">Augustinus libro VI. de ciuitate Dei.</ref>
+        </p>
+
+
+        <p xml:id="timf-ipoc-d1e132" n="d">
+          <quote xml:id="timf-ipoc-Qd1e134">Ypocrita, qui Latine dicitur simulator, auarus raptor est, qui dum inique agens
+            desiderat de sanctitate uenerari, laudem uite rapit aliene.</quote>
+          <ref xml:id="timf-ipoc-Rd1e136">Glossa Augustini super illud Iob XXVII.: Que est spes ypocrite? </ref>
+        </p>
+
+
+        <p xml:id="timf-ipoc-d1e140" n="e">
+          <quote xml:id="timf-ipoc-Qd1e142">Quam multos ypocritas sub habitu monachorum usquequaque dispersit callidissimus
+            hostis, circueuntes prouincias. Omnes petunt, omnes exigunt, aut sumptus lucrose
+            egestatis, aut simulate precium sanctitatis.</quote>
+          <ref xml:id="timf-ipoc-Rd1e144">Augustinus libro de operibus monachorum.</ref>
+        </p>
+
+
+        <p xml:id="timf-ipoc-d1e147" n="f">
+          <quote xml:id="timf-ipoc-Qd1e149">Cum ceperint aliquibus temptacionibus ea ipsa uel subtrahi uel negari, que isto
+            uelamine consecuti sunt, uel consequi cupierunt, tunc necesse est, ut appareat, utrum
+            lupus sit in pelle ouina an ouis in sua.</quote>
+          <ref xml:id="timf-ipoc-Rd1e151">Augustinus super illud Matthei VII.: Qui ueniunt ad uos in uestimentis ouium.</ref>
+        </p>
+
+
+        <p xml:id="timf-ipoc-d1e154" n="g">
+          <quote xml:id="timf-ipoc-Qd1e156">Latet plerumque sub tristi amictu lasciuia et deformis horror uili ueste obtexitur
+            ut secreta peculancium tegantur animorum.</quote>
+          <ref xml:id="timf-ipoc-Rd1e158">Ambrosius in quodam sermone.</ref>
+        </p>
+
+
+        <p xml:id="timf-ipoc-d1e161" n="h">
+          <quote xml:id="timf-ipoc-Qd1e163">Si castum me simulo et aliud est in consciencia, habeo gloriam mercenarii sed
+            supplicia peccatoris. Et in comparacione duorum malorum, leuius est malum aperte peccare
+            quam simulare et fingere sanctitatem.</quote>
+          <ref xml:id="timf-ipoc-Rd1e165">Ieronymus super Ysaiam libro VI.</ref>
+        </p>
+
+
+        <p xml:id="timf-ipoc-d1e168" n="i">
+          <quote xml:id="timf-ipoc-Qd1e170">Quia strepitu labiorum benedicant Domino, et immunda mente ueritati interius
+            contradicunt.</quote>
+          <ref xml:id="timf-ipoc-Rd1e172">Ieronymus super illud Matthei XV.: Populus hic labiis me honorat.</ref>
+        </p>
+
+
+        <p xml:id="timf-ipoc-d1e175" n="k">
+          <quote xml:id="timf-ipoc-Qd1e177">Intus Nero, foris Cato, totus ambiguus monstrum est uelut quedam bestia compacta,
+            secundum illud poeticum: Leo pars prima, draco media, ipsa chimera.</quote>
+          <ref xml:id="timf-ipoc-Rd1e179">Ieronymus in quadam epistola.</ref>
+        </p>
+
+
+        <p xml:id="timf-ipoc-d1e183" n="l">
+          <quote xml:id="timf-ipoc-Qd1e185">Quia multi simulati et ficti, ideo difficile inuenitur, in quo cor et facies, id
+            est operacio atque doctrina, in bono conueniant. Cum autem hoc inuenies da gloriam Deo,
+            quia hoc eius donum est.</quote>
+          <ref xml:id="timf-ipoc-Rd1e187">Glossa super illud Ecclesiastici XIII.: Vestigium cordis boni et facientis bonum
+            difficile inuenies.</ref>
+        </p>
+
+
+        <p xml:id="timf-ipoc-d1e190" n="m">
+          <quote xml:id="timf-ipoc-Qd1e192">Ve peccatori terram ingredienti duabus uiis. Duabus quippe uiis terram peccator
+            ingreditur, quando et Dei est quod opere exhibet, et mundi quod per cogitacionem
+            querit.</quote>
+          <ref xml:id="timf-ipoc-Rd1e194">Gregorius libro I. moralium.</ref>
+        </p>
+
+
+        <p xml:id="timf-ipoc-d1e197" n="n">
+          <quote xml:id="timf-ipoc-Qd1e199">Simon crucem portans nequaquam moritur, quia omnis ypocrita corpus quidem per
+            abstinenciam afficit, sed tamen per amorem glorie mundo uiuit.</quote>
+          <ref xml:id="timf-ipoc-Rd1e201">Gregorius libro VIII. moralium.</ref>
+        </p>
+
+
+        <p xml:id="timf-ipoc-d1e204" n="o">
+          <quote xml:id="timf-ipoc-Qd1e206">Non indues uestem ex lana linoque contextam. Per lanam simplicitas, per linum
+            subtilitas designatur. Et nimirum uestis que ex lana linoque contexitur, linum interius
+            celat, lanamque exterius demonstrat. Vestem ergo ex lino lanaque contextam induit, qui
+            in locucione uel actione qua utitur, intus subtilitatem malicie cooperit, et
+            simplicitatem foris innocencie ostendit.</quote>
+          <ref xml:id="timf-ipoc-Rd1e208">Gregorius ibidem.</ref>
+        </p>
+
+
+        <p xml:id="timf-ipoc-d1e211" n="p">
+          <quote xml:id="timf-ipoc-Qd1e213">Quid in cunctis suis operibus ypocrita sperat, nisi reuerenciam honoris, gloriam
+            laudis, a melioribus metui, sanctus ab omnibus uocari? Ecce quomodo adulteratur liquor
+            balsami.</quote>
+          <ref xml:id="timf-ipoc-Rd1e215">Gregorius VIII. libro moralium.</ref>
+        </p>
+
+
+        <p xml:id="timf-ipoc-d1e218" n="q">
+          <quote xml:id="timf-ipoc-Qd1e220">Ypocrita per arroganciam deprauatus paratior est mori quam corripi.</quote>
+          <ref xml:id="timf-ipoc-Rd1e222">Gregorius ibidem.</ref>
+        </p>
+
+
+        <p xml:id="timf-ipoc-d1e226" n="r">
+          <quote xml:id="timf-ipoc-Qd1e228">Ypocrite, cum eciam in peccatis grauibus missis moriuntur, sanctos se esse
+            reputant, quia sanctos se reputari estimant. Student enim non uirtutes colere sed uicia
+            colorare.</quote>
+          <ref xml:id="timf-ipoc-Rd1e230">Gregorius.</ref>
+        </p>
+
+
+        <p xml:id="timf-ipoc-d1e233" n="s">
+          <quote xml:id="timf-ipoc-Qd1e235">Qualis ypocrita imperitis innotescit, talis uult ab omnibus estimari; et paratior
+            est mori quam corripi. Ypocrita quot uiciis plenus est, quasi tot stercoribus in
+            conspectu eterni iudicis illius pectus fetet. Ypocritarum corda dyabolus tacitus tenet,
+            et quasi ipse ibi quietus dormit, ubi eos quos possidet quiescere non permittit.</quote>
+          <ref xml:id="timf-ipoc-Rd1e237">Gregorius in moralibus.</ref>
+        </p>
+
+
+        <p xml:id="timf-ipoc-d1e240" n="t">
+          <quote xml:id="timf-ipoc-Qd1e242">Quid est uita ypocrite, nisi quedam uisio fantasmatis que hoc ostendit in ymagine,
+            quod non habet ex ueritate?</quote>
+          <ref xml:id="timf-ipoc-Rd1e244">Gregorius in moralibus.</ref>
+        </p>
+
+
+        <p xml:id="timf-ipoc-d1e247" n="u">
+          <quote xml:id="timf-ipoc-Qd1e249">Ypocrisis est uirtutum simulacione clausum uicium abscondere et arte
+            palliare.</quote>
+          <ref xml:id="timf-ipoc-Rd1e251">Gregorius in moralibus.</ref>
+        </p>
+
+
+        <p xml:id="timf-ipoc-d1e254" n="x">
+          <quote xml:id="timf-ipoc-Qd1e256">Ypocrita in laude positus, si hunc quisquam corripere audeat, asperitate sua
+            protinus uitam corripientis cecat. Reprehensum se in prauitate irascitur, loqui sibi
+            redarguentem, deterior efficitur, exasperatus in contumeliam surgit. Bona opera sua in
+            usum proprie laudis assumit, quod solius proprium est Dei, sumit in laudem, sui scilicet
+            gloriam.</quote>
+          <ref xml:id="timf-ipoc-Rd1e258">Gregorius in moralibus.</ref>
+        </p>
+
+
+        <p xml:id="timf-ipoc-d1e261" n="y">
+          <quote xml:id="timf-ipoc-Qd1e263">Ypocrite, quo exterius hominibus placent, eo se interius aspicere negligunt,
+            totosque se in uerbis proximorum fundunt, et sanctos se esse estimant, quia sic se
+            haberi ab hominibus pensant.</quote>
+          <ref xml:id="timf-ipoc-Rd1e265">Gregorius libro XI. moralium.</ref>
+        </p>
+
+
+        <p xml:id="timf-ipoc-d1e269" n="z">
+          <quote xml:id="timf-ipoc-Qd1e271">Vult ypocrita scire diuina eloquia, nec tamen facere. Vult docte loqui, nec tamen
+            uiuere.</quote>
+          <ref xml:id="timf-ipoc-Rd1e273">Gregorius libro XV. moralium.</ref>
+        </p>
+
+
+        <p xml:id="timf-ipoc-d1e276" n="ab">
+          <quote xml:id="timf-ipoc-Qd1e278">Omnis ypocrita corpus per abstinenciam afficit, sed tamen per amorem glorie mundo
+            uiuit.</quote>
+          <ref xml:id="timf-ipoc-Rd1e280">Gregorius libro VIII. moralium.</ref>
+        </p>
+
+
+        <p xml:id="timf-ipoc-d1e283" n="ac">
+          <quote xml:id="timf-ipoc-Qd1e285">Ypocrite ante districtum iudicem excusacionem de ignorancia habere non possunt,
+            quia dum ante oculos hominum omnem modum sanctitatis ostentant, ipsi sibi sunt
+            testimonio, quia bene uiuere non ignorant.</quote>
+          <ref xml:id="timf-ipoc-Rd1e287">Gregorius libro XVI. moralium.</ref>
+        </p>
+
+
+        <p xml:id="timf-ipoc-d1e290" n="ad">
+          <quote xml:id="timf-ipoc-Qd1e292">Ypocrite per causas Dei intentioni deseruiunt seculi, quia per ipsa quoque que se
+            agere sancta ostendunt, non conuersionem querunt hominum sed auras fauorum.</quote>
+          <ref xml:id="timf-ipoc-Rd1e294">Gregorius libro XXI. moralium.</ref>
+        </p>
+
+
+        <p xml:id="timf-ipoc-d1e297" n="ae">
+          <quote xml:id="timf-ipoc-Qd1e299">Ypocrita ut sine fine crucietur, uiuere sine fine compellitur, ut cuius uita hic
+            mortua fuit in culpa, illic eius mors uiuit in pena. Dicat ergo: Luet que fecit omnia,
+            nec tamen consumetur, quia cruciatur et non extinguitur, moritur et uiuit, deficit et
+            subsistit, finitur semper et sine fine est.</quote>
+          <ref xml:id="timf-ipoc-Rd1e301">Gregorius libro XX. moralium super illud Iob: Luet et cetera.</ref>
+        </p>
+
+
+        <p xml:id="timf-ipoc-d1e304" n="af">
+          <quote xml:id="timf-ipoc-Qd1e306">Quid dicturi sumus, qui iniqua operibus docemus, et sola uoce ea que sunt iusta
+            pretendimus? Ossa ieiuniis atteruntur, et mente turgemus. Corpus despectis uestibus
+            tegitur et elacione cordis purpuram superamus. Iacemus in cinere, et excelsa non
+            despicimus. Doctores humilium, duces superbie ouina facie lupinos dentes
+            abscondimus.</quote>
+          <ref xml:id="timf-ipoc-Rd1e308">Gregorius in registro.</ref>
+        </p>
+
+
+        <p xml:id="timf-ipoc-d1e312" n="ag">
+          <quote xml:id="timf-ipoc-Qd1e314">Ypocrite uolunt esse humiles sine despectu, pauperes sine defectu, bene uestiri
+            sine sollicitudine, delicate pasci sine labore, aliis adulantes, aliis detrahentes,
+            mordaces ut canes, dolosi ut uulpes, superbi ut leones. Intrinsecus autem sunt lupi
+            rapaces, mellis dulcedinem, id est inanis glorie et latentis lasciuie ut ursi querentes.
+            Volunt esse sine auctoritate iudices, sine uisu testes, postremo falsi accusatores et
+            omni ueritate carentes.</quote>
+          <ref xml:id="timf-ipoc-Rd1e316">Bernardus.</ref>
+        </p>
+
+
+        <p xml:id="timf-ipoc-d1e319" n="ah">
+          <quote xml:id="timf-ipoc-Qd1e321">Serpit hodie putrida tabes ypocrisis per omne corpus ecclesie, et quo toleracius,
+            eo desperacius, eoque periculosius, quo communius.</quote>
+          <ref xml:id="timf-ipoc-Rd1e323">Bernardus.</ref>
+        </p>
+
+
+        <p xml:id="timf-ipoc-d1e326" n="ai">
+          <quote xml:id="timf-ipoc-Qd1e328">Herodes deuocionem promittit, sed gladium acuit. Maliciam cordis depingit colore
+            humilitatis. Huius personam representant ypocrite, qui dum ficte Deum querunt, illum
+            nunquam merentur inuenire.</quote>
+          <ref xml:id="timf-ipoc-Rd1e330">Crisostomus Mattheum XI.</ref>
+        </p>
+
+
+        <p xml:id="timf-ipoc-d1e333" n="ak">
+          <quote xml:id="timf-ipoc-Qd1e335">Nulla res sic exterminat bonum sicut simulacio. Nam malum sub specie boni celatum,
+            dum non cognoscitur, non cauetur.</quote>
+          <ref xml:id="timf-ipoc-Rd1e337">Crisostomus Mattheum VII.</ref>
+        </p>
+
+
+        <p xml:id="timf-ipoc-d1e340" n="al">
+          <quote xml:id="timf-ipoc-Qd1e342">Lupus tectus pelle ouina per uocem cognoscitur, et per actum ouis balat inclinata
+            deorsum, lupus ululat contra celum. Hoc superbie, illud humilitatis signum; ouis herbam
+            manducat, lupus carnem.</quote>
+          <ref xml:id="timf-ipoc-Rd1e344">Crisostomus ibidem.</ref>
+        </p>
+
+
+        <p xml:id="timf-ipoc-d1e347" n="am">
+          <quote xml:id="timf-ipoc-Qd1e349">O ypocrita, si bonum est bonum esse, ut quid uis apparere, quod non uis esse? Si
+            malum est malum esse, ut quid uis esse, quod non uis apparere? Si bonum est bonum
+            apparere, melius est bonum esse. Si malum est malum apparere, peius est malum esse. Ergo
+            aut appare quod es, aut esto quod appares.</quote>
+          <ref xml:id="timf-ipoc-Rd1e351">Crisostomus ibidem.</ref>
+        </p>
+
+
+        <p xml:id="timf-ipoc-d1e355" n="an">
+          <quote xml:id="timf-ipoc-Qd1e357">Tolle hoc uicium de clero, ut non uelint hominibus apparere, et sine labore omnia
+            uicia resecantur. Ex hoc uicio nascitur, ut ne uelint inter se meliorem habere.</quote>
+          <ref xml:id="timf-ipoc-Rd1e359">Crisostomus super Mattheum omelia III.</ref>
+        </p>
+
+
+        <p xml:id="timf-ipoc-d1e362" n="ao">
+          <quote xml:id="timf-ipoc-Qd1e364">Phariseorum iusticia erat in ostentacione operis, non in rectitudine intencionis,
+            in locucione, non in opere, in corporis afflictione, non in mandatorum obseruacione, in
+            minoribus obseruanciis, relictis grauioribus legis.</quote>
+          <ref xml:id="timf-ipoc-Rd1e366">Crisostomus super illud Matthei V.: Nisi habundauerit iusticia uestra et
+            cetera.</ref>
+        </p>
+
+
+        <p xml:id="timf-ipoc-d1e369" n="ap">
+          <quote xml:id="timf-ipoc-Qd1e371">Ypocrita Greco sermone in Latino simulator interpretatur. Qui dum uiciis malus sit,
+            bonum se palam ostendit. Ypo enim falsum, crisim iudicium interpretatur.</quote>
+          <ref xml:id="timf-ipoc-Rd1e373">Ysidorus libro ethimologiarum.</ref>
+        </p>
+
+
+        <p xml:id="timf-ipoc-d1e376" n="aq">
+          <quote xml:id="timf-ipoc-Qd1e378">Exitus manifestat, quod a principio celabatur, et que dubia sunt in origine,
+            probantur a fine.</quote>
+          <ref xml:id="timf-ipoc-Rd1e380">Hugo de meditacione.</ref>
+        </p>
+
+
+        <p xml:id="timf-ipoc-d1e383" n="ar">
+          <quote xml:id="timf-ipoc-Qd1e385">Ypocrisis subtile malum, secretum uirus, uenenum latens, uirtutum fucus, tynea
+            sanctitatis. Ypocrisis secura simulat, prospera fallit, curiosa mentitur, et crudeli
+            arte uirtutes truncat mucrone uirtutum; ieiunium ieiunio perimit, oracione oracionem
+            uacuat, misericordiam miseracione prosternit. Ypocrisis cognata febri, frigido poculo
+            propinat ardorem. Quod corporibus est ydropis, hoc ypocrisis animabus; hoc est, ydropis
+            bibendo sitit, ypocrisis inebriata est siti.</quote>
+          <ref xml:id="timf-ipoc-Rd1e387">Petrus Rauennas in sermone.</ref>
+        </p>
+
+
+        <p xml:id="timf-ipoc-d1e390" n="as">
+          <quote xml:id="timf-ipoc-Qd1e392">Tocius iniurie nulla capitalior quam eorum, que maxime cum fallunt, id agunt ut
+            uiri boni uideantur. Ideo Oracius: Nunquam te fallant animi sub uulpe latentes. Impia
+            sub dulci melle uenena latent.</quote>
+          <ref xml:id="timf-ipoc-Rd1e394">Idem.</ref>
+        </p>
+
+
+        <p xml:id="timf-ipoc-d1e398" n="at">
+          <quote xml:id="timf-ipoc-Qd1e400">Preceptio celestis uult iactanciam tollere, pompam auferre, uanitatem demere,
+            submouere inanem gloriam, et sic iusticiam uult celari. Iusticia per se sibi habundat ad
+            gloriam; spectaculum populi, uulgi laudes, fauores hominum, mundi gloriam non requirit.
+            Illa uero iusticia que est ypocrisis iusticia non est: mentitur oculis, fallit aspectus,
+            uidentibus illudit, decipit audientes, seducit turbas, trahit populos, famam uendit,
+            emit clamorem; mercedem rapit presentem, premium non querit futurum; cecat oculos, ceca
+            ipsa; non uidens uult uideri.</quote>
+          <ref xml:id="timf-ipoc-Rd1e402">Petrus Rauennas ibidem.</ref>
+        </p>
+
+
+        <p xml:id="timf-ipoc-d1e405" n="au">
+          <quote xml:id="timf-ipoc-Qd1e407">Demostenes, cum interrogaretur quidnam in dicendo esset efficacissimum, respondit:
+            itokpic, id est ypocrisim; interpellatus iterumque et tercio idem dixit.</quote>
+          <ref xml:id="timf-ipoc-Rd1e409">Valerius Maximus libro VII.</ref>
+        </p>
+
+
+
+        <p xml:id="timf-ipoc-d1e412" n="ax">
+          <quote xml:id="timf-ipoc-Qd1e414">Illud te ammoneo, ne eorum more qui non proficere sed conspici cupiunt, facias
+            aliqua que in habitu tuo aut genere uite notabilia sunt. Asperum cultum et uiciosum
+            caput et negligentiorem barbam et indictum argento odium et cubile humi positum et
+            quicquid aliud laudem peruersa uia sequitur euita.</quote>
+          <ref xml:id="timf-ipoc-Rd1e416">Seneca XIII. epistola.</ref>
+        </p>
+
+
+        <p xml:id="timf-ipoc-d1e419" n="ay">
+          <quote xml:id="timf-ipoc-Qd1e421">Quid si nos hominum consuetudini ceperimus excerpere? Intus omnia dissimilia sint,
+            frons populo nostra conueniat. Non splendeat toga, nec sordeat quidem; non habeamus
+            argentum in quo soli auri celatura descenderit, sed non putemus fragilitatis iudicium
+            auro argentoque caruisse.</quote>
+          <ref xml:id="timf-ipoc-Rd1e423">Ibidem.</ref>
+        </p>
+
+
+        <p xml:id="timf-ipoc-d1e426" n="az">
+          <quote xml:id="timf-ipoc-Qd1e428">Nempe propositum est secundum naturam uiuere. Hoc autem contra naturam est:
+            torquere corpus suum et faciles odisse mundicias et scalorem appetere et cibis non
+            tantum uilibus uti sed horridis.</quote>
+          <ref xml:id="timf-ipoc-Rd1e430">Ibidem.</ref>
+        </p>
+
+
+        <p xml:id="timf-ipoc-d1e433" n="ba">
+          <quote xml:id="timf-ipoc-Qd1e435">Non habemus ista odorifera, nec emptorem decipimus nichil inuenturum, cum
+            intrauerit preter illa, que in fronte suspensa sunt.</quote>
+          <ref xml:id="timf-ipoc-Rd1e437">Seneca XXXIII. epistola.</ref>
+        </p>
+
+
+        <p xml:id="timf-ipoc-d1e441" n="bc">
+          <quote xml:id="timf-ipoc-Qd1e443">Multorum quia inbecilla sunt latent uicia. Instrumenta illis explicande nequicie
+            desunt. Sic tuto serpens eciam pestifera tractatur dum riget frigore; non desunt tamen
+            illi uenena sed torpent. Multorum crudelitas et luxuria et ambicio, ut paria pessimis
+            audeat, fauore fortune deficit.</quote>
+          <ref xml:id="timf-ipoc-Rd1e445">Seneca XLII. epistola.</ref>
+        </p>
+
+
+        <p xml:id="timf-ipoc-d1e448" n="bd">
+          <quote xml:id="timf-ipoc-Qd1e450">Virtutem bona sequitur fide, qui se non exornat et pingit, sed idem siue ex
+            denunciato uideatur siue imparatus ac subito. Nichil simulacio proficit; ueritas in
+            omnem partem sui eadem est.</quote>
+          <ref xml:id="timf-ipoc-Rd1e452">Seneca LXXX. epistola.</ref>
+        </p>
+
+
+        <p xml:id="timf-ipoc-d1e455" n="be">
+          <quote xml:id="timf-ipoc-Qd1e457">Vis uideri ab hominibus an non? Nunquam bone honestatis est longa simulacio. Quid
+            de alienis moribus et tuis iudices? Multi sunt obligandi, pauci sunt offendendi.</quote>
+          <ref xml:id="timf-ipoc-Rd1e459">Seneca ibidem.</ref>
+        </p>
+
+
+        <p xml:id="timf-ipoc-d1e462" n="bf">
+          <quote xml:id="timf-ipoc-Qd1e464">Multo magis ad rem pertinet, qualis tibi quam qualis aliis uidearis.</quote>
+          <ref xml:id="timf-ipoc-Rd1e466">Seneca LXXXVII. epistola.</ref>
+        </p>
+
+
+        <p xml:id="timf-ipoc-d1e469" n="bg">
+          <quote xml:id="timf-ipoc-Qd1e471">Nunquam bona fide uicia mansuescunt. Tygres et leones nunquam feritatem exuunt,
+            aliquando submittunt, et cum minime expectaueris exasperatur toruitas mitigata.</quote>
+          <ref xml:id="timf-ipoc-Rd1e473">Seneca ibidem.</ref>
+        </p>
+
+
+        <p xml:id="timf-ipoc-d1e476" n="bh">
+          <quote xml:id="timf-ipoc-Qd1e478">Nemo potest personam fictam diu ferre. Ficta cito in naturam suam recidunt, quibus
+            autem ueritas subest, quecumque, ut ita dicam, ex solido enascuntur, in maius meliusque
+            procedunt.</quote>
+          <ref xml:id="timf-ipoc-Rd1e480">Seneca ad Neronem.</ref>
+        </p>
+
+
+        <p xml:id="timf-ipoc-d1e484" n="bi">
+          <quote xml:id="timf-ipoc-Qd1e486">Malus, ubi se bonum simulat, tunc est pessimus.</quote>
+          <ref xml:id="timf-ipoc-Rd1e488">Seneca in prouerbiis.</ref>
+        </p>
+
+        <p xml:id="timf-ipoc-d1e491" n="ubi">
+          <ref xml:id="timf-ipoc-Rd1e493">Abstinencia s</ref>; <ref xml:id="timf-ipoc-Rd1e495">Adulacio ah</ref>; <ref xml:id="timf-ipoc-Rd1e497">Ambicio s</ref>, <ref xml:id="timf-ipoc-Rd1e499">t</ref>;
+            <ref xml:id="timf-ipoc-Rd1e501">Auaricia q</ref>; <ref xml:id="timf-ipoc-Rd1e504">Confessio ag</ref>; <ref xml:id="timf-ipoc-Rd1e506">Consciencia n</ref>;
+            <ref xml:id="timf-ipoc-Rd1e508">Contemptus s</ref>; <ref xml:id="timf-ipoc-Rd1e510">Conuersacio b</ref>, <ref xml:id="timf-ipoc-Rd1e512">al</ref>; <ref xml:id="timf-ipoc-Rd1e514">Cor a</ref>,
+            <ref xml:id="timf-ipoc-Rd1e517">b</ref>; <ref xml:id="timf-ipoc-Rd1e519">Correctio ad</ref>; <ref xml:id="timf-ipoc-Rd1e521">Detractio e</ref>; <ref xml:id="timf-ipoc-Rd1e523">Doctrina ag</ref>;
+ø            <ref xml:id="timf-ipoc-Rd1e525">Fraus b</ref>; <ref xml:id="timf-ipoc-Rd1e527">Gloria uana i</ref>; <ref xml:id="timf-ipoc-Rd1e530">Honor p</ref>; <ref xml:id="timf-ipoc-Rd1e532">Humilitas
+          k</ref>; <ref xml:id="timf-ipoc-Rd1e534">Inimicicia m</ref>; <ref xml:id="timf-ipoc-Rd1e536">Paciencia a</ref>; <ref xml:id="timf-ipoc-Rd1e538">Perfectio q</ref>;
+            <ref xml:id="timf-ipoc-Rd1e540">Prelacio cm</ref>; <ref xml:id="timf-ipoc-Rd1e543">Religio p</ref>, <ref xml:id="timf-ipoc-Rd1e545">ak</ref>, <ref xml:id="timf-ipoc-Rd1e547">at</ref>,
+            <ref xml:id="timf-ipoc-Rd1e549">ax</ref>, <ref xml:id="timf-ipoc-Rd1e551">ay</ref>; <ref xml:id="timf-ipoc-Rd1e553">Sacerdos t</ref>; <ref xml:id="timf-ipoc-Rd1e556">Superbia r</ref>,
+            <ref xml:id="timf-ipoc-Rd1e558">ae</ref>; <ref xml:id="timf-ipoc-Rd1e560">Verecundia t</ref>. </p>
+      </div>
+    </body>
+  </text>
+</TEI>

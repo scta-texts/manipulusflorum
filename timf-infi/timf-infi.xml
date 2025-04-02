@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Infirmitas</title>
+        <author ref="#ThomasOfIreland">Thomas Hybernicus</author>
+        <respStmt>
+          <name>Chris Nighman</name>
+          <resp>Editor</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Infirmitas</title>
+          <date when="2025-04-01">April 1, 2025</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref>SCTA</ref> and <ref target="http://www.manipulusflorum.com/">Manipulus floreum
+            Project</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Pb" n="bnf15985">Bnf 15985</witness>
+          <witness xml:id="Pc" n="bnf15986">Bnf 15986</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2025-04-01" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="timf-infi">
+        <head xml:id="timf-infi-Hd1e109">Infirmitas</head>
+        <p xml:id="timf-infi-d1e111" n="a">
+          <quote xml:id="timf-infi-Qd1e113">Qui ueram ostendit corporis infirmitatem, humane tractandus est; qui autem falsam
+            pretendit et conuinci non potest, Deo dimittendus est.</quote>
+          <ref xml:id="timf-infi-Rd1e115">Augustinus de opere monachorum.</ref>
+        </p>
+
+
+        <p xml:id="timf-infi-d1e118" n="b">
+          <quote xml:id="timf-infi-Qd1e120">Corporis debilitas nimia eciam uires anime frangit, mentis quoque ingenium
+            marcescere facit. Quicquid cum modo et temperamento fit, salutare est.</quote>
+          <ref xml:id="timf-infi-Rd1e122">Ieronymus in quadam epistola.</ref>
+        </p>
+
+
+        <p xml:id="timf-infi-d1e125" n="c">
+          <quote xml:id="timf-infi-Qd1e127">Considerata infirmitas propria, mala nobis excusat aliena.</quote>
+          <ref xml:id="timf-infi-Rd1e129">Gregorius libro V. moralium.</ref>
+        </p>
+
+
+        <p xml:id="timf-infi-d1e132" n="d">
+          <quote xml:id="timf-infi-Qd1e134">Quosdam presciens Deus multa peccare posse, flagellat eos in infirmitate corporis
+            ne peccent, ut eis utilius sit frangi langoribus ad salutem, quam remanere incolumes ad
+            dampnationem.</quote>
+          <ref xml:id="timf-infi-Rd1e136">Hugo libro II. de anima.</ref>
+        </p>
+
+
+        <p xml:id="timf-infi-d1e140" n="e">
+          <quote xml:id="timf-infi-Qd1e142">Quidam pro libito suo uiuunt, et semper sunt uegeti. Quidam a regulis Ypocratis non
+            deuiant, et assidue sunt infirmi.</quote>
+          <ref xml:id="timf-infi-Rd1e144">Petrus Rauennas in quadam epistola.</ref>
+        </p>
+
+
+        <p xml:id="timf-infi-d1e147" n="f">
+          <quote xml:id="timf-infi-Qd1e149">In omni morbo tria grauia sunt: metus mortis, dolor corporis, intermissio
+            uoluptatis.</quote>
+          <ref xml:id="timf-infi-Rd1e151">Seneca LXXII. epistola.</ref>
+        </p>
+
+
+        <p xml:id="timf-infi-d1e154" n="g">
+          <quote xml:id="timf-infi-Qd1e156">Morieris, non quia egrotas, sed quia uiuis. Cum conualueris, non mortem sed
+            ualitudinem effugies.</quote>
+          <ref xml:id="timf-infi-Rd1e158">Seneca ibidem.</ref>
+        </p>
+
+
+        <p xml:id="timf-infi-d1e161" n="h">
+          <quote xml:id="timf-infi-Qd1e163">Nichil eque sanitatem impedit, sicut remediorum crebra mutatio. Non conualescit
+            planta, que sepe transfertur. Nichil magis egris prodest quam ab eo curari, a quo
+            uoluerit.</quote>
+          <ref xml:id="timf-infi-Rd1e165">Seneca in epistola II.</ref>
+        </p>
+
+
+        <p xml:id="timf-infi-d1e168" n="i">
+          <quote xml:id="timf-infi-Qd1e170">Bona ualitudo iocundior est eis, qui de graui morbo recreati sunt, quam qui nunquam
+            egro corpore fuerunt.</quote>
+          <ref xml:id="timf-infi-Rd1e172">Seneca in epistola.</ref>
+        </p>
+
+
+        <p xml:id="timf-infi-d1e175" n="k">
+          <quote xml:id="timf-infi-Qd1e177">Bene dormit, qui non sentit, quando male dormit.</quote>
+          <ref xml:id="timf-infi-Rd1e179">Seneca in prouerbiis.</ref>
+        </p>
+
+        <p xml:id="timf-infi-d1e183" n="ubi">
+          <ref xml:id="timf-infi-Rd1e185">Caro ac</ref>, <ref xml:id="timf-infi-Rd1e187">ad</ref>; <ref xml:id="timf-infi-Rd1e189">Consideratio k</ref>; <ref xml:id="timf-infi-Rd1e191">Dolor d</ref>;
+            <ref xml:id="timf-infi-Rd1e193">Gaudium e</ref>; <ref xml:id="timf-infi-Rd1e196">Gracia b</ref>; <ref xml:id="timf-infi-Rd1e198">Gula ai</ref>; <ref xml:id="timf-infi-Rd1e200">Medicina</ref>;
+            <ref xml:id="timf-infi-Rd1e202">Sanitas</ref>; <ref xml:id="timf-infi-Rd1e204">Senectus f</ref>. </p>
+
+      </div>
+    </body>
+  </text>
+</TEI>

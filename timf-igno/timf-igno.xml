@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ignorantia</title>
+        <author ref="#ThomasOfIreland">Thomas Hybernicus</author>
+        <respStmt>
+          <name>Chris Nighman</name>
+          <resp>Editor</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Ignorantia</title>
+          <date when="2025-04-01">April 1, 2025</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref>SCTA</ref> and <ref target="http://www.manipulusflorum.com/">Manipulus floreum
+            Project</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Pb" n="bnf15985">Bnf 15985</witness>
+          <witness xml:id="Pc" n="bnf15986">Bnf 15986</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2025-04-01" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="timf-igno">
+        <head xml:id="timf-igno-Hd1e109">Ignorancia</head>
+        <p xml:id="timf-igno-d1e111" n="a">
+          <quote xml:id="timf-igno-Qd1e113">Melius est nescire quam errare. Melior est fidelis ignorancia quam temeraria
+            sciencia.</quote>
+          <ref xml:id="timf-igno-Rd1e115">Augustinus de uerbis apostoli.</ref>
+        </p>
+
+
+        <p xml:id="timf-igno-d1e118" n="b">
+          <quote xml:id="timf-igno-Qd1e120">Pessime matris ignorancie, pessime itidem due filie sunt: falsitas et dubietas;
+            illa miserior, ista miserabilior; perniciosior illa, ista molestior.</quote>
+          <ref xml:id="timf-igno-Rd1e122">Augustinus ibidem.</ref>
+        </p>
+
+
+        <p xml:id="timf-igno-d1e125" n="c">
+          <quote xml:id="timf-igno-Qd1e127">Ordinis ignorancia conturbat negociorum naturam formamque meritorum. Statutis
+            facere contraria non est intelligere, sed ignorare.</quote>
+          <ref xml:id="timf-igno-Rd1e129">Ambrosius super Beati immaculati.</ref>
+        </p>
+
+
+        <p xml:id="timf-igno-d1e132" n="d">
+          <quote xml:id="timf-igno-Qd1e134">Qui enim lucem uidet, scit quid de tenebris estimet. Nam qui candorem lucis
+            ignorat, eciam obscura pro lucidis approbat.</quote>
+          <ref xml:id="timf-igno-Rd1e136">Gregorius in moralibus.</ref>
+        </p>
+
+
+        <p xml:id="timf-igno-d1e140" n="e">
+          <quote xml:id="timf-igno-Qd1e142">Cum nostram ignoranciam cognoscimus, leuius aliena onera toleramus. Nunquam Deus
+            mentem deserit, que in peccatis se ueraciter cognoscit.</quote>
+          <ref xml:id="timf-igno-Rd1e144">Gregorius libro I. moralium.</ref>
+        </p>
+
+
+        <p xml:id="timf-igno-d1e147" n="f">
+          <quote xml:id="timf-igno-Qd1e149">Non est parum scire, quod nescias. Frustra sibi de infirmitate uel ignorancia
+            blandiuntur, qui ut liberius peccent, libenter ignorant uel infirmantur.</quote>
+          <ref xml:id="timf-igno-Rd1e151">Bernardus de duodecim gradibus humilitatis.</ref>
+        </p>
+
+
+        <p xml:id="timf-igno-d1e154" n="g">
+          <quote xml:id="timf-igno-Qd1e156">Multa scienda nesciuntur, aut sciendi incuria, aut discendi desidia, aut inquirendi
+            uerecundia. Et quidem huius ignorancia non habet excusationem.</quote>
+          <ref xml:id="timf-igno-Rd1e158">Bernardus in epistola.</ref>
+        </p>
+
+
+        <p xml:id="timf-igno-d1e161" n="h">
+          <quote xml:id="timf-igno-Qd1e163">Vtraque cognitio, Dei scilicet et tui, tibi est necessaria ad salutem, ita neutra
+            carere ualeas cum salute, quia sicut ex noticia tui uenit in te timor Dei, atque ex Dei
+            noticia itidem amor, sic econtra de ignorancia tui superbia, ac de Dei ignorancia uenit
+            desperatio.</quote>
+          <ref xml:id="timf-igno-Rd1e165">Bernardus super Cantica.</ref>
+        </p>
+
+
+        <p xml:id="timf-igno-d1e168" n="i">
+          <quote xml:id="timf-igno-Qd1e170">Ebitudo mentis est acute rationis obtusio carnalis intemperancie crassis sensibus
+            inducta.</quote>
+          <ref xml:id="timf-igno-Rd1e172">Hugo.</ref>
+        </p>
+
+
+        <p xml:id="timf-igno-d1e175" n="k">
+          <quote xml:id="timf-igno-Qd1e177">Tolerabilior est pena uiuere non posse quam nescire.</quote>
+          <ref xml:id="timf-igno-Rd1e179">Seneca in prouerbiis.</ref>
+        </p>
+
+
+        <p xml:id="timf-igno-d1e183" n="l">
+          <quote xml:id="timf-igno-Qd1e185">Non est leuius omnino nescire quod liceat, quam facere aliquid quod scias non
+            licere.</quote>
+          <ref xml:id="timf-igno-Rd1e187">Seneca ibidem.</ref>
+        </p>
+
+        <p xml:id="timf-igno-d1e190" n="ubi"> (abest) </p>
+
+      </div>
+    </body>
+  </text>
+</TEI>

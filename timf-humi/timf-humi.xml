@@ -1,0 +1,445 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Humilitas</title>
+        <author ref="#ThomasOfIreland">Thomas Hybernicus</author>
+        <respStmt>
+          <name>Chris Nighman</name>
+          <resp>Editor</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Humilitas</title>
+          <date when="2025-04-01">April 1, 2025</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref>SCTA</ref> and <ref target="http://www.manipulusflorum.com/">Manipulus floreum
+            Project</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Pb" n="bnf15985">Bnf 15985</witness>
+          <witness xml:id="Pc" n="bnf15986">Bnf 15986</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2025-04-01" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="timf-humi">
+        <head xml:id="timf-humi-Hd1e109">Humilitas</head>
+
+
+        <p xml:id="timf-humi-d1e111" n="a1">
+          <quote xml:id="timf-humi-Qd1e113">Discite a me non mundum fabricare, non cuncta uisibilia et inuisibilia creare, non
+            in ipso mundo miracula facere et mortuos suscitare, sed quoniam mitis sum et humilis
+            corde. Cogitas magnam fabricam constituere celsitudinis de fundamento prius cogita
+            humilitatis.</quote>
+          <ref xml:id="timf-humi-Rd1e115">Augustinus de uerbis Domini.</ref>
+        </p>
+
+
+        <p xml:id="timf-humi-d1e118" n="a2">
+          <quote xml:id="timf-humi-Qd1e120">Omnes delectat celsitudo, sed humilitas gradus est. Quid tendis pedem ultra te?
+            Cadere uis non ascendere; a gradu incipe et ascendisti.</quote>
+          <ref xml:id="timf-humi-Rd1e122">Augustinus de uerbis Domini.</ref>
+        </p>
+
+
+        <p xml:id="timf-humi-d1e125" n="b">
+          <quote xml:id="timf-humi-Qd1e127">O medicinam omnibus consulentem, omnia tumencia comprimentem, omnia tabescencia
+            reficientem, omnia superflua resecantem, omnia deprauata corrigentem! Que superbia
+            sanari potest, si humilitate filii Dei non sanatur? Que auaricia sanari potest, si
+            paupertate filii Dei non sanatur? Que iracundia sanari potest, si paciencia filii Dei
+            non sanatur?</quote>
+          <ref xml:id="timf-humi-Rd1e129">Augustinus ibidem.</ref>
+        </p>
+
+
+        <p xml:id="timf-humi-d1e132" n="c">
+          <quote xml:id="timf-humi-Qd1e134">Non aliam tibi ad capescendam et obtinendam ueritatis uiam munias, quam que munita
+            est ab illo, qui gressuum nostrorum tanquam Deus uidit infirmitatem. Ea autem prima est
+            humilitas, secunda humilitas, tercia humilitas et, quociens interrogares, hoc dicerem.
+            Alludens dicto cuiusdam petentis a quodam philosopho, quod esset melius in rethorica
+            respondens: prima eloquencia, secunda eloquencia, tercia eloquencia, et sic et
+            cetera.</quote>
+          <ref xml:id="timf-humi-Rd1e136">Augustinus in epistola ad Dyascorum.</ref>
+        </p>
+
+
+        <p xml:id="timf-humi-d1e140" n="d">
+          <quote xml:id="timf-humi-Qd1e142">Excelsa est patria, humilis est uia. Ergo qui querit patriam, quid recusat
+            uiam?</quote>
+          <ref xml:id="timf-humi-Rd1e144">Augustinus super Iohannem.</ref>
+        </p>
+
+
+
+        <p xml:id="timf-humi-d1e147" n="e">
+          <quote xml:id="timf-humi-Qd1e149">Qui paupertate contentus est non est contentus iniuria, et qui potest ferre
+            uerberum penas exagitatur uerbo contumelie, et qui potest administraciones contempnere,
+            dolet sibi aliquem honorificencia esse prelatum. Grande est in omnibus tenere
+            humilitatis mensuras.</quote>
+          <ref xml:id="timf-humi-Rd1e151">Ambrosius super Psalmos.</ref>
+        </p>
+
+
+        <p xml:id="timf-humi-d1e154" n="f">
+          <quote xml:id="timf-humi-Qd1e156">Bona humilitas, que nichil appetendo totum quod contempnit, adipiscitur.</quote>
+          <ref xml:id="timf-humi-Rd1e158">Ambrosius ibidem.</ref>
+        </p>
+
+
+        <p xml:id="timf-humi-d1e161" n="g">
+          <quote xml:id="timf-humi-Qd1e163">Nichil excelsius humilitate, que quasi superior nescit extolli, quia nemo id
+            affectat, quod infra se iudicat.</quote>
+          <ref xml:id="timf-humi-Rd1e165">Ambrosius super Lucam libro VII.</ref>
+        </p>
+
+
+        <p xml:id="timf-humi-d1e168" n="h">
+          <quote xml:id="timf-humi-Qd1e170">Quisquis cupit diuinitatis tenere fastigia, humilitatis yma sectetur. Quicumque
+            uult fratrem preuenire regnando, prius illum preueniat obsequendo, sicut ait Apostolus:
+            Honore inuicem preuenientes. Vincat eum officiis, ut possit uincere sanctitate. Si enim
+            te non lesit frater, obsequium meretur ut diligas; quod si forsitan lesit, magis
+            obsequium meretur ut uincas. Hec enim nostre Christianitatis summa est, ut amantibus
+            uicissitudinem ledentibus pacienciam rependamus. Qui ergo fuerit pacientior ad iniuriam,
+            potentior constituetur in regno.</quote>
+          <ref xml:id="timf-humi-Rd1e172">Ambrosius in sermone quodam.</ref>
+        </p>
+
+
+        <p xml:id="timf-humi-d1e175" n="i">
+          <quote xml:id="timf-humi-Qd1e177">Non indocta humilitas, sed que habeat sui modestiam et scienciam, laudatur. Scio
+            humiliari, id est in quo loco, qua moderacione, quo fine, in quo officio, in quo munere.
+            Nesciuit phariseus humiliari, ideo deiectus est.</quote>
+          <ref xml:id="timf-humi-Rd1e179">Ambrosius libro de officiis.</ref>
+        </p>
+
+
+        <p xml:id="timf-humi-d1e183" n="k">
+          <quote xml:id="timf-humi-Qd1e185">Nichil que est quod nos ita et hominibus gratos et Deo faciat, quam si uite merito
+            magne humilitatis infimi sumus. Humilitatem sequere, non que ostenditur atque simulatur
+            gestu corporis aut fracta uoce uerborum, sed que puro cordis affectu exprimitur. Aliud
+            enim est uirtutem habere, aliud uirtutis similitudinem. Multo illa deformior est
+            superbia, que sub quibusdam humilitatis signis latet. Nescio enim quomodo turpiora sunt
+            uicia, cum uirtutum specie celantur.</quote>
+          <ref xml:id="timf-humi-Rd1e187">Ieronymus ad Cellanciam.</ref>
+        </p>
+
+
+        <p xml:id="timf-humi-d1e190" n="l">
+          <quote xml:id="timf-humi-Qd1e192">Humilitas sola est obseruatrix custosque uirtutum, et nichil est quod ita Deo
+            gratum faciat et hominibus, quam si uite merito magni, sed humilitate infimi
+            uideamur.</quote>
+          <ref xml:id="timf-humi-Rd1e194">Ieronymus super Mattheum XIX.</ref>
+        </p>
+
+
+        <p xml:id="timf-humi-d1e197" n="m">
+          <quote xml:id="timf-humi-Qd1e199">Tanto fit quisque uilior Deo, quanto preciosior sibi; tanto preciosior Deo, quanto
+            propter eum uilior sibi.</quote>
+          <ref xml:id="timf-humi-Rd1e201">Gregorius libro XVIII. moralium.</ref>
+        </p>
+
+
+        <p xml:id="timf-humi-d1e204" n="n">
+          <quote xml:id="timf-humi-Qd1e206">Cum per tentacionem humilitas proficit, prospera est ipsa aduersitas, que mentem ab
+            elacione custodit.</quote>
+          <ref xml:id="timf-humi-Rd1e208">Gregorius libro XXVI. moralium.</ref>
+        </p>
+
+
+        <p xml:id="timf-humi-d1e211" n="o">
+          <quote xml:id="timf-humi-Qd1e213">Quia origo uirtutis humilitas est, illa in nobis uirtus ueraciter pululat, que in
+            radice propria, id est in humilitate, perdurat. A qua nimirum, si absciditur, arescit,
+            quia uiuificantem se in infimis humorem caritatis perdit.</quote>
+          <ref xml:id="timf-humi-Rd1e215">Gregorius libro XXVII. moralium.</ref>
+        </p>
+
+
+
+        <p xml:id="timf-humi-d1e218" n="p">
+          <quote xml:id="timf-humi-Qd1e220">Qui sine humilitate uirtutes congregat, in uentum puluerem portat.</quote>
+          <ref xml:id="timf-humi-Rd1e222">Gregorius in omelia VII.</ref>
+        </p>
+
+
+        <p xml:id="timf-humi-d1e226" n="q">
+          <quote xml:id="timf-humi-Qd1e228">Certe si nos cuiuspiam seruus rogaret, ut ad eum ire deberemus, protinus nobis
+            nostra superbia in cogitacione tacita responderet, dicens: Non eas quia temetipsum
+            degeneras, honor tuus despicitur, locus uilescit. Ecce de celo uenit qui seruo in terra
+            occurrere non despicit, et tamen humiliari in terra contempnimus qui de terra
+            sumus.</quote>
+          <ref xml:id="timf-humi-Rd1e230">Gregorius omelia XXVIII.</ref>
+        </p>
+
+
+        <p xml:id="timf-humi-d1e233" n="r">
+          <quote xml:id="timf-humi-Qd1e235">Ecce odor filii mei sicut odor agri pleni. Aliter olet flos uue, quia magna est
+            uirtus et opinio predicatorum, qui inebriant mentes audiencium, aliter flos oliue quia
+            suaue est opus misericordie quod refouet et lucet, aliter flos rose quia mira est
+            fragrancia, que rutilat et redolet ex cruore martirum, aliter flos lilii quia candida
+            uita carnis de incorrupcione uirginitatis, aliter flos uiole quia uirtus humilium, qui
+            ultima loca tenentes per humilitatem se a terra in altum non subleuant, et celestis
+            regni purpuram in mente seruant, aliter redolet spica cum ad maturitatem perducitur,
+            quia bonorum operum perfectio ad sacietatem eorum, qui esuriunt iusticiam
+            preparatur.</quote>
+          <ref xml:id="timf-humi-Rd1e237">Gregorius super Iozechielem.</ref>
+        </p>
+
+
+        <p xml:id="timf-humi-d1e240" n="s">
+          <quote xml:id="timf-humi-Qd1e242">Humilitas uera est, qua quis de se parua estimat, et bona alterius sine inuidia et
+            liuore commendat.</quote>
+          <ref xml:id="timf-humi-Rd1e244">Gregorius.</ref>
+        </p>
+
+
+        <p xml:id="timf-humi-d1e247" n="t">
+          <quote xml:id="timf-humi-Qd1e249">Describitur Iob temptacione auctus sed non temptacione prostratus, ut et maiorum
+            uirtus spem nostram foueat, et maiorum casus ad cautelam nos humilitatis attingat.
+            Quatenus dum illa gaudentes subleuant, ista metuentes premunt.</quote>
+          <ref xml:id="timf-humi-Rd1e251">Gregorius in moralibus.</ref>
+        </p>
+
+
+        <p xml:id="timf-humi-d1e254" n="u">
+          <quote xml:id="timf-humi-Qd1e256">Quisquis nunc sponte sese non humiliat, nequaquam hunc sequens gloria
+            exaltat.</quote>
+          <ref xml:id="timf-humi-Rd1e258">Gregorius libro VIII. moralium.</ref>
+        </p>
+
+
+        <p xml:id="timf-humi-d1e261" n="x">
+          <quote xml:id="timf-humi-Qd1e263">Perit omne quod agitur, si non in humilitate custoditur.</quote>
+          <ref xml:id="timf-humi-Rd1e265">Ibidem.</ref>
+        </p>
+
+
+        <p xml:id="timf-humi-d1e269" n="y">
+          <quote xml:id="timf-humi-Qd1e271">Humilitas est uirtus, qua homo uerissima sui cognicione sibimetipsi
+            uilescit.</quote>
+          <ref xml:id="timf-humi-Rd1e273">Bernardus de duodecim gradibus humilitatis.</ref>
+        </p>
+
+
+        <p xml:id="timf-humi-d1e276" n="z">
+          <quote xml:id="timf-humi-Qd1e278">Non magnum est esse humilem in abiectione, magna prorsus et rara uirtus humilitas
+            honorata.</quote>
+          <ref xml:id="timf-humi-Rd1e280">Bernardus super Missus est.</ref>
+        </p>
+
+
+        <p xml:id="timf-humi-d1e283" n="ab">
+          <quote xml:id="timf-humi-Qd1e285">Gloriosa res humilitas, qua ipsa quoque superbia palliare se appetit, ne
+            uilescat.</quote>
+          <ref xml:id="timf-humi-Rd1e287">Bernardus ibidem.</ref>
+        </p>
+
+
+        <p xml:id="timf-humi-d1e290" n="ac">
+          <quote xml:id="timf-humi-Qd1e292">Cum ex aliis quibusque bonis uirium magis suarum capere soleat incrementum
+            superbia, sola humilitas omnium propugnaculum turrisque uirtutum eius forsitan resistit
+            malicie, obuiat presumptioni.</quote>
+          <ref xml:id="timf-humi-Rd1e294">Bernardus in epistola.</ref>
+        </p>
+
+
+
+        <p xml:id="timf-humi-d1e297" n="ad">
+          <quote xml:id="timf-humi-Qd1e299">Bona humilitas, que et in presenti ab huius mordacibus curis mentem facit esse
+            quietam, et a minacibus penis in futuro securam reddit conscienciam. Humiliacio uia est
+            ad humilitatem sicut paciencia ad pacem, sicut lectio ad scienciam. Si ergo uirtutem
+            appetis humilitatis, uiam non refugias humiliacionis. Solus qui uere humilis est, parcit
+            anime sue, qui ne putetur quod non est, semper quantum in se est, uult nesciri quod
+            est.</quote>
+          <ref xml:id="timf-humi-Rd1e301">Bernardus ibidem.</ref>
+        </p>
+
+
+        <p xml:id="timf-humi-d1e304" n="ae">
+          <quote xml:id="timf-humi-Qd1e306">Humilis debet esse et uerecunda satisfactio, qua emendatur superba transgressio.
+            Nec sterilis uerecundia grata est, nec humilitas preter ueritatem laudabilis.</quote>
+          <ref xml:id="timf-humi-Rd1e308">Bernardus super Cantica.</ref>
+        </p>
+
+
+        <p xml:id="timf-humi-d1e312" n="af">
+          <quote xml:id="timf-humi-Qd1e314">Oportet humiliter sentire de se nitentem ad altiora, ne dum supra se attollitur,
+            cadat a se, nisi in se firmiter per ueram humilitatem fuerit solidatus, quia nisi
+            humilitatis merito maxima minime optinentur.</quote>
+          <ref xml:id="timf-humi-Rd1e316">Bernardus ibidem.</ref>
+        </p>
+
+
+        <p xml:id="timf-humi-d1e319" n="ag">
+          <quote xml:id="timf-humi-Qd1e321">Cum te humiliari uideris, habeto id signum in bonum omnino argumentum gracie
+            propinquantis. Alii cum rancore humiliantur, alii pacienter, alii et libenter. Primi rei
+            sunt, sequentes innoxii, ultimi iusti.</quote>
+          <ref xml:id="timf-humi-Rd1e323">Bernardus ibidem.</ref>
+        </p>
+
+
+        <p xml:id="timf-humi-d1e326" n="ah">
+          <quote xml:id="timf-humi-Qd1e328">Est humilitas quam ueritas nobis parit, et non habet calorem, et est humilitas quam
+            caritas format et inflammat. Hec quidem in affectu, illa in cognicione consistit. In eo
+            qui grauiter peccauit, et si amanda, non tamen admiranda humilitas. Sed si quis
+            innocenciam retinet et nichilominus humilitatem iungit, nonne is tibi uidetur geminum
+            anime possidere decorem? Rara auis in terris, aut sanctitatem non perdere, aut
+            humilitatem sanctimonia non excludi; et ideo beata que utramque retinuit.</quote>
+          <ref xml:id="timf-humi-Rd1e330">Bernardus super Cantica sermone XLV.</ref>
+        </p>
+
+
+        <p xml:id="timf-humi-d1e333" n="ai">
+          <quote xml:id="timf-humi-Qd1e335">Fode in te fundamentum humilitatis, et peruenies ad fastigium caritatis. Vis capere
+            celsitudinem Dei? Cape prius humilitatem Christi. Sola est uirtus humilitatis lese
+            caritatis reparacio.</quote>
+          <ref xml:id="timf-humi-Rd1e337">Bernardus in epistolis.</ref>
+        </p>
+
+
+        <p xml:id="timf-humi-d1e340" n="ak">
+          <quote xml:id="timf-humi-Qd1e342">Nulla splendidior gemma in omni precipue ornatu summi pontificis quam humilitas.
+            Nempe si amittetur illa, uirtutum aggregacio non nisi ruina est.</quote>
+          <ref xml:id="timf-humi-Rd1e344">Bernardus ibidem.</ref>
+        </p>
+
+
+        <p xml:id="timf-humi-d1e347" n="al">
+          <quote xml:id="timf-humi-Qd1e349">Sola que non solet gloriari, non nouit presumere, contendere non consueuit, graciam
+            inuentura est in oculis pietatis humilitas. Non contendit iudicio, non pretendit
+            iusticiam, qui uero humilis est.</quote>
+          <ref xml:id="timf-humi-Rd1e351">Bernardus in epistola XLII.</ref>
+        </p>
+
+
+        <p xml:id="timf-humi-d1e355" n="am">
+          <quote xml:id="timf-humi-Qd1e357">Velle esse super omnes uituperabile est. Sustinere autem alterum super se nimis est
+            gloriosum.</quote>
+          <ref xml:id="timf-humi-Rd1e359">Crisostomus super Mattheum omelia III.</ref>
+        </p>
+
+
+        <p xml:id="timf-humi-d1e362" n="an">
+          <quote xml:id="timf-humi-Qd1e364">Qui humilis est corde, et indigniorem se aliis arbitratur, nunquam desiderat
+            superior apparere. Primatus enim fugientem se desiderat, desiderantem se horret.</quote>
+          <ref xml:id="timf-humi-Rd1e366">Crisostomus.</ref>
+        </p>
+
+
+        <p xml:id="timf-humi-d1e369" n="ao">
+          <quote xml:id="timf-humi-Qd1e371">Quisquis gradum proprie celsitudinis amat, humilitatis cultum in moribus
+            diligentissime teneat. Nam qui ab humilitatis operibus recedit, a dignitatis fastigio
+            tumoris pondere cadit.</quote>
+          <ref xml:id="timf-humi-Rd1e373">Crisostomus in suo policraticio libro IIII.</ref>
+        </p>
+
+
+        <p xml:id="timf-humi-d1e376" n="ap">
+          <quote xml:id="timf-humi-Qd1e378">Discite a me quia mitis sum et humilis corde, et inuenietis requiem animabus
+            uestris. Ecce mel humilitatis cum dulcedine mansuetudinis. Sicut enim mel concordat in
+            confectionibus medicine cum omnibus diuersitatibus specierum, sic ex humilitatis
+            dulcedine condiuntur omnia genera uirtutum.</quote>
+          <ref xml:id="timf-humi-Rd1e380">Hugo libro III. de claustro anime.</ref>
+        </p>
+
+
+        <p xml:id="timf-humi-d1e383" n="aq">
+          <quote xml:id="timf-humi-Qd1e385">Humilitas est ex intuitu proprie condicionis, uel conditoris, uoluntaria mentis
+            inclinacio.</quote>
+          <ref xml:id="timf-humi-Rd1e387">Hugo.</ref>
+        </p>
+
+
+        <p xml:id="timf-humi-d1e390" n="ar">
+          <quote xml:id="timf-humi-Qd1e392">Nullo modo poterit in anima nostra uirtutum structura consurgere, nisi prius
+            iactata fuerint uere humilitatis in corde nostro fundamenta, que firmissime collocata
+            perfectionis et caritatis culmen ualeant sustinere.</quote>
+          <ref xml:id="timf-humi-Rd1e394">Iohannes Cassianus libro XII. de spiritu superbie.</ref>
+        </p>
+
+
+        <p xml:id="timf-humi-d1e398" n="as">
+          <quote xml:id="timf-humi-Qd1e400">Vera discrecio non nisi uera humilitate acquiritur. Cuius humilitatis hec erit
+            prima probacio, si uniuersa non solum que agenda sunt, sed eciam que cogitantur,
+            reseruantur seniorum examini, ut nichil quis suo iudicio credens illorum per omnia
+            diffinicionibus acquiescat, et quid bonum uel malum debeat iudicare, eorum tradicione
+            cognoscat.</quote>
+          <ref xml:id="timf-humi-Rd1e402">In collacionibus patrum collacione Moysi.</ref>
+        </p>
+
+
+        <p xml:id="timf-humi-d1e405" n="at">
+          <quote xml:id="timf-humi-Qd1e407">Humilitas in paupere grata est, in diuite gloriosa; humilitas inter inimicos
+            blanda, superbia uero inter amicos ingrata. Blanda est et officiosa semper humilitas in
+            amiciciis grata, in contumeliis ociosa. Non extollitur prosperis, non mutatur aduersis,
+            non extorquet seruicium, non requirit uoces adulancium, nisi qui se laudacione nouit
+            indignum.</quote>
+          <ref xml:id="timf-humi-Rd1e409">Valerius episcopus in quodam sermone.</ref>
+        </p>
+
+
+        <p xml:id="timf-humi-d1e412" n="au">
+          <quote xml:id="timf-humi-Qd1e414">Tria sunt que radicata nutriunt humilitatem, scilicet assiduitas subiectionis,
+            consideracio proprie fragilitatis, et consideracio rei melioris.</quote>
+          <ref xml:id="timf-humi-Rd1e416">Basilius in exameron.</ref>
+        </p>
+
+
+        <p xml:id="timf-humi-d1e419" n="ax">
+          <quote xml:id="timf-humi-Qd1e421">Erubescant elati, ubi credunt locum habere superbiam, cum celum et terram ab
+            humilitate uideant occupatam.</quote>
+          <ref xml:id="timf-humi-Rd1e423">Cassiodorus super illud Psalmi: Et humilia respicit et cetera.</ref>
+        </p>
+
+
+        <p xml:id="timf-humi-d1e426" n="ay">
+          <quote xml:id="timf-humi-Qd1e428">Per humilitatem membra Christi sciunt dyaboli uicisse superbiam. Per hanc fideles
+            supra regna proficiunt, per hanc superbia tyrannica superatur, per hanc in eternum
+            martyres coronantur, nec potest dici perfectus, qui hac uirtute est priuatus.</quote>
+          <ref xml:id="timf-humi-Rd1e430">Cassiodorus super illud Psalmi: Humiliatus sum usque quaque.</ref>
+        </p>
+        <p xml:id="timf-humi-d1e433" n="ubi">
+          <ref xml:id="timf-humi-Rd1e435">Confessio l</ref>; <ref xml:id="timf-humi-Rd1e437">Consciencia i</ref>; <ref xml:id="timf-humi-Rd1e439">Consideracio</ref>;
+            <ref xml:id="timf-humi-Rd1e441">Contemplacio b</ref>; <ref xml:id="timf-humi-Rd1e443">Correctio aq</ref>, <ref xml:id="timf-humi-Rd1e446">ar</ref>; <ref xml:id="timf-humi-Rd1e448">Exemplum
+            ac</ref>; <ref xml:id="timf-humi-Rd1e450">Honor k</ref>; <ref xml:id="timf-humi-Rd1e452">Iusticia i</ref>; <ref xml:id="timf-humi-Rd1e454">Iuuentus b</ref>; <ref xml:id="timf-humi-Rd1e456">Laus
+            l</ref>; <ref xml:id="timf-humi-Rd1e459">Maria al</ref>; <ref xml:id="timf-humi-Rd1e461">Modestia h</ref>; <ref xml:id="timf-humi-Rd1e463">Paupertas t</ref>;
+            <ref xml:id="timf-humi-Rd1e465">Periculum c</ref>; <ref xml:id="timf-humi-Rd1e467">Predicacio au</ref>; <ref xml:id="timf-humi-Rd1e469">Prelacio ar</ref>; <ref xml:id="timf-humi-Rd1e472">Sapiencia
+            o</ref>; <ref xml:id="timf-humi-Rd1e474">Superbia i</ref>, <ref xml:id="timf-humi-Rd1e476">ak</ref>, <ref xml:id="timf-humi-Rd1e478">ba</ref>; <ref xml:id="timf-humi-Rd1e480">Voluntas ah</ref>.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

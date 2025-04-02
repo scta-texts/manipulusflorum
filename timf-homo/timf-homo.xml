@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Homo</title>
+        <author ref="#ThomasOfIreland">Thomas Hybernicus</author>
+        <respStmt>
+          <name>Chris Nighman</name>
+          <resp>Editor</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Homo</title>
+          <date when="2025-04-01">April 1, 2025</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref>SCTA</ref> and <ref target="http://www.manipulusflorum.com/">Manipulus floreum
+            Project</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Pb" n="bnf15985">Bnf 15985</witness>
+          <witness xml:id="Pc" n="bnf15986">Bnf 15986</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2025-04-01" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="timf-homo">
+        <head xml:id="timf-homo-Hd1e109">Homo</head>
+        <p xml:id="timf-homo-d1e111" n="a">
+          <quote xml:id="timf-homo-Qd1e113">Procliuis et mutabilis est in utrumque humana conditio, ut quocumque intenderit eo
+            propendat et uergat, uel ad studia uirtutum uel ad illecebra delictorum.</quote>
+          <ref xml:id="timf-homo-Rd1e115">Ambrosius in libro de Ioseph.</ref>
+        </p>
+
+
+        <p xml:id="timf-homo-d1e118" n="b">
+          <quote xml:id="timf-homo-Qd1e120">Ad hoc homo positus erat in paradiso, ut si se ad conditoris sui obedienciam
+            uinculis caritatis astringeret, ad celestem angelorum patriam quandoque sine carnis
+            morte transiret.</quote>
+          <ref xml:id="timf-homo-Rd1e122">Gregorius libro IIII. moralium.</ref>
+        </p>
+
+
+        <p xml:id="timf-homo-d1e125" n="c">
+          <quote xml:id="timf-homo-Qd1e127">Homo cum in honore esset non intellexit et cetera. In quo honore? Habitabat in
+            paradyso et in loco uoluptatis conuersatio eius. Nichil molestie, nichil indigencie
+            senciebat, odoriferis stipatus malis, fulcitus floribus, gloria et honore coronatus, et
+            constitutus super opera manuum plasmatoris; magis autem ob insigne diuine similitudinis
+            precellebat; et erat illi sors ac societas cum plebe angelorum, et cum omni milicia
+            celestis exercitus. Sed mutauit istam gloriam in similitudinem uituli comedentis
+            fenum.</quote>
+          <ref xml:id="timf-homo-Rd1e129">Bernardus super Cantica.</ref>
+        </p>
+
+
+        <p xml:id="timf-homo-d1e132" n="d">
+          <quote xml:id="timf-homo-Qd1e134">Heu! Tristis et lacrimosa mutatio ut homo, paradisi cola, terre dominus, celi
+            ciuis, domesticus Domini sabaoth, frater deorum spirituum et celestium, coheres
+            uirtutum, repentina se conuersione inuenit, et propter infirmitatem iacentem in stabulo,
+            et propter pecorinam similitudinem indigentem feno, et propter indomitam feritatem
+            alligatum presepio, sicut scriptum est: In chamo et freno maxillas eorum
+            constringe.</quote>
+          <ref xml:id="timf-homo-Rd1e136">Bernardus ibidem.</ref>
+        </p>
+
+
+        <p xml:id="timf-homo-d1e140" n="e">
+          <quote xml:id="timf-homo-Qd1e142">Video hominem prius quattuor uirtutibus amictum. Quid huic deerat quem misericordia
+            custodiebat, ueritas docebat, iusticia regebat, pax fouebat?</quote>
+          <ref xml:id="timf-homo-Rd1e144">Bernardus ibidem.</ref>
+        </p>
+
+
+        <p xml:id="timf-homo-d1e147" n="f">
+          <quote xml:id="timf-homo-Qd1e149">Animalia fecit Deus propter hominem, hominem propter se ipsum. Si ergo animalibus
+            ministrat propter hominem, quomodo hominibus non ministrabit propter se ipsum?</quote>
+          <ref xml:id="timf-homo-Rd1e151">Crisostomus super Mattheum VI.</ref>
+        </p>
+
+
+        <p xml:id="timf-homo-d1e154" n="g">
+          <quote xml:id="timf-homo-Qd1e156">Omnem creaturam sensibilem Deus armatam et munitam creauit, alios ueloci pedum
+            cursu, alios unguibus, alios pennis, alios cornibus; hominem solum sic disposuit, ut
+            uirtus illius sit ipse Deus. Et in eo quod infirmiorem eum fecit, in ipso fortiorem esse
+            uoluit in se, ut necessitate infirmitatis coactus, semper necessarium habeat Dominum
+            suum requirere.</quote>
+          <ref xml:id="timf-homo-Rd1e158">Crisostomus super Mattheum VII.</ref>
+        </p>
+
+
+        <p xml:id="timf-homo-d1e161" n="h">
+          <quote xml:id="timf-homo-Qd1e163">Pre omnibus malis homo est pessimum malum. Quelibet bestia unum habet et proprie
+            malum, homo autem omnia. Dyabolus enim ad iustum accedere non audet, sed malus homo non
+            timet, sed contempnit.</quote>
+          <ref xml:id="timf-homo-Rd1e165">Crisostomus Mattheo X.</ref>
+        </p>
+
+
+        <p xml:id="timf-homo-d1e168" n="i">
+          <quote xml:id="timf-homo-Qd1e170">Comparatus est homo iumentis et cetera. Peius est comparari quam nasci. Naturaliter
+            non habere rationem tollerabile est; hominem uero ratione decoratum, irrationabili
+            nature comparari, uoluntatis crimen est.</quote>
+          <ref xml:id="timf-homo-Rd1e172">Crisostomus in omelia de ascensione.</ref>
+        </p>
+
+
+        <p xml:id="timf-homo-d1e175" n="k">
+          <quote xml:id="timf-homo-Qd1e177">Qui usum uestimentorum primus adinuenit, considerauit quod singula queque
+            nascencium propria quedam habeant munimenta, quibus naturam suam ab incommodis
+            defendunt. Cortex ambit arborem, penna tegit uolucrem, piscem scama operit, lana ouem
+            induit, pilus iumenta et feras uestit, concha testudinem excipit, ebur elephantem iacula
+            non timere facit. Nec tamen sine causa factum est, quod cum singula animancium nature
+            sue arma habeant secum nata, solus homo inermis nascitur et nudus. Oportuit enim ut
+            illis, que sibi preuidere nesciunt, natura consuleret, homini autem ex hoc eciam maior
+            experiendi occasio prestaretur, cum illa que ceteris naturaliter data sunt, propria
+            ratione sibi inueniret. Multo enim magis enitet nunc ratio hominis hec eadem inueniendo
+            quam habendo claruisset, nec sine causa prouerbium sonat, quod ingeniosa fames omnes
+            excuderit artes.</quote>
+          <ref xml:id="timf-homo-Rd1e179">Hugo in didascalicon libro I.</ref>
+        </p>
+
+
+        <p xml:id="timf-homo-d1e183" n="l">
+          <quote xml:id="timf-homo-Qd1e185">Vide homo, dicit mundus, quomodo amauit te qui propter te fecit me. Seruio tibi
+            quia factus sum propter te, ut tu seruias illi, qui fecit et me et te, me propter te, et
+            te propter se. Si sentis beneficium, redde debitum; si accipis benignitatem, redde
+            caritatem.</quote>
+          <ref xml:id="timf-homo-Rd1e187">Hugo.</ref>
+        </p>
+
+
+        <p xml:id="timf-homo-d1e190" n="m">
+          <quote xml:id="timf-homo-Qd1e192">Principium iure tribuitur homini, cuius causa uidetur cuncta animalia genuisse
+            natura, magna et seua mercede contra tanta sua munera, ut non satis estimare parens
+            melior an tristior nouerca fuerit. Ante omnia unum animancium cunctorum alienus
+            uelaminis ope, ceteris uarie tegumenta tribuit, testas, cortices, coria, spinas, pilos,
+            plumam, pennas, scamas, uellera, et arbori que cortice interdum gemino a frigoribus et
+            calore tuta est. Hominem tantum nudum et in nudo humo natali die abicit ad uagitum
+            statim et ploratum, nullumque tot animalium aliud ad lacrimas et hoc protinus uite
+            principio.</quote>
+          <ref xml:id="timf-homo-Rd1e194">Plinius ystoriarum mundi libro VII.</ref>
+        </p>
+
+
+        <p xml:id="timf-homo-d1e197" n="n">
+          <quote xml:id="timf-homo-Qd1e199">Neque feras quidem inter nos genitas uincula excipiunt et omnium membrorum nexus.
+            At homo infeliciter natus iacet manibus pedibusque deuinctis, flens animal ceteris
+            imperaturum, et a suppliciis uitam auspicatur, unam tantum ob culpam quia natum est.
+            Heu, demenciam ab hiis iniciis existimancium ad superbiam se genitos! Prima roboris spes
+            primum temporis munus quadrupedi similem facit.</quote>
+          <ref xml:id="timf-homo-Rd1e201">Ibidem.</ref>
+        </p>
+
+
+        <p xml:id="timf-homo-d1e204" n="o">
+          <quote xml:id="timf-homo-Qd1e206">Cetera uidentur sentire naturam suam, alia pernicitatem usurpare, alia prepetes
+            uolatus, iure hominem nichil scire sine doctrina, non fari, non ingredi, non uesci,
+            breuiterque non aliud nature sponte quam flere. Quam seuissime uni animancium luctus est
+            datus, uni luxuria, uni ambitio, uni auaricia, uni immensa uiuendi cupido, uni
+            supersticio, uni sepulture cura. Nulli tamen uita fragilior, nulli rerum omnium libido
+            maior, nulli pauor confusior, nulli rabies acrior.</quote>
+          <ref xml:id="timf-homo-Rd1e208">Ibidem.</ref>
+        </p>
+
+
+        <p xml:id="timf-homo-d1e211" n="p">
+          <quote xml:id="timf-homo-Qd1e213">Cetera animancia in suo genere prope degunt. Congregari uidemus et stare contra
+            dissimilia: leonum feritas inter se non dimicat, serpencium morsus non petit serpentes,
+            nec maris quidem belue ac pisces nisi in aduersa genera seuiunt. At homini plurima ex
+            homine sunt mala.</quote>
+          <ref xml:id="timf-homo-Rd1e215">Idem ibidem.</ref>
+        </p>
+
+
+        <p xml:id="timf-homo-d1e218" n="q">
+          <quote xml:id="timf-homo-Qd1e220">Infructuosa intricat cespitem, necat spacia, exhaurit terre uires, cultorem
+            conficit dampno, afficit possidentem, at sic excidere istam lucrum est, istam non habere
+            commodum est. Sic homo utique qui nature donum, munus anime, rationis beneficium,
+            excellenciam sensus, iudicium mentis, artis industriam, culture bonum, in steriles atque
+            inopes actus euertit, occupat, mergit auctori fructum, cultori graciam negat. Vnde sicut
+            arbor e terra, sic iste uita meretur excidi.</quote>
+          <ref xml:id="timf-homo-Rd1e222">Petrus Rauennas super illud: Arborem fici quidam plantatam habebat.</ref>
+        </p>
+
+
+        <p xml:id="timf-homo-d1e226" n="r">
+          <quote xml:id="timf-homo-Qd1e228">Fuit quoddam tempus, cum in agris homines passim bestiarum more uagarentur, et sibi
+            uictu ferino uitam propagabant, nec animi ratione quicquam, sed pleraque uiribus
+            corporis administrabant, nondum diuine religionis, non humani officii ratio colebatur,
+            nemo nupcias uiderat legitimas, non certos quisquam inspexerat liberos, non, ius
+            equabile quid utilitatis haberet, acceperat.</quote>
+          <ref xml:id="timf-homo-Rd1e230">Tullius in prologo rethorice.</ref>
+        </p>
+
+
+        <p xml:id="timf-homo-d1e233" n="s">
+          <quote xml:id="timf-homo-Qd1e235">Quo tempore quidam uir magnus et sapiens cognouit, que materia esset, et quanta ad
+            maximas res oportunitas animis inesset hominum, si quis eam possit elicere et
+            precipiendo meliorem reddere, qui dispersos homines in agris et in tectis siluestribus
+            abditos ratione quadam compulit, in locum unum et congregauit, et eos in unamquamque rem
+            utilem atque honestam inducens, ex feris et immanibus mites reddit et mansuetos. At
+            michi uidetur quidem hoc nec tacita nec inops dicendi sapiencia perficere potuisse, ut
+            homines a consuetudine subito conuerteret, et ad diuersas rationes uite
+            traduceret.</quote>
+          <ref xml:id="timf-homo-Rd1e237">Ibidem.</ref>
+        </p>
+
+
+        <p xml:id="timf-homo-d1e240" n="t">
+          <quote xml:id="timf-homo-Qd1e242">Omnia suo bono constant. Vitem fertilitas commendat, sapor uinum, et uelocitas
+            ceruum; quam forcia dorso iumenta sint queris. In cane sagacitas prima est, si feras
+            inuestigare debet, cursus, si consequi, audacia, si mordere et inuadere. Id cuique
+            optimum esse debet, cui nascitur, quo censetur. In homine optimum quid est? Ratio. Hac
+            antecedit animalia, deos sequitur. Ratio ergo perfecta proprium hominis bonum est,
+            cetera illi cum animalibus satisque communia sunt. Valet et leones, formosus est et
+            pauones, uelox est et equi. Corpus habet et arbores. Habet impetum ac motum uoluntarium
+            et bestie et uermes. Habet uocem sed quanto clariorem canes, acutiorem aquile, grauiorem
+            tauri, dulciorem et nobiliorem luscinii?</quote>
+          <ref xml:id="timf-homo-Rd1e244">Seneca LXXVII. epistola ad Lucilum.</ref>
+        </p>
+
+
+        <p xml:id="timf-homo-d1e247" n="u">
+          <quote xml:id="timf-homo-Qd1e249">Quid in homine proprium? Ratio. Hec recta et consummata felicitatem hominis
+            impleuit. Ergo si omnis res cum bonum suum perfecerit, laudabilis est et ad finem nature
+            sue peruenit, homini autem suum bonum ratio est, si hanc perfecerit laudabilis est, et
+            finem nature sue tetigit. Hec ratio perfecta uirtus uocatur, eademque honestum est. Id
+            itaque unum bonum in homine est, quod hominis est.</quote>
+          <ref xml:id="timf-homo-Rd1e251">Seneca ibidem.</ref>
+        </p>
+
+
+        <p xml:id="timf-homo-d1e254" n="x">
+          <quote xml:id="timf-homo-Qd1e256">Si quis omnia alia habeat, ualitudinem, diuicias, ymagines multas, frequens atrium,
+            sed malus ex confesso sit, inprobabis illum. Item si quis nichil quidem illorum habeat
+            que retuli, careat pecunia, clientum turba, nobilitate auorum et proauorum serie, sed ex
+            confesso bonus sit probabis illum. Ergo hoc unum bonum hominis quod qui habet, eciam si
+            aliis destituitur, laudandus est, quod qui non habet in omnium aliorum copia dampnatur
+            ac reicitur.</quote>
+          <ref xml:id="timf-homo-Rd1e258">Ibidem.</ref>
+        </p>
+
+
+        <p xml:id="timf-homo-d1e261" n="y">
+          <quote xml:id="timf-homo-Qd1e263">Que conditio rerum eadem hominum est. Nauis bona dicitur non que preciosis
+            coloribus picta est, nec cui argenteum aut aureum rostrum est, nec cuius tutela ebore
+            celata est, neque fiscis atque opibus regiis pressa est, sed stabilis et firma et
+            iuncturis aquam excludentibus spissa, ad ferendum incursum maris solida, gubernaculo
+            parens, uelox et non sentiens uentum. Gladium bonum dices non cui deauratus est balteus,
+            nec cuius uagina gemmis distinguitur, sed cui ad secandum subtilis acies est et mucro
+            munimentum omne rupturus. Regula non quam formosa sed quam recta sit queritur; eo
+            quidque laudatur cui comparatur quod illi proprium est. Ergo in homine quoque nichil ad
+            rem pertinet, quantum aret, quantum feneret, a quam multis salutetur, quam precioso
+            incumbat lecto, quam perlucido poculo bibat, sed quam bonus sit. Bonus autem est, si
+            ratio explicita et recta est et ad nature sue uoluntatem accommodata. Hec uocatur
+            uirtus, hoc est honestum et unicum hominis bonum.</quote>
+          <ref xml:id="timf-homo-Rd1e265">Ibidem.</ref>
+        </p>
+
+
+        <p xml:id="timf-homo-d1e269" n="z">
+          <quote xml:id="timf-homo-Qd1e271">Quid autem sit uir bonus dicam. Vir bonus quod honeste se facturum putauerit faciet
+            sine pecunia si laboriosum erit, faciet eciam si dampnosum erit, faciet eciam si
+            periculosum erit. Rursus quod turpe erit non faciet eciam si pecuniam afferat, eciam si
+            uoluptatem, eciam si potenciam; ab honesto nulla re deterrebitur, ad turpia nulla spe
+            inuitabitur.</quote>
+          <ref xml:id="timf-homo-Rd1e273">Seneca ibidem.</ref>
+        </p>
+
+
+        <p xml:id="timf-homo-d1e276" n="ab">
+          <quote xml:id="timf-homo-Qd1e278">Quies tibi non desidia sit, et cum ab aliis luditur, tu sancti aliquid honestique
+            tractabis.</quote>
+          <ref xml:id="timf-homo-Rd1e280">Seneca in prouerbiis.</ref>
+        </p>
+
+
+        <p xml:id="timf-homo-d1e283" n="ac">
+          <quote xml:id="timf-homo-Qd1e285">Sicut formosa pictura est, cum nulla pars errat, sic et formosus homo, in quo nulla
+            pars peccati feda est.</quote>
+          <ref xml:id="timf-homo-Rd1e287">Seneca ibidem.</ref>
+        </p>
+
+        <p xml:id="timf-homo-d1e290" n="ubi">
+          <ref xml:id="timf-homo-Rd1e292">Ascensio t</ref>; <ref xml:id="timf-homo-Rd1e294">Bonum d</ref>; <ref xml:id="timf-homo-Rd1e296">Miseria h</ref>, <ref xml:id="timf-homo-Rd1e298">k</ref>,
+            <ref xml:id="timf-homo-Rd1e300">l</ref>, <ref xml:id="timf-homo-Rd1e303">m</ref>, <ref xml:id="timf-homo-Rd1e305">n</ref>, <ref xml:id="timf-homo-Rd1e307">o</ref>; <ref xml:id="timf-homo-Rd1e309">Mors bd</ref>; <ref xml:id="timf-homo-Rd1e311">Natura
+            d</ref>; <ref xml:id="timf-homo-Rd1e313">Regimen i</ref>; <ref xml:id="timf-homo-Rd1e316">Voluntas s</ref>. </p>
+      </div>
+    </body>
+  </text>
+</TEI>

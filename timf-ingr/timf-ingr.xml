@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ingratitudo</title>
+        <author ref="#ThomasOfIreland">Thomas Hybernicus</author>
+        <respStmt>
+          <name>Chris Nighman</name>
+          <resp>Editor</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Ingratitudo</title>
+          <date when="2025-04-01">April 1, 2025</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref>SCTA</ref> and <ref target="http://www.manipulusflorum.com/">Manipulus floreum
+            Project</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Pb" n="bnf15985">Bnf 15985</witness>
+          <witness xml:id="Pc" n="bnf15986">Bnf 15986</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2025-04-01" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="timf-ingr">
+        <head xml:id="timf-ingr-Hd1e109">Ingratitudo</head>
+        <p xml:id="timf-ingr-d1e111" n="a">
+<quote xml:id="timf-ingr-Qd1e113">Sicut boni per contumelias meliores existunt, ita semper reprobi de beneficio peiores fiunt.</quote>
+<ref xml:id="timf-ingr-Rd1e115">Gregorius in omelia.</ref>
+</p>
+
+        
+        <p xml:id="timf-ingr-d1e118" n="b">
+<quote xml:id="timf-ingr-Qd1e120">Ingratitudo inimica est anime, exinanitio meritorum, uirtutum dispersio, beneficiorum perditio, uentus urens, siccans fontem pietatis, rorem misericordie, fluenta gracie.</quote>
+<ref xml:id="timf-ingr-Rd1e122">Bernardus super Cantica.</ref>
+</p>
+
+        
+        <p xml:id="timf-ingr-d1e125" n="c">
+<quote xml:id="timf-ingr-Qd1e127">Graciarum cessat decursus, ubi recursus non fuerit, nec modo nichil augetur ingrato, sed quod acceperit, uertitur ei in perniciem. Fidelis autem in modico censetur dignus munere ampliori.</quote>
+<ref xml:id="timf-ingr-Rd1e129">Bernardus sermone XXXV.</ref>
+</p>
+
+        
+        <p xml:id="timf-ingr-d1e132" n="d">
+<quote xml:id="timf-ingr-Qd1e134">Peruersi cordis est occasiones ingratitudinis uestigare. Nemo id facit nisi qui eciam gratis est ingratus. Peremptoria res est ingratitudo, hostis gracie, inimica salutis. Quoniam nichil ita displicet Deo, presertim in filiis gracie, quemadmodum ingratitudo.</quote>
+<ref xml:id="timf-ingr-Rd1e136">Bernardus sermone LII.</ref>
+</p>
+
+        
+        <p xml:id="timf-ingr-d1e140" n="e">
+<quote xml:id="timf-ingr-Qd1e142">Est superbia et delictum maximum, uti datis tanquam innatis, et in acceptis beneficiis gloriam usurpare beneficii.</quote>
+<ref xml:id="timf-ingr-Rd1e144">Bernardus libro de diligendo Deo.</ref>
+</p>
+
+        
+        <p xml:id="timf-ingr-d1e147" n="f">
+<quote xml:id="timf-ingr-Qd1e149">Quanto maiora beneficia sunt hominibus constituta, tanto grauiora peccantibus iudicia.</quote>
+<ref xml:id="timf-ingr-Rd1e151">Crisostomus super Mattheum.</ref>
+</p>
+
+        
+        <p xml:id="timf-ingr-d1e154" n="g">
+<quote xml:id="timf-ingr-Qd1e156">Nichil est quod adeo indignationem prouocet altissimi sicut ingratitudo. Ipsa est malorum prouocatio, beneficiorum exinanitio, meritorum exterminatio.</quote>
+<ref xml:id="timf-ingr-Rd1e158">Petrus Rauennas in quadam epistola.</ref>
+</p>
+
+        
+        <p xml:id="timf-ingr-d1e161" n="h">
+<quote xml:id="timf-ingr-Qd1e163">Est enim benignissimi, ut arbitror, et plenum ingenii pudoris fateri per quos profeceris. Obnoxii profecto animi et infelicis ingenii deprehendi in furto malle quam mutuum reddere, cum presertim fiat ex usura sors.</quote>
+<ref xml:id="timf-ingr-Rd1e165">Plinius in prologo de naturali hystoria.</ref>
+</p>
+
+        
+        <p xml:id="timf-ingr-d1e168" n="i">
+<quote xml:id="timf-ingr-Qd1e170">Graciarum actio est pro gracia suscepti muneris uotiua munerantis laudatio.</quote>
+<ref xml:id="timf-ingr-Rd1e172">Tullius libro de officiis.</ref>
+</p>
+
+        
+        <p xml:id="timf-ingr-d1e175" n="k">
+<quote xml:id="timf-ingr-Qd1e177">Gracias Deo agere est totum Deo et nichil homini attribuere.</quote>
+<ref xml:id="timf-ingr-Rd1e179">Hugo.</ref>
+</p>
+
+        
+        <p xml:id="timf-ingr-d1e183" n="l">
+<quote xml:id="timf-ingr-Qd1e185">Ingratus est aduersus unum beneficium. Aduersus alterum non erit, duorum oblitus est, tercium in memoriam eorum, que exciderunt, reducet.</quote>
+<ref xml:id="timf-ingr-Rd1e187">Seneca I. de beneficiis.</ref>
+</p>
+
+        
+        <p xml:id="timf-ingr-d1e190" n="m">
+<quote xml:id="timf-ingr-Qd1e192">Quidam quo plus debent magis oderunt: leue es alienum debitorem facit grauem inimicum.</quote>
+<ref xml:id="timf-ingr-Rd1e194">Seneca LXXXIII. epistola.</ref>
+</p>
+
+        
+        <p xml:id="timf-ingr-d1e197" n="n">
+<quote xml:id="timf-ingr-Qd1e199">Quereris incidisse te in hominem ingratum. Si hoc periculum uitare uolueris, non dabis beneficia, ita ne apud alium pereant, et apud te peribunt.</quote>
+<ref xml:id="timf-ingr-Rd1e201">Ibidem.</ref>
+</p>
+
+        
+        <p xml:id="timf-ingr-d1e204" n="o">
+<quote xml:id="timf-ingr-Qd1e206">Ingrati esse uitemus non aliena causa sed nostra. Venenum quod serpentes in alienam perniciem proferunt, sine sua continent, non ita uicium ingratitudinis continetur. Torquet ingratus se et macerat, oditque accepta, quia redditurus est, et extenuat, iniurias uero dilatat atque auget.</quote>
+<ref xml:id="timf-ingr-Rd1e208">Seneca ibidem.</ref>
+</p>
+
+        
+        <p xml:id="timf-ingr-d1e211" n="p">
+<quote xml:id="timf-ingr-Qd1e213">Quid autem est miserius, cui beneficia excidunt, herent iniurie?</quote>
+<ref xml:id="timf-ingr-Rd1e215">Ibidem.</ref>
+</p>
+
+        
+        <p xml:id="timf-ingr-d1e218" n="q">
+<quote xml:id="timf-ingr-Qd1e220">Queris quid sit quod obliuionem nobis acceptorum faciat? cupiditas accipiendorum. Cogitamus non quid impetratum, sed quid petendum sit. Nescimus estimare res de quibus non cum fama, sed cum rerum natura deliberandum est.</quote>
+<ref xml:id="timf-ingr-Rd1e222">Ibidem.</ref>
+</p>
+
+        
+        <p xml:id="timf-ingr-d1e226" n="r">
+<quote xml:id="timf-ingr-Qd1e228">Eo perductus est furor, ut periculosissima res sit beneficia in aliquem magna conferre. Nam quia putat turpe non reddere, non uult esse cui reddat. Habe quod accepisti; non repeto, non exigo; profuisse tutum est.</quote>
+<ref xml:id="timf-ingr-Rd1e230">Seneca ibidem.</ref>
+</p>
+
+        <p xml:id="timf-ingr-d1e233">
+        
+        
+        <ref xml:id="timf-ingr-Rd1e235">Beneficiencia l</ref>, <ref xml:id="timf-ingr-Rd1e237">n</ref>, <ref xml:id="timf-ingr-Rd1e239">o</ref>, <ref xml:id="timf-ingr-Rd1e241">ak</ref>; <ref xml:id="timf-ingr-Rd1e243">Compassio k</ref>; <ref xml:id="timf-ingr-Rd1e246">Gratitudo</ref>; <ref xml:id="timf-ingr-Rd1e248">Liberalitas ag</ref>; <ref xml:id="timf-ingr-Rd1e250">Malicia b</ref>.
+        </p>
+        
+      </div>
+    </body>
+  </text>
+</TEI>

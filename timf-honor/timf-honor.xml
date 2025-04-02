@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Honor</title>
+        <author ref="#ThomasOfIreland">Thomas Hybernicus</author>
+        <respStmt>
+          <name>Chris Nighman</name>
+          <resp>Editor</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Honor</title>
+          <date when="2025-04-01">April 1, 2025</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref>SCTA</ref> and <ref target="http://www.manipulusflorum.com/">Manipulus floreum
+            Project</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Pb" n="bnf15985">Bnf 15985</witness>
+          <witness xml:id="Pc" n="bnf15986">Bnf 15986</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2025-04-01" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="timf-honor">
+        <head xml:id="timf-honor-Hd1e109">Honor</head>
+        <p xml:id="timf-honor-d1e111" n="a">
+          <quote xml:id="timf-honor-Qd1e113">Remotis obstaculis insane opinionis scelera nuda pensentur, nuda inspiciantur.
+            Fallacia tegmina et uane laudes et glorie auferantur, et apparebunt miserie
+            peccatorum.</quote>
+          <ref xml:id="timf-honor-Rd1e115">Augustinus libro III. de ciuitate Dei.</ref>
+        </p>
+
+
+        <p xml:id="timf-honor-d1e118" n="b">
+          <quote xml:id="timf-honor-Qd1e120">Gloriam et honorem non debet sequi uirtus, sed ipsa uirtutem. Vnde honores, quos
+            multi expetunt, Cato petere non debuit, sed eos ciuitas ob eius uirtutem non petenti
+            dare.</quote>
+          <ref xml:id="timf-honor-Rd1e122">Augustinus libro V. de ciuitate Dei.</ref>
+        </p>
+
+
+        <p xml:id="timf-honor-d1e125" n="c">
+          <quote xml:id="timf-honor-Qd1e127">Rerum gencium nationumque imperium penes reges erat, quos ad fastigium honoris non
+            ambitio popularis, sed spectata inter bonos moderatio prouehebat.</quote>
+          <ref xml:id="timf-honor-Rd1e129">Augustinus libro IIII. de ciuitate Dei.</ref>
+        </p>
+
+
+        <p xml:id="timf-honor-d1e132" n="d">
+          <quote xml:id="timf-honor-Qd1e134">Vbi honor non est, ibi contemptus est; ubi contemptus, ibi frequens iniuria; ubi
+            autem frequens iniuria, ibi et indignatio; ubi indignatio, ibi quies nulla; ubi quies
+            non est, ibi mens a proposito sepe deicitur; ubi autem per inquietudinem aliquid
+            aufertur ex studio, minus fit ab eo, quod tollitur, et ubi minus est, perfectum dici non
+            potest. Ex hac supputatione illa sentencia nascitur: monachum in patria sua perfectum
+            esse non posse, perfectum autem esse nolle delinquere est.</quote>
+          <ref xml:id="timf-honor-Rd1e136">Ieronymus in epistola.</ref>
+        </p>
+
+
+        <p xml:id="timf-honor-d1e140" n="e">
+          <quote xml:id="timf-honor-Qd1e142">Non est dignum ut inde exigas honorem, unde refugis laborem.</quote>
+          <ref xml:id="timf-honor-Rd1e144">Ieronymus ibidem.</ref>
+        </p>
+
+
+        <p xml:id="timf-honor-d1e147" n="f">
+          <quote xml:id="timf-honor-Qd1e149">Deiecisti eos dum alleuarentur. Cum alleuatur, deicitur, qui honoribus proficit et
+            moribus cadit.</quote>
+          <ref xml:id="timf-honor-Rd1e151">Gregorius in registro.</ref>
+        </p>
+
+
+        <p xml:id="timf-honor-d1e154" n="g">
+          <quote xml:id="timf-honor-Qd1e156">Dum mali prepositi suum contra ueritatem honorem exigunt, ab omni rectitudine
+            sequencium corda subuertunt.</quote>
+          <ref xml:id="timf-honor-Rd1e158">Gregorius in moralibus.</ref>
+        </p>
+
+
+        <p xml:id="timf-honor-d1e161" n="h">
+          <quote xml:id="timf-honor-Qd1e163">Predicatores boni et honorem propter elationem fugiunt, et honorari tamen propter
+            imitationem uolunt.</quote>
+          <ref xml:id="timf-honor-Rd1e165">Gregorius ibidem.</ref>
+        </p>
+
+
+        <p xml:id="timf-honor-d1e168" n="i">
+          <quote xml:id="timf-honor-Qd1e170">Differencia dignitatis facta est inter sanctos ut unus sit episcopus, alius
+            minister. Contumacia carnis coegit, et peruersitas mundi et operatio inimici. Honores
+            uidentur esse sed re uera non sunt, immo ministeria.</quote>
+          <ref xml:id="timf-honor-Rd1e172">Crisostomus super Mattheum.</ref>
+        </p>
+
+
+        <p xml:id="timf-honor-d1e175" n="k">
+          <quote xml:id="timf-honor-Qd1e177">Quicumque desiderat primatum celestem, sequatur humilitatem terrestrem. Non enim
+            qui maior fuerit in honore, ille maior, sed qui iustior, ille maior.</quote>
+          <ref xml:id="timf-honor-Rd1e179">Crisostomus ibidem.</ref>
+        </p>
+
+
+        <p xml:id="timf-honor-d1e183" n="l">
+          <quote xml:id="timf-honor-Qd1e185">Honor uerus uirtus animi est. Hic honor nec a cesaribus prestatur, neque adulatione
+            conqueritur, neque pecunia preparatur. Nichil fucati in se habet, nichil simulati,
+            nichil oculti. Huius honoris successor nullus est, accusator nullus ingratus.</quote>
+          <ref xml:id="timf-honor-Rd1e187">Crisostomus de reparatione lapsi.</ref>
+        </p>
+
+
+        <p xml:id="timf-honor-d1e190" n="m">
+          <quote xml:id="timf-honor-Qd1e192">Honoris magnitudo hiis qui non digne uiuunt honore, cumulus incipit esse
+            penarum.</quote>
+          <ref xml:id="timf-honor-Rd1e194">Crisostomus super Mattheum.</ref>
+        </p>
+
+
+        <p xml:id="timf-honor-d1e197" n="n">
+          <quote xml:id="timf-honor-Qd1e199">Episcopus, si debitum honoris non acceperit a presbytero, aut presbyter, si non
+            acceperit a dyacono, aut dyaconus a lectore, irascitur et turbatur. Si autem uiderit aut
+            episcopus presbyterum, aut presbyter dyaconum, circa obsequium ecclesie non permanentem,
+            aut alias peccantem in Deum, neque irascitur ei, neque curat, quia omnes quidem de suo
+            honore solliciti sunt, de honore autem Dei nullus.</quote>
+          <ref xml:id="timf-honor-Rd1e201">Crisostomus super Mattheum.</ref>
+        </p>
+
+
+        <p xml:id="timf-honor-d1e204" n="o">
+          <quote xml:id="timf-honor-Qd1e206">Christus ad sanandum filium reguli ire noluit, ne diuicias honorare uideretur, ad
+            seruum uadit, ne seruilem conditionem spreuisse putaretur. In hoc superbia nostra
+            retunditur, qui in hominibus non naturam qua ad ymaginem Dei facti sumus, sed honores et
+            diuicias ueneramur.</quote>
+          <ref xml:id="timf-honor-Rd1e208">Beda.</ref>
+        </p>
+
+        <p xml:id="timf-honor-d1e211" n="p1">
+          <quote xml:id="timf-honor-Qd1e213">Qui primatus sui auctoritatem perdit, in despectionem et angustiam se mittit. Qui
+            autem locum suum sapienter custodit, se ac suos ad profectum dirigit.</quote>
+          <ref xml:id="timf-honor-Rd1e215">Glossa super illud Ecclesiastici XXIII.: Melius est ut filii tui te rogerit et
+            cetera.</ref>
+        </p>
+        <p xml:id="timf-honor-d1e218" n="p2">
+          <quote xml:id="timf-honor-Qd1e220">Quidam honores fugiunt, ut honoribus obuient, fingunt subesse, ut possint preesse.
+            Sepe enim gloria ut acquiratur, contempnitur, et mundus ut obtineatur,
+            relinquitur.</quote>
+          <ref xml:id="timf-honor-Rd1e222">Hugo.</ref>
+        </p>
+        <p xml:id="timf-honor-d1e226" n="q">
+          <quote xml:id="timf-honor-Qd1e228">Parati filii hominum ad honores angelicis humeris formidandos. Non tamen uirgula
+            debet esse, cui domus innititur nec uitulus, sed bos ad aratrum ponitur.</quote>
+          <ref xml:id="timf-honor-Rd1e230">Hugo.</ref>
+        </p>
+
+
+        <p xml:id="timf-honor-d1e233" n="r">
+          <quote xml:id="timf-honor-Qd1e235">Decet quidem cunctos patrie sue augmenta cogitare, sed eos maxime, quos respublica
+            sibi summis honoribus obligauit, quia ratio rerum est, ut eum necesse sit plus debere,
+            qui uisus est maiora suscipere.</quote>
+          <ref xml:id="timf-honor-Rd1e237">Cassiodorus libro IIII. epistolarum.</ref>
+        </p>
+
+
+        <p xml:id="timf-honor-d1e240" n="s">
+          <quote xml:id="timf-honor-Qd1e242">Dignum enim uidetur, ut qui est sciencia preditus, reddatur honore
+            reuerendus.</quote>
+          <ref xml:id="timf-honor-Rd1e244">Cassiodorus ibidem.</ref>
+        </p>
+
+
+        <p xml:id="timf-honor-d1e247" n="t">
+          <quote xml:id="timf-honor-Qd1e249">Gloriam et honorem et imperium bonus et ignauus eque sibi exoptat, sed bonus uera
+            uia nititur huic, sed ignauo, quia bone artes desunt, dolis atque fallaciis
+            contendit.</quote>
+          <ref xml:id="timf-honor-Rd1e251">Salustius.</ref>
+        </p>
+
+
+        <p xml:id="timf-honor-d1e254" n="u">
+          <quote xml:id="timf-honor-Qd1e256">Abstrahunt nos a certo diuicie, honores, potencia et cetera, que in opinione nostra
+            cara sunt, precio suo uilia. Nichil habent magnificum quo mentes nostras in se trahunt
+            preter hoc, quod mirari illa consueuimus. Non enim quia concupiscenda sunt laudantur,
+            sed concupiscuntur quia laudata sunt.</quote>
+          <ref xml:id="timf-honor-Rd1e258">Seneca LXXXII. epistola.</ref>
+        </p>
+
+
+        <p xml:id="timf-honor-d1e261" n="x">
+          <quote xml:id="timf-honor-Qd1e263">Quecumque uidentur eminere rebus humanis, quamuis pusilla sint et comparatione
+            humilimorum extent, per difficiles tamen arduos tramites adeuntur. Confragosa in
+            fastigium dignitatis uia est, ac succendere hunc uerticem libet, cui fortuna se
+            submisit, omnia quidem sub te que pro excellentissimis habentur aspice, et tunc uenies
+            ad summa per planum.</quote>
+          <ref xml:id="timf-honor-Rd1e265">Seneca LXXXV. epistola.</ref>
+        </p>
+
+
+        <p xml:id="timf-honor-d1e269" n="y">
+          <quote xml:id="timf-honor-Qd1e271">Cum uelis ueram hominis estimationem habere et scire qualis sit, nudum inspice.
+            Deponat patrimonium, deponat honores et alia fortune mendacia, corpus ipsum exuat,
+            animum intuere, qualis quantusque sit, alieno aut suo magnus.</quote>
+          <ref xml:id="timf-honor-Rd1e273">Seneca LXXVII. epistola.</ref>
+        </p>
+
+
+        <p xml:id="timf-honor-d1e276" n="z">
+          <quote xml:id="timf-honor-Qd1e278">Homines candidatos uiros bonos dicimus, quomodo obuios, si nomen non occurrit,
+            dominos salutamus.</quote>
+          <ref xml:id="timf-honor-Rd1e280">Seneca epistola III.</ref>
+        </p>
+
+
+        <p xml:id="timf-honor-d1e283" n="ab">
+          <quote xml:id="timf-honor-Qd1e285">Pecunia, ex quo in honore esse cepit, uerus rerum honor cecidit.</quote>
+          <ref xml:id="timf-honor-Rd1e287">Seneca in epistola.</ref>
+        </p>
+
+
+        <p xml:id="timf-honor-d1e290" n="ubi">
+          <ref xml:id="timf-honor-Rd1e292">Acceptio a</ref>, <ref xml:id="timf-honor-Rd1e294">h</ref>; <ref xml:id="timf-honor-Rd1e296">Adulatio x</ref>; <ref xml:id="timf-honor-Rd1e298">Ambitio l</ref>;
+            <ref xml:id="timf-honor-Rd1e300">Amicicia ah</ref>, <ref xml:id="timf-honor-Rd1e303">ak</ref>; <ref xml:id="timf-honor-Rd1e305">Auaricia au</ref>, <ref xml:id="timf-honor-Rd1e307">ax</ref>;
+            <ref xml:id="timf-honor-Rd1e309">Creatio b</ref>, <ref xml:id="timf-honor-Rd1e311">d</ref>; <ref xml:id="timf-honor-Rd1e313">Diuicie n</ref>, <ref xml:id="timf-honor-Rd1e316">ah</ref>; <ref xml:id="timf-honor-Rd1e318">Gloria
+            uana d</ref>, <ref xml:id="timf-honor-Rd1e320">u</ref>, <ref xml:id="timf-honor-Rd1e322">ac</ref>, <ref xml:id="timf-honor-Rd1e324">ad</ref>; <ref xml:id="timf-honor-Rd1e326">Homo c</ref>,
+            <ref xml:id="timf-honor-Rd1e329">i</ref>; <ref xml:id="timf-honor-Rd1e331">Martirium a</ref>; <ref xml:id="timf-honor-Rd1e333">Predicatio at</ref>; <ref xml:id="timf-honor-Rd1e335">Prelatio bq</ref>;
+            <ref xml:id="timf-honor-Rd1e337">Reuerencia</ref>; <ref xml:id="timf-honor-Rd1e339">Sacerdos a</ref>, <ref xml:id="timf-honor-Rd1e342">d</ref>; <ref xml:id="timf-honor-Rd1e344">Solempnitas d</ref>;
+            <ref xml:id="timf-honor-Rd1e346">Solitudo s</ref>. </p>
+
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Incarnatio</title>
+        <author ref="#ThomasOfIreland">Thomas Hybernicus</author>
+        <respStmt>
+          <name>Chris Nighman</name>
+          <resp>Editor</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Incarnatio</title>
+          <date when="2025-04-01">April 1, 2025</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref>SCTA</ref> and <ref target="http://www.manipulusflorum.com/">Manipulus floreum
+            Project</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Pb" n="bnf15985">Bnf 15985</witness>
+          <witness xml:id="Pc" n="bnf15986">Bnf 15986</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2025-04-01" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="timf-inca">
+        <head xml:id="timf-inca-Hd1e109">Incarnatio</head>
+        <p xml:id="timf-inca-d1e111" n="a">
+          <quote xml:id="timf-inca-Qd1e113">Non liberaretur humanum genus, nisi sermo Dei dignaretur esse humanus. Nam et ille
+            homo dicitur humanus, qui se exhibet esse hominem, et maxime hospicio suscipit hominem.
+            Si ergo humanus dicitur, qui in domo sua suscipit hominem, quam humanus est qui in se
+            ipso suscepit hominem?</quote>
+          <ref xml:id="timf-inca-Rd1e115">Augustinus de uerbis apostoli.</ref>
+        </p>
+
+
+        <p xml:id="timf-inca-d1e118" n="b">
+          <quote xml:id="timf-inca-Qd1e120">Si ergo homo non perisset, filius hominis non uenisset.</quote>
+          <ref xml:id="timf-inca-Rd1e122">Augustinus ibidem.</ref>
+        </p>
+
+
+        <p xml:id="timf-inca-d1e125" n="c">
+          <quote xml:id="timf-inca-Qd1e127">Iudee citharam respice, ut musicum melos sonis dulcibus reddat. Tria pariter adesse
+            uidentur: ars, manus, corda; et tamen unus sonus auditur: ars dictat, manus tangit,
+            corda resonat. Tria pariter operantur, sed sola corda resonat. Nec ars nec manus sonum
+            reddunt, sed cum corda pariter operantur. Sic nec Pater nec Spiritus Sanctus susceperunt
+            carnem, et tamen cum Filio pariter operantur. Sonum sola corda excutit, carnem solus
+            Christus accepit. Operatio in tribus constat, sed quomodo pertinet ad solam cordam soni
+            redditio, sic pertinet ad solum Christum carnis humane susceptio.</quote>
+          <ref xml:id="timf-inca-Rd1e129">Augustinus de incarnatione Domini contra Iudeos.</ref>
+        </p>
+
+
+        <p xml:id="timf-inca-d1e132" n="d">
+          <quote xml:id="timf-inca-Qd1e134">Dicat michi Iudeus incredulus, quemadmodum arida uirga floruit et fronduit et nuces
+            protulit. Et ego dicam illi quomodo uirgo concepit et peperit. Sed profecto Iudeus nec
+            uirge poterit explicare conceptum, nec ego uirginis partum.</quote>
+          <ref xml:id="timf-inca-Rd1e136">Augustinus ibidem.</ref>
+        </p>
+
+
+        <p xml:id="timf-inca-d1e140" n="e">
+          <quote xml:id="timf-inca-Qd1e142">Formam uiri assumendo et de femina nascendo utrumque sexum hoc modo honorandum
+            indicauit.</quote>
+          <ref xml:id="timf-inca-Rd1e144">Augustinus contra Faustum.</ref>
+        </p>
+
+
+        <p xml:id="timf-inca-d1e147" n="f">
+          <quote xml:id="timf-inca-Qd1e149">Si ratio queritur, non erit mirabile; si exemplum poscitur, non erit singulare.
+            Demus Deum aliquid posse, quod nos fateamur inuestigare non posse. In talibus rebus tota
+            ratio facti est potencia facientis.</quote>
+          <ref xml:id="timf-inca-Rd1e151">Augustinus II. epistola ad Volusianum.</ref>
+        </p>
+
+
+        <p xml:id="timf-inca-d1e154" n="g">
+          <quote xml:id="timf-inca-Qd1e156">Vultis, inquit, eius saltus agnoscere? De celo uenit in uterum, de utero uenit in
+            presepium, de presepio uenit in crucem, de cruce uenit in sepulcrum, et de sepulcro
+            rediit in celum.</quote>
+          <ref xml:id="timf-inca-Rd1e158">Gregorius omelia XXIX. tractans illud Canticorum II.: Ecce uenit saliens in
+            montibus.</ref>
+        </p>
+
+
+        <p xml:id="timf-inca-d1e161" n="h">
+          <quote xml:id="timf-inca-Qd1e163">Deus Pater unicum Filium suum in utero uirginis humane nature coniungens, Deum ante
+            secula sibi coeternum fieri uoluit hominem in fine seculorum. Et quem sine tempore
+            genuit, saluandis hominibus cum tempore ostendit.</quote>
+          <ref xml:id="timf-inca-Rd1e165">Gregorius libris II. et VIII. moralium.</ref>
+        </p>
+
+
+        <p xml:id="timf-inca-d1e168" n="i">
+          <quote xml:id="timf-inca-Qd1e170">Mediator Dei et hominum, ut culpas nostre transgressionis extingueret, uenit
+            mortalitatis nostre flagella tolerare. Et qui Patri equalis est per diuinitatem, propter
+            nos uenit ad flagella per carnem. Que nimirum flagella non susciperet, nisi formam
+            hominis dampnati redimendo sumpsisset. Et nisi primus homo delinqueret, secundus ad
+            passionum probra minime ueniret.</quote>
+          <ref xml:id="timf-inca-Rd1e172">Gregorius libro III. moralium.</ref>
+        </p>
+
+        <p xml:id="timf-inca-d1e175" n="k"> Incarnatio k <quote xml:id="timf-inca-Qd1e177">Christus in carne natus de uirgine contagio culpe inquinatus
+            non est, et tamen ultione culpe depressus est. Admissa propria non habuit, et tamen
+            penam carnalium sine culpa suscepit.</quote>
+          <ref xml:id="timf-inca-Rd1e179">Ibidem.</ref>
+        </p>
+
+        <p xml:id="timf-inca-d1e183" n="l">
+          <quote xml:id="timf-inca-Qd1e185">Christus mediator et cetera, ut quia per ima nostra longe distabamus a summis, in
+            seipso uno iungeret ima summis, atque ex eo nobis uia redeundi fieret, quo summis suis
+            ima nostra copularet.</quote>
+          <ref xml:id="timf-inca-Rd1e187">Gregorius XX. moralium.</ref>
+        </p>
+
+
+        <p xml:id="timf-inca-d1e190" n="m">
+          <quote xml:id="timf-inca-Qd1e192">Tria opera tres mixturas fecit omnipotens illa maiestas in assumptione nostre
+            carnis, ita mirabiliter singularia et singulariter mirabiliter, ut talia nec facta sunt,
+            nec facienda sint amplius super terram. Coniuncta quidem sunt ad inuicem: Deus et homo,
+            mater et uirgo, fides et cor humanum. Verbum enim anima et caro in unam conuenere
+            personam, et hec tria unum, et hoc unum tria sunt, nec in confusione substancie sed in
+            unitate persone. Hec est prima et superexcellens mixtura. Secunda est uirgo et mater
+            utique et admirabilis et singularis, a seculo non est auditum quod uirgo esset que
+            peperit, quod mater esset que uirgo permansit. Tercia est fides et cor humanum, et hec
+            quidem inferior sed non minus forsitan fortis. Mirum enim quomodo cor humanum hiis
+            duobus fidem accommodauit, quomodo credi potuit quod Deus homo esset, quod uirgo fuerit
+            que peperisset. Sicut ferrum et testa iungi non possunt, sic hec duo nequeunt
+            commisceri, si non misceat glutinum spiritus Dei. Et hec quidem mixtura excellens,
+            secunda excellentior, sed tercia excellentissima.</quote>
+          <ref xml:id="timf-inca-Rd1e194">Bernardus sermone X.</ref>
+        </p>
+
+
+        <p xml:id="timf-inca-d1e197" n="n">
+          <quote xml:id="timf-inca-Qd1e199">Quanti te fecit Deus ex hiis que pro te factus est agnosce, ut appareat tibi
+            benignitas eius in humanitate. Quanto enim minorem se fecit in humilitate, tanto maiorem
+            exhibuit in bonitate, et quanto pro me uilior, tanto michi carior. Aduerte homo quia
+            limus es et non sis superbus, et quia Deo iunctus es, non sis ingratus.</quote>
+          <ref xml:id="timf-inca-Rd1e201">Bernardus sermone XXII.</ref>
+        </p>
+
+
+        <p xml:id="timf-inca-d1e204" n="o">
+          <quote xml:id="timf-inca-Qd1e206">Venit medicus ad egrotos, redemptor ad uenditos, ad errantes uia, ad mortuos
+            uita.</quote>
+          <ref xml:id="timf-inca-Rd1e208">Bernardus ad milites templi in sermone.</ref>
+        </p>
+
+
+        <p xml:id="timf-inca-d1e211" n="p">
+          <quote xml:id="timf-inca-Qd1e213">Nemo hominum nouit, nec noscere potest ad plenum, quid boni ad graciam, quid
+            congruencie ad sapienciam, quid decoris ad gloriam, quid commodi ad salutem, penes
+            seipsam contineat huius uenerandi misterii, scilicet humane redemptionis, inscrutabilis
+            altitudo.</quote>
+          <ref xml:id="timf-inca-Rd1e215">Bernardus in epistola.</ref>
+        </p>
+
+
+        <p xml:id="timf-inca-d1e218" n="q">
+          <quote xml:id="timf-inca-Qd1e220">Scio quia uerbum caro factum est et quomodo factum sit nescio. Miraris quia ego
+            nescio? Omnis creatura ignorat.</quote>
+          <ref xml:id="timf-inca-Rd1e222">Crisostomus omelia V.</ref>
+        </p>
+
+
+        <p xml:id="timf-inca-d1e226" n="r">
+          <quote xml:id="timf-inca-Qd1e228">Salua proprietate utriusque substancie et in una coeunte personam, suscipitur a
+            maiestate humilitas, a uirtute infirmitas, ab eternitate mortalitas, et ad rependendum
+            conditionis nostre debitum, natura inuiolabilis nature est unita passibili, Deusque
+            uerus et homo uerus in unitatem Domini temperatur ut, quod nostris remediis congruebat,
+            unus atque idem Dei hominumque mediator et mori posset ex uno, et resurgere posset ex
+            altero.</quote>
+          <ref xml:id="timf-inca-Rd1e230">Leo papa in sermone.</ref>
+        </p>
+
+
+        <p xml:id="timf-inca-d1e233" n="s">
+          <quote xml:id="timf-inca-Qd1e235">Verbi incarnatio hoc contulit facienda quod facta, et sacramentum salutis humane in
+            nulla unquam antiquitate cessauit. Quod predicauerunt apostoli, hoc annunciauerunt
+            prophete. Nec sero est impletum, quod semper est creditum, nec minus adepti sunt, qui in
+            illud crediderunt promissum, quam qui susceperunt donatum.</quote>
+          <ref xml:id="timf-inca-Rd1e237">Leo papa ibidem.</ref>
+        </p>
+
+
+        <p xml:id="timf-inca-d1e240" n="t">
+          <quote xml:id="timf-inca-Qd1e242">Opus restaurationis est incarnatio uerbi cum omnibus sacramentis suis, siue hiis
+            qui precesserunt ab initio seculi, siue qui sequuntur.</quote>
+          <ref xml:id="timf-inca-Rd1e244">Hugo in libro de sacramentis.</ref>
+        </p>
+
+        <p xml:id="timf-inca-d1e247" n="ubi">
+          <ref xml:id="timf-inca-Rd1e249">Aduentus</ref>; <ref xml:id="timf-inca-Rd1e251">Amor n</ref>; <ref xml:id="timf-inca-Rd1e253">Angelus l</ref>; <ref xml:id="timf-inca-Rd1e255">Ascensio l</ref>,
+            <ref xml:id="timf-inca-Rd1e257">u</ref>; <ref xml:id="timf-inca-Rd1e260">Humilitas q</ref>; <ref xml:id="timf-inca-Rd1e262">Maria f</ref>, <ref xml:id="timf-inca-Rd1e264">s</ref>, <ref xml:id="timf-inca-Rd1e266">ac</ref>,
+            <ref xml:id="timf-inca-Rd1e268">am</ref>; <ref xml:id="timf-inca-Rd1e270">Necessitas c</ref>, <ref xml:id="timf-inca-Rd1e273">g</ref>, <ref xml:id="timf-inca-Rd1e275">h</ref>, <ref xml:id="timf-inca-Rd1e277">q</ref>. </p>
+
+      </div>
+    </body>
+  </text>
+</TEI>

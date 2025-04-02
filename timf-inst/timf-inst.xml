@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Instabilitas</title>
+        <author ref="#ThomasOfIreland">Thomas Hybernicus</author>
+        <respStmt>
+          <name>Chris Nighman</name>
+          <resp>Editor</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Instabilitas</title>
+          <date when="2025-04-01">April 1, 2025</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref>SCTA</ref> and <ref target="http://www.manipulusflorum.com/">Manipulus floreum
+            Project</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Pb" n="bnf15985">Bnf 15985</witness>
+          <witness xml:id="Pc" n="bnf15986">Bnf 15986</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2025-04-01" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="timf-inst">
+        <head xml:id="timf-inst-Hd1e109">Instabilitas</head>
+        <p xml:id="timf-inst-d1e111" n="a">
+          <quote xml:id="timf-inst-Qd1e113">Iam quisque nostrum bonum opus suscipere, agere, implere nunc scit, nunc nescit,
+            nunc delectatur, nunc non delectatur, ut nouerit non sue facultatis, sed diuini muneris
+            esse uel quod scit, uel quod delectatur, ac sic ab elationis uanitate sanetur et sciat,
+            quam uere non de terra ista, sed spiritualiter dictum sit: Dominus dabit bonitatem et
+            terra nostra et cetera. Tanto autem magis delectat opus bonum, quanto magis diligitur
+            Deus summum atque incommutabile bonum.</quote>
+          <ref xml:id="timf-inst-Rd1e115">Augustinus de peccatorum meritis et remissione.</ref>
+        </p>
+
+
+        <p xml:id="timf-inst-d1e118" n="b">
+          <quote xml:id="timf-inst-Qd1e120">Tria sunt que uagam mentem stabilem faciunt: uigilie, meditatio et oratio, quarum
+            assiduitas et iugis intentio conferunt anime stabilem firmitatem.</quote>
+          <ref xml:id="timf-inst-Rd1e122">Iohannes Cassianus de institutis monachorum.</ref>
+        </p>
+
+
+        <p xml:id="timf-inst-d1e125" n="c">
+          <quote xml:id="timf-inst-Qd1e127">Stabilitas est mentem fixam obtinere nulla locorum uel temporum uarietate in
+            diuersa iactare.</quote>
+          <ref xml:id="timf-inst-Rd1e129">Hugo.</ref>
+        </p>
+
+
+        <p xml:id="timf-inst-d1e132" n="d">
+          <quote xml:id="timf-inst-Qd1e134">Vir est qui contra biformes fortune euentus uniformi mentis constancia militat
+            premunitus.</quote>
+          <ref xml:id="timf-inst-Rd1e136">Tullius.</ref>
+        </p>
+
+
+        <p xml:id="timf-inst-d1e140" n="e">
+          <quote xml:id="timf-inst-Qd1e142">Maximum indicium male mentis est fluctuatio et inter simulationem uirtutum et
+            amorem uiciorum assidua iactatio.</quote>
+          <ref xml:id="timf-inst-Rd1e144">Seneca in epistola.</ref>
+        </p>
+
+
+        <p xml:id="timf-inst-d1e147" n="f">
+          <quote xml:id="timf-inst-Qd1e149">Diuersitas est uicium et signum uacillantis animi ac nondum habentis uigorem suum.
+            Nemo proponit sibi quod uelit, nec si proposuit perseuerat in eo sed transilit, nec
+            tantum mutat sed reddit, et in ea que deseruit ac dampnauit reuoluitur. Quid est
+            sapiencia? semper idem uelle atque idem nolle. Non potest idem semper placere nisi
+            rectum. Variatur cotidie iudicium et in contrarium uertitur, ac plerisque agitur uita
+            per usum.</quote>
+          <ref xml:id="timf-inst-Rd1e151">Seneca in epistola.</ref>
+        </p>
+
+
+        <p xml:id="timf-inst-d1e154" n="g">
+          <quote xml:id="timf-inst-Qd1e156">Nec peregrinatione longa, nec locorum uarietatibus tristiciam mentis grauitatemque
+            discucies. Animum debes mutare non celum. Licet uastum traieceris mare. Sequntur te
+            quocumque perueneris uicia. Quid miraris nil tibi peregrinationes prodesse cum te
+            circumferas? Premit te eadem causa que expulit. Quid terrarum iuuare nouitas potest?
+            Quid cognitio urbium aut locorum? in irritum cedit ista iactatio. Honus animi deponendum
+            est; non ante tibi ullus placebit locus. Vadis huc illuc, non excusias insides pondus
+            quod ipsa iactatione incommodius fit, sicut in naui honera immota minus urgent,
+            inequaliter conuoluta cicius eam partem in quam incumbere demergunt. Motu ipso tibi
+            noces. Egrum enim concutis. In ultimas expelleris terras. Magis quis ueneris quam quo
+            interest. Bene uiuere omni loco positum est.</quote>
+          <ref xml:id="timf-inst-Rd1e158">Seneca in epistola.</ref>
+        </p>
+
+
+        <p xml:id="timf-inst-d1e161" n="h">
+          <quote xml:id="timf-inst-Qd1e163">Mutare loca et in alium de alio transilire nolo. Frequens migracio instabilis est
+            animi. Vt animum possis continere, primum corporis fugam siste. Deinde plurimum remedia
+            continuata proficiunt, sine dediscere oculos tuos, sine aures assuescere sanioribus
+            uerbis. Quociens processeris, aliqua que remouent cupiditates occurrent.</quote>
+          <ref xml:id="timf-inst-Rd1e165">Seneca in epistola.</ref>
+        </p>
+
+        <p xml:id="timf-inst-d1e168" n="ubi">
+          <ref xml:id="timf-inst-Rd1e170">Conuersatio al</ref>. </p>
+
+      </div>
+    </body>
+  </text>
+</TEI>

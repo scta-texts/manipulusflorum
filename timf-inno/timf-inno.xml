@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Innocentia</title>
+        <author ref="#ThomasOfIreland">Thomas Hybernicus</author>
+        <respStmt>
+          <name>Chris Nighman</name>
+          <resp>Editor</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Innocentia</title>
+          <date when="2025-04-01">April 1, 2025</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref>SCTA</ref> and <ref target="http://www.manipulusflorum.com/">Manipulus floreum
+            Project</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Pb" n="bnf15985">Bnf 15985</witness>
+          <witness xml:id="Pc" n="bnf15986">Bnf 15986</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2025-04-01" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="timf-inno">
+        <head xml:id="timf-inno-Hd1e109">Innocentia</head>
+        <p xml:id="timf-inno-d1e111" n="a">
+          <quote xml:id="timf-inno-Qd1e113">Illa est uera innocencia, que nec inimico nocet.</quote>
+          <ref xml:id="timf-inno-Rd1e115">Augustinus super Psalmos.</ref>
+        </p>
+
+
+        <p xml:id="timf-inno-d1e118" n="b">
+          <quote xml:id="timf-inno-Qd1e120">Vera innocencia est, ubi integritas est sine peccato, reddicio est sine debito,
+            flagellum sine merito.</quote>
+          <ref xml:id="timf-inno-Rd1e122">Augustinus super Psalmum XXXVIII.</ref>
+        </p>
+
+
+        <p xml:id="timf-inno-d1e125" n="c">
+          <quote xml:id="timf-inno-Qd1e127">Quid est innocens? Qui cum aliis non nocet nec sibi nocet. Qui enim et sibi nocet
+            non est innocens.</quote>
+          <ref xml:id="timf-inno-Rd1e129">Augustinus super Psalmum XCIX.</ref>
+        </p>
+
+
+        <p xml:id="timf-inno-d1e132" n="d">
+          <quote xml:id="timf-inno-Qd1e134">Innocencia et integritas leui sorde aspersa uiolatur et gracie sue munus
+            amittit.</quote>
+          <ref xml:id="timf-inno-Rd1e136">Ambrosius in exameron.</ref>
+        </p>
+
+
+        <p xml:id="timf-inno-d1e140" n="e">
+          <quote xml:id="timf-inno-Qd1e142">Sicut paruulus non perseuerat in iracundia, non lesus meminit, non uidens pulchram
+            mulierem delectatur, non aliud cogitat et aliud loquitur, sic et uos nisi talem
+            habueritis innocenciam et animi puritatem, regna celorum non poteritis intrare.</quote>
+          <ref xml:id="timf-inno-Rd1e144">Ieronymus super illud Matthei: Quicumque humiliauerit se sicut paruulus iste et
+            cetera.</ref>
+        </p>
+
+
+        <p xml:id="timf-inno-d1e147" n="f">
+          <quote xml:id="timf-inno-Qd1e149">Innocens inter ipsa tormenta fruitur consciencie bono, et cum de pena metuat, de
+            innocencia gloriatur.</quote>
+          <ref xml:id="timf-inno-Rd1e151">Ieronymus ad Demetriadem.</ref>
+        </p>
+
+
+        <p xml:id="timf-inno-d1e154" n="g">
+          <quote xml:id="timf-inno-Qd1e156">Non mediocris titulus uirtutis, inter prauos uiuere bene, et inter malignantes
+            innocencie retinere candorem et morum lenitatem.</quote>
+          <ref xml:id="timf-inno-Rd1e158">Bernardus super Cantica.</ref>
+        </p>
+
+
+        <p xml:id="timf-inno-d1e161" n="h">
+          <quote xml:id="timf-inno-Qd1e163">Gaude de innocencia et exulta! Gaude, inquam, quia ubique illesa es, ubique secura.
+            Si temptaris, proficis; si humiliaris, erigeris; si pugnas, uincis; si occideris,
+            coronaris. Tu in seruitute, libera es; in periculo, tuta; in custodia, leta. Tibi omnis
+            reatus adicitur, tibi uniuersa milicia subiugatur. Te potentes honorant, suscipiunt
+            principes, magnates exquirunt, eciam illi non nunquam te desiderant qui inpugnant. Tibi
+            boni parent, mali inuident, zelant emuli, inimici subcumbunt; nec unquam poteris uictrix
+            non esse, eciam si tibi inter homines iudex iustus defuerit.</quote>
+          <ref xml:id="timf-inno-Rd1e165">Crisostomus in omelia.</ref>
+        </p>
+
+
+        <p xml:id="timf-inno-d1e168" n="i">
+          <quote xml:id="timf-inno-Qd1e170">Puritas innocencie conseruata fons est et origo omnis sciencie et uirtutis.</quote>
+          <ref xml:id="timf-inno-Rd1e172">Hugo.</ref>
+        </p>
+
+
+        <p xml:id="timf-inno-d1e175" n="k">
+          <quote xml:id="timf-inno-Qd1e177">Innocencia est puritas animi omnem iniurie illacionem abhorrens.</quote>
+          <ref xml:id="timf-inno-Rd1e179">Tullius de officiis.</ref>
+        </p>
+
+
+        <p xml:id="timf-inno-d1e183" n="l">
+          <quote xml:id="timf-inno-Qd1e185">Triumphus innocencie est non peccare ubi liceat. In quem plus potes peccare,
+            desine.</quote>
+          <ref xml:id="timf-inno-Rd1e187">Seneca in prouerbiis.</ref>
+        </p>
+
+
+        <p xml:id="timf-inno-d1e190" n="m">
+          <quote xml:id="timf-inno-Qd1e192">In malis sperare bonum nisi innocens nemo solet.</quote>
+          <ref xml:id="timf-inno-Rd1e194">Seneca in prouerbiis.</ref>
+        </p>
+
+        <p xml:id="timf-inno-d1e197">
+          <ref xml:id="timf-inno-Rd1e199">Consciencia m</ref>, <ref xml:id="timf-inno-Rd1e201">r</ref>; <ref xml:id="timf-inno-Rd1e203">Conuersacio m</ref>; <ref xml:id="timf-inno-Rd1e205">Honestas b</ref>;
+            <ref xml:id="timf-inno-Rd1e207">Solitudo af</ref>. </p>
+      </div>
+    </body>
+  </text>
+</TEI>

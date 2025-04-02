@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Inuidia</title>
+        <author ref="#ThomasOfIreland">Thomas Hybernicus</author>
+        <respStmt>
+          <name>Chris Nighman</name>
+          <resp>Editor</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Inuidia</title>
+          <date when="2025-04-01">April 1, 2025</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref>SCTA</ref> and <ref target="http://www.manipulusflorum.com/">Manipulus floreum
+            Project</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Pb" n="bnf15985">Bnf 15985</witness>
+          <witness xml:id="Pc" n="bnf15986">Bnf 15986</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2025-04-01" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="timf-inui">
+        <head xml:id="timf-inui-Hd1e109">Inuidia</head>
+        <p xml:id="timf-inui-d1e111" n="a">
+          <quote xml:id="timf-inui-Qd1e113">Inuidia est filia superbie, sed ista mater superbia nescit esse sterilis; ubi
+            fuerit, continuo parit. Suffoca matrem et non erit filia.</quote>
+          <ref xml:id="timf-inui-Rd1e115">Augustinus de uerbis Domini super Mattheum.</ref>
+        </p>
+
+
+        <p xml:id="timf-inui-d1e118" n="b">
+          <quote xml:id="timf-inui-Qd1e120">Inuidia uicium dyabolicum, quo solo dyabolus reus est, et inexpiabiliter reus. Non
+            enim dyabolo dicitur ut dampnetur: Adulterium commisisti, furtum fecisti, uillam alienam
+            rapuisti, sed homini stanti inuidisti.</quote>
+          <ref xml:id="timf-inui-Rd1e122">Augustinus libro I. de doctrina Christiana.</ref>
+        </p>
+
+
+        <p xml:id="timf-inui-d1e125" n="c">
+          <quote xml:id="timf-inui-Qd1e127">Tolle inuidiam et tuum est quod habeo; tollam inuidiam et meum est quod
+            habes.</quote>
+          <ref xml:id="timf-inui-Rd1e129">Augustinus super Iohannem.</ref>
+        </p>
+
+
+        <p xml:id="timf-inui-d1e132" n="d">
+          <quote xml:id="timf-inui-Qd1e134">Inuidia est odium aliene felicitatis, respectu inferiorum ne sibi equentur,
+            respectu superiorum quia eis non equatur, respectu parium quia sibi equantur. Vnde Caym
+            inuidit Abel prosperitati, Rachel Lye fecunditati, Saul David felicitati. Per inuidiam
+            procuratus est lapsus mundi et mors Christi.</quote>
+          <ref xml:id="timf-inui-Rd1e136">Augustinus in quodam sermone.</ref>
+        </p>
+
+
+        <p xml:id="timf-inui-d1e140" n="e">
+          <quote xml:id="timf-inui-Qd1e142">Oro te, quid inuido delectacionis prestat inuidia, quem secretis quibusdam
+            consciencie ungulis liuor ipse discrepat et alienam felicitatem tormentum eius
+            facit?</quote>
+          <ref xml:id="timf-inui-Rd1e144">Ieronymus in epistola ad Demetriadem.</ref>
+        </p>
+
+
+        <p xml:id="timf-inui-d1e147" n="f">
+          <quote xml:id="timf-inui-Qd1e149">Paruulus est qui inuidia occiditur, quia nisi ipse inferior existeret, de bono
+            alterius non doleret. Sed inter hec sciendum est, quia quamuis per omne uicium quod
+            perpetratur, humano cordi antiqui hostis uirus infunditur, in hac tamen nequicia sua
+            tota uiscera serpens commouit, et imprimende malicie pestem uomit.</quote>
+          <ref xml:id="timf-inui-Rd1e151">Gregorius libro V. moralium.</ref>
+        </p>
+
+
+        <p xml:id="timf-inui-d1e154" n="g">
+          <quote xml:id="timf-inui-Qd1e156">Euenire plerumque solet, ut non amissa caritate eciam inimici ruina nos letificet,
+            et rursum eius gloria sine inuidie culpa contristet, quia per hoc quosdam bene erigi
+            credimus, et proficiente illo plerosque iniuste opprimi formidamus.</quote>
+          <ref xml:id="timf-inui-Rd1e158">Gregorius libro XXII. moralium.</ref>
+        </p>
+
+
+        <p xml:id="timf-inui-d1e161" n="h">
+          <quote xml:id="timf-inui-Qd1e163">Inuidi color pallore afficitur, oculi deprimuntur, mens accenditur, membra
+            frigescunt, fit in cogitacione rabies, in dentibus stridor. Nam cum inuidi mentem liuor
+            excruciat, bonum quod appetit, sibi ab alio adimi aut restringi metuit. Qui ergo liuoris
+            peste plene carere desiderat, illam hereditatem diligat, quam coheredum numerus non
+            angustat.</quote>
+          <ref xml:id="timf-inui-Rd1e165">Gregorius in quadam omelia.</ref>
+        </p>
+
+
+        <p xml:id="timf-inui-d1e168" n="i">
+          <quote xml:id="timf-inui-Qd1e170">Nil letum de propriis libet, quia tabescentem mentem sua pena sauciat, quam
+            felicitas torquet aliena, et quanto operis in altum fabrica ducitur, tanto fundamentum
+            mentis liuore profundius suffoditur, ut quo alii ad meliora properant, eo ipso deterius
+            ruat.</quote>
+          <ref xml:id="timf-inui-Rd1e172">Gregorius libro V. moralium.</ref>
+        </p>
+
+
+        <p xml:id="timf-inui-d1e175" n="k">
+          <quote xml:id="timf-inui-Qd1e177">Tanto quisque plus inuidet aliis bona presencia, quanto minus ea ipse
+            contempserit.</quote>
+          <ref xml:id="timf-inui-Rd1e179">Gregorius libro XIII. moralium.</ref>
+        </p>
+
+
+        <p xml:id="timf-inui-d1e183" n="l">
+          <quote xml:id="timf-inui-Qd1e185">Dum electi preficiuntur, reprobi ad rabiem furoris excitantur, et bona nascencia
+            que nolunt imitari persequuntur.</quote>
+          <ref xml:id="timf-inui-Rd1e187">Gregorius ibidem.</ref>
+        </p>
+
+
+        <p xml:id="timf-inui-d1e190" n="m">
+          <quote xml:id="timf-inui-Qd1e192">Quemadmodum columpna, si recta fuerit, accepto pondere amplius confirmatur. Si
+            autem modice obliquata fuerit, non solum non confirmatur, sed amplius uadit ad latus.
+            Sic et cor hominis, si fuerit rectum, uidens opera uiri iusti, audiens doctrinam
+            sapiencie eius, amplius confirmatur. Sed si cor peruersum fuerit, non solum non
+            confirmatur, sed magis ad inuidiam excitatur, et magis peruertitur.</quote>
+          <ref xml:id="timf-inui-Rd1e194">Crisostomus super illud Matthei XXI: Indignati sunt.</ref>
+        </p>
+
+
+        <p xml:id="timf-inui-d1e197" n="n">
+          <quote xml:id="timf-inui-Qd1e199">O inuidia, que sibi semper est inimica! Nam qui inuidet sibi quidem ignominiam
+            facit; illi autem cui inuidet gloriam parat.</quote>
+          <ref xml:id="timf-inui-Rd1e201">Crisostomus Mattheum XXI.</ref>
+        </p>
+
+
+        <p xml:id="timf-inui-d1e204" n="o">
+          <quote xml:id="timf-inui-Qd1e206">Tantos inuidus habet iuste pene tortores, quantos inuidiosus habuit
+            laudatores.</quote>
+          <ref xml:id="timf-inui-Rd1e208">Prosper libro III. de uiciis et uirtutibus.</ref>
+        </p>
+
+
+        <p xml:id="timf-inui-d1e211" n="p">
+          <quote xml:id="timf-inui-Qd1e213">Inuidia est in suum auctorem reciproca de bono alterius tabescentis animi
+            cruciatus.</quote>
+          <ref xml:id="timf-inui-Rd1e215">Huguccio.</ref>
+        </p>
+
+
+        <p xml:id="timf-inui-d1e218" n="q">
+          <quote xml:id="timf-inui-Qd1e220">Inuidia iustius nichil est, que protinus ipsum auctorem punit excruciatque
+            suum.</quote>
+          <ref xml:id="timf-inui-Rd1e222">Idem.</ref>
+        </p>
+
+
+        <p xml:id="timf-inui-d1e226" n="r">
+          <quote xml:id="timf-inui-Qd1e228">Huic, scilicet inuido, uultus minax, toruus aspectus, pallor in facie, in labiis
+            tremor, in dentibus stridor, uerba rabida, et effrenata conuicia, et manus ad uiolenciam
+            prompta, iuxta illud poete: pallor in ore sedet, macies in corpore toto, nusquam est
+            recta acies, liniat rubigine dentes, pectora felle uirent, lingua est suffossa ueneno.
+            Risus abest, nisi quem fecere dolores.</quote>
+          <ref xml:id="timf-inui-Rd1e230">Petrus Rauennas.</ref>
+        </p>
+
+
+        <p xml:id="timf-inui-d1e233" n="s">
+          <quote xml:id="timf-inui-Qd1e235">Virum fortem excitat ad uirtutis exercicium alieni liuoris aculeus, nec mentis
+            oculos torpere permittit inuidia detractorum. Iacob, qui in baculo suo Iordanem
+            transierat, non rediisset cum duabus turmis, nisi eum inuidia Esau agitasset. Ioseph non
+            imperasset Egypto nisi ipsum fratrum inuidia uendidisset. Scriptum quippe est: Abel esse
+            non potest, quem Caym malicia non exercet.</quote>
+          <ref xml:id="timf-inui-Rd1e237">Idem.</ref>
+        </p>
+
+
+        <p xml:id="timf-inui-d1e240" n="t">
+          <quote xml:id="timf-inui-Qd1e242">Si quis in torrente diuiciarum natat cum Cresso, opes spargit cum Tyto, in specie
+            disputat cum Narcisso, cum Turno tonat animositate, Herculi concludit in robore, cum
+            Platone philosophiam facie ad faciem speculatur, cum Ypolito castitatis speculo
+            sigillatur, in hunc omnes suarum detractionum acceruos expendit inuidia.</quote>
+          <ref xml:id="timf-inui-Rd1e244">Alanus de complanctu nature.</ref>
+        </p>
+
+
+        <p xml:id="timf-inui-d1e247" n="u">
+          <quote xml:id="timf-inui-Qd1e249">Inuidis aliena prosperitas aduersa, aliena aduersitas prospera iudicatur. Hii in
+            aliena gratulacione tristantur, in aliena tristicia gratulantur. Isti suas in aliena
+            paupertate diuicias, suam paupertatem in alienis diuiciis meciuntur. Isti aut aliene
+            fame serenitatem detractionis nubilo nubilare conantur, aut eiusdem gloriam sola
+            taciturnitate furari. Isti aut puram aliene probitatis sinceritatem fermentant, aut
+            ueris falsitatis fermenta maritant. Sapiencie gloriam degloriat liuor inglorius.</quote>
+          <ref xml:id="timf-inui-Rd1e251">Alanus ibidem.</ref>
+        </p>
+
+
+        <p xml:id="timf-inui-d1e254" n="x">
+          <quote xml:id="timf-inui-Qd1e256">Inuidia: Quid monstruosius monstrum? Quid dampnosius dampnum? Que culpabilior
+            culpa? Que penalior pena? Hec est erronee cecitatis abyssus, humane mentis infernus,
+            contencionis stimulus, corrixacionis aculeus. Qui sunt inuidie motus nisi humane
+            tranquillitatis hostes, mundane depredacionis satellites, animi laborantis uigilie
+            hostiles, aliene felicitatis excubie?</quote>
+          <ref xml:id="timf-inui-Rd1e258">Alanus ibidem.</ref>
+        </p>
+
+
+        <p xml:id="timf-inui-d1e261" n="y">
+          <quote xml:id="timf-inui-Qd1e263">Si quis ergo liuoris rubiginem, inuidie tineam, a mentis thesauro uelit
+            proscribere, in alieno dolore suum dolorem inueniat condolendo, alienum gaudium suum
+            faciat congaudendo, in alienis opibus suas penset diuicias, in aliena paupertate suam
+            lugeat paupertatem.</quote>
+          <ref xml:id="timf-inui-Rd1e265">Alanus ibidem.</ref>
+        </p>
+
+
+        <p xml:id="timf-inui-d1e269" n="z">
+          <quote xml:id="timf-inui-Qd1e271">Nulla tam modesta felicitas est, que malignitatis dentes uitare possit. Diuites
+            enim sunt alienis iacturis, locupletes calamitatibus, immortales funeribus. Vnde quidam
+            interrogatus quomodo inuidos non haberet, respondit: Si nichil, inquit, ex magnis rebus
+            habueris, aut nichil feliciter gesseris. Nam sola miseria caret inuidia.</quote>
+          <ref xml:id="timf-inui-Rd1e273">Valerius Maximus libro IIII.</ref>
+        </p>
+
+
+        <p xml:id="timf-inui-d1e276" n="ab">
+          <quote xml:id="timf-inui-Qd1e278">Affricano iusticia uirtutem, uirtus gloriam, gloria emulos comparuit.</quote>
+          <ref xml:id="timf-inui-Rd1e280">Tullius II. rethorice.</ref>
+        </p>
+
+
+        <p xml:id="timf-inui-d1e283" n="ac">
+          <quote xml:id="timf-inui-Qd1e285">Inuidiam effugies, si te non ingesseris oculis, si bona tua non iactaueris, si
+            scieris in sinu gaudere.</quote>
+          <ref xml:id="timf-inui-Rd1e287">Seneca XVII. epistola.</ref>
+        </p>
+
+
+        <p xml:id="timf-inui-d1e290" n="ad">
+          <quote xml:id="timf-inui-Qd1e292">Etsi nullos inimicos tibi faciet iniuria, multos tamen faciet inuidia.</quote>
+          <ref xml:id="timf-inui-Rd1e294">Seneca libro de moribus.</ref>
+        </p>
+
+
+        <p xml:id="timf-inui-d1e297" n="ae">
+          <quote xml:id="timf-inui-Qd1e299">Homo sum; quomodo deuitabo secundarum rerum inuidiam? Facilius est pauperi
+            contemptum effugere quam diuiti inuidiam.</quote>
+          <ref xml:id="timf-inui-Rd1e301">Seneca ibidem.</ref>
+        </p>
+
+
+        <p xml:id="timf-inui-d1e304" n="af">
+          <quote xml:id="timf-inui-Qd1e306">Vtinam inuidi oculos haberent in omnibus ciuitatibus, ut de omnium felicitatibus
+            torquerentur. Nam quanta felicium sunt gaudia, tanti inuidorum sunt gemitus.</quote>
+          <ref xml:id="timf-inui-Rd1e308">Seneca ibidem.</ref>
+        </p>
+
+
+        <p xml:id="timf-inui-d1e312" n="ag">
+          <quote xml:id="timf-inui-Qd1e314">Venenum quod serpentes in alienam perniciem effundunt, sine sua continent, non ita
+            uicium inuidie continetur. Nam inuidum torquet et macerat, bona odit et extenuat,
+            iniurias uero dilatat atque auget.</quote>
+          <ref xml:id="timf-inui-Rd1e316">Seneca in epistola.</ref>
+        </p>
+
+
+        <p xml:id="timf-inui-d1e319" n="ah">
+          <quote xml:id="timf-inui-Qd1e321">Nunquam melius torquebis inuidos, quam uirtuti et glorie seruiendo.</quote>
+          <ref xml:id="timf-inui-Rd1e323">Seneca ibidem.</ref>
+        </p>
+
+
+        <p xml:id="timf-inui-d1e326" n="ai">
+          <quote xml:id="timf-inui-Qd1e328">Inuidia tacite, sed inimice irascitur. Inuidiam ferre aut fortis aut felix
+            potest.</quote>
+          <ref xml:id="timf-inui-Rd1e330">Seneca ibidem.</ref>
+        </p>
+
+
+        <p xml:id="timf-inui-d1e333" n="ak">
+          <quote xml:id="timf-inui-Qd1e335">Si non inuideris maior eris, nam qui inuidet minor est. Scito quid est inuidia.
+            Dolor est animi ex alienis commodis. Scito eciam et illud, quia nulli inuidet uir
+            bonitate preditus.</quote>
+          <ref xml:id="timf-inui-Rd1e337">Seneca in prouerbiis. </ref>
+        </p>
+
+        <p xml:id="timf-inui-d1e340" n="ubi">
+          <ref xml:id="timf-inui-Rd1e342">Detractio ab</ref>, <ref xml:id="timf-inui-Rd1e344">ah</ref>, <ref xml:id="timf-inui-Rd1e346">am</ref>; <ref xml:id="timf-inui-Rd1e348">Discordia n</ref>; <ref xml:id="timf-inui-Rd1e350">Labor
+            m</ref>;<ref xml:id="timf-inui-Rd1e353"> Malicia g</ref>, <ref xml:id="timf-inui-Rd1e355">h</ref>; <ref xml:id="timf-inui-Rd1e357">Miseria t</ref>; <ref xml:id="timf-inui-Rd1e359">Patria c</ref>;
+            <ref xml:id="timf-inui-Rd1e361">Potestas a</ref>; <ref xml:id="timf-inui-Rd1e363">Predestinacio l</ref>, <ref xml:id="timf-inui-Rd1e366">m</ref>; <ref xml:id="timf-inui-Rd1e368">Vicium c</ref>,
+            <ref xml:id="timf-inui-Rd1e370">h</ref>. </p>
+
+      </div>
+    </body>
+  </text>
+</TEI>
