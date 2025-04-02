@@ -60,12 +60,12 @@
         <head xml:id="timf-inim-Hd1e109">Inimicitia</head>
 
         <p xml:id="timf-inim-d1e111" n="a">
-          <quote xml:id="timf-inim-Qd1e113">Ea elemosyna nichil est maius, qua ex corde dimittimus, quod in nos quisque
+          <quote xml:id="timf-inim-Qd1e113" source="http://scta.info/resource/augen-d1e195-d1e120@2-59">Ea elemosyna nichil est maius, qua ex corde dimittimus, quod in nos quisque
             peccauit. Minus ergo bonum est erga eum esse beniuolum siue eciam beneficum, qui tibi
             nichil mali fecit. Illud multo grandius et manifestissime bonitatis est, ut tuum quoque
             inimicum diligas, et qui tibi malum uult et si potest facit, tu semper bonum uelis
             faciasque quod possis.</quote>
-          <ref xml:id="timf-inim-Rd1e115">Augustinus in encheridion.</ref>
+          <ref xml:id="timf-inim-Rd1e115" corresp="timf-inim-Qd1e113">Augustinus in encheridion.</ref>
         </p>
 
 
