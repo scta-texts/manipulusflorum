@@ -74,9 +74,9 @@
 
 
         <p xml:id="timf-inui-d1e125" n="c">
-          <quote xml:id="timf-inui-Qd1e127">Tolle inuidiam et tuum est quod habeo; tollam inuidiam et meum est quod
+          <quote xml:id="timf-inui-Qd1e127" source="http://scta.info/resource/iuy75t-d1e304-d1e704@110-122">Tolle inuidiam et tuum est quod habeo; tollam inuidiam et meum est quod
             habes.</quote>
-          <ref xml:id="timf-inui-Rd1e129">Augustinus super Iohannem.</ref>
+          <ref xml:id="timf-inui-Rd1e129" corresp="#timf-inui-Qd1e127">Augustinus super Iohannem.</ref>
         </p>
 
 
