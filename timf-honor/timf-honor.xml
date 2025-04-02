@@ -59,10 +59,10 @@
       <div xml:id="timf-honor">
         <head xml:id="timf-honor-Hd1e109">Honor</head>
         <p xml:id="timf-honor-d1e111" n="a">
-          <quote xml:id="timf-honor-Qd1e113">Remotis obstaculis insane opinionis scelera nuda pensentur, nuda inspiciantur.
+          <quote xml:id="timf-honor-Qd1e113" source="http://scta.info/resource/adcd-l5-d1e743@76-135">Remotis obstaculis insane opinionis scelera nuda pensentur, nuda inspiciantur.
             Fallacia tegmina et uane laudes et glorie auferantur, et apparebunt miserie
             peccatorum.</quote>
-          <ref xml:id="timf-honor-Rd1e115">Augustinus libro III. de ciuitate Dei.</ref>
+          <ref xml:id="timf-honor-Rd1e115" corresp="#timf-honor-Qd1e113">Augustinus libro III. de ciuitate Dei.</ref>
         </p>
 
 
