@@ -204,9 +204,9 @@
 
 
         <p xml:id="timf-iniu-d1e240" n="t">
-          <quote xml:id="timf-iniu-Qd1e242">Qui non defendit nec obsistit iniurie si potest, tam est
+          <quote xml:id="timf-iniu-Qd1e242" source="http://scta.info/resource/gpza5l-laougy-d1e181@80-100">Qui non defendit nec obsistit iniurie si potest, tam est
             in uicio, quam si parentes aut amicos aut patriam deserat.</quote>
-          <ref xml:id="timf-iniu-Rd1e244">Tullius de officiis.</ref>
+          <ref xml:id="timf-iniu-Rd1e244" corresp="#timf-iniu-Qd1e242">Tullius de officiis.</ref>
         </p>
 
 
@@ -270,7 +270,7 @@
 
 
         <p xml:id="timf-iniu-d1e304">
-          <ref xml:id="timf-iniu-Rd1e306">Humilitas e</ref>; <ref xml:id="timf-iniu-Rd1e308">Ira
+          <ref xml:id="timf-iniu-Rd1e306" target="http://scta.info/resource/timf-humi-d1e147">Humilitas e</ref>; <ref xml:id="timf-iniu-Rd1e308">Ira
             ad</ref>; <ref xml:id="timf-iniu-Rd1e310">Miseria f</ref>; <ref
             xml:id="timf-iniu-Rd1e312">Stulticia e</ref>; <ref xml:id="timf-iniu-Rd1e314">Venia
             u</ref>. </p>

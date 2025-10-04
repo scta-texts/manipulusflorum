@@ -479,15 +479,36 @@
         </p>
 
         <p xml:id="timf-ipoc-d1e491" n="ubi">
-          <ref xml:id="timf-ipoc-Rd1e493">Abstinencia s</ref>; <ref xml:id="timf-ipoc-Rd1e495">Adulacio ah</ref>; <ref xml:id="timf-ipoc-Rd1e497">Ambicio s</ref>, <ref xml:id="timf-ipoc-Rd1e499">t</ref>;
-            <ref xml:id="timf-ipoc-Rd1e501">Auaricia q</ref>; <ref xml:id="timf-ipoc-Rd1e504">Confessio ag</ref>; <ref xml:id="timf-ipoc-Rd1e506">Consciencia n</ref>;
-            <ref xml:id="timf-ipoc-Rd1e508">Contemptus s</ref>; <ref xml:id="timf-ipoc-Rd1e510">Conuersacio b</ref>, <ref xml:id="timf-ipoc-Rd1e512">al</ref>; <ref xml:id="timf-ipoc-Rd1e514">Cor a</ref>,
-            <ref xml:id="timf-ipoc-Rd1e517">b</ref>; <ref xml:id="timf-ipoc-Rd1e519">Correctio ad</ref>; <ref xml:id="timf-ipoc-Rd1e521">Detractio e</ref>; <ref xml:id="timf-ipoc-Rd1e523">Doctrina ag</ref>;
-ø            <ref xml:id="timf-ipoc-Rd1e525">Fraus b</ref>; <ref xml:id="timf-ipoc-Rd1e527">Gloria uana i</ref>; <ref xml:id="timf-ipoc-Rd1e530">Honor p</ref>; <ref xml:id="timf-ipoc-Rd1e532">Humilitas
-          k</ref>; <ref xml:id="timf-ipoc-Rd1e534">Inimicicia m</ref>; <ref xml:id="timf-ipoc-Rd1e536">Paciencia a</ref>; <ref xml:id="timf-ipoc-Rd1e538">Perfectio q</ref>;
-            <ref xml:id="timf-ipoc-Rd1e540">Prelacio cm</ref>; <ref xml:id="timf-ipoc-Rd1e543">Religio p</ref>, <ref xml:id="timf-ipoc-Rd1e545">ak</ref>, <ref xml:id="timf-ipoc-Rd1e547">at</ref>,
-            <ref xml:id="timf-ipoc-Rd1e549">ax</ref>, <ref xml:id="timf-ipoc-Rd1e551">ay</ref>; <ref xml:id="timf-ipoc-Rd1e553">Sacerdos t</ref>; <ref xml:id="timf-ipoc-Rd1e556">Superbia r</ref>,
-            <ref xml:id="timf-ipoc-Rd1e558">ae</ref>; <ref xml:id="timf-ipoc-Rd1e560">Verecundia t</ref>. </p>
+          <ref xml:id="timf-ipoc-Rd1e493" target="http://scta.info/resource/timf-abst-d1e468">Abstinencia s</ref>; 
+          <ref xml:id="timf-ipoc-Rd1e495" target="http://scta.info/resource/timf-adul-d1e702">Adulacio ah</ref>; 
+          <ref xml:id="timf-ipoc-Rd1e497" target="http://scta.info/resource/timf-ambi-d1e468">Ambicio s</ref>, 
+          <ref xml:id="timf-ipoc-Rd1e499" target="http://scta.info/resource/timf-ambi-d1e488">t</ref>;
+          <ref xml:id="timf-ipoc-Rd1e501" target="http://scta.info/resource/timf-avar-d1e427">Auaricia q</ref>; 
+          <ref xml:id="timf-ipoc-Rd1e504">Confessio ag</ref>; 
+          <ref xml:id="timf-ipoc-Rd1e506">Consciencia n</ref>;
+            <ref xml:id="timf-ipoc-Rd1e508">Contemptus s</ref>; 
+          <ref xml:id="timf-ipoc-Rd1e510">Conuersacio b</ref>, <ref xml:id="timf-ipoc-Rd1e512">al</ref>; 
+          <ref xml:id="timf-ipoc-Rd1e514">Cor a</ref>,
+            <ref xml:id="timf-ipoc-Rd1e517">b</ref>; 
+          <ref xml:id="timf-ipoc-Rd1e519">Correctio ad</ref>; <ref xml:id="timf-ipoc-Rd1e521">Detractio e</ref>; <ref xml:id="timf-ipoc-Rd1e523">Doctrina ag</ref>;
+          ø            <ref xml:id="timf-ipoc-Rd1e525" target="http://scta.info/resource/timf-fraus-d1e118">Fraus b</ref>; 
+          <ref xml:id="timf-ipoc-Rd1e527">Gloria uana i</ref>; 
+          <ref xml:id="timf-ipoc-Rd1e530" target="http://scta.info/resource/timf-honor-d1e211"><!-- target uncertain; there are two p entries and its not clear which is target -->Honor p</ref>; 
+          <ref xml:id="timf-ipoc-Rd1e532" target="http://scta.info/resource/timf-humi-d1e183">Humilitas k</ref>; 
+          <ref xml:id="timf-ipoc-Rd1e534" target="http://scta.info/resource/timf-inim-d1e183 ">Inimicicia m</ref>; 
+          <ref xml:id="timf-ipoc-Rd1e536">Paciencia a</ref>; 
+          <ref xml:id="timf-ipoc-Rd1e538">Perfectio q</ref>;
+          <ref xml:id="timf-ipoc-Rd1e540">Prelacio cm</ref>; 
+          <ref xml:id="timf-ipoc-Rd1e543">Religio p</ref>, 
+          <ref xml:id="timf-ipoc-Rd1e545">ak</ref>, 
+          <ref xml:id="timf-ipoc-Rd1e547">at</ref>,
+          <ref xml:id="timf-ipoc-Rd1e549">ax</ref>, 
+          <ref xml:id="timf-ipoc-Rd1e551">ay</ref>; 
+          <ref xml:id="timf-ipoc-Rd1e553">Sacerdos t</ref>; 
+          <ref xml:id="timf-ipoc-Rd1e556">Superbia r</ref>,
+          <ref xml:id="timf-ipoc-Rd1e558">ae</ref>; 
+          <ref xml:id="timf-ipoc-Rd1e560">Verecundia t</ref>. 
+        </p>
       </div>
     </body>
   </text>
