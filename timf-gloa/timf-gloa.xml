@@ -154,9 +154,9 @@
           <ref xml:id="timf-gloa-Rd1e202"> Augustinus super Iohannem. </ref>
         </p>
         <p xml:id="timf-gloa-d1e205" n="o">
-          <quote xml:id="timf-gloa-Qd1e207"> Incomparabiliter superna ciuitas clara est, ubi uictoria ueritas, ubi
+          <quote xml:id="timf-gloa-Qd1e207" source="http://scta.info/resource/adcd-l2-d1e297@383-399"> Incomparabiliter superna ciuitas clara est, ubi uictoria ueritas, ubi
             dignitas sanctitas, ubi uita eternitas. </quote>
-          <ref xml:id="timf-gloa-Rd1e209"> Augustinus. </ref>
+          <ref xml:id="timf-gloa-Rd1e209" corresp="#timf-gloa-Qd1e207"> Augustinus. </ref>
         </p>
         <p xml:id="timf-gloa-d1e212" n="p">
           <quote xml:id="timf-gloa-Qd1e214"> In ciuitate Dei rex ueritas, lex caritas, dignitas equitas, pax felicitas,
